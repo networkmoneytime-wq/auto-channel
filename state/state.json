@@ -2,7 +2,8 @@
   "used_topics": [
     "A bizarre true fact about deep sea creatures that sounds fake but isn't",
     "A historical event that sounds fictional but really happened",
-    "A psychological trick that changes how people perceive time"
+    "A psychological trick that changes how people perceive time",
+    "An everyday object with a surprising hidden origin story"
   ],
   "uploads": [
     {
@@ -52,6 +53,18 @@
       "video_id": "17937406146383637",
       "title": "Stretch Time Instantly: Breathe, Count, and Slow the Clock",
       "at": "2026-09-20T08:13:29.039346+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "H1Gt5xNCTNU",
+      "title": "The Paperclip\u2019s Secret History: From Office Tool to WWII Symbol",
+      "at": "2026-09-20T16:14:35.740400+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7687651454576134174",
+      "title": "The Paperclip\u2019s Secret History: From Office Tool to WWII Symbol",
+      "at": "2026-09-20T16:14:37.696342+00:00"
     }
   ]
 }
