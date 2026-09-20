@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "A bizarre true fact about deep sea creatures that sounds fake but isn't",
-    "A historical event that sounds fictional but really happened"
+    "A historical event that sounds fictional but really happened",
+    "A psychological trick that changes how people perceive time"
   ],
   "uploads": [
     {
@@ -33,6 +34,24 @@
       "video_id": "18072629054732525",
       "title": "When Soldiers Lost to Giant Emus: The Bizarre 1932 Emu War",
       "at": "2026-09-20T07:31:12.886385+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4XAIz5Atnqg",
+      "title": "Stretch Time Instantly: Breathe, Count, and Slow the Clock",
+      "at": "2026-09-20T08:12:57.733850+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7687527292007974943",
+      "title": "Stretch Time Instantly: Breathe, Count, and Slow the Clock",
+      "at": "2026-09-20T08:12:59.780458+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17937406146383637",
+      "title": "Stretch Time Instantly: Breathe, Count, and Slow the Clock",
+      "at": "2026-09-20T08:13:29.039346+00:00"
     }
   ]
 }
