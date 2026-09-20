@@ -67,13 +67,28 @@ swap in another TTS provider in `src/pipeline/voiceover.py`.
 ## 4. TikTok Content Posting API
 
 1. developers.tiktok.com → register a developer account → create an app →
-   add the "Content Posting API" product.
-2. **Important:** unaudited apps can only post as `SELF_ONLY` (private drafts
-   visible to you only). Public posting needs TikTok's app audit, which can
-   take days to weeks. Start in `SELF_ONLY` (already the default in
-   `config/config.yaml`) and switch to `PUBLIC_TO_EVERYONE` once approved.
-3. Complete the OAuth flow for your own creator account (TikTok's docs walk
-   through the redirect URI + code exchange) to get a refresh token.
+   add "Login Kit" and "Content Posting API" (Content Posting requires Login
+   Kit). Also requires a Terms of Service URL, Privacy Policy URL, and app
+   icon — this repo's `docs/` folder has minimal pages you can publish via
+   GitHub Pages (Settings → Pages → Deploy from branch → `/docs`) and point
+   the app config at.
+2. Use the **Sandbox** tab (not Production) to test without a full app
+   review: it has its own Client key/secret, and a "Target Users" list under
+   Sandbox settings — add the TikTok account you want this channel to post
+   as. Unaudited/Sandbox apps can only post to accounts on that list; public
+   posting to any account needs TikTok's app audit (days to weeks). This
+   matches `SELF_ONLY` privacy, already the default in `config/config.yaml`.
+3. Under the app's Login Kit product, set platform to **Desktop**, and add
+   redirect URI `http://localhost:8921/callback` (must match exactly what's
+   in `scripts/setup_tiktok_oauth.py`).
+4. Copy the Sandbox `Client key`/`Client secret` into `.env` as
+   `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET`.
+5. Run once locally to mint a refresh token:
+   ```bash
+   python scripts/setup_tiktok_oauth.py
+   ```
+   This opens a browser for you to log in as the target account and approve
+   access, then prints `TIKTOK_REFRESH_TOKEN` to paste into `.env`.
 4. Fill in `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET`, `TIKTOK_REFRESH_TOKEN`.
 
 ## 5. Instagram Graph API
