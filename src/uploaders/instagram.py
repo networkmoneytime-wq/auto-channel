@@ -24,6 +24,8 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
         },
         timeout=30,
     )
+    if not create_resp.ok:
+        print(f"[instagram] media create failed: {create_resp.status_code} {create_resp.text}")
     create_resp.raise_for_status()
     create_data = create_resp.json()
     container_id = create_data["id"]
@@ -31,7 +33,7 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
 
     with open(video_path, "rb") as f:
         video_bytes = f.read()
-    requests.post(
+    upload_resp = requests.post(
         upload_uri,
         headers={
             "Authorization": f"OAuth {token}",
@@ -40,7 +42,10 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
         },
         data=video_bytes,
         timeout=180,
-    ).raise_for_status()
+    )
+    if not upload_resp.ok:
+        print(f"[instagram] video upload failed: {upload_resp.status_code} {upload_resp.text}")
+    upload_resp.raise_for_status()
 
     for _ in range(30):
         status = requests.get(
@@ -61,5 +66,7 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
         data={"creation_id": container_id, "access_token": token},
         timeout=30,
     )
+    if not publish_resp.ok:
+        print(f"[instagram] publish failed: {publish_resp.status_code} {publish_resp.text}")
     publish_resp.raise_for_status()
     return publish_resp.json()["id"]
