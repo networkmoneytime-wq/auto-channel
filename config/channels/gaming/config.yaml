@@ -1,0 +1,31 @@
+niche: "video game history, culture, and hardware facts (no copyrighted gameplay footage)"
+
+video:
+  width: 1080
+  height: 1920
+  max_duration_sec: 58
+  clips_per_video: 5
+  min_clip_sec: 3
+
+llm:
+  provider: "groq"
+  model: "openai/gpt-oss-120b"
+
+tts:
+  voice: "en-US-AndrewNeural"
+  rate: "-8%"
+
+visuals:
+  provider: "pexels"
+  orientation: "portrait"
+
+platforms:
+  youtube:
+    enabled: true
+    privacy: "public"
+    category_id: "20"
+  tiktok:
+    enabled: true
+    privacy: "SELF_ONLY"
+  instagram:
+    enabled: true

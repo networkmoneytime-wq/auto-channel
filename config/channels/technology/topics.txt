@@ -1,0 +1,22 @@
+# One topic/prompt per line. Lines starting with # are ignored.
+
+A piece of tech that was declassified decades after it was built
+The engineer who invented something world-changing and got no credit
+A tech company's first product that had nothing to do with what they're known for
+A hardware design flaw that took years to discover
+The real story behind a famous tech keynote disaster
+A piece of code still running in critical systems after 40+ years
+An invention that was rejected by every company before succeeding
+A tech prototype that was decades ahead of the materials needed to build it
+The bizarre origin of a now-universal tech standard
+A hacker trick that exposed a massive security flaw
+A gadget that flopped so badly it became a warning story in the industry
+The surprising physical limit engineers are racing against in chip design
+A tech patent war that changed an entire industry
+The strange history of how a common tech symbol or icon was designed
+A server or data center fact that sounds impossible but isn't
+An AI breakthrough that happened decades before it could be useful
+The true story of a tech company's near-bankruptcy comeback
+A tiny manufacturing tolerance that makes modern chips possible
+The forgotten machine that was the first of its kind
+A tech industry rivalry that came down to one product launch
