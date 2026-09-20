@@ -93,16 +93,41 @@ swap in another TTS provider in `src/pipeline/voiceover.py`.
 
 ## 5. Instagram Graph API
 
-1. Your Instagram account must be a **Business or Creator account**, linked
-   to a Facebook Page.
-2. developers.facebook.com → create an app → add "Instagram Graph API".
-3. Generate a long-lived access token for that Page/IG account with the
-   `instagram_content_publish` permission (Graph API Explorer works for
-   testing; for production use a proper token exchange).
-4. Get your IG user ID (Graph API Explorer: `GET /me/accounts`, then the
-   linked `instagram_business_account` id).
-5. Fill in `IG_ACCESS_TOKEN`, `IG_USER_ID`. Note: long-lived tokens expire
-   (~60 days) and need refreshing — not automated here yet.
+1. Your Instagram account must be a **Business account** (Settings → Account
+   type and tools → Switch to professional account — this step is
+   mobile-app only, not available on the Instagram website), linked to a
+   Facebook Page (create one during that same flow if you don't have one).
+2. developers.facebook.com → register as a developer → create an app → add
+   the use case "Manage messaging & content on Instagram".
+3. In the use case's "API setup with Facebook login" tab, click "Add required
+   content permissions" — this registers `instagram_basic`,
+   `instagram_content_publish`, `pages_read_engagement`,
+   `business_management`, `pages_show_list` on the app. (There's also a
+   separate "API setup with Instagram login" tab using a different
+   Instagram App ID/secret and different scope names — ignore that one, this
+   repo's `src/uploaders/instagram.py` is written for the classic Graph API
+   via Facebook Login.)
+4. Under "Facebook Login for Business" → Settings, add a **Valid OAuth
+   Redirect URI**. This repo's `docs/callback.html` (published via GitHub
+   Pages) works as a redirect target — it's a static page that reads the
+   token out of the URL fragment client-side, which is never sent to any
+   server, so you can use it without hosting a backend of your own.
+5. Get your Facebook App ID from the app dashboard, then visit this URL
+   (replace `YOUR_APP_ID` and the redirect URI with your own GitHub Pages
+   URL) signed into the Facebook account that manages the Page:
+   ```
+   https://www.facebook.com/v21.0/dialog/oauth?client_id=YOUR_APP_ID&redirect_uri=https://yourusername.github.io/auto-channel/callback.html&scope=instagram_basic,instagram_content_publish,pages_read_engagement,business_management,pages_show_list&response_type=token
+   ```
+   Approve the prompts (Pages / Businesses / Instagram accounts you want it
+   to access). The callback page will show a `long_lived_token=...` value in
+   the URL — that's valid ~60 days already, no separate exchange step
+   needed.
+6. Fill in `IG_ACCESS_TOKEN` (the `long_lived_token` value, not the shorter
+   `access_token` near the start). Get `IG_USER_ID` from the "Choose the
+   Instagram accounts..." step during authorization (shown next to the
+   account's @handle), or via `GET /{page-id}?fields=instagram_business_account`.
+   Note: long-lived tokens expire (~60 days) and need refreshing — not
+   automated here yet.
 
 ## 6. Try it locally
 
