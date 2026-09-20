@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import subprocess
 from pathlib import Path
 
@@ -11,6 +13,7 @@ def assemble_video(
     captions_path: Path,
     config: dict,
     out_path: Path,
+    music_path: Path | None = None,
 ) -> Path:
     width = config["video"]["width"]
     height = config["video"]["height"]
@@ -45,13 +48,29 @@ def assemble_video(
     )
 
     audio_idx = len(clip_paths)
+    audio_inputs = ["-i", str(voiceover_path)]
+    audio_map = f"{audio_idx}:a"
+
+    if music_path is not None:
+        music_idx = audio_idx + 1
+        audio_inputs += ["-i", str(music_path)]
+        # Trim/loop the track to the video's length and duck it well under the
+        # narration (voiceover stays untouched, music sits quietly beneath it).
+        filter_complex += (
+            f";[{music_idx}:a]aloop=loop=-1:size=2e9,atrim=0:{audio_duration:.3f},"
+            f"asetpts=PTS-STARTPTS,volume=0.10[music]"
+            f";[{audio_idx}:a][music]amix=inputs=2:duration=first:dropout_transition=0,"
+            f"volume=2[aout]"
+        )
+        audio_map = "[aout]"
+
     cmd = [
         "ffmpeg", "-y",
         *inputs,
-        "-i", str(voiceover_path),
+        *audio_inputs,
         "-filter_complex", filter_complex,
         "-map", "[vout]",
-        "-map", f"{audio_idx}:a",
+        "-map", audio_map,
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
         "-c:a", "aac", "-b:a", "160k",
         "-shortest",

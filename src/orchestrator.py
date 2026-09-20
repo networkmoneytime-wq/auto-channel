@@ -4,11 +4,12 @@ import tempfile
 import traceback
 from pathlib import Path
 
-from src.config import load_config, output_dir
+from src.config import channel, load_config, output_dir
 from src.pipeline.assemble import assemble_video
 from src.pipeline.captions import build_captions
 from src.pipeline.ideate import pick_topic
 from src.pipeline.metadata import generate_metadata
+from src.pipeline.music import attribution_line, maybe_pick_track, track_path
 from src.pipeline.script_gen import generate_script
 from src.pipeline.script_gen_anime import generate_anime_content
 from src.pipeline.visuals import download_images, fetch_clips
@@ -41,6 +42,13 @@ def run() -> None:
     metadata = generate_metadata(script["script"], config)
     print(f"[metadata] title: {metadata['title']}")
 
+    music_track = maybe_pick_track(channel())
+    if music_track:
+        metadata["description"] = metadata["description"] + "\n\n" + attribution_line(music_track)
+        print(f"[music] using {music_track['title']}")
+    else:
+        print("[music] none this run")
+
     with tempfile.TemporaryDirectory() as tmp:
         tmp_dir = Path(tmp)
 
@@ -61,7 +69,8 @@ def run() -> None:
 
         safe_name = re.sub(r"[^A-Za-z0-9_-]+", "_", topic[:40].strip()).strip("_")
         final_path = output_dir() / f"{safe_name}.mp4"
-        assemble_video(clip_paths, voiceover_path, audio_duration, captions_path, config, final_path)
+        music_path = track_path(music_track) if music_track else None
+        assemble_video(clip_paths, voiceover_path, audio_duration, captions_path, config, final_path, music_path)
         print(f"[assemble] video written to {final_path}")
 
         mark_topic_used(state, topic)
