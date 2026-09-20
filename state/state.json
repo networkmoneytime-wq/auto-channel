@@ -1,6 +1,7 @@
 {
   "used_topics": [
-    "A bizarre true fact about deep sea creatures that sounds fake but isn't"
+    "A bizarre true fact about deep sea creatures that sounds fake but isn't",
+    "A historical event that sounds fictional but really happened"
   ],
   "uploads": [
     {
@@ -14,6 +15,24 @@
       "video_id": "18114089381006669",
       "title": "The Tiny Hitchhiker Fish That Lives Inside a Female Forever",
       "at": "2026-09-20T07:18:42.787010+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "x2yMI9-G2Hc",
+      "title": "When Soldiers Lost to Giant Emus: The Bizarre 1932 Emu War",
+      "at": "2026-09-20T07:30:35.130056+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7687516322883799070",
+      "title": "When Soldiers Lost to Giant Emus: The Bizarre 1932 Emu War",
+      "at": "2026-09-20T07:30:37.990874+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18072629054732525",
+      "title": "When Soldiers Lost to Giant Emus: The Bizarre 1932 Emu War",
+      "at": "2026-09-20T07:31:12.886385+00:00"
     }
   ]
 }
