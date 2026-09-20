@@ -9,11 +9,42 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, \
 Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,Arial Black,90,&H00FFFFFF,&H00000000,&H80000000,-1,0,1,4,0,2,60,60,180,1
+Style: Caption,Arial Black,96,&H00FFFFFF,&H00000000,&H80000000,-1,0,1,5,0,2,60,60,180,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
+
+# ASS colors are &HBBGGRR& (reversed byte order). Amber/yellow accent for the
+# punch word in each caption card, white for the rest.
+ACCENT = r"{\c&H00D5FF&}"
+WHITE = r"{\c&H00FFFFFF&}"
+# Quick pop-in: each card starts at 55% scale and snaps up to 100% over 90ms,
+# instead of appearing static — matches the punchier caption style of
+# trending short-form edits.
+POP_IN = r"{\fscx55\fscy55\t(0,90,\fscx100\fscy100)}"
+
+# Arial Black is missing glyphs for several punctuation marks edge-tts/the LLM
+# sometimes emits (non-breaking hyphen, en/em dash, curly quotes, ellipsis),
+# which render as a tofu box. Normalize to ASCII equivalents.
+_SANITIZE = str.maketrans(
+    {
+        "‑": "-",
+        "‒": "-",
+        "–": "-",
+        "—": "-",
+        "‘": "'",
+        "’": "'",
+        "“": '"',
+        "”": '"',
+        "…": "...",
+        " ": " ",
+    }
+)
+
+
+def _clean(text: str) -> str:
+    return text.translate(_SANITIZE)
 
 
 def _ts(seconds: float) -> str:
@@ -34,7 +65,14 @@ def build_captions(word_boundaries: list[dict], config: dict, out_path: Path, wo
             continue
         start = group[0]["offset"]
         end = group[-1]["offset"] + group[-1]["duration"]
-        text = " ".join(w["text"] for w in group).upper()
+        words = [_clean(w["text"]).upper() for w in group]
+        # Punch the last word of each card in the accent color, like the
+        # bold-word-emphasis style common in high-retention short-form edits.
+        if len(words) > 1:
+            body = " ".join(words[:-1]) + " " + ACCENT + words[-1] + WHITE
+        else:
+            body = ACCENT + words[0] + WHITE
+        text = POP_IN + body
         lines.append(f"Dialogue: 0,{_ts(start)},{_ts(end)},Caption,,0,0,0,,{text}\n")
 
     out_path.write_text("".join(lines))

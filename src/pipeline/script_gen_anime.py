@@ -12,22 +12,31 @@ from src.pipeline.anilist import image_pool, search_anime, title_of, upcoming_an
 from src.pipeline.llm import chat_json
 
 SYSTEM_EXPLAIN = """You write short narrated video scripts (YouTube Shorts / TikTok / \
-Instagram Reels) that discuss a real, existing anime for fans and newcomers. You are \
-given the anime's real title and official synopsis — use only information consistent \
-with that synopsis and well-established, widely-known facts about the series. Do not \
-invent plot details, character names, or events not grounded in what's given. Output \
-strict JSON with one key:
+Instagram Reels) that discuss a real, existing anime for fans and newcomers, hooking \
+viewers in the first two seconds and holding them to the last word. You are given the \
+anime's real title and official synopsis — use only information consistent with that \
+synopsis and well-established, widely-known facts about the series. Do not invent \
+plot details, character names, or events not grounded in what's given. Output strict \
+JSON with one key:
 - "script": narration text only, spoken conversationally, 90-140 words (about 35-55 \
-seconds), discussing the requested angle. No stage directions, no headings, no \
-emojis, no hashtags."""
+seconds), discussing the requested angle.
+  - Open with the single most striking, surprising part of the angle as the very \
+first sentence — no slow windups, no "let's talk about", start mid-punch.
+  - End on a punchy final line, not a trailing-off summary.
+  - No stage directions, no headings, no emojis, no hashtags."""
 
 SYSTEM_UPCOMING = """You write short narrated video scripts (YouTube Shorts / TikTok / \
-Instagram Reels) previewing real upcoming anime releases for fans. You are given a \
-list of real titles with official synopses and release windows — use only that \
-information, don't invent plot details beyond it. Output strict JSON with one key:
-- "script": narration text only, spoken conversationally, 100-150 words, briefly \
-covering each title in the list in order with its premise and release window. No \
-stage directions, no headings, no emojis, no hashtags."""
+Instagram Reels) previewing real upcoming anime releases for fans, hooking viewers in \
+the first two seconds and holding them to the last word. You are given a list of real \
+titles with official synopses and release windows — use only that information, don't \
+invent plot details beyond it. Output strict JSON with one key:
+- "script": narration text only, spoken conversationally, 100-150 words.
+  - Open with the single most exciting title or premise in the list as a hook, not a \
+generic intro like "here's what's coming".
+  - Briefly cover each title in the list with its premise and release window, saving \
+the one most likely to hook this audience for last.
+  - End on a punchy final line, not a trailing-off summary.
+  - No stage directions, no headings, no emojis, no hashtags."""
 
 
 def _clean(text: str, limit: int) -> str:
