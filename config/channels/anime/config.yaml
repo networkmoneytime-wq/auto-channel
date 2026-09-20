@@ -1,0 +1,31 @@
+niche: "anime discussion, analysis, and real upcoming releases (official art only, no episode footage)"
+
+video:
+  width: 1080
+  height: 1920
+  max_duration_sec: 58
+  clips_per_video: 5
+  min_clip_sec: 3
+
+llm:
+  provider: "groq"
+  model: "openai/gpt-oss-120b"
+
+tts:
+  voice: "en-US-AvaNeural"
+  rate: "-5%"
+
+visuals:
+  provider: "anilist"
+  orientation: "portrait"
+
+platforms:
+  youtube:
+    enabled: true
+    privacy: "public"
+    category_id: "1"
+  tiktok:
+    enabled: true
+    privacy: "SELF_ONLY"
+  instagram:
+    enabled: true

@@ -39,3 +39,17 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path) -> list[Path]:
     if not clip_paths:
         raise RuntimeError("No stock clips found for any visual keyword")
     return clip_paths
+
+
+def download_images(urls: list[str], out_dir: Path) -> list[Path]:
+    paths = []
+    for i, url in enumerate(urls):
+        ext = ".png" if url.lower().split("?")[0].endswith(".png") else ".jpg"
+        dest = out_dir / f"image_{i}{ext}"
+        with requests.get(url, stream=True, timeout=60) as r:
+            r.raise_for_status()
+            with open(dest, "wb") as f:
+                for chunk in r.iter_content(chunk_size=1 << 16):
+                    f.write(chunk)
+        paths.append(dest)
+    return paths

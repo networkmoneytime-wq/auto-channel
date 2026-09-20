@@ -1,0 +1,25 @@
+# Format: "Anime Title|angle to discuss" for a grounded deep-dive on one real
+# anime (title is looked up on AniList, so use the exact/common English title),
+# or the literal line "UPCOMING" for a roundup of real, currently-announced
+# upcoming anime pulled live from AniList. Lines starting with # are ignored.
+
+Attack on Titan|the moment the true scale of the story is revealed
+Death Note|the psychological battle at the heart of the series
+Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating
+UPCOMING
+Demon Slayer|why the animation direction became a genre benchmark
+Steins;Gate|how the story turns a slow burn into an emotional gut punch
+Cowboy Bebop|why it's still considered one of the best anime ever made decades later
+UPCOMING
+Jujutsu Kaisen|what makes its power system stand out from other shonen
+Hunter x Hunter|why fans consider its arcs some of the best written in anime
+Violet Evergarden|how it tells an emotional story with almost no dialogue
+UPCOMING
+Neon Genesis Evangelion|why its ending is still debated decades later
+Spy x Family|what makes its family dynamic work so well as comedy
+Vinland Saga|how the story reinvents itself halfway through
+UPCOMING
+Mob Psycho 100|what makes its animation style so distinct
+One Punch Man|the joke at the center of its premise and why it still works
+Made in Abyss|why its cute art style hides one of anime's darkest stories
+UPCOMING

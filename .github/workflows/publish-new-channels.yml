@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       max-parallel: 1 # sequential: avoids concurrent pushes racing on state/
       matrix:
-        channel: [cars, gaming, technology]
+        channel: [cars, gaming, technology, anime]
     steps:
       - uses: actions/checkout@v4
 
@@ -59,6 +59,14 @@ jobs:
           TIKTOK_REFRESH_TOKEN_TECHNOLOGY: ${{ secrets.TIKTOK_REFRESH_TOKEN_TECHNOLOGY }}
           IG_ACCESS_TOKEN_TECHNOLOGY: ${{ secrets.IG_ACCESS_TOKEN_TECHNOLOGY }}
           IG_USER_ID_TECHNOLOGY: ${{ secrets.IG_USER_ID_TECHNOLOGY }}
+          YOUTUBE_CLIENT_ID_ANIME: ${{ secrets.YOUTUBE_CLIENT_ID_ANIME }}
+          YOUTUBE_CLIENT_SECRET_ANIME: ${{ secrets.YOUTUBE_CLIENT_SECRET_ANIME }}
+          YOUTUBE_REFRESH_TOKEN_ANIME: ${{ secrets.YOUTUBE_REFRESH_TOKEN_ANIME }}
+          TIKTOK_CLIENT_KEY_ANIME: ${{ secrets.TIKTOK_CLIENT_KEY_ANIME }}
+          TIKTOK_CLIENT_SECRET_ANIME: ${{ secrets.TIKTOK_CLIENT_SECRET_ANIME }}
+          TIKTOK_REFRESH_TOKEN_ANIME: ${{ secrets.TIKTOK_REFRESH_TOKEN_ANIME }}
+          IG_ACCESS_TOKEN_ANIME: ${{ secrets.IG_ACCESS_TOKEN_ANIME }}
+          IG_USER_ID_ANIME: ${{ secrets.IG_USER_ID_ANIME }}
         run: python -m src.orchestrator
 
       - name: Persist state

@@ -1,6 +1,8 @@
 import subprocess
 from pathlib import Path
 
+IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+
 
 def assemble_video(
     clip_paths: list[Path],
@@ -17,6 +19,18 @@ def assemble_video(
     inputs = []
     filter_parts = []
     for i, clip in enumerate(clip_paths):
+        if Path(clip).suffix.lower() in IMAGE_EXTS:
+            # Still image -> looped video + a gentle Ken Burns zoom, cropped to frame
+            # first so the pan/zoom operates on an already-correctly-framed image.
+            frames = max(1, round(per_clip * 30))
+            inputs += ["-loop", "1", "-framerate", "30", "-t", f"{per_clip:.3f}", "-i", str(clip)]
+            filter_parts.append(
+                f"[{i}:v]scale={width}:{height}:force_original_aspect_ratio=increase,"
+                f"crop={width}:{height},"
+                f"zoompan=z='min(zoom+0.0012,1.2)':d={frames}:s={width}x{height}:fps=30,"
+                f"setsar=1[v{i}]"
+            )
+            continue
         inputs += ["-i", str(clip)]
         filter_parts.append(
             f"[{i}:v]trim=0:{per_clip:.3f},setpts=PTS-STARTPTS,"
