@@ -13,13 +13,16 @@ load_dotenv(ROOT / ".env")
 DEFAULT_CHANNEL = "dailyap"
 
 # Only credentials that identify a specific platform account get namespaced
-# per channel. Shared API keys (LLM, stock footage) stay global.
+# per channel. Shared API keys (LLM, stock footage) stay global. TikTok's
+# client key/secret identify the developer app, not the posting account —
+# one app can hold OAuth grants for many accounts — so only its refresh
+# token varies per channel; YouTube needs its own OAuth client per channel
+# for separate quota, and Instagram's access token is tied to a specific
+# Business account, so both vary per channel.
 PER_CHANNEL_SECRETS = {
     "YOUTUBE_CLIENT_ID",
     "YOUTUBE_CLIENT_SECRET",
     "YOUTUBE_REFRESH_TOKEN",
-    "TIKTOK_CLIENT_KEY",
-    "TIKTOK_CLIENT_SECRET",
     "TIKTOK_REFRESH_TOKEN",
     "IG_ACCESS_TOKEN",
     "IG_USER_ID",
