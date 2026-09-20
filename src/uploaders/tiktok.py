@@ -17,6 +17,8 @@ def _access_token() -> str:
         },
         timeout=30,
     )
+    if not resp.ok:
+        print(f"[tiktok] token refresh failed: {resp.status_code} {resp.text}")
     resp.raise_for_status()
     return resp.json()["access_token"]
 
@@ -47,12 +49,14 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
         },
         timeout=30,
     )
+    if not init_resp.ok:
+        print(f"[tiktok] publish init failed: {init_resp.status_code} {init_resp.text}")
     init_resp.raise_for_status()
     init_data = init_resp.json()["data"]
 
     with open(video_path, "rb") as f:
         video_bytes = f.read()
-    requests.put(
+    put_resp = requests.put(
         init_data["upload_url"],
         headers={
             "Content-Type": "video/mp4",
@@ -60,6 +64,9 @@ def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
         },
         data=video_bytes,
         timeout=120,
-    ).raise_for_status()
+    )
+    if not put_resp.ok:
+        print(f"[tiktok] file upload failed: {put_resp.status_code} {put_resp.text}")
+    put_resp.raise_for_status()
 
     return init_data["publish_id"]

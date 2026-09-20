@@ -4,5 +4,4 @@ __pycache__/
 .venv/
 venv/
 output/
-state/state.json
 *.token.json
