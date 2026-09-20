@@ -1,0 +1,14 @@
+# One topic/prompt per line. The pipeline picks an unused one each run
+# and asks the LLM to turn it into a ~40-second narrated script.
+# Lines starting with # are ignored.
+
+A bizarre true fact about deep sea creatures that sounds fake but isn't
+A historical event that sounds fictional but really happened
+A psychological trick that changes how people perceive time
+An everyday object with a surprising hidden origin story
+A space fact that makes the universe feel unsettlingly large
+A survival story of someone who beat impossible odds
+A common belief that is scientifically wrong
+A tiny decision in history that changed the world by accident
+An animal with an ability that seems like a superpower
+A mystery that was unsolved for decades and how it was finally cracked

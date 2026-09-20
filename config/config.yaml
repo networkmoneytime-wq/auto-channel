@@ -1,0 +1,31 @@
+niche: "faceless narrated shorts"
+
+video:
+  width: 1080
+  height: 1920
+  max_duration_sec: 58
+  clips_per_video: 5
+  min_clip_sec: 3
+
+llm:
+  provider: "groq"
+  model: "openai/gpt-oss-120b"
+
+tts:
+  voice: "en-US-GuyNeural"
+  rate: "+0%"
+
+visuals:
+  provider: "pexels"
+  orientation: "portrait"
+
+platforms:
+  youtube:
+    enabled: true
+    privacy: "public"
+    category_id: "22"
+  tiktok:
+    enabled: true
+    privacy: "SELF_ONLY"
+  instagram:
+    enabled: true
