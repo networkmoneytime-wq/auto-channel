@@ -35,10 +35,16 @@ def assemble_video(
             )
             continue
         inputs += ["-i", str(clip)]
+        # d=1 keeps zoompan's per-frame zoom increment without holding/duplicating
+        # frames, so real footage plays at its native rate while still gaining a
+        # slow, continuous zoom-in — the "motion never stops" look that stands out
+        # against static stock-footage cuts in top-performing shorts.
         filter_parts.append(
             f"[{i}:v]trim=0:{per_clip:.3f},setpts=PTS-STARTPTS,"
             f"scale={width}:{height}:force_original_aspect_ratio=increase,"
-            f"crop={width}:{height},fps=30,setsar=1[v{i}]"
+            f"crop={width}:{height},fps=30,"
+            f"zoompan=z='min(zoom+0.0008,1.15)':d=1:s={width}x{height}:fps=30,"
+            f"setsar=1[v{i}]"
         )
     concat_inputs = "".join(f"[v{i}]" for i in range(len(clip_paths)))
     filter_complex = (
