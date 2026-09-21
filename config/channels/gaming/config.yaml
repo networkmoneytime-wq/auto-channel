@@ -29,3 +29,5 @@ platforms:
     privacy: "SELF_ONLY"
   instagram:
     enabled: true
+  facebook:
+    enabled: true

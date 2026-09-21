@@ -15,12 +15,13 @@ from src.pipeline.script_gen_anime import generate_anime_content
 from src.pipeline.visuals import download_images, fetch_clips
 from src.pipeline.voiceover import synthesize_voiceover
 from src.state import load_state, log_upload, mark_topic_used, save_state
-from src.uploaders import instagram, tiktok, youtube
+from src.uploaders import facebook, instagram, tiktok, youtube
 
 UPLOADERS = {
     "youtube": youtube.upload_short,
     "tiktok": tiktok.upload_short,
     "instagram": instagram.upload_short,
+    "facebook": facebook.upload_short,
 }
 
 

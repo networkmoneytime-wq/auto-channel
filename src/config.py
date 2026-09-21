@@ -26,6 +26,7 @@ PER_CHANNEL_SECRETS = {
     "TIKTOK_REFRESH_TOKEN",
     "IG_ACCESS_TOKEN",
     "IG_USER_ID",
+    "FB_PAGE_ID",
 }
 
 
