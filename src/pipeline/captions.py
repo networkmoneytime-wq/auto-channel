@@ -10,6 +10,9 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, \
 Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,Arial Black,96,&H00FFFFFF,&H00000000,&H80000000,-1,0,1,5,0,2,60,60,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 
 # ASS colors are &HBBGGRR& (reversed byte order). Amber/yellow accent for the
