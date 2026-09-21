@@ -5,7 +5,8 @@
     "A psychological trick that changes how people perceive time",
     "An everyday object with a surprising hidden origin story",
     "A space fact that makes the universe feel unsettlingly large",
-    "A survival story of someone who beat impossible odds"
+    "A survival story of someone who beat impossible odds",
+    "A common belief that is scientifically wrong"
   ],
   "uploads": [
     {
@@ -97,6 +98,18 @@
       "video_id": "18037521491658676",
       "title": "Surviving a 30\u2011Story Fall: The Unbelievable Rescue",
       "at": "2026-09-21T00:25:28.311821+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Vv_b0kU6cdg",
+      "title": "Your Brain Uses 100% Every Day \u2013 The Truth Behind the 10% Myth",
+      "at": "2026-09-21T08:14:10.598658+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7687898828246468638",
+      "title": "Your Brain Uses 100% Every Day \u2013 The Truth Behind the 10% Myth",
+      "at": "2026-09-21T08:14:12.574791+00:00"
     }
   ]
 }
