@@ -9,9 +9,12 @@ topics.txt format for this channel:
 """
 
 from src.pipeline.anilist import image_pool, search_anime, title_of, upcoming_anime
+from src.pipeline.hooks import pick_hook
 from src.pipeline.llm import chat_json
 
-SYSTEM_EXPLAIN = """You write short narrated video scripts (YouTube Shorts / TikTok / \
+
+def _system_explain(hook_instruction: str) -> str:
+    return f"""You write short narrated video scripts (YouTube Shorts / TikTok / \
 Instagram Reels) that discuss a real, existing anime for fans and newcomers, hooking \
 viewers in the first two seconds and holding them to the last word. You are given the \
 anime's real title and official synopsis — use only information consistent with that \
@@ -20,8 +23,7 @@ plot details, character names, or events not grounded in what's given. Output st
 JSON with one key:
 - "script": narration text only, spoken conversationally, 90-140 words (about 35-55 \
 seconds), discussing the requested angle.
-  - Open with the single most striking, surprising part of the angle as the very \
-first sentence — no slow windups, no "let's talk about", start mid-punch.
+  - {hook_instruction}
   - End on a punchy final line, not a trailing-off summary.
   - No stage directions, no headings, no emojis, no hashtags."""
 
@@ -43,7 +45,8 @@ def _clean(text: str, limit: int) -> str:
     return (text or "").replace("<br>", " ").replace("\n", " ").strip()[:limit]
 
 
-def generate_anime_content(topic: str, config: dict) -> dict:
+def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
+    hook_id = None
     if topic.strip().upper() == "UPCOMING":
         media_list = upcoming_anime(limit=5)
         if not media_list:
@@ -71,7 +74,9 @@ def generate_anime_content(topic: str, config: dict) -> dict:
             f"Official synopsis: {_clean(media.get('description'), 600)}\n"
             f"Angle to discuss: {angle}\n\nWrite the narration now."
         )
-        result = chat_json(SYSTEM_EXPLAIN, user, model=config["llm"]["model"])
+        hook = pick_hook(state)
+        hook_id = hook["id"]
+        result = chat_json(_system_explain(hook["instruction"]), user, model=config["llm"]["model"])
         image_urls = image_pool(media, max_images=5)
 
     if "script" not in result:
@@ -80,4 +85,4 @@ def generate_anime_content(topic: str, config: dict) -> dict:
         raise RuntimeError("No AniList artwork resolved for this topic")
 
     image_urls = (image_urls * 5)[:5]
-    return {"script": result["script"], "image_urls": image_urls}
+    return {"script": result["script"], "image_urls": image_urls, "hook_id": hook_id}

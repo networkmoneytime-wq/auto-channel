@@ -14,7 +14,7 @@ from src.pipeline.script_gen import generate_script
 from src.pipeline.script_gen_anime import generate_anime_content
 from src.pipeline.visuals import download_images, fetch_clips
 from src.pipeline.voiceover import synthesize_voiceover
-from src.state import load_state, log_upload, mark_topic_used, save_state
+from src.state import load_state, log_upload, mark_hook_used, mark_topic_used, save_state
 from src.uploaders import facebook, instagram, tiktok, youtube
 
 UPLOADERS = {
@@ -35,10 +35,11 @@ def run() -> None:
     print(f"[ideate] topic: {topic}")
 
     if is_anime:
-        script = generate_anime_content(topic, config)
+        script = generate_anime_content(topic, config, state)
     else:
-        script = generate_script(topic, config)
-    print(f"[script] {len(script['script'].split())} words")
+        script = generate_script(topic, config, state)
+    hook_id = script.get("hook_id")
+    print(f"[script] hook: {hook_id or 'n/a'}, {len(script['script'].split())} words")
 
     metadata = generate_metadata(script["script"], config)
     print(f"[metadata] title: {metadata['title']}")
@@ -75,6 +76,8 @@ def run() -> None:
         print(f"[assemble] video written to {final_path}")
 
         mark_topic_used(state, topic)
+        if hook_id:
+            mark_hook_used(state, hook_id)
 
         for platform, uploader in UPLOADERS.items():
             if not config["platforms"].get(platform, {}).get("enabled"):

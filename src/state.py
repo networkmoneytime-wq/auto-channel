@@ -22,6 +22,13 @@ def mark_topic_used(state: dict, topic: str) -> None:
     save_state(state)
 
 
+def mark_hook_used(state: dict, hook_id: str) -> None:
+    recent = state.setdefault("recent_hooks", [])
+    recent.append(hook_id)
+    del recent[:-5]
+    save_state(state)
+
+
 def log_upload(state: dict, platform: str, video_id: str, title: str) -> None:
     state["uploads"].append(
         {

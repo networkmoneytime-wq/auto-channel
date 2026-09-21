@@ -4,8 +4,8 @@ video:
   width: 1080
   height: 1920
   max_duration_sec: 58
-  clips_per_video: 5
-  min_clip_sec: 3
+  min_clip_sec: 1.0
+  max_clip_sec: 3.8
 
 llm:
   provider: "groq"

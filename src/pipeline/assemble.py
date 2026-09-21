@@ -1,9 +1,53 @@
 from __future__ import annotations
 
+import random
 import subprocess
 from pathlib import Path
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+
+
+def _clip_durations(n: int, total: float, min_d: float, max_d: float) -> list[float]:
+    """Split `total` seconds across `n` clips with random per-clip weight
+    instead of one uniform length — alternating fast snaps and slow
+    breathers reads as intentional editing, where identical-length cuts back
+    to back reads as robotic (and is far slower-paced than what performs on
+    TikTok/Shorts/Reels).
+
+    Uses water-filling rather than clamp-then-rescale: a naive rescale after
+    clamping re-inflates the clips already pinned at max_d past the cap
+    whenever several land there at once, which defeats the cap. Clips get
+    pinned to a bound only as the remaining pool forces them to, and only
+    the still-free clips absorb each redistribution."""
+    weights = [random.uniform(0.45, 1.6) for _ in range(n)]
+    durations = [0.0] * n
+    free = list(range(n))
+    free_total = total
+
+    while free:
+        w_sum = sum(weights[i] for i in free)
+        share = {i: free_total * weights[i] / w_sum for i in free}
+        violators = [i for i in free if share[i] < min_d or share[i] > max_d]
+        if not violators:
+            for i in free:
+                durations[i] = share[i]
+            break
+        for i in violators:
+            durations[i] = min_d if share[i] < min_d else max_d
+            free_total -= durations[i]
+            free.remove(i)
+
+    # Only mathematically possible to violate the bounds here when n is too
+    # small for `total` even with every clip pinned at max_d (or too large
+    # even at min_d) — spread that unavoidable leftover across the pinned
+    # clips rather than drifting the total away from audio_duration.
+    drift = total - sum(durations)
+    if abs(drift) > 1e-6:
+        pinned = [i for i in range(n) if i not in free]
+        bump = drift / len(pinned)
+        for i in pinned:
+            durations[i] += bump
+    return durations
 
 
 def assemble_video(
@@ -17,11 +61,13 @@ def assemble_video(
 ) -> Path:
     width = config["video"]["width"]
     height = config["video"]["height"]
-    per_clip = max(config["video"]["min_clip_sec"], audio_duration / len(clip_paths))
+    min_clip = config["video"]["min_clip_sec"]
+    max_clip = config["video"].get("max_clip_sec", min_clip * 3)
+    durations = _clip_durations(len(clip_paths), audio_duration, min_clip, max_clip)
 
     inputs = []
     filter_parts = []
-    for i, clip in enumerate(clip_paths):
+    for i, (clip, per_clip) in enumerate(zip(clip_paths, durations)):
         if Path(clip).suffix.lower() in IMAGE_EXTS:
             # Still image -> looped video + a gentle Ken Burns zoom, cropped to frame
             # first so the pan/zoom operates on an already-correctly-framed image.
