@@ -2,7 +2,8 @@
   "used_topics": [
     "An engineering trick race cars use that road cars secretly borrowed",
     "A car that flopped so badly it became a collector's item",
-    "A safety feature that took decades to become mandatory"
+    "A safety feature that took decades to become mandatory",
+    "The strange origin story of a car brand's logo"
   ],
   "uploads": [
     {
@@ -52,10 +53,35 @@
       "video_id": "1359542432680407",
       "title": "The Secret History Behind Your Seat Belt Click",
       "at": "2026-09-22T04:01:47.691354+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "uZzWg-C-3-4",
+      "title": "The Hidden Secret Behind BMW\u2019s Iconic Round Logo",
+      "at": "2026-09-22T04:26:56.683151+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688211217755736078",
+      "title": "The Hidden Secret Behind BMW\u2019s Iconic Round Logo",
+      "at": "2026-09-22T04:26:58.926449+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18049066544800683",
+      "title": "The Hidden Secret Behind BMW\u2019s Iconic Round Logo",
+      "at": "2026-09-22T04:27:32.152012+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1072361268713155",
+      "title": "The Hidden Secret Behind BMW\u2019s Iconic Round Logo",
+      "at": "2026-09-22T04:27:35.632788+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ]
 }
