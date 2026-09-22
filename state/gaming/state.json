@@ -1,6 +1,35 @@
 {
   "used_topics": [
-    "A video game glitch that became permanent gaming folklore"
+    "A video game glitch that became permanent gaming folklore",
+    "The hardware trick that let an old console punch above its weight"
   ],
-  "uploads": []
+  "uploads": [
+    {
+      "platform": "youtube",
+      "video_id": "XNyquL25WSw",
+      "title": "The Secret SNES Chip That Turned 16\u2011bit Gaming 3\u2011D",
+      "at": "2026-09-22T03:47:08.757333+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688201049651431438",
+      "title": "The Secret SNES Chip That Turned 16\u2011bit Gaming 3\u2011D",
+      "at": "2026-09-22T03:47:12.523823+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18127170328748097",
+      "title": "The Secret SNES Chip That Turned 16\u2011bit Gaming 3\u2011D",
+      "at": "2026-09-22T03:47:45.265288+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1490974959455970",
+      "title": "The Secret SNES Chip That Turned 16\u2011bit Gaming 3\u2011D",
+      "at": "2026-09-22T03:47:50.097826+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "secret_reveal"
+  ]
 }
