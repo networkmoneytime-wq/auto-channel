@@ -11,7 +11,8 @@
     "An animal with an ability that seems like a superpower",
     "A mystery that was unsolved for decades and how it was finally cracked",
     "A war that was ended or started by an absurdly small mistake",
-    "A con artist whose scheme was so bold it seems fictional"
+    "A con artist whose scheme was so bold it seems fictional",
+    "An ancient civilization technology that shouldn't have been possible yet"
   ],
   "uploads": [
     {
@@ -223,10 +224,29 @@
       "video_id": "1888780012502277",
       "title": "The Con Man Who Sold the Eiffel Tower and Printed Millions",
       "at": "2026-09-22T00:25:04.508393+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "FzwnoxAUwps",
+      "title": "Ancient Gadgets That Outsmart Modern Tech",
+      "at": "2026-09-22T08:14:05.929668+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688269308677589023",
+      "title": "Ancient Gadgets That Outsmart Modern Tech",
+      "at": "2026-09-22T08:14:08.206301+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1451989150183758",
+      "title": "Ancient Gadgets That Outsmart Modern Tech",
+      "at": "2026-09-22T08:14:57.378030+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ]
 }
