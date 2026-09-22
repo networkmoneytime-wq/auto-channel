@@ -24,6 +24,11 @@ JSON with one key:
 - "script": narration text only, spoken conversationally, 90-140 words (about 35-55 \
 seconds), discussing the requested angle.
   - {hook_instruction}
+  - Write like a person telling a friend something wild they just learned, not \
+an encyclopedia entry read aloud. Use contractions, short punchy fragments, and \
+plain words — avoid stiff constructions like "it is important to note that" or \
+"this phenomenon occurs when." Vary sentence length; a one-word sentence after a \
+long one lands harder than two medium ones in a row.
   - End on a punchy final line, not a trailing-off summary.
   - No stage directions, no headings, no emojis, no hashtags."""
 
@@ -37,6 +42,11 @@ invent plot details beyond it. Output strict JSON with one key:
 generic intro like "here's what's coming".
   - Briefly cover each title in the list with its premise and release window, saving \
 the one most likely to hook this audience for last.
+  - Write like a person telling a friend something wild they just learned, not \
+an encyclopedia entry read aloud. Use contractions, short punchy fragments, and \
+plain words — avoid stiff constructions like "it is important to note that" or \
+"this phenomenon occurs when." Vary sentence length; a one-word sentence after a \
+long one lands harder than two medium ones in a row.
   - End on a punchy final line, not a trailing-off summary.
   - No stage directions, no headings, no emojis, no hashtags."""
 

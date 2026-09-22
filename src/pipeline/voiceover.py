@@ -1,4 +1,5 @@
 import asyncio
+import random
 from pathlib import Path
 
 import edge_tts
@@ -22,7 +23,17 @@ async def _synthesize(text: str, voice: str, rate: str, out_path: Path) -> list[
     return word_boundaries
 
 
+def _jittered_rate(base_rate: str) -> str:
+    """A fixed TTS rate on every single video is a mechanical tell — real
+    hosts don't deliver every take at the exact same pace. Nudge the
+    channel's base rate by a few percent per video instead."""
+    base = int(base_rate.rstrip("%"))
+    jittered = max(-40, min(40, base + random.randint(-3, 3)))
+    sign = "+" if jittered >= 0 else ""
+    return f"{sign}{jittered}%"
+
+
 def synthesize_voiceover(text: str, config: dict, out_path: Path) -> list[dict]:
     voice = config["tts"]["voice"]
-    rate = config["tts"].get("rate", "+0%")
+    rate = _jittered_rate(config["tts"].get("rate", "+0%"))
     return asyncio.run(_synthesize(text, voice, rate, out_path))

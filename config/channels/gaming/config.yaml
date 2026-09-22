@@ -12,8 +12,8 @@ llm:
   model: "openai/gpt-oss-120b"
 
 tts:
-  voice: "en-US-AndrewNeural"
-  rate: "-8%"
+  voice: "en-US-ChristopherNeural"
+  rate: "+2%"
 
 visuals:
   provider: "pexels"
