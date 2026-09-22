@@ -1,6 +1,7 @@
 {
   "used_topics": [
-    "An engineering trick race cars use that road cars secretly borrowed"
+    "An engineering trick race cars use that road cars secretly borrowed",
+    "A car that flopped so badly it became a collector's item"
   ],
   "uploads": [
     {
@@ -8,6 +9,33 @@
       "video_id": "41P3AC2IVIs",
       "title": "How Supercars Borrow a Race\u2011Car Trick to Stick to the Road",
       "at": "2026-09-20T16:39:14.670798+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "-nlh4A8I15Y",
+      "title": "From Flop to Fortune: The 1974 Pontiac Firebird Turbo\u2019s $200K Revival",
+      "at": "2026-09-22T03:44:26.350824+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688200376856987662",
+      "title": "From Flop to Fortune: The 1974 Pontiac Firebird Turbo\u2019s $200K Revival",
+      "at": "2026-09-22T03:44:28.620107+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17933526045400008",
+      "title": "From Flop to Fortune: The 1974 Pontiac Firebird Turbo\u2019s $200K Revival",
+      "at": "2026-09-22T03:44:59.857326+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4375317716062948",
+      "title": "From Flop to Fortune: The 1974 Pontiac Firebird Turbo\u2019s $200K Revival",
+      "at": "2026-09-22T03:45:05.411473+00:00"
     }
+  ],
+  "recent_hooks": [
+    "question_hook"
   ]
 }
