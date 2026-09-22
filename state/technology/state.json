@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "A piece of tech that was declassified decades after it was built",
-    "The engineer who invented something world-changing and got no credit"
+    "The engineer who invented something world-changing and got no credit",
+    "A tech company's first product that had nothing to do with what they're known for"
   ],
   "uploads": [
     {
@@ -21,9 +22,22 @@
       "video_id": "2983924831984667",
       "title": "The Forgotten Father of Computing: John Atanasoff\u2019s Secret Story",
       "at": "2026-09-22T03:50:20.634297+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "NoOwhX8TrhI",
+      "title": "From Garage Kits to Global Giants: The Hidden Origins of Tech Titans",
+      "at": "2026-09-22T04:05:50.676194+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1998700054128363",
+      "title": "From Garage Kits to Global Giants: The Hidden Origins of Tech Titans",
+      "at": "2026-09-22T04:06:40.070243+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning"
+    "mistake_warning",
+    "secret_reveal"
   ]
 }
