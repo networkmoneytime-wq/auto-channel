@@ -10,7 +10,8 @@
     "A tiny decision in history that changed the world by accident",
     "An animal with an ability that seems like a superpower",
     "A mystery that was unsolved for decades and how it was finally cracked",
-    "A war that was ended or started by an absurdly small mistake"
+    "A war that was ended or started by an absurdly small mistake",
+    "A con artist whose scheme was so bold it seems fictional"
   ],
   "uploads": [
     {
@@ -198,9 +199,34 @@
       "video_id": "1594453261544932",
       "title": "When a Pig, a Bucket, and a Wrong Turn Started World Wars",
       "at": "2026-09-21T22:06:18.558079+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "M1WpvZ-8_4I",
+      "title": "The Con Man Who Sold the Eiffel Tower and Printed Millions",
+      "at": "2026-09-22T00:24:22.724358+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688148839131269150",
+      "title": "The Con Man Who Sold the Eiffel Tower and Printed Millions",
+      "at": "2026-09-22T00:24:25.886913+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18071816612722744",
+      "title": "The Con Man Who Sold the Eiffel Tower and Printed Millions",
+      "at": "2026-09-22T00:25:00.114773+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1888780012502277",
+      "title": "The Con Man Who Sold the Eiffel Tower and Printed Millions",
+      "at": "2026-09-22T00:25:04.508393+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
