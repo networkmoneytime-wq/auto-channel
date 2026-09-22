@@ -2,7 +2,8 @@
   "used_topics": [
     "A piece of tech that was declassified decades after it was built",
     "The engineer who invented something world-changing and got no credit",
-    "A tech company's first product that had nothing to do with what they're known for"
+    "A tech company's first product that had nothing to do with what they're known for",
+    "A hardware design flaw that took years to discover"
   ],
   "uploads": [
     {
@@ -34,10 +35,29 @@
       "video_id": "1998700054128363",
       "title": "From Garage Kits to Global Giants: The Hidden Origins of Tech Titans",
       "at": "2026-09-22T04:06:40.070243+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "nRpBqC4zvxk",
+      "title": "The $1B Chip Bug: A Microscopic Metal Splinter That Hid for 10 Years",
+      "at": "2026-09-22T04:29:55.685007+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18115895299784832",
+      "title": "The $1B Chip Bug: A Microscopic Metal Splinter That Hid for 10 Years",
+      "at": "2026-09-22T04:30:24.952892+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1561984325147520",
+      "title": "The $1B Chip Bug: A Microscopic Metal Splinter That Hid for 10 Years",
+      "at": "2026-09-22T04:30:30.022317+00:00"
     }
   ],
   "recent_hooks": [
     "mistake_warning",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ]
 }
