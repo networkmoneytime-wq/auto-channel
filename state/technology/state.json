@@ -1,6 +1,29 @@
 {
   "used_topics": [
-    "A piece of tech that was declassified decades after it was built"
+    "A piece of tech that was declassified decades after it was built",
+    "The engineer who invented something world-changing and got no credit"
   ],
-  "uploads": []
+  "uploads": [
+    {
+      "platform": "youtube",
+      "video_id": "oA3Yg2k44pc",
+      "title": "The Forgotten Father of Computing: John Atanasoff\u2019s Secret Story",
+      "at": "2026-09-22T03:49:40.090335+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18379303249234235",
+      "title": "The Forgotten Father of Computing: John Atanasoff\u2019s Secret Story",
+      "at": "2026-09-22T03:50:13.775298+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2983924831984667",
+      "title": "The Forgotten Father of Computing: John Atanasoff\u2019s Secret Story",
+      "at": "2026-09-22T03:50:20.634297+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "mistake_warning"
+  ]
 }
