@@ -1,6 +1,29 @@
 {
   "used_topics": [
-    "Attack on Titan|the moment the true scale of the story is revealed"
+    "Attack on Titan|the moment the true scale of the story is revealed",
+    "Death Note|the psychological battle at the heart of the series"
   ],
-  "uploads": []
+  "uploads": [
+    {
+      "platform": "youtube",
+      "video_id": "mn6zb8iQsxI",
+      "title": "What If a Pen Could Decide Life or Death?",
+      "at": "2026-09-22T03:51:24.195321+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18422919880148965",
+      "title": "What If a Pen Could Decide Life or Death?",
+      "at": "2026-09-22T03:51:58.797247+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1078042925205304",
+      "title": "What If a Pen Could Decide Life or Death?",
+      "at": "2026-09-22T03:52:03.217066+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "question_hook"
+  ]
 }
