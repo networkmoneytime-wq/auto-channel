@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "A video game glitch that became permanent gaming folklore",
-    "The hardware trick that let an old console punch above its weight"
+    "The hardware trick that let an old console punch above its weight",
+    "A game console that was rushed out and flopped spectacularly"
   ],
   "uploads": [
     {
@@ -27,9 +28,34 @@
       "video_id": "1490974959455970",
       "title": "The Secret SNES Chip That Turned 16\u2011bit Gaming 3\u2011D",
       "at": "2026-09-22T03:47:50.097826+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "7ZZhr6bhVpQ",
+      "title": "How a Gaming Giant Turned a Dream Console into a Historic Flop",
+      "at": "2026-09-22T04:03:45.213135+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688205390521583629",
+      "title": "How a Gaming Giant Turned a Dream Console into a Historic Flop",
+      "at": "2026-09-22T04:03:47.826795+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18100496243375790",
+      "title": "How a Gaming Giant Turned a Dream Console into a Historic Flop",
+      "at": "2026-09-22T04:04:19.822138+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1394831616110439",
+      "title": "How a Gaming Giant Turned a Dream Console into a Historic Flop",
+      "at": "2026-09-22T04:04:25.010144+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ]
 }
