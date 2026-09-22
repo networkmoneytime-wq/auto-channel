@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "An engineering trick race cars use that road cars secretly borrowed",
-    "A car that flopped so badly it became a collector's item"
+    "A car that flopped so badly it became a collector's item",
+    "A safety feature that took decades to become mandatory"
   ],
   "uploads": [
     {
@@ -33,9 +34,28 @@
       "video_id": "4375317716062948",
       "title": "From Flop to Fortune: The 1974 Pontiac Firebird Turbo\u2019s $200K Revival",
       "at": "2026-09-22T03:45:05.411473+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Hr1CagmV-mo",
+      "title": "The Secret History Behind Your Seat Belt Click",
+      "at": "2026-09-22T04:01:05.776718+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688204741687805966",
+      "title": "The Secret History Behind Your Seat Belt Click",
+      "at": "2026-09-22T04:01:08.194029+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1359542432680407",
+      "title": "The Secret History Behind Your Seat Belt Click",
+      "at": "2026-09-22T04:01:47.691354+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook"
+    "question_hook",
+    "secret_reveal"
   ]
 }
