@@ -24,7 +24,15 @@ long one lands harder than two medium ones in a row.
 one per distinct sentence or clear beat in the script — typically 10-16 for a \
 script this length. More, shorter beats read as punchier fast-cut pacing, which \
 outperforms a handful of long static shots on short-form; let the script's own \
-sentence breaks set the beat count rather than picking a round number."""
+sentence breaks set the beat count rather than picking a round number.
+  - Search for the literal, physical thing the sentence is about — a specific \
+object, place, animal, or action someone could point a camera at — not an \
+abstract concept. "concrete steps" or "hands pouring concrete" beats "progress \
+concept"; "beehive close up" beats "teamwork nature"; "person writing in \
+notebook" beats "idea concept". Terms like "success", "innovation", \
+"teamwork", "concept", or "background" reliably pull generic staged corporate \
+stock — avoid them entirely; describe what's actually visible in the shot \
+instead."""
 
 
 def generate_script(topic: str, config: dict, state: dict) -> dict:
