@@ -1,9 +1,10 @@
 name: publish-new-channels
 
-# Manual trigger only for now — flip on the `schedule:` trigger once each
-# channel's platform credentials are set up and a manual run has succeeded,
-# same as how the original "dailyap" channel was bootstrapped.
 on:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch: {}
 
 permissions:
