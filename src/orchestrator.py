@@ -68,6 +68,20 @@ def run() -> None:
         captions_path = build_captions(word_boundaries, config, tmp_dir / "captions.ass")
         last_word = word_boundaries[-1]
         audio_duration = last_word["offset"] + last_word["duration"]
+        # edge-tts's WordBoundary stream is occasionally flaky and can report
+        # one garbage timestamp for the final word — seen in practice as a
+        # ~150-word script producing a multi-hour "audio_duration", which
+        # then turns assemble_video's per-clip durations into an equally
+        # enormous ffmpeg encode (confirmed via a job that ran 1h25m and
+        # assembled a 14,200-second video from ordinary narration). A script
+        # this length can never legitimately run past a couple of minutes,
+        # so treat anything wildly beyond that as a bad reading and fail
+        # fast rather than silently building a runaway video.
+        if audio_duration > 180:
+            raise RuntimeError(
+                f"Implausible audio_duration ({audio_duration:.1f}s) from "
+                f"{len(word_boundaries)} words — likely a flaky edge-tts WordBoundary timestamp"
+            )
 
         safe_name = re.sub(r"[^A-Za-z0-9_-]+", "_", topic[:40].strip()).strip("_")
         final_path = output_dir() / f"{safe_name}.mp4"
