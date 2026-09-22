@@ -41,5 +41,11 @@ def generate_script(topic: str, config: dict, state: dict) -> dict:
     result = chat_json(_system_prompt(hook["instruction"]), user, model=config["llm"]["model"])
     if "script" not in result or "visual_keywords" not in result:
         raise ValueError(f"Unexpected LLM response shape: {result}")
+    # The prompt asks for 90-140 words; an occasional runaway generation can
+    # come back far longer, which silently turns into a multi-minute video
+    # and a very slow ffmpeg encode downstream. Fail fast here instead.
+    word_count = len(result["script"].split())
+    if word_count > 300:
+        raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
     result["hook_id"] = hook["id"]
     return result

@@ -93,6 +93,12 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         raise ValueError(f"Unexpected LLM response shape: {result}")
     if not image_urls:
         raise RuntimeError("No AniList artwork resolved for this topic")
+    # The prompt asks for 90-150 words; an occasional runaway generation can
+    # come back far longer, which silently turns into a multi-minute video
+    # and a very slow ffmpeg encode downstream. Fail fast here instead.
+    word_count = len(result["script"].split())
+    if word_count > 300:
+        raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
     image_urls = (image_urls * 5)[:5]
     return {"script": result["script"], "image_urls": image_urls, "hook_id": hook_id}
