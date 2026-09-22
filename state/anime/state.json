@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "Attack on Titan|the moment the true scale of the story is revealed",
-    "Death Note|the psychological battle at the heart of the series"
+    "Death Note|the psychological battle at the heart of the series",
+    "Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating"
   ],
   "uploads": [
     {
@@ -21,9 +22,16 @@
       "video_id": "1078042925205304",
       "title": "What If a Pen Could Decide Life or Death?",
       "at": "2026-09-22T03:52:03.217066+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Q3kGU0aGyXo",
+      "title": "Why Fullmetal Alchemist: Brotherhood's Real Fight Isn't Magic",
+      "at": "2026-09-22T05:54:31.971289+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
