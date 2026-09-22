@@ -12,7 +12,8 @@
     "A mystery that was unsolved for decades and how it was finally cracked",
     "A war that was ended or started by an absurdly small mistake",
     "A con artist whose scheme was so bold it seems fictional",
-    "An ancient civilization technology that shouldn't have been possible yet"
+    "An ancient civilization technology that shouldn't have been possible yet",
+    "A natural phenomenon that looks fake but is completely real"
   ],
   "uploads": [
     {
@@ -242,11 +243,30 @@
       "video_id": "1451989150183758",
       "title": "Ancient Gadgets That Outsmart Modern Tech",
       "at": "2026-09-22T08:14:57.378030+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "18E5ZkTB0Jo",
+      "title": "3 Mind\u2011Blowing Sky Tricks You Won\u2019t Believe Exist",
+      "at": "2026-09-22T16:15:28.125438+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688393799869073439",
+      "title": "3 Mind\u2011Blowing Sky Tricks You Won\u2019t Believe Exist",
+      "at": "2026-09-22T16:15:31.382646+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2123328581550660",
+      "title": "3 Mind\u2011Blowing Sky Tricks You Won\u2019t Believe Exist",
+      "at": "2026-09-22T16:16:12.350039+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ]
 }
