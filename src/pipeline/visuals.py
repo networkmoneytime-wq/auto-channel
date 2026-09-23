@@ -1,11 +1,11 @@
 import random
 from pathlib import Path
-from urllib.parse import parse_qsl
+from urllib.parse import parse_qsl, unquote
 
 import requests
 
 from src.config import env
-from src.pipeline import steam, wikipedia, yt_clip
+from src.pipeline import image_gen, steam, wikipedia, yt_clip
 from src.state import mark_clips_used
 
 
@@ -95,7 +95,11 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
     specific YouTube video rather than a URL at all -- the optional query
     string overrides fetch_clip's default 6-second trailer-length clip for
     callers that want a longer segment (a brainrot background clip needs to
-    cover the whole narration, not just a few seconds)."""
+    cover the whole narration, not just a few seconds). A third form,
+    "ai-image://<url-encoded prompt>", isn't sourced from anywhere at all --
+    it's rendered on demand by image_gen (Cloudflare Workers AI), the one
+    deliberately-AI-generated visual in this project; see script_gen_meme.py
+    for why that channel is the named exception."""
     paths = []
     for i, url in enumerate(urls):
         if url.startswith("youtube-clip://"):
@@ -104,6 +108,13 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
             kwargs = {k: int(v) for k, v in params.items() if k in ("start", "duration")}
             dest = out_dir / f"media_{i}.mp4"
             if yt_clip.fetch_clip(video_id, dest, **kwargs):
+                paths.append(dest)
+            continue
+
+        if url.startswith("ai-image://"):
+            prompt = unquote(url.removeprefix("ai-image://"))
+            dest = out_dir / f"media_{i}.jpg"
+            if image_gen.generate_image(prompt, dest):
                 paths.append(dest)
             continue
 
