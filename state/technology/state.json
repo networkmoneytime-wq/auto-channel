@@ -3,7 +3,8 @@
     "A piece of tech that was declassified decades after it was built",
     "The engineer who invented something world-changing and got no credit",
     "A tech company's first product that had nothing to do with what they're known for",
-    "A hardware design flaw that took years to discover"
+    "A hardware design flaw that took years to discover",
+    "The real story behind a famous tech keynote disaster"
   ],
   "uploads": [
     {
@@ -53,11 +54,30 @@
       "video_id": "1561984325147520",
       "title": "The $1B Chip Bug: A Microscopic Metal Splinter That Hid for 10 Years",
       "at": "2026-09-22T04:30:30.022317+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "HlMjeHVoimU",
+      "title": "The Secret iPad Keynote Disaster No One Talks About",
+      "at": "2026-09-23T00:08:02.677042+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18018971084924081",
+      "title": "The Secret iPad Keynote Disaster No One Talks About",
+      "at": "2026-09-23T00:08:37.481910+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2074220910130446",
+      "title": "The Secret iPad Keynote Disaster No One Talks About",
+      "at": "2026-09-23T00:08:42.877499+00:00"
     }
   ],
   "recent_hooks": [
     "mistake_warning",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ]
 }
