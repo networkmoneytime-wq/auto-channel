@@ -4,7 +4,8 @@
     "Death Note|the psychological battle at the heart of the series",
     "Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating",
     "UPCOMING",
-    "Demon Slayer|why the animation direction became a genre benchmark"
+    "Demon Slayer|why the animation direction became a genre benchmark",
+    "Steins;Gate|how the story turns a slow burn into an emotional gut punch"
   ],
   "uploads": [
     {
@@ -60,11 +61,30 @@
       "video_id": "2032068010785106",
       "title": "Demon Slayer Animation Secrets That Look Fake (But Aren\u2019t)",
       "at": "2026-09-23T07:03:25.539451+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "5Yy_W5VzoMg",
+      "title": "Why Steins;Gate Feels Like a Coffee Shop Then Smacks You",
+      "at": "2026-09-23T07:27:42.648017+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17900343636373522",
+      "title": "Why Steins;Gate Feels Like a Coffee Shop Then Smacks You",
+      "at": "2026-09-23T07:28:16.275507+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1328872732476042",
+      "title": "Why Steins;Gate Feels Like a Coffee Shop Then Smacks You",
+      "at": "2026-09-23T07:28:21.697498+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ]
 }
