@@ -57,11 +57,24 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
     return clip_paths
 
 
-def download_images(urls: list[str], out_dir: Path) -> list[Path]:
+def download_media(urls: list[str], out_dir: Path) -> list[Path]:
+    """Download a list of direct asset URLs (official art, screenshots, or
+    video clips) as-is — used for channels grounded in a real data source
+    (AniList, RAWG) instead of a stock-footage keyword search. assemble.py
+    tells images and real footage apart by extension, so this only needs to
+    preserve the real one."""
     paths = []
     for i, url in enumerate(urls):
-        ext = ".png" if url.lower().split("?")[0].endswith(".png") else ".jpg"
-        dest = out_dir / f"image_{i}{ext}"
+        clean = url.lower().split("?")[0]
+        if clean.endswith((".mp4", ".webm", ".mov")):
+            ext = Path(clean).suffix
+        elif clean.endswith(".webp"):
+            ext = ".webp"
+        elif clean.endswith(".png"):
+            ext = ".png"
+        else:
+            ext = ".jpg"
+        dest = out_dir / f"media_{i}{ext}"
         with requests.get(url, stream=True, timeout=60) as r:
             r.raise_for_status()
             with open(dest, "wb") as f:

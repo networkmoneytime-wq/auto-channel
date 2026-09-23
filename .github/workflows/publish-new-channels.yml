@@ -46,6 +46,7 @@ jobs:
           # vary per channel/account.
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           YOUTUBE_CLIENT_ID_CARS: ${{ secrets.YOUTUBE_CLIENT_ID_CARS }}

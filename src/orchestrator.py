@@ -13,7 +13,8 @@ from src.pipeline.metadata import generate_metadata
 from src.pipeline.music import attribution_line, maybe_pick_track, track_path
 from src.pipeline.script_gen import generate_script
 from src.pipeline.script_gen_anime import generate_anime_content
-from src.pipeline.visuals import download_images, fetch_clips
+from src.pipeline.script_gen_gaming import generate_gaming_content
+from src.pipeline.visuals import download_media, fetch_clips
 from src.pipeline.voiceover import synthesize_voiceover
 from src.state import load_state, log_upload, mark_hook_used, mark_topic_used, save_state
 from src.uploaders import facebook, instagram, tiktok, youtube
@@ -44,25 +45,33 @@ UPLOADERS = {
     "facebook": facebook.upload_short,
 }
 
+# Channels whose content is grounded in a real external data source instead
+# of a freeform LLM topic — each returns a dict shaped like generate_script's,
+# plus "visual_mode": "media" (see below) when it wants its own sourced
+# assets instead of a Pexels keyword search.
+CONTENT_GENERATORS = {
+    "anime": generate_anime_content,
+    "gaming": generate_gaming_content,
+}
+
 
 def run() -> None:
     config = load_config()
     state = load_state()
 
-    is_anime = config["visuals"].get("provider") == "anilist"
+    generate = CONTENT_GENERATORS.get(channel(), generate_script)
 
     topic = pick_topic(state)
     print(f"[ideate] topic: {topic}")
 
-    if is_anime:
-        script = generate_anime_content(topic, config, state)
-    else:
-        script = generate_script(topic, config, state)
+    script = generate(topic, config, state)
     hook_id = script.get("hook_id")
     print(f"[script] hook: {hook_id or 'n/a'}, {len(script['script'].split())} words")
 
     metadata = generate_metadata(script["script"], config)
     print(f"[metadata] title: {metadata['title']}")
+    if script.get("attribution"):
+        metadata["description"] = metadata["description"] + "\n\n" + script["attribution"]
 
     music_track = maybe_pick_track(channel())
     if music_track:
@@ -78,9 +87,9 @@ def run() -> None:
         word_boundaries = synthesize_voiceover(script["script"], config, voiceover_path)
         print(f"[voiceover] {len(word_boundaries)} words synthesized")
 
-        if is_anime:
-            clip_paths = download_images(script["image_urls"], tmp_dir)
-            print(f"[visuals] downloaded {len(clip_paths)} official art images")
+        if script.get("visual_mode") == "media":
+            clip_paths = download_media(script["media_urls"], tmp_dir)
+            print(f"[visuals] downloaded {len(clip_paths)} sourced assets")
         else:
             clip_paths = fetch_clips(script["visual_keywords"], config, tmp_dir, state)
             print(f"[visuals] fetched {len(clip_paths)} clips")

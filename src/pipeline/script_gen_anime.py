@@ -61,14 +61,14 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         media_list = upcoming_anime(limit=5)
         if not media_list:
             raise RuntimeError("AniList returned no upcoming titles")
-        lines, image_urls = [], []
+        lines, media_urls = [], []
         for m in media_list:
             title = title_of(m)
             release = f"{(m.get('season') or '').title()} {m.get('seasonYear') or ''}".strip()
             lines.append(f"- {title} (releasing {release or 'TBA'}): {_clean(m.get('description'), 400)}")
-            cover = (m.get("coverImage") or {}).get("extraLarge") or m.get("bannerImage")
-            if cover:
-                image_urls.append(cover)
+            cover = (m.get("coverImage") or {}).get("extraLarge")
+            banner = m.get("bannerImage")
+            media_urls += [u for u in (cover, banner) if u]
         user = "Upcoming anime:\n" + "\n".join(lines) + "\n\nWrite the narration now."
         result = chat_json(SYSTEM_UPCOMING, user, model=config["llm"]["model"])
     else:
@@ -87,11 +87,11 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         hook = pick_hook(state)
         hook_id = hook["id"]
         result = chat_json(_system_explain(hook["instruction"]), user, model=config["llm"]["model"])
-        image_urls = image_pool(media, max_images=5)
+        media_urls = image_pool(media, max_images=8)
 
     if "script" not in result:
         raise ValueError(f"Unexpected LLM response shape: {result}")
-    if not image_urls:
+    if not media_urls:
         raise RuntimeError("No AniList artwork resolved for this topic")
     # The prompt asks for 90-150 words; an occasional runaway generation can
     # come back far longer, which silently turns into a multi-minute video
@@ -100,5 +100,5 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
     if word_count > 300:
         raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
-    image_urls = (image_urls * 5)[:5]
-    return {"script": result["script"], "image_urls": image_urls, "hook_id": hook_id}
+    media_urls = (media_urls * 8)[:8]
+    return {"script": result["script"], "media_urls": media_urls, "visual_mode": "media", "hook_id": hook_id}

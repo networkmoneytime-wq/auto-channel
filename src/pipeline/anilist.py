@@ -18,7 +18,7 @@ _MEDIA_FIELDS = """
     season
     seasonYear
     genres
-    characters(sort: [ROLE, RELEVANCE], perPage: 6) {
+    characters(sort: [ROLE, RELEVANCE], perPage: 10) {
       nodes { name { full } image { large } }
     }
 """
@@ -50,7 +50,7 @@ def title_of(media: dict) -> str:
     return media["title"].get("english") or media["title"]["romaji"]
 
 
-def image_pool(media: dict, max_images: int = 6) -> list[str]:
+def image_pool(media: dict, max_images: int = 8) -> list[str]:
     """Official artwork only: cover, banner, then character portraits."""
     urls = []
     if media.get("coverImage", {}).get("extraLarge"):
