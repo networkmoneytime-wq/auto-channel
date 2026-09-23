@@ -4,7 +4,8 @@
     "The engineer who invented something world-changing and got no credit",
     "A tech company's first product that had nothing to do with what they're known for",
     "A hardware design flaw that took years to discover",
-    "The real story behind a famous tech keynote disaster"
+    "The real story behind a famous tech keynote disaster",
+    "A piece of code still running in critical systems after 40+ years"
   ],
   "uploads": [
     {
@@ -72,12 +73,39 @@
       "video_id": "2074220910130446",
       "title": "The Secret iPad Keynote Disaster No One Talks About",
       "at": "2026-09-23T00:08:42.877499+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "DwH51FV5UeA",
+      "title": "Why 1970s Legacy Code Still Powers Nuclear Control Rooms",
+      "at": "2026-09-23T02:26:32.091202+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1469629381735363",
+      "title": "Why 1970s Legacy Code Still Powers Nuclear Control Rooms",
+      "at": "2026-09-23T02:27:11.016621+00:00"
     }
   ],
   "recent_hooks": [
     "mistake_warning",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
+  ],
+  "recent_clip_ids": [
+    33315117,
+    6536350,
+    34280527,
+    12909005,
+    12893579,
+    4985366,
+    6781912,
+    39625006,
+    7216706,
+    7328527,
+    7560165,
+    39623398
   ]
 }
