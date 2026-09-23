@@ -4,32 +4,29 @@
 # The literal line "UPCOMING" pulls a roundup of real, currently-listed
 # upcoming games straight from RAWG (release window + official description +
 # official screenshot), so the channel never has to invent release info.
-# UPCOMING lines below are commented out until RAWG_API_KEY is set as a repo
-# secret (needs a free rawg.io account) — uncomment once it's live, one at a
-# time or all at once.
 
 A video game glitch that became permanent gaming folklore
 The hardware trick that let an old console punch above its weight
 A game console that was rushed out and flopped spectacularly
 An easter egg hidden so well it took decades to find
-#UPCOMING
+UPCOMING
 The true story behind a legendary arcade high score
 A game developed under such extreme crunch it nearly killed the studio
 An indie game made by one person that became a massive hit
 The strange reason a game got banned in a country
-#UPCOMING
+UPCOMING
 A speedrunning trick that breaks a game in a way nobody expected
 The forgotten inventor behind an iconic piece of gaming hardware
 A gaming controller design that failed for a bizarre reason
 An esports moment that shocked an entire arena into silence
-#UPCOMING
+UPCOMING
 A game feature cut so late it left ghost data in the final release
 The real-world event that inspired a beloved game's story
 A piece of gaming hardware banned from competitions for being too good
 The surprising origin of a gaming catchphrase or meme
-#UPCOMING
+UPCOMING
 A prototype console that never left the lab
 A world record in gaming that seems statistically impossible
 The engineering behind how game cartridges actually stored data
 A LAN party or gaming convention story that became legendary
-#UPCOMING
+UPCOMING
