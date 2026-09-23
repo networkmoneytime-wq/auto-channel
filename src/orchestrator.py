@@ -14,6 +14,7 @@ from src.pipeline.music import attribution_line, maybe_pick_track, track_path
 from src.pipeline.script_gen import generate_script
 from src.pipeline.script_gen_anime import generate_anime_content
 from src.pipeline.script_gen_gaming import generate_gaming_content
+from src.pipeline.script_gen_meme import generate_meme_content
 from src.pipeline.visuals import download_media, fetch_clips
 from src.pipeline.voiceover import synthesize_voiceover
 from src.state import load_state, log_upload, mark_hook_used, mark_topic_used, save_state
@@ -52,6 +53,7 @@ UPLOADERS = {
 CONTENT_GENERATORS = {
     "anime": generate_anime_content,
     "gaming": generate_gaming_content,
+    "meme": generate_meme_content,
 }
 
 

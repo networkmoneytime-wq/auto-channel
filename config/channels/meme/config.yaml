@@ -1,0 +1,32 @@
+niche: "meme/comedy shorts: relatable observations and short funny stories over gameplay-backdrop (brainrot) footage"
+
+video:
+  width: 1080
+  height: 1920
+  max_duration_sec: 58
+  min_clip_sec: 1.0
+  max_clip_sec: 3.8
+
+llm:
+  provider: "groq"
+  model: "openai/gpt-oss-120b"
+
+tts:
+  voice: "en-US-JasonNeural"
+  rate: "+4%"
+
+visuals:
+  provider: "brainrot"
+  orientation: "portrait"
+
+platforms:
+  youtube:
+    enabled: true
+    privacy: "public"
+    category_id: "23"
+  tiktok:
+    enabled: false
+  instagram:
+    enabled: true
+  facebook:
+    enabled: true

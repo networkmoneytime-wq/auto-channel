@@ -1,5 +1,6 @@
 import random
 from pathlib import Path
+from urllib.parse import parse_qsl
 
 import requests
 
@@ -89,13 +90,20 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
     preserve the real one. Two special, non-plain-URL forms get routed to a
     dedicated fetcher instead of a raw download, since neither is a simple
     file: a Steam trailer's ".m3u8" is a streaming manifest, not a video
-    file, and "youtube-clip://<id>" is a marker (see anilist.trailer_marker)
-    naming a specific YouTube video rather than a URL at all."""
+    file, and "youtube-clip://<id>[?start=N&duration=N]" is a marker (see
+    anilist.trailer_marker and brainrot.random_background_marker) naming a
+    specific YouTube video rather than a URL at all -- the optional query
+    string overrides fetch_clip's default 6-second trailer-length clip for
+    callers that want a longer segment (a brainrot background clip needs to
+    cover the whole narration, not just a few seconds)."""
     paths = []
     for i, url in enumerate(urls):
         if url.startswith("youtube-clip://"):
+            video_id, _, query = url.removeprefix("youtube-clip://").partition("?")
+            params = dict(parse_qsl(query))
+            kwargs = {k: int(v) for k, v in params.items() if k in ("start", "duration")}
             dest = out_dir / f"media_{i}.mp4"
-            if yt_clip.fetch_clip(url.removeprefix("youtube-clip://"), dest):
+            if yt_clip.fetch_clip(video_id, dest, **kwargs):
                 paths.append(dest)
             continue
 
