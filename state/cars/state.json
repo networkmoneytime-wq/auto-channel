@@ -5,7 +5,8 @@
     "A safety feature that took decades to become mandatory",
     "The strange origin story of a car brand's logo",
     "A prototype car that never made it to production and why",
-    "An automotive record that stood unbroken for generations"
+    "An automotive record that stood unbroken for generations",
+    "A material used in modern cars that sounds too strange to be real"
   ],
   "uploads": [
     {
@@ -121,14 +122,38 @@
       "video_id": "1694645182031258",
       "title": "1970 Rocket Car\u2019s 622\u202fmph Record Outsmarted Modern Hypercars",
       "at": "2026-09-23T02:23:09.159885+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ksI22gF5Tfg",
+      "title": "Your Car\u2019s Roof Is Made of Frozen Smoke",
+      "at": "2026-09-23T06:40:11.444020+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688616621937641485",
+      "title": "Your Car\u2019s Roof Is Made of Frozen Smoke",
+      "at": "2026-09-23T06:40:13.812671+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18088691753219436",
+      "title": "Your Car\u2019s Roof Is Made of Frozen Smoke",
+      "at": "2026-09-23T06:40:46.494914+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1347832327185720",
+      "title": "Your Car\u2019s Roof Is Made of Frozen Smoke",
+      "at": "2026-09-23T06:40:53.496931+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "secret_reveal",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
     11326270,
@@ -140,6 +165,16 @@
     9080218,
     7065835,
     5198916,
-    9790183
+    9790183,
+    28912666,
+    7295772,
+    32119204,
+    37546338,
+    31588827,
+    37076085,
+    36939850,
+    35853593,
+    35353790,
+    27445075
   ]
 }
