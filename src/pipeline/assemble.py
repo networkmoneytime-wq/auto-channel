@@ -131,6 +131,15 @@ def assemble_video(
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
         "-c:a", "aac", "-b:a", "160k",
         "-shortest",
+        # -shortest alone isn't reliable here: it stops at the shortest
+        # mapped stream's EOF, but that detection can misfire on this
+        # filter graph (looped -loop 1 image inputs feeding concat +
+        # zoompan) and let the encode run for many minutes past the real
+        # audio length instead of cutting at ~audio_duration. -t on the
+        # output is a hard, unambiguous cutoff that doesn't depend on any
+        # stream's EOF propagating correctly, so it stays even with
+        # -shortest still in place as a second line of defense.
+        "-t", f"{audio_duration:.3f}",
         str(out_path),
     ]
     subprocess.run(cmd, check=True)
