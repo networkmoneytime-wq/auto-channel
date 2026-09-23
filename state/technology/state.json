@@ -7,7 +7,8 @@
     "The real story behind a famous tech keynote disaster",
     "A piece of code still running in critical systems after 40+ years",
     "An invention that was rejected by every company before succeeding",
-    "What's actually new about the iPhone 17 Pro's camera system this year"
+    "What's actually new about the iPhone 17 Pro's camera system this year",
+    "How the Apple Watch went from a niche gadget to a serious health device"
   ],
   "uploads": [
     {
@@ -123,14 +124,32 @@
       "video_id": "1582147723654613",
       "title": "iPhone 17 Pro camera tricks that sound fake (but aren\u2019t)",
       "at": "2026-09-23T07:26:22.750039+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "_o341gJC0dE",
+      "title": "How the Apple Watch Went From Fancy Clock to Mini Clinic",
+      "at": "2026-09-23T08:20:10.350897+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18143761897574018",
+      "title": "How the Apple Watch Went From Fancy Clock to Mini Clinic",
+      "at": "2026-09-23T08:20:39.171993+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1404114498598361",
+      "title": "How the Apple Watch Went From Fancy Clock to Mini Clinic",
+      "at": "2026-09-23T08:20:44.105912+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "mistake_warning",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
     33315117,
@@ -165,6 +184,19 @@
     19193293,
     20705974,
     34708314,
-    7850917
+    7850917,
+    8026540,
+    7821861,
+    38410499,
+    6454293,
+    5839005,
+    17808312,
+    7224360,
+    38979152,
+    8375605,
+    8375767,
+    5722222,
+    39597264,
+    8088659
   ]
 }
