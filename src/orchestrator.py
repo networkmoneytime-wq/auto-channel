@@ -1,5 +1,6 @@
 import re
 import shutil
+import subprocess
 import tempfile
 import traceback
 from pathlib import Path
@@ -16,6 +17,25 @@ from src.pipeline.visuals import download_images, fetch_clips
 from src.pipeline.voiceover import synthesize_voiceover
 from src.state import load_state, log_upload, mark_hook_used, mark_topic_used, save_state
 from src.uploaders import facebook, instagram, tiktok, youtube
+
+def _probe_duration(path: Path) -> float:
+    """The real duration of the rendered audio, read from the file itself via
+    ffprobe. edge-tts's WordBoundary stream (what the previous approach
+    trusted) can report a garbage timestamp for the final word — and the
+    bad value isn't reliably huge, so a sanity ceiling on it alone isn't
+    enough of a backstop. Reading the actual file removes the whole class
+    of bug instead of trying to catch one symptom of it."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            str(path),
+        ],
+        capture_output=True, text=True, check=True,
+    )
+    return float(result.stdout.strip())
+
 
 UPLOADERS = {
     "youtube": youtube.upload_short,
@@ -66,21 +86,18 @@ def run() -> None:
             print(f"[visuals] fetched {len(clip_paths)} clips")
 
         captions_path = build_captions(word_boundaries, config, tmp_dir / "captions.ass")
-        last_word = word_boundaries[-1]
-        audio_duration = last_word["offset"] + last_word["duration"]
-        # edge-tts's WordBoundary stream is occasionally flaky and can report
-        # one garbage timestamp for the final word — seen in practice as a
-        # ~150-word script producing a multi-hour "audio_duration", which
-        # then turns assemble_video's per-clip durations into an equally
-        # enormous ffmpeg encode (confirmed via a job that ran 1h25m and
-        # assembled a 14,200-second video from ordinary narration). A script
-        # this length can never legitimately run past a couple of minutes,
-        # so treat anything wildly beyond that as a bad reading and fail
-        # fast rather than silently building a runaway video.
+        audio_duration = _probe_duration(voiceover_path)
+        print(f"[voiceover] actual duration: {audio_duration:.1f}s")
+        # Backstop, not the primary defense (that's reading the real file
+        # above instead of trusting word_boundaries): a script this length
+        # can never legitimately run past a couple of minutes, so treat
+        # anything wildly beyond that as a red flag — e.g. TTS synthesis
+        # itself producing a corrupt file — and fail fast rather than
+        # silently building a runaway video.
         if audio_duration > 180:
             raise RuntimeError(
-                f"Implausible audio_duration ({audio_duration:.1f}s) from "
-                f"{len(word_boundaries)} words — likely a flaky edge-tts WordBoundary timestamp"
+                f"Implausible audio_duration ({audio_duration:.1f}s) for "
+                f"{len(word_boundaries)} words"
             )
 
         safe_name = re.sub(r"[^A-Za-z0-9_-]+", "_", topic[:40].strip()).strip("_")

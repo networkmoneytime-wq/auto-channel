@@ -28,6 +28,13 @@ jobs:
 
       - name: Run pipeline
         env:
+          # Without this, print() output is buffered and only flushed at
+          # process exit — if the job gets cancelled or hangs mid-run (e.g.
+          # a runaway ffmpeg encode), every diagnostic line is lost and the
+          # log shows nothing useful. Confirmed the hard way: a stuck anime
+          # run's cancelled log had zero [ideate]/[voiceover]/[assemble]
+          # lines, only the raw ffmpeg output that was writing directly.
+          PYTHONUNBUFFERED: "1"
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
