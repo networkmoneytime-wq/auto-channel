@@ -7,8 +7,31 @@ from src.config import env
 
 GRAPH = "https://graph.facebook.com/v19.0"
 
+# Instagram's resumable-upload step occasionally rejects a perfectly valid
+# video with a generic 400 ProcessingFailedError — confirmed intermittent
+# (roughly 1 in 3 runs, going back days, independent of anything in this
+# pipeline) rather than tied to a specific video. Meta marks it
+# "retriable: false", but that describes resubmitting the same container,
+# not a fresh one — a new create/upload/publish cycle from scratch has a
+# real chance of succeeding where the first attempt didn't.
+_RETRY_ATTEMPTS = 3
+_RETRY_DELAY = 5
+
 
 def upload_short(video_path: Path, metadata: dict, config: dict) -> str:
+    last_error = None
+    for attempt in range(_RETRY_ATTEMPTS):
+        if attempt:
+            time.sleep(_RETRY_DELAY)
+        try:
+            return _upload_attempt(video_path, metadata)
+        except (requests.exceptions.HTTPError, RuntimeError, TimeoutError) as e:
+            last_error = e
+            print(f"[instagram] attempt {attempt + 1}/{_RETRY_ATTEMPTS} failed: {e}")
+    raise last_error
+
+
+def _upload_attempt(video_path: Path, metadata: dict) -> str:
     token = env("IG_ACCESS_TOKEN")
     ig_user_id = env("IG_USER_ID")
     caption = metadata["description"] + " " + " ".join(metadata["hashtags"])
