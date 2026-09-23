@@ -5,7 +5,8 @@
     "A tech company's first product that had nothing to do with what they're known for",
     "A hardware design flaw that took years to discover",
     "The real story behind a famous tech keynote disaster",
-    "A piece of code still running in critical systems after 40+ years"
+    "A piece of code still running in critical systems after 40+ years",
+    "An invention that was rejected by every company before succeeding"
   ],
   "uploads": [
     {
@@ -85,14 +86,32 @@
       "video_id": "1469629381735363",
       "title": "Why 1970s Legacy Code Still Powers Nuclear Control Rooms",
       "at": "2026-09-23T02:27:11.016621+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "DBvIb0Rjzk0",
+      "title": "How a Rejected 'Useless Paper' Became a Billion-Dollar Sticky Empire",
+      "at": "2026-09-23T07:00:47.935647+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18465184861184182",
+      "title": "How a Rejected 'Useless Paper' Became a Billion-Dollar Sticky Empire",
+      "at": "2026-09-23T07:01:18.509835+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1093549509733163",
+      "title": "How a Rejected 'Useless Paper' Became a Billion-Dollar Sticky Empire",
+      "at": "2026-09-23T07:01:23.274304+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
     33315117,
@@ -106,6 +125,17 @@
     7216706,
     7328527,
     7560165,
-    39623398
+    39623398,
+    6324539,
+    8084859,
+    8326454,
+    7744315,
+    6193603,
+    4773265,
+    6193689,
+    8003604,
+    9490103,
+    6266655,
+    32893127
   ]
 }
