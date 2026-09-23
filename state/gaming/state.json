@@ -3,7 +3,8 @@
     "A video game glitch that became permanent gaming folklore",
     "The hardware trick that let an old console punch above its weight",
     "A game console that was rushed out and flopped spectacularly",
-    "An easter egg hidden so well it took decades to find"
+    "An easter egg hidden so well it took decades to find",
+    "The true story behind a legendary arcade high score"
   ],
   "uploads": [
     {
@@ -77,11 +78,48 @@
       "video_id": "1272380311649362",
       "title": "The 1994 Film Frame That Hid a Real\u2011World Time Capsule",
       "at": "2026-09-23T00:06:39.336872+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "K-Qp1XO58hc",
+      "title": "The hidden hacks behind Pac\u2011Man\u2019s 3.3\u2011million record",
+      "at": "2026-09-23T02:24:30.495280+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688550938633652237",
+      "title": "The hidden hacks behind Pac\u2011Man\u2019s 3.3\u2011million record",
+      "at": "2026-09-23T02:24:32.651361+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18096709496305986",
+      "title": "The hidden hacks behind Pac\u2011Man\u2019s 3.3\u2011million record",
+      "at": "2026-09-23T02:25:05.961981+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1418758590322276",
+      "title": "The hidden hacks behind Pac\u2011Man\u2019s 3.3\u2011million record",
+      "at": "2026-09-23T02:25:10.639376+00:00"
     }
   ],
   "recent_hooks": [
     "secret_reveal",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
+  ],
+  "recent_clip_ids": [
+    5780795,
+    4841217,
+    8979494,
+    5909031,
+    14960678,
+    8720756,
+    6782206,
+    37811796,
+    9833954,
+    35304590
   ]
 }
