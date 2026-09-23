@@ -7,7 +7,8 @@
     "A prototype car that never made it to production and why",
     "An automotive record that stood unbroken for generations",
     "A material used in modern cars that sounds too strange to be real",
-    "A car chase or stunt that was filmed practically, no CGI"
+    "A car chase or stunt that was filmed practically, no CGI",
+    "A tiny design flaw that caused a massive recall"
   ],
   "uploads": [
     {
@@ -171,14 +172,38 @@
       "video_id": "1581230623025012",
       "title": "When Cars Meet Glass Walls at 80\u202fmph\u2014No CGI Needed",
       "at": "2026-09-23T06:57:11.836142+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "P7Cv_l00ews",
+      "title": "The $12\u202fMillion Recall Began With One Invisible Screw Hole",
+      "at": "2026-09-23T07:21:19.827611+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688627323352025101",
+      "title": "The $12\u202fMillion Recall Began With One Invisible Screw Hole",
+      "at": "2026-09-23T07:21:22.372623+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18088775267217622",
+      "title": "The $12\u202fMillion Recall Began With One Invisible Screw Hole",
+      "at": "2026-09-23T07:21:56.614138+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1420475980268145",
+      "title": "The $12\u202fMillion Recall Began With One Invisible Screw Hole",
+      "at": "2026-09-23T07:22:01.975691+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
     11326270,
@@ -210,6 +235,15 @@
     29681204,
     39014867,
     12117824,
-    7342157
+    7342157,
+    6005089,
+    34948756,
+    6099572,
+    35604452,
+    36747850,
+    37058648,
+    11573674,
+    35848678,
+    3682420
   ]
 }
