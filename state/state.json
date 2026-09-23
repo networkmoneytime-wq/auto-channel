@@ -15,7 +15,8 @@
     "An ancient civilization technology that shouldn't have been possible yet",
     "A natural phenomenon that looks fake but is completely real",
     "A disease outbreak with a cause so strange doctors almost missed it",
-    "An explorer's expedition that went catastrophically, unbelievably wrong"
+    "An explorer's expedition that went catastrophically, unbelievably wrong",
+    "A world record that was broken in the most unexpected way"
   ],
   "uploads": [
     {
@@ -311,14 +312,38 @@
       "video_id": "1576894634184090",
       "title": "When Ice Turns Killer: The Tragic Fate of Franklin's Crew",
       "at": "2026-09-23T07:21:25.281737+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "jpLnBb0T_L0",
+      "title": "Insane Record Breaks You Won\u2019t Believe Exist",
+      "at": "2026-09-23T07:31:40.990641+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688630004703414303",
+      "title": "Insane Record Breaks You Won\u2019t Believe Exist",
+      "at": "2026-09-23T07:31:43.323527+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17976635597924405",
+      "title": "Insane Record Breaks You Won\u2019t Believe Exist",
+      "at": "2026-09-23T07:32:25.122404+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2862192924173645",
+      "title": "Insane Record Breaks You Won\u2019t Believe Exist",
+      "at": "2026-09-23T07:32:30.444087+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "secret_reveal",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
     36498394,
@@ -330,6 +355,17 @@
     10669155,
     10384143,
     4551329,
-    35574064
+    35574064,
+    39031945,
+    16229180,
+    7417540,
+    29533223,
+    4858906,
+    9807882,
+    6595457,
+    8847379,
+    5787916,
+    5742908,
+    7806864
   ]
 }
