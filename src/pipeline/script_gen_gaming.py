@@ -3,9 +3,10 @@ existing history/culture/hardware-fact path (LLM + Pexels B-roll, unchanged).
 The literal topic "UPCOMING" is grounded in real release data pulled from
 RAWG (src/pipeline/rawg.py) so the channel narrates real upcoming games
 instead of inventing release dates — the same role AniList plays for the
-anime channel's own "UPCOMING" topic. These segments use RAWG's official
-screenshots (with attribution, added to the video description) rather than
-gameplay footage or trailers.
+anime channel's own "UPCOMING" topic. These segments mix RAWG's official
+screenshots with a short real trailer clip pulled from Steam when a title
+has one (src/pipeline/steam.py) — the deliberately riskier sourcing path
+taken on with the user's explicit go-ahead, not a default.
 
 topics.txt format: existing plain fact lines work unchanged; the literal
 line "UPCOMING" triggers a roundup of real, currently-listed upcoming games.
@@ -14,6 +15,7 @@ line "UPCOMING" triggers a roundup of real, currently-listed upcoming games.
 from src.pipeline.llm import chat_json
 from src.pipeline.rawg import attribution_line, release_window, screenshots_for, upcoming_games
 from src.pipeline.script_gen import generate_script
+from src.pipeline.steam import steam_appid_for, trailer_url_for
 
 SYSTEM_UPCOMING = """You write short narrated video scripts (YouTube Shorts / TikTok / \
 Instagram Reels) previewing real upcoming video game releases for gamers, hooking \
@@ -48,12 +50,19 @@ def generate_gaming_content(topic: str, config: dict, state: dict) -> dict:
         raise RuntimeError("RAWG returned no upcoming titles")
 
     lines, media_urls = [], []
+    used_steam = False
     for g in games:
         name = g.get("name") or "Untitled"
         window = release_window(g)
         desc = _clean(g.get("description_raw") or g.get("description"), 400)
         lines.append(f"- {name} (releasing {window}): {desc or 'no official description yet'}")
         media_urls.extend(screenshots_for(g["id"], limit=1))
+
+        appid = steam_appid_for(g["id"])
+        trailer_url = trailer_url_for(appid) if appid else None
+        if trailer_url:
+            media_urls.append(trailer_url)
+            used_steam = True
 
     if not media_urls:
         raise RuntimeError("No RAWG screenshots resolved for this topic")
@@ -69,11 +78,14 @@ def generate_gaming_content(topic: str, config: dict, state: dict) -> dict:
     if word_count > 300:
         raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
-    media_urls = (media_urls * 5)[:5]
+    media_urls = (media_urls * 8)[:8]
+    attribution = attribution_line()
+    if used_steam:
+        attribution += " · Trailer clips via Steam"
     return {
         "script": result["script"],
         "media_urls": media_urls,
         "visual_mode": "media",
         "hook_id": None,
-        "attribution": attribution_line(),
+        "attribution": attribution,
     }

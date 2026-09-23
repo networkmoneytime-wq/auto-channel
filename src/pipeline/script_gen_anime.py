@@ -1,14 +1,16 @@
 """Script generation for the anime channel — grounded in real AniList data so the
 LLM narrates real titles/synopses instead of inventing plot details or hallucinating
-upcoming releases that don't exist. Visuals are official artwork (cover/banner/
-character art), never episode footage.
+upcoming releases that don't exist. Visuals are mostly official artwork (cover/
+banner/character art), mixed with a short real clip from the title's official
+trailer when AniList has one (src/pipeline/yt_clip.py) — the deliberately
+riskier sourcing path taken on with the user's explicit go-ahead, not a default.
 
 topics.txt format for this channel:
   "<Anime Title>|<angle to discuss>"  -> a grounded deep-dive on one real anime
   "UPCOMING"                          -> a roundup of real upcoming anime from AniList
 """
 
-from src.pipeline.anilist import image_pool, search_anime, title_of, upcoming_anime
+from src.pipeline.anilist import image_pool, search_anime, title_of, trailer_marker, upcoming_anime
 from src.pipeline.hooks import pick_hook
 from src.pipeline.llm import chat_json
 
@@ -57,6 +59,7 @@ def _clean(text: str, limit: int) -> str:
 
 def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
     hook_id = None
+    used_trailer = False
     if topic.strip().upper() == "UPCOMING":
         media_list = upcoming_anime(limit=5)
         if not media_list:
@@ -69,6 +72,10 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
             cover = (m.get("coverImage") or {}).get("extraLarge")
             banner = m.get("bannerImage")
             media_urls += [u for u in (cover, banner) if u]
+            marker = trailer_marker(m)
+            if marker:
+                media_urls.append(marker)
+                used_trailer = True
         user = "Upcoming anime:\n" + "\n".join(lines) + "\n\nWrite the narration now."
         result = chat_json(SYSTEM_UPCOMING, user, model=config["llm"]["model"])
     else:
@@ -88,6 +95,10 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         hook_id = hook["id"]
         result = chat_json(_system_explain(hook["instruction"]), user, model=config["llm"]["model"])
         media_urls = image_pool(media, max_images=8)
+        marker = trailer_marker(media)
+        if marker:
+            media_urls.append(marker)
+            used_trailer = True
 
     if "script" not in result:
         raise ValueError(f"Unexpected LLM response shape: {result}")
@@ -101,4 +112,7 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
     media_urls = (media_urls * 8)[:8]
-    return {"script": result["script"], "media_urls": media_urls, "visual_mode": "media", "hook_id": hook_id}
+    output = {"script": result["script"], "media_urls": media_urls, "visual_mode": "media", "hook_id": hook_id}
+    if used_trailer:
+        output["attribution"] = "Some footage via official trailers"
+    return output

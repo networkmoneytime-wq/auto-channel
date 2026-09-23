@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 
 from src.config import env
-from src.pipeline import wikipedia
+from src.pipeline import steam, wikipedia, yt_clip
 from src.state import mark_clips_used
 
 
@@ -83,13 +83,29 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
 
 def download_media(urls: list[str], out_dir: Path) -> list[Path]:
     """Download a list of direct asset URLs (official art, screenshots, or
-    video clips) as-is — used for channels grounded in a real data source
-    (AniList, RAWG) instead of a stock-footage keyword search. assemble.py
-    tells images and real footage apart by extension, so this only needs to
-    preserve the real one."""
+    video clips) — used for channels grounded in a real data source (AniList,
+    RAWG) instead of a stock-footage keyword search. assemble.py tells
+    images and real footage apart by extension, so plain URLs just need to
+    preserve the real one. Two special, non-plain-URL forms get routed to a
+    dedicated fetcher instead of a raw download, since neither is a simple
+    file: a Steam trailer's ".m3u8" is a streaming manifest, not a video
+    file, and "youtube-clip://<id>" is a marker (see anilist.trailer_marker)
+    naming a specific YouTube video rather than a URL at all."""
     paths = []
     for i, url in enumerate(urls):
+        if url.startswith("youtube-clip://"):
+            dest = out_dir / f"media_{i}.mp4"
+            if yt_clip.fetch_clip(url.removeprefix("youtube-clip://"), dest):
+                paths.append(dest)
+            continue
+
         clean = url.lower().split("?")[0]
+        if ".m3u8" in clean:
+            dest = out_dir / f"media_{i}.mp4"
+            if steam.fetch_trailer_clip(url, dest):
+                paths.append(dest)
+            continue
+
         if clean.endswith((".mp4", ".webm", ".mov")):
             ext = Path(clean).suffix
         elif clean.endswith(".webp"):
