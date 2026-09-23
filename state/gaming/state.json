@@ -2,7 +2,8 @@
   "used_topics": [
     "A video game glitch that became permanent gaming folklore",
     "The hardware trick that let an old console punch above its weight",
-    "A game console that was rushed out and flopped spectacularly"
+    "A game console that was rushed out and flopped spectacularly",
+    "An easter egg hidden so well it took decades to find"
   ],
   "uploads": [
     {
@@ -52,10 +53,35 @@
       "video_id": "1394831616110439",
       "title": "How a Gaming Giant Turned a Dream Console into a Historic Flop",
       "at": "2026-09-22T04:04:25.010144+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "RrDngmPhYtY",
+      "title": "The 1994 Film Frame That Hid a Real\u2011World Time Capsule",
+      "at": "2026-09-23T00:05:51.213377+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688515173804132365",
+      "title": "The 1994 Film Frame That Hid a Real\u2011World Time Capsule",
+      "at": "2026-09-23T00:05:56.193125+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18175471192446272",
+      "title": "The 1994 Film Frame That Hid a Real\u2011World Time Capsule",
+      "at": "2026-09-23T00:06:32.379160+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1272380311649362",
+      "title": "The 1994 Film Frame That Hid a Real\u2011World Time Capsule",
+      "at": "2026-09-23T00:06:39.336872+00:00"
     }
   ],
   "recent_hooks": [
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
