@@ -5,7 +5,8 @@
     "Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating",
     "UPCOMING",
     "Demon Slayer|why the animation direction became a genre benchmark",
-    "Steins;Gate|how the story turns a slow burn into an emotional gut punch"
+    "Steins;Gate|how the story turns a slow burn into an emotional gut punch",
+    "Cowboy Bebop|why it's still considered one of the best anime ever made decades later"
   ],
   "uploads": [
     {
@@ -79,12 +80,31 @@
       "video_id": "1328872732476042",
       "title": "Why Steins;Gate Feels Like a Coffee Shop Then Smacks You",
       "at": "2026-09-23T07:28:21.697498+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "frqF1KOdmes",
+      "title": "Why a 1998 Space Western Still Beats Modern Shows",
+      "at": "2026-09-23T08:21:57.285016+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18113125982325478",
+      "title": "Why a 1998 Space Western Still Beats Modern Shows",
+      "at": "2026-09-23T08:22:35.798768+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "949857364841947",
+      "title": "Why a 1998 Space Western Still Beats Modern Shows",
+      "at": "2026-09-23T08:22:41.937049+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
     "mistake_warning",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ]
 }
