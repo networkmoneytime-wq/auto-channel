@@ -6,7 +6,8 @@
     "UPCOMING",
     "Demon Slayer|why the animation direction became a genre benchmark",
     "Steins;Gate|how the story turns a slow burn into an emotional gut punch",
-    "Cowboy Bebop|why it's still considered one of the best anime ever made decades later"
+    "Cowboy Bebop|why it's still considered one of the best anime ever made decades later",
+    "Jujutsu Kaisen|what makes its power system stand out from other shonen"
   ],
   "uploads": [
     {
@@ -98,13 +99,25 @@
       "video_id": "949857364841947",
       "title": "Why a 1998 Space Western Still Beats Modern Shows",
       "at": "2026-09-23T08:22:41.937049+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "CE5KHw_xcSs",
+      "title": "Jujutsu Kaisen\u2019s Dark Power System Explained: Fear Becomes Weapon",
+      "at": "2026-09-23T14:44:51.507524+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1076576118321173",
+      "title": "Jujutsu Kaisen\u2019s Dark Power System Explained: Fear Becomes Weapon",
+      "at": "2026-09-23T14:46:53.575579+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "list_tease",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
