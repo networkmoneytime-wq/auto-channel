@@ -6,7 +6,8 @@
     "The strange origin story of a car brand's logo",
     "A prototype car that never made it to production and why",
     "An automotive record that stood unbroken for generations",
-    "A material used in modern cars that sounds too strange to be real"
+    "A material used in modern cars that sounds too strange to be real",
+    "A car chase or stunt that was filmed practically, no CGI"
   ],
   "uploads": [
     {
@@ -146,14 +147,38 @@
       "video_id": "1347832327185720",
       "title": "Your Car\u2019s Roof Is Made of Frozen Smoke",
       "at": "2026-09-23T06:40:53.496931+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "804CvhtkFgk",
+      "title": "When Cars Meet Glass Walls at 80\u202fmph\u2014No CGI Needed",
+      "at": "2026-09-23T06:56:30.399482+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688620856477911053",
+      "title": "When Cars Meet Glass Walls at 80\u202fmph\u2014No CGI Needed",
+      "at": "2026-09-23T06:56:33.273891+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18144796864568084",
+      "title": "When Cars Meet Glass Walls at 80\u202fmph\u2014No CGI Needed",
+      "at": "2026-09-23T06:57:06.018553+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1581230623025012",
+      "title": "When Cars Meet Glass Walls at 80\u202fmph\u2014No CGI Needed",
+      "at": "2026-09-23T06:57:11.836142+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
     11326270,
@@ -175,6 +200,16 @@
     36939850,
     35853593,
     35353790,
-    27445075
+    27445075,
+    12152980,
+    34922293,
+    38939027,
+    7438481,
+    10321135,
+    5446379,
+    29681204,
+    39014867,
+    12117824,
+    7342157
   ]
 }
