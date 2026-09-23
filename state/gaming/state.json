@@ -7,7 +7,8 @@
     "The true story behind a legendary arcade high score",
     "A game developed under such extreme crunch it nearly killed the studio",
     "An indie game made by one person that became a massive hit",
-    "UPCOMING"
+    "UPCOMING",
+    "The strange reason a game got banned in a country"
   ],
   "uploads": [
     {
@@ -201,14 +202,38 @@
       "video_id": "1444372067552087",
       "title": "2026 Game Drop Countdown: GTA\u202fVI, Enshrouded, Phantom Blade Zero & More",
       "at": "2026-09-23T14:40:31.588380+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "M1TFvKVSyzI",
+      "title": "Banned for a Tune? The Game That Offended a Nation's Anthem",
+      "at": "2026-09-23T16:09:43.069056+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688763534301382670",
+      "title": "Banned for a Tune? The Game That Offended a Nation's Anthem",
+      "at": "2026-09-23T16:09:45.786776+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18114422195044563",
+      "title": "Banned for a Tune? The Game That Offended a Nation's Anthem",
+      "at": "2026-09-23T16:12:14.167834+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28324895493857839",
+      "title": "Banned for a Tune? The Game That Offended a Nation's Anthem",
+      "at": "2026-09-23T16:12:20.748078+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
     5780795,
@@ -246,6 +271,16 @@
     6755162,
     36302381,
     8128031,
-    34056841
+    34056841,
+    34280527,
+    8005844,
+    31636965,
+    12330936,
+    9466137,
+    7790830,
+    19577833,
+    18503908,
+    8688209,
+    7095854
   ]
 }
