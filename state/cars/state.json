@@ -8,7 +8,8 @@
     "An automotive record that stood unbroken for generations",
     "A material used in modern cars that sounds too strange to be real",
     "A car chase or stunt that was filmed practically, no CGI",
-    "A tiny design flaw that caused a massive recall"
+    "A tiny design flaw that caused a massive recall",
+    "The surprising history of the seatbelt or airbag"
   ],
   "uploads": [
     {
@@ -196,14 +197,38 @@
       "video_id": "1420475980268145",
       "title": "The $12\u202fMillion Recall Began With One Invisible Screw Hole",
       "at": "2026-09-23T07:22:01.975691+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "MQNhjd3XYnw",
+      "title": "From Cockpits to Cars: How Seatbelts Took Flight",
+      "at": "2026-09-23T08:13:47.518373+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688640757078673421",
+      "title": "From Cockpits to Cars: How Seatbelts Took Flight",
+      "at": "2026-09-23T08:13:49.893767+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18035885474848536",
+      "title": "From Cockpits to Cars: How Seatbelts Took Flight",
+      "at": "2026-09-23T08:15:07.577786+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1564292751607871",
+      "title": "From Cockpits to Cars: How Seatbelts Took Flight",
+      "at": "2026-09-23T08:15:13.851640+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "question_hook",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
     11326270,
@@ -244,6 +269,18 @@
     37058648,
     11573674,
     35848678,
-    3682420
+    3682420,
+    5787611,
+    13606369,
+    6782216,
+    34952824,
+    6746602,
+    33983174,
+    30173482,
+    2829271,
+    8863362,
+    8828770,
+    37046569,
+    37685872
   ]
 }
