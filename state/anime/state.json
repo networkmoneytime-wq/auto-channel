@@ -3,7 +3,8 @@
     "Attack on Titan|the moment the true scale of the story is revealed",
     "Death Note|the psychological battle at the heart of the series",
     "Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating",
-    "UPCOMING"
+    "UPCOMING",
+    "Demon Slayer|why the animation direction became a genre benchmark"
   ],
   "uploads": [
     {
@@ -41,10 +42,29 @@
       "video_id": "1119371694374210",
       "title": "Fall 2026 Anime Drop Alert: Cyberpunk Edgerunners 2 & More",
       "at": "2026-09-23T00:10:35.553246+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ES2Vo9jG3Z4",
+      "title": "Demon Slayer Animation Secrets That Look Fake (But Aren\u2019t)",
+      "at": "2026-09-23T07:02:50.745752+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17946134985342524",
+      "title": "Demon Slayer Animation Secrets That Look Fake (But Aren\u2019t)",
+      "at": "2026-09-23T07:03:21.823367+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2032068010785106",
+      "title": "Demon Slayer Animation Secrets That Look Fake (But Aren\u2019t)",
+      "at": "2026-09-23T07:03:25.539451+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ]
 }
