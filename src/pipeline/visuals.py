@@ -4,17 +4,44 @@ from pathlib import Path
 import requests
 
 from src.config import env
+from src.pipeline import wikipedia
 from src.state import mark_clips_used
 
 
-def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -> list[Path]:
+def _stream_download(url: str, dest: Path) -> None:
+    with requests.get(url, stream=True, timeout=60) as r:
+        r.raise_for_status()
+        with open(dest, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 16):
+                f.write(chunk)
+
+
+def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -> tuple[list[Path], bool]:
     orientation = config["visuals"].get("orientation", "portrait")
     headers = {"Authorization": env("PEXELS_API_KEY")}
     clip_paths = []
     recent_ids = set(state.get("recent_clip_ids", []))
     used_ids = []
+    used_wikipedia = False
 
     for i, keyword in enumerate(keywords):
+        # A beat naming a specific real person/place/thing (e.g. "the Super
+        # Bowl") should show that actual thing, not an arbitrary stock clip
+        # that merely matches the keyword — try a real Wikipedia photo of it
+        # first, and only fall back to stock footage when there's no
+        # confident real-world match (an abstract/generic beat like "hands
+        # typing" won't resolve to a specific article, which is correct).
+        wiki_photo = wikipedia.real_photo_for(keyword)
+        if wiki_photo:
+            dest = out_dir / f"clip_{i}.jpg"
+            try:
+                _stream_download(wiki_photo, dest)
+                clip_paths.append(dest)
+                used_wikipedia = True
+                continue
+            except requests.RequestException:
+                pass  # fall through to stock footage for this beat
+
         resp = requests.get(
             "https://api.pexels.com/videos/search",
             headers=headers,
@@ -44,17 +71,13 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
         best = next((vf for vf in video_files if vf.get("height", 0) >= 720), video_files[0])
 
         dest = out_dir / f"clip_{i}.mp4"
-        with requests.get(best["link"], stream=True, timeout=60) as r:
-            r.raise_for_status()
-            with open(dest, "wb") as f:
-                for chunk in r.iter_content(chunk_size=1 << 16):
-                    f.write(chunk)
+        _stream_download(best["link"], dest)
         clip_paths.append(dest)
 
     if not clip_paths:
         raise RuntimeError("No stock clips found for any visual keyword")
     mark_clips_used(state, used_ids)
-    return clip_paths
+    return clip_paths, used_wikipedia
 
 
 def download_media(urls: list[str], out_dir: Path) -> list[Path]:
@@ -75,10 +98,6 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
         else:
             ext = ".jpg"
         dest = out_dir / f"media_{i}{ext}"
-        with requests.get(url, stream=True, timeout=60) as r:
-            r.raise_for_status()
-            with open(dest, "wb") as f:
-                for chunk in r.iter_content(chunk_size=1 << 16):
-                    f.write(chunk)
+        _stream_download(url, dest)
         paths.append(dest)
     return paths

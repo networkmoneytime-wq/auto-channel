@@ -91,8 +91,10 @@ def run() -> None:
             clip_paths = download_media(script["media_urls"], tmp_dir)
             print(f"[visuals] downloaded {len(clip_paths)} sourced assets")
         else:
-            clip_paths = fetch_clips(script["visual_keywords"], config, tmp_dir, state)
+            clip_paths, used_wikipedia = fetch_clips(script["visual_keywords"], config, tmp_dir, state)
             print(f"[visuals] fetched {len(clip_paths)} clips")
+            if used_wikipedia:
+                metadata["description"] = metadata["description"] + "\n\nSome visuals via Wikipedia"
 
         captions_path = build_captions(word_boundaries, config, tmp_dir / "captions.ass")
         audio_duration = _probe_duration(voiceover_path)
