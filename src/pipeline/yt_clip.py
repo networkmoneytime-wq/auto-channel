@@ -16,18 +16,27 @@ from pathlib import Path
 
 def fetch_clip(video_id: str, dest: Path, start: int = 0, duration: int = 6) -> bool:
     try:
-        subprocess.run(
+        result = subprocess.run(
             [
                 "yt-dlp",
                 "--download-sections", f"*{start}-{start + duration}",
                 "-f", "best[height<=1080]/best",
                 "-o", str(dest),
                 "--no-playlist",
-                "--quiet",
                 f"https://www.youtube.com/watch?v={video_id}",
             ],
-            check=True, capture_output=True, timeout=90,
+            check=True, capture_output=True, text=True, timeout=90,
         )
+        if not dest.exists():
+            # A clean exit with no file written happens for reasons that
+            # aren't a subprocess error (e.g. yt-dlp deciding sections
+            # were out of range) -- worth knowing about, not just silently
+            # skipping this beat like a real fetch failure would.
+            print(f"[yt_clip] yt-dlp exited cleanly but wrote no file for {video_id}: {result.stdout[-300:]}")
         return dest.exists()
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+    except subprocess.CalledProcessError as e:
+        print(f"[yt_clip] fetch failed for {video_id}: {(e.stderr or str(e))[-500:]}")
+        return False
+    except subprocess.TimeoutExpired:
+        print(f"[yt_clip] fetch timed out for {video_id}")
         return False

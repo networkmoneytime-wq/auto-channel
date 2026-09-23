@@ -53,8 +53,14 @@ def fetch_trailer_clip(hls_url: str, dest: Path, duration: float = 6.0) -> bool:
     try:
         subprocess.run(
             ["ffmpeg", "-y", "-i", hls_url, "-t", str(duration), "-c", "copy", str(dest)],
-            check=True, capture_output=True, timeout=60,
+            check=True, capture_output=True, text=True, timeout=60,
         )
+        if not dest.exists():
+            print(f"[steam] ffmpeg exited cleanly but wrote no file for {hls_url}")
         return dest.exists()
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+    except subprocess.CalledProcessError as e:
+        print(f"[steam] trailer fetch failed for {hls_url}: {(e.stderr or str(e))[-500:]}")
+        return False
+    except subprocess.TimeoutExpired:
+        print(f"[steam] trailer fetch timed out for {hls_url}")
         return False
