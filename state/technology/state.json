@@ -9,7 +9,8 @@
     "An invention that was rejected by every company before succeeding",
     "What's actually new about the iPhone 17 Pro's camera system this year",
     "How the Apple Watch went from a niche gadget to a serious health device",
-    "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model"
+    "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model",
+    "A tech prototype that was decades ahead of the materials needed to build it"
   ],
   "uploads": [
     {
@@ -161,22 +162,34 @@
       "video_id": "1642635400807337",
       "title": "Galaxy Ultra: Major Upgrade or Just a New Coat?",
       "at": "2026-09-23T14:43:45.323886+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "6Ri5cG5KbHY",
+      "title": "1970s Prototype Ran on Fusion for an Hour - Sci-Fi or Reality?",
+      "at": "2026-09-23T16:13:58.566340+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18085441616305806",
+      "title": "1970s Prototype Ran on Fusion for an Hour - Sci-Fi or Reality?",
+      "at": "2026-09-23T16:16:37.536113+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1636026154893751",
+      "title": "1970s Prototype Ran on Fusion for an Hour - Sci-Fi or Reality?",
+      "at": "2026-09-23T16:16:45.527963+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "list_tease",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    33315117,
-    6536350,
-    34280527,
-    12909005,
-    12893579,
-    4985366,
     6781912,
     39625006,
     7216706,
@@ -225,6 +238,17 @@
     9008286,
     7680774,
     5924999,
-    30056318
+    30056318,
+    7646402,
+    9618378,
+    34516347,
+    39014670,
+    35844883,
+    35844883,
+    35195175,
+    6657887,
+    8534742,
+    7579943,
+    8889195
   ]
 }
