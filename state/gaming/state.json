@@ -6,7 +6,8 @@
     "An easter egg hidden so well it took decades to find",
     "The true story behind a legendary arcade high score",
     "UPCOMING",
-    "A game developed under such extreme crunch it nearly killed the studio"
+    "A game developed under such extreme crunch it nearly killed the studio",
+    "An indie game made by one person that became a massive hit"
   ],
   "uploads": [
     {
@@ -152,14 +153,38 @@
       "video_id": "28830448266591310",
       "title": "How Cyberpunk's Crunch Almost Destroyed CD Projekt",
       "at": "2026-09-23T07:24:15.315957+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "DdNbHP_xCT4",
+      "title": "From Cracked Laptop to Billion-Dollar AI: Indie Game Shock",
+      "at": "2026-09-23T08:17:02.952391+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688641596937652238",
+      "title": "From Cracked Laptop to Billion-Dollar AI: Indie Game Shock",
+      "at": "2026-09-23T08:17:04.942647+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910270105520785",
+      "title": "From Cracked Laptop to Billion-Dollar AI: Indie Game Shock",
+      "at": "2026-09-23T08:18:16.355403+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4707716729464129",
+      "title": "From Cracked Laptop to Billion-Dollar AI: Indie Game Shock",
+      "at": "2026-09-23T08:18:21.860744+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "shocking_fact",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
     5780795,
@@ -183,6 +208,20 @@
     37676204,
     6803592,
     32010204,
-    11267671
+    11267671,
+    5925297,
+    6781982,
+    7316358,
+    13441334,
+    6590514,
+    5009011,
+    6763336,
+    35544498,
+    3922465,
+    4841869,
+    6755162,
+    36302381,
+    8128031,
+    34056841
   ]
 }
