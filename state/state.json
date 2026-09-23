@@ -13,7 +13,8 @@
     "A war that was ended or started by an absurdly small mistake",
     "A con artist whose scheme was so bold it seems fictional",
     "An ancient civilization technology that shouldn't have been possible yet",
-    "A natural phenomenon that looks fake but is completely real"
+    "A natural phenomenon that looks fake but is completely real",
+    "A disease outbreak with a cause so strange doctors almost missed it"
   ],
   "uploads": [
     {
@@ -261,12 +262,37 @@
       "video_id": "2123328581550660",
       "title": "3 Mind\u2011Blowing Sky Tricks You Won\u2019t Believe Exist",
       "at": "2026-09-22T16:16:12.350039+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "0-xlzVapWRc",
+      "title": "How a Garden Pest Unleashed the Deadliest Outbreak\u2014And Bees Saved the Day",
+      "at": "2026-09-23T00:23:54.087447+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688519787831543838",
+      "title": "How a Garden Pest Unleashed the Deadliest Outbreak\u2014And Bees Saved the Day",
+      "at": "2026-09-23T00:23:57.260681+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18111212455860969",
+      "title": "How a Garden Pest Unleashed the Deadliest Outbreak\u2014And Bees Saved the Day",
+      "at": "2026-09-23T00:24:36.151195+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1606841537769457",
+      "title": "How a Garden Pest Unleashed the Deadliest Outbreak\u2014And Bees Saved the Day",
+      "at": "2026-09-23T00:24:40.523170+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
     "mistake_warning",
     "contrarian_claim",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ]
 }
