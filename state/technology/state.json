@@ -8,7 +8,8 @@
     "A piece of code still running in critical systems after 40+ years",
     "An invention that was rejected by every company before succeeding",
     "What's actually new about the iPhone 17 Pro's camera system this year",
-    "How the Apple Watch went from a niche gadget to a serious health device"
+    "How the Apple Watch went from a niche gadget to a serious health device",
+    "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model"
   ],
   "uploads": [
     {
@@ -142,14 +143,32 @@
       "video_id": "1404114498598361",
       "title": "How the Apple Watch Went From Fancy Clock to Mini Clinic",
       "at": "2026-09-23T08:20:44.105912+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UVAqf03LoR0",
+      "title": "Galaxy Ultra: Major Upgrade or Just a New Coat?",
+      "at": "2026-09-23T14:42:25.385419+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17881621650528899",
+      "title": "Galaxy Ultra: Major Upgrade or Just a New Coat?",
+      "at": "2026-09-23T14:43:40.042357+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1642635400807337",
+      "title": "Galaxy Ultra: Major Upgrade or Just a New Coat?",
+      "at": "2026-09-23T14:43:45.323886+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "shocking_fact",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
     33315117,
@@ -197,6 +216,15 @@
     8375767,
     5722222,
     39597264,
-    8088659
+    8088659,
+    33037097,
+    38410498,
+    28311225,
+    7108923,
+    31679056,
+    9008286,
+    7680774,
+    5924999,
+    30056318
   ]
 }
