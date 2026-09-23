@@ -5,7 +5,8 @@
     "A game console that was rushed out and flopped spectacularly",
     "An easter egg hidden so well it took decades to find",
     "The true story behind a legendary arcade high score",
-    "UPCOMING"
+    "UPCOMING",
+    "A game developed under such extreme crunch it nearly killed the studio"
   ],
   "uploads": [
     {
@@ -127,13 +128,38 @@
       "video_id": "1404870571751280",
       "title": "Four Massive Game Drops in 2026: GTA VI, Enshrouded, POE2 & More",
       "at": "2026-09-23T06:59:07.922286+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "40MAuAPL5_c",
+      "title": "How Cyberpunk's Crunch Almost Destroyed CD Projekt",
+      "at": "2026-09-23T07:23:35.635215+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688627810365294605",
+      "title": "How Cyberpunk's Crunch Almost Destroyed CD Projekt",
+      "at": "2026-09-23T07:23:37.449128+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18131811736676738",
+      "title": "How Cyberpunk's Crunch Almost Destroyed CD Projekt",
+      "at": "2026-09-23T07:24:09.645474+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28830448266591310",
+      "title": "How Cyberpunk's Crunch Almost Destroyed CD Projekt",
+      "at": "2026-09-23T07:24:15.315957+00:00"
     }
   ],
   "recent_hooks": [
     "secret_reveal",
     "question_hook",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
     5780795,
@@ -145,6 +171,18 @@
     6782206,
     37811796,
     9833954,
-    35304590
+    35304590,
+    30175521,
+    8721933,
+    36320055,
+    33314914,
+    7261927,
+    28468924,
+    31997525,
+    36732029,
+    37676204,
+    6803592,
+    32010204,
+    11267671
   ]
 }
