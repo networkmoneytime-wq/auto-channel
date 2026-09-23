@@ -16,7 +16,8 @@
     "A natural phenomenon that looks fake but is completely real",
     "A disease outbreak with a cause so strange doctors almost missed it",
     "An explorer's expedition that went catastrophically, unbelievably wrong",
-    "A world record that was broken in the most unexpected way"
+    "A world record that was broken in the most unexpected way",
+    "A coincidence so improbable that statisticians studied it"
   ],
   "uploads": [
     {
@@ -336,14 +337,38 @@
       "video_id": "2862192924173645",
       "title": "Insane Record Breaks You Won\u2019t Believe Exist",
       "at": "2026-09-23T07:32:30.444087+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ayJW3vrKDe8",
+      "title": "23 strangers, 2 share a birthday\u201450% odds?",
+      "at": "2026-09-23T08:13:50.327981+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688640881541138463",
+      "title": "23 strangers, 2 share a birthday\u201450% odds?",
+      "at": "2026-09-23T08:13:52.527445+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18127164115697867",
+      "title": "23 strangers, 2 share a birthday\u201450% odds?",
+      "at": "2026-09-23T08:14:34.014692+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1742530513643713",
+      "title": "23 strangers, 2 share a birthday\u201450% odds?",
+      "at": "2026-09-23T08:14:38.668768+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "secret_reveal",
     "question_hook",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
     36498394,
@@ -366,6 +391,16 @@
     8847379,
     5787916,
     5742908,
-    7806864
+    7806864,
+    8040861,
+    8066960,
+    16561462,
+    6219844,
+    6646671,
+    9465544,
+    12751546,
+    8927413,
+    34561859,
+    6245712
   ]
 }
