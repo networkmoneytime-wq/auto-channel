@@ -4,7 +4,8 @@
     "A car that flopped so badly it became a collector's item",
     "A safety feature that took decades to become mandatory",
     "The strange origin story of a car brand's logo",
-    "A prototype car that never made it to production and why"
+    "A prototype car that never made it to production and why",
+    "An automotive record that stood unbroken for generations"
   ],
   "uploads": [
     {
@@ -102,12 +103,43 @@
       "video_id": "2976668172685271",
       "title": "5 Insane Reasons the 1953 GM Firebird Never Took Flight",
       "at": "2026-09-23T00:04:05.229755+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "xE72iwzk6VU",
+      "title": "1970 Rocket Car\u2019s 622\u202fmph Record Outsmarted Modern Hypercars",
+      "at": "2026-09-23T02:22:28.450708+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688550341801183246",
+      "title": "1970 Rocket Car\u2019s 622\u202fmph Record Outsmarted Modern Hypercars",
+      "at": "2026-09-23T02:22:32.502848+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1694645182031258",
+      "title": "1970 Rocket Car\u2019s 622\u202fmph Record Outsmarted Modern Hypercars",
+      "at": "2026-09-23T02:23:09.159885+00:00"
     }
   ],
   "recent_hooks": [
     "question_hook",
     "secret_reveal",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
+  ],
+  "recent_clip_ids": [
+    11326270,
+    7106862,
+    5777431,
+    7005888,
+    10117927,
+    7106746,
+    9080218,
+    7065835,
+    5198916,
+    9790183
   ]
 }
