@@ -14,7 +14,8 @@
     "A con artist whose scheme was so bold it seems fictional",
     "An ancient civilization technology that shouldn't have been possible yet",
     "A natural phenomenon that looks fake but is completely real",
-    "A disease outbreak with a cause so strange doctors almost missed it"
+    "A disease outbreak with a cause so strange doctors almost missed it",
+    "An explorer's expedition that went catastrophically, unbelievably wrong"
   ],
   "uploads": [
     {
@@ -286,13 +287,49 @@
       "video_id": "1606841537769457",
       "title": "How a Garden Pest Unleashed the Deadliest Outbreak\u2014And Bees Saved the Day",
       "at": "2026-09-23T00:24:40.523170+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sgRZIMbEeOY",
+      "title": "When Ice Turns Killer: The Tragic Fate of Franklin's Crew",
+      "at": "2026-09-23T07:20:35.712764+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688627141017274399",
+      "title": "When Ice Turns Killer: The Tragic Fate of Franklin's Crew",
+      "at": "2026-09-23T07:20:38.342551+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17878198788554382",
+      "title": "When Ice Turns Killer: The Tragic Fate of Franklin's Crew",
+      "at": "2026-09-23T07:21:21.128360+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1576894634184090",
+      "title": "When Ice Turns Killer: The Tragic Fate of Franklin's Crew",
+      "at": "2026-09-23T07:21:25.281737+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "contrarian_claim",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
+  ],
+  "recent_clip_ids": [
+    36498394,
+    9806657,
+    31160191,
+    4609472,
+    33863115,
+    7274838,
+    10669155,
+    10384143,
+    4551329,
+    35574064
   ]
 }
