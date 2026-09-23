@@ -32,6 +32,7 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
         # confident real-world match (an abstract/generic beat like "hands
         # typing" won't resolve to a specific article, which is correct).
         wiki_photo = wikipedia.real_photo_for(keyword)
+        print(f"[visuals] {keyword!r}: {'wikipedia hit' if wiki_photo else 'no wikipedia match, using stock'}")
         if wiki_photo:
             dest = out_dir / f"clip_{i}.jpg"
             try:

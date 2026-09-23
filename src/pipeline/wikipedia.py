@@ -52,5 +52,10 @@ def real_photo_for(query: str) -> str | None:
         if url.startswith("//"):
             url = "https:" + url
         return re.sub(r"/\d+px-", "/1080px-", url, count=1)
-    except requests.RequestException:
+    except requests.RequestException as e:
+        # Distinct from "no confident match" so the two don't look identical
+        # in logs — a real network/API failure here is worth knowing about,
+        # not silently indistinguishable from "this topic just isn't a
+        # specific enough thing to have a Wikipedia photo."
+        print(f"[wikipedia] request failed for {query!r}: {e}")
         return None
