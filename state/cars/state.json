@@ -10,7 +10,8 @@
     "A car chase or stunt that was filmed practically, no CGI",
     "A tiny design flaw that caused a massive recall",
     "The surprising history of the seatbelt or airbag",
-    "A concept car decades ahead of its time"
+    "A concept car decades ahead of its time",
+    "An engine design that shouldn't work but does"
   ],
   "uploads": [
     {
@@ -240,28 +241,40 @@
       "video_id": "949883571505711",
       "title": "1970 GM Firebird II: The Rocket\u2011Ready Concept That Outpaced Modern Supercars",
       "at": "2026-09-23T14:36:23.663931+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Lz1nSu21yOc",
+      "title": "The Engine That Runs Without a Crankshaft and Still Packs V8 Power",
+      "at": "2026-09-23T16:04:27.460030+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688762214257412109",
+      "title": "The Engine That Runs Without a Crankshaft and Still Packs V8 Power",
+      "at": "2026-09-23T16:04:29.566713+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18178801111428486",
+      "title": "The Engine That Runs Without a Crankshaft and Still Packs V8 Power",
+      "at": "2026-09-23T16:07:38.627604+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1443335667697033",
+      "title": "The Engine That Runs Without a Crankshaft and Still Packs V8 Power",
+      "at": "2026-09-23T16:07:44.417102+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    7005888,
-    10117927,
-    7106746,
-    9080218,
-    7065835,
-    5198916,
-    9790183,
-    28912666,
-    7295772,
-    32119204,
-    37546338,
-    31588827,
     37076085,
     36939850,
     35853593,
@@ -309,6 +322,18 @@
     34279547,
     9617189,
     27668895,
-    30225108
+    30225108,
+    34948755,
+    7180367,
+    38668744,
+    6872465,
+    6566841,
+    6424088,
+    4547603,
+    34536746,
+    16552766,
+    34471436,
+    35865134,
+    5897669
   ]
 }
