@@ -62,7 +62,7 @@ def run() -> None:
             clip_paths = download_images(script["image_urls"], tmp_dir)
             print(f"[visuals] downloaded {len(clip_paths)} official art images")
         else:
-            clip_paths = fetch_clips(script["visual_keywords"], config, tmp_dir)
+            clip_paths = fetch_clips(script["visual_keywords"], config, tmp_dir, state)
             print(f"[visuals] fetched {len(clip_paths)} clips")
 
         captions_path = build_captions(word_boundaries, config, tmp_dir / "captions.ass")

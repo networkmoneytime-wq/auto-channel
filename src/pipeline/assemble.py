@@ -84,12 +84,17 @@ def assemble_video(
         # d=1 keeps zoompan's per-frame zoom increment without holding/duplicating
         # frames, so real footage plays at its native rate while still gaining a
         # slow, continuous zoom-in — the "motion never stops" look that stands out
-        # against static stock-footage cuts in top-performing shorts.
+        # against static stock-footage cuts in top-performing shorts. Randomizing
+        # the rate/cap per clip instead of one fixed value avoids every single cut
+        # moving at the same mechanical speed, which itself becomes a recognizable
+        # "auto-generated" tell once you've seen a few videos from the channel.
+        rate = random.uniform(0.0005, 0.0014)
+        cap = random.uniform(1.10, 1.22)
         filter_parts.append(
             f"[{i}:v]trim=0:{per_clip:.3f},setpts=PTS-STARTPTS,"
             f"scale={width}:{height}:force_original_aspect_ratio=increase,"
             f"crop={width}:{height},fps=30,"
-            f"zoompan=z='min(zoom+0.0008,1.15)':d=1:s={width}x{height}:fps=30,"
+            f"zoompan=z='min(zoom+{rate:.4f},{cap:.3f})':d=1:s={width}x{height}:fps=30,"
             f"setsar=1[v{i}]"
         )
     concat_inputs = "".join(f"[v{i}]" for i in range(len(clip_paths)))

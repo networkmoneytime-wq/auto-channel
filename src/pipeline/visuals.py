@@ -4,18 +4,21 @@ from pathlib import Path
 import requests
 
 from src.config import env
+from src.state import mark_clips_used
 
 
-def fetch_clips(keywords: list[str], config: dict, out_dir: Path) -> list[Path]:
+def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -> list[Path]:
     orientation = config["visuals"].get("orientation", "portrait")
     headers = {"Authorization": env("PEXELS_API_KEY")}
     clip_paths = []
+    recent_ids = set(state.get("recent_clip_ids", []))
+    used_ids = []
 
     for i, keyword in enumerate(keywords):
         resp = requests.get(
             "https://api.pexels.com/videos/search",
             headers=headers,
-            params={"query": keyword, "orientation": orientation, "per_page": 8},
+            params={"query": keyword, "orientation": orientation, "per_page": 15},
             timeout=30,
         )
         resp.raise_for_status()
@@ -27,8 +30,13 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path) -> list[Path]:
         # the same clip every time, across every channel and every run — a
         # handful of overused stock clips showing up repeatedly is a fast way
         # for an account to read as generic/automated. Picking randomly among
-        # the top matches instead spreads runs across different real footage.
-        chosen = random.choice(videos[: min(5, len(videos))])
+        # the top matches spreads runs across different real footage, and
+        # skipping clips this channel posted recently (tracked in state)
+        # stops the same specific clip resurfacing video after video.
+        pool = videos[: min(8, len(videos))]
+        fresh = [v for v in pool if v["id"] not in recent_ids]
+        chosen = random.choice(fresh or pool)
+        used_ids.append(chosen["id"])
         video_files = sorted(
             chosen["video_files"],
             key=lambda vf: abs((vf.get("height") or 0) - config["video"]["height"]),
@@ -45,6 +53,7 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path) -> list[Path]:
 
     if not clip_paths:
         raise RuntimeError("No stock clips found for any visual keyword")
+    mark_clips_used(state, used_ids)
     return clip_paths
 
 
