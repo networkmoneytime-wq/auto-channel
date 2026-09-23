@@ -6,7 +6,8 @@
     "A hardware design flaw that took years to discover",
     "The real story behind a famous tech keynote disaster",
     "A piece of code still running in critical systems after 40+ years",
-    "An invention that was rejected by every company before succeeding"
+    "An invention that was rejected by every company before succeeding",
+    "What's actually new about the iPhone 17 Pro's camera system this year"
   ],
   "uploads": [
     {
@@ -104,14 +105,32 @@
       "video_id": "1093549509733163",
       "title": "How a Rejected 'Useless Paper' Became a Billion-Dollar Sticky Empire",
       "at": "2026-09-23T07:01:23.274304+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Y4yv8z_udNs",
+      "title": "iPhone 17 Pro camera tricks that sound fake (but aren\u2019t)",
+      "at": "2026-09-23T07:25:42.130804+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18208286638369055",
+      "title": "iPhone 17 Pro camera tricks that sound fake (but aren\u2019t)",
+      "at": "2026-09-23T07:26:16.536860+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1582147723654613",
+      "title": "iPhone 17 Pro camera tricks that sound fake (but aren\u2019t)",
+      "at": "2026-09-23T07:26:22.750039+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
     33315117,
@@ -136,6 +155,16 @@
     8003604,
     9490103,
     6266655,
-    32893127
+    32893127,
+    8640627,
+    28468924,
+    32532951,
+    5961624,
+    39369592,
+    8085499,
+    19193293,
+    20705974,
+    34708314,
+    7850917
   ]
 }
