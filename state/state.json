@@ -17,7 +17,8 @@
     "A disease outbreak with a cause so strange doctors almost missed it",
     "An explorer's expedition that went catastrophically, unbelievably wrong",
     "A world record that was broken in the most unexpected way",
-    "A coincidence so improbable that statisticians studied it"
+    "A coincidence so improbable that statisticians studied it",
+    "A law that is still on the books and sounds absurd today"
   ],
   "uploads": [
     {
@@ -361,14 +362,38 @@
       "video_id": "1742530513643713",
       "title": "23 strangers, 2 share a birthday\u201450% odds?",
       "at": "2026-09-23T08:14:38.668768+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Gau9MFsfI9o",
+      "title": "Donkey in a Bathtub? The Weird Laws You Won\u2019t Believe Exist",
+      "at": "2026-09-24T00:25:00.727291+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688890863879096350",
+      "title": "Donkey in a Bathtub? The Weird Laws You Won\u2019t Believe Exist",
+      "at": "2026-09-24T00:25:06.059976+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18124234969853059",
+      "title": "Donkey in a Bathtub? The Weird Laws You Won\u2019t Believe Exist",
+      "at": "2026-09-24T00:25:38.747239+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "983247481469201",
+      "title": "Donkey in a Bathtub? The Weird Laws You Won\u2019t Believe Exist",
+      "at": "2026-09-24T00:25:43.995799+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "shocking_fact",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
     36498394,
@@ -401,6 +426,15 @@
     12751546,
     8927413,
     34561859,
-    6245712
+    6245712,
+    35664837,
+    8135783,
+    38567783,
+    8352854,
+    10482312,
+    3304282,
+    6101306,
+    36641401,
+    6214895
   ]
 }
