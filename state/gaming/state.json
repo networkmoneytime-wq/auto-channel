@@ -8,7 +8,8 @@
     "A game developed under such extreme crunch it nearly killed the studio",
     "An indie game made by one person that became a massive hit",
     "UPCOMING",
-    "The strange reason a game got banned in a country"
+    "The strange reason a game got banned in a country",
+    "A speedrunning trick that breaks a game in a way nobody expected"
   ],
   "uploads": [
     {
@@ -226,14 +227,38 @@
       "video_id": "28324895493857839",
       "title": "Banned for a Tune? The Game That Offended a Nation's Anthem",
       "at": "2026-09-23T16:12:20.748078+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "N18JYdvx0bo",
+      "title": "One Frame, Whole Game Crashed \u2013 The Phantom Dive Glitch",
+      "at": "2026-09-24T00:07:03.882561+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688886487873619981",
+      "title": "One Frame, Whole Game Crashed \u2013 The Phantom Dive Glitch",
+      "at": "2026-09-24T00:07:06.110657+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17874975321573356",
+      "title": "One Frame, Whole Game Crashed \u2013 The Phantom Dive Glitch",
+      "at": "2026-09-24T00:07:44.523642+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1584723966669282",
+      "title": "One Frame, Whole Game Crashed \u2013 The Phantom Dive Glitch",
+      "at": "2026-09-24T00:07:49.617356+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
     5780795,
@@ -281,6 +306,16 @@
     19577833,
     18503908,
     8688209,
-    7095854
+    7095854,
+    9070658,
+    7223609,
+    12715390,
+    37617738,
+    29269016,
+    28344369,
+    29255797,
+    37264419,
+    12715401,
+    38738786
   ]
 }
