@@ -18,7 +18,8 @@
     "An explorer's expedition that went catastrophically, unbelievably wrong",
     "A world record that was broken in the most unexpected way",
     "A coincidence so improbable that statisticians studied it",
-    "A law that is still on the books and sounds absurd today"
+    "A law that is still on the books and sounds absurd today",
+    "An invention that was created completely by accident"
   ],
   "uploads": [
     {
@@ -386,14 +387,38 @@
       "video_id": "983247481469201",
       "title": "Donkey in a Bathtub? The Weird Laws You Won\u2019t Believe Exist",
       "at": "2026-09-24T00:25:43.995799+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "MDd2Gt0CF4k",
+      "title": "Accidental Inventions: Sticky Notes, Microwaves & a Life\u2011Saving Pacemaker",
+      "at": "2026-09-24T16:16:53.218076+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689136277983217694",
+      "title": "Accidental Inventions: Sticky Notes, Microwaves & a Life\u2011Saving Pacemaker",
+      "at": "2026-09-24T16:16:55.885264+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18117766952471338",
+      "title": "Accidental Inventions: Sticky Notes, Microwaves & a Life\u2011Saving Pacemaker",
+      "at": "2026-09-24T16:17:26.860136+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2037053360278026",
+      "title": "Accidental Inventions: Sticky Notes, Microwaves & a Life\u2011Saving Pacemaker",
+      "at": "2026-09-24T16:17:31.468327+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "list_tease",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
     36498394,
@@ -435,6 +460,17 @@
     3304282,
     6101306,
     36641401,
-    6214895
+    6214895,
+    8724213,
+    31259979,
+    8381526,
+    31259979,
+    4985361,
+    6575898,
+    9462944,
+    36460608,
+    27444586,
+    8460286,
+    33643950
   ]
 }
