@@ -10,7 +10,8 @@
     "Jujutsu Kaisen|what makes its power system stand out from other shonen",
     "Hunter x Hunter|why fans consider its arcs some of the best written in anime",
     "Violet Evergarden|how it tells an emotional story with almost no dialogue",
-    "Neon Genesis Evangelion|why its ending is still debated decades later"
+    "Neon Genesis Evangelion|why its ending is still debated decades later",
+    "Spy x Family|what makes its family dynamic work so well as comedy"
   ],
   "uploads": [
     {
@@ -162,13 +163,31 @@
       "video_id": "1728367988392545",
       "title": "From Psychedelic Doodles to Bloodshed: Which Evangelion Ending Wins?",
       "at": "2026-09-24T08:28:42.601294+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "VDNb0HX6TUU",
+      "title": "The Spy Family Secret: Why It\u2019s a Comedy Goldmine, Not a Thriller",
+      "at": "2026-09-24T16:19:45.516501+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18128917139497485",
+      "title": "The Spy Family Secret: Why It\u2019s a Comedy Goldmine, Not a Thriller",
+      "at": "2026-09-24T16:22:30.182356+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1108160368223747",
+      "title": "The Spy Family Secret: Why It\u2019s a Comedy Goldmine, Not a Thriller",
+      "at": "2026-09-24T16:22:35.815007+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "secret_reveal",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "mistake_warning"
   ]
 }
