@@ -12,7 +12,8 @@
     "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model",
     "A tech prototype that was decades ahead of the materials needed to build it",
     "The bizarre origin of a now-universal tech standard",
-    "A hacker trick that exposed a massive security flaw"
+    "A hacker trick that exposed a massive security flaw",
+    "How AirPods quietly became one of Apple's most profitable products"
   ],
   "uploads": [
     {
@@ -218,26 +219,28 @@
       "video_id": "1802130144539974",
       "title": "How a Free Chrome Extension Blew Up Millions' Passwords",
       "at": "2026-09-24T08:23:48.200969+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "oZEbG5ym9Jw",
+      "title": "How Apple Turned AirPods Into a Secret Cash Machine",
+      "at": "2026-09-24T16:15:21.655855+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2629114074173877",
+      "title": "How Apple Turned AirPods Into a Secret Cash Machine",
+      "at": "2026-09-24T16:18:39.643846+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    19193293,
-    20705974,
-    34708314,
-    7850917,
-    8026540,
-    7821861,
-    38410499,
-    6454293,
-    5839005,
-    17808312,
     7224360,
     38979152,
     8375605,
@@ -287,6 +290,16 @@
     16244938,
     5377775,
     7431389,
-    38920360
+    38920360,
+    7198550,
+    7125843,
+    7423951,
+    33314914,
+    5924966,
+    7722399,
+    6565809,
+    7464137,
+    6282309,
+    9130473
   ]
 }
