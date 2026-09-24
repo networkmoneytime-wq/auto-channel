@@ -9,7 +9,8 @@
     "An indie game made by one person that became a massive hit",
     "UPCOMING",
     "The strange reason a game got banned in a country",
-    "A speedrunning trick that breaks a game in a way nobody expected"
+    "A speedrunning trick that breaks a game in a way nobody expected",
+    "The forgotten inventor behind an iconic piece of gaming hardware"
   ],
   "uploads": [
     {
@@ -251,22 +252,34 @@
       "video_id": "1584723966669282",
       "title": "One Frame, Whole Game Crashed \u2013 The Phantom Dive Glitch",
       "at": "2026-09-24T00:07:49.617356+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4p1U9CzSjnw",
+      "title": "The garage-built genius behind the first home gaming console",
+      "at": "2026-09-24T08:16:54.764419+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689012228418340878",
+      "title": "The garage-built genius behind the first home gaming console",
+      "at": "2026-09-24T08:16:56.942727+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2236880290490573",
+      "title": "The garage-built genius behind the first home gaming console",
+      "at": "2026-09-24T08:20:25.086580+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    5780795,
-    4841217,
-    8979494,
-    5909031,
-    14960678,
-    8720756,
     6782206,
     37811796,
     9833954,
@@ -316,6 +329,16 @@
     29255797,
     37264419,
     12715401,
-    38738786
+    38738786,
+    7986649,
+    5708383,
+    35598609,
+    7119463,
+    7812350,
+    4836900,
+    7774955,
+    7688636,
+    4482361,
+    7047789
   ]
 }
