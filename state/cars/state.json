@@ -12,7 +12,8 @@
     "The surprising history of the seatbelt or airbag",
     "A concept car decades ahead of its time",
     "An engine design that shouldn't work but does",
-    "A racing rule that changed the sport forever after one incident"
+    "A racing rule that changed the sport forever after one incident",
+    "The real story behind a famous car commercial stunt"
   ],
   "uploads": [
     {
@@ -290,27 +291,40 @@
       "video_id": "28292440383758251",
       "title": "The Crash That Made NASCAR Rewrite Its Rulebook in Blood",
       "at": "2026-09-24T00:05:40.735770+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "hgw_jBFVAxE",
+      "title": "The BMW M5 Crash You Never Saw \u2013 3 Secret Stunt Hacks",
+      "at": "2026-09-24T08:14:23.630452+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689011261396502541",
+      "title": "The BMW M5 Crash You Never Saw \u2013 3 Secret Stunt Hacks",
+      "at": "2026-09-24T08:14:26.523458+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17972474997125141",
+      "title": "The BMW M5 Crash You Never Saw \u2013 3 Secret Stunt Hacks",
+      "at": "2026-09-24T08:15:00.884396+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1642738317502342",
+      "title": "The BMW M5 Crash You Never Saw \u2013 3 Secret Stunt Hacks",
+      "at": "2026-09-24T08:15:06.956266+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    39014867,
-    12117824,
-    7342157,
-    6005089,
-    34948756,
-    6099572,
-    35604452,
-    36747850,
-    37058648,
-    11573674,
-    35848678,
     3682420,
     5787611,
     13606369,
@@ -359,6 +373,17 @@
     31990456,
     7362635,
     34719410,
-    35585184
+    35585184,
+    26256155,
+    7346384,
+    20523623,
+    16945380,
+    37707306,
+    6520232,
+    28928210,
+    36741982,
+    7924459,
+    5417261,
+    26256156
   ]
 }
