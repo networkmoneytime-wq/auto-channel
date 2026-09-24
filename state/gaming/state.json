@@ -10,7 +10,8 @@
     "UPCOMING",
     "The strange reason a game got banned in a country",
     "A speedrunning trick that breaks a game in a way nobody expected",
-    "The forgotten inventor behind an iconic piece of gaming hardware"
+    "The forgotten inventor behind an iconic piece of gaming hardware",
+    "A gaming controller design that failed for a bizarre reason"
   ],
   "uploads": [
     {
@@ -270,28 +271,40 @@
       "video_id": "2236880290490573",
       "title": "The garage-built genius behind the first home gaming console",
       "at": "2026-09-24T08:20:25.086580+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "erRLlQc3JEY",
+      "title": "Why the X\u2011Force controller literally melted in minutes",
+      "at": "2026-09-24T16:11:44.459700+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689135103592286221",
+      "title": "Why the X\u2011Force controller literally melted in minutes",
+      "at": "2026-09-24T16:11:47.730600+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17903703291578350",
+      "title": "Why the X\u2011Force controller literally melted in minutes",
+      "at": "2026-09-24T16:13:38.889183+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1076946748401406",
+      "title": "Why the X\u2011Force controller literally melted in minutes",
+      "at": "2026-09-24T16:13:43.823154+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "secret_reveal",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    6782206,
-    37811796,
-    9833954,
-    35304590,
-    30175521,
-    8721933,
-    36320055,
-    33314914,
-    7261927,
-    28468924,
-    31997525,
-    36732029,
     37676204,
     6803592,
     32010204,
@@ -339,6 +352,18 @@
     7774955,
     7688636,
     4482361,
-    7047789
+    7047789,
+    8128419,
+    34948751,
+    39031945,
+    7241002,
+    7231303,
+    6754831,
+    5377283,
+    8368662,
+    7579664,
+    6101349,
+    7774567,
+    6090866
   ]
 }
