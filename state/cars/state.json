@@ -13,7 +13,8 @@
     "A concept car decades ahead of its time",
     "An engine design that shouldn't work but does",
     "A racing rule that changed the sport forever after one incident",
-    "The real story behind a famous car commercial stunt"
+    "The real story behind a famous car commercial stunt",
+    "A car culture tradition with a surprising origin"
   ],
   "uploads": [
     {
@@ -315,28 +316,28 @@
       "video_id": "1642738317502342",
       "title": "The BMW M5 Crash You Never Saw \u2013 3 Secret Stunt Hacks",
       "at": "2026-09-24T08:15:06.956266+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "IezTbVTdbd8",
+      "title": "The Crazy Snow-Clearing Origin of Burnouts You Won\u2019t Believe",
+      "at": "2026-09-24T16:05:48.112572+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1698190177952802",
+      "title": "The Crazy Snow-Clearing Origin of Burnouts You Won\u2019t Believe",
+      "at": "2026-09-24T16:09:18.777253+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "list_tease",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    3682420,
-    5787611,
-    13606369,
-    6782216,
-    34952824,
-    6746602,
-    33983174,
-    30173482,
-    2829271,
-    8863362,
-    8828770,
-    37046569,
     37685872,
     39421366,
     19343047,
@@ -384,6 +385,18 @@
     36741982,
     7924459,
     5417261,
-    26256156
+    26256156,
+    5925297,
+    37498846,
+    39140749,
+    10330486,
+    18446622,
+    18436870,
+    9019618,
+    28699808,
+    29908894,
+    35412061,
+    38103847,
+    37667019
   ]
 }
