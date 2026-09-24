@@ -11,7 +11,8 @@
     "How the Apple Watch went from a niche gadget to a serious health device",
     "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model",
     "A tech prototype that was decades ahead of the materials needed to build it",
-    "The bizarre origin of a now-universal tech standard"
+    "The bizarre origin of a now-universal tech standard",
+    "A hacker trick that exposed a massive security flaw"
   ],
   "uploads": [
     {
@@ -199,27 +200,34 @@
       "video_id": "1088164647126225",
       "title": "Why QWERTY Was Designed to Slow You Down (3 Crazy Reasons)",
       "at": "2026-09-24T00:09:59.917110+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ZyephD2Gb-Q",
+      "title": "How a Free Chrome Extension Blew Up Millions' Passwords",
+      "at": "2026-09-24T08:22:24.301629+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18143993569547410",
+      "title": "How a Free Chrome Extension Blew Up Millions' Passwords",
+      "at": "2026-09-24T08:23:40.775549+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1802130144539974",
+      "title": "How a Free Chrome Extension Blew Up Millions' Passwords",
+      "at": "2026-09-24T08:23:48.200969+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6193689,
-    8003604,
-    9490103,
-    6266655,
-    32893127,
-    8640627,
-    28468924,
-    32532951,
-    5961624,
-    39369592,
-    8085499,
     19193293,
     20705974,
     34708314,
@@ -268,6 +276,17 @@
     9655666,
     5083053,
     4551329,
-    6037656
+    6037656,
+    7652809,
+    7131837,
+    18069700,
+    27616843,
+    38993329,
+    39473719,
+    25935024,
+    16244938,
+    5377775,
+    7431389,
+    38920360
   ]
 }
