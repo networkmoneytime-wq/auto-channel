@@ -10,7 +10,8 @@
     "What's actually new about the iPhone 17 Pro's camera system this year",
     "How the Apple Watch went from a niche gadget to a serious health device",
     "What Samsung's newest Galaxy Ultra flagship actually changed from last year's model",
-    "A tech prototype that was decades ahead of the materials needed to build it"
+    "A tech prototype that was decades ahead of the materials needed to build it",
+    "The bizarre origin of a now-universal tech standard"
   ],
   "uploads": [
     {
@@ -180,28 +181,34 @@
       "video_id": "1636026154893751",
       "title": "1970s Prototype Ran on Fusion for an Hour - Sci-Fi or Reality?",
       "at": "2026-09-23T16:16:45.527963+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "80N9YXizYy8",
+      "title": "Why QWERTY Was Designed to Slow You Down (3 Crazy Reasons)",
+      "at": "2026-09-24T00:09:25.520812+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18448194400127445",
+      "title": "Why QWERTY Was Designed to Slow You Down (3 Crazy Reasons)",
+      "at": "2026-09-24T00:09:55.405029+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1088164647126225",
+      "title": "Why QWERTY Was Designed to Slow You Down (3 Crazy Reasons)",
+      "at": "2026-09-24T00:09:59.917110+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6781912,
-    39625006,
-    7216706,
-    7328527,
-    7560165,
-    39623398,
-    6324539,
-    8084859,
-    8326454,
-    7744315,
-    6193603,
-    4773265,
     6193689,
     8003604,
     9490103,
@@ -249,6 +256,18 @@
     6657887,
     8534742,
     7579943,
-    8889195
+    8889195,
+    5647324,
+    9568952,
+    8003418,
+    32259631,
+    7344544,
+    5846454,
+    3945445,
+    7579571,
+    9655666,
+    5083053,
+    4551329,
+    6037656
   ]
 }
