@@ -11,7 +11,8 @@
     "A tiny design flaw that caused a massive recall",
     "The surprising history of the seatbelt or airbag",
     "A concept car decades ahead of its time",
-    "An engine design that shouldn't work but does"
+    "An engine design that shouldn't work but does",
+    "A racing rule that changed the sport forever after one incident"
   ],
   "uploads": [
     {
@@ -265,28 +266,40 @@
       "video_id": "1443335667697033",
       "title": "The Engine That Runs Without a Crankshaft and Still Packs V8 Power",
       "at": "2026-09-23T16:07:44.417102+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "FAWIzYrNHTA",
+      "title": "The Crash That Made NASCAR Rewrite Its Rulebook in Blood",
+      "at": "2026-09-24T00:02:57.095041+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7688885501100640270",
+      "title": "The Crash That Made NASCAR Rewrite Its Rulebook in Blood",
+      "at": "2026-09-24T00:02:59.915605+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17929532025408065",
+      "title": "The Crash That Made NASCAR Rewrite Its Rulebook in Blood",
+      "at": "2026-09-24T00:05:36.161520+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28292440383758251",
+      "title": "The Crash That Made NASCAR Rewrite Its Rulebook in Blood",
+      "at": "2026-09-24T00:05:40.735770+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    37076085,
-    36939850,
-    35853593,
-    35353790,
-    27445075,
-    12152980,
-    34922293,
-    38939027,
-    7438481,
-    10321135,
-    5446379,
-    29681204,
     39014867,
     12117824,
     7342157,
@@ -334,6 +347,18 @@
     16552766,
     34471436,
     35865134,
-    5897669
+    5897669,
+    27972896,
+    18447539,
+    7065835,
+    18446120,
+    18436866,
+    18446506,
+    18436984,
+    8987292,
+    31990456,
+    7362635,
+    34719410,
+    35585184
   ]
 }
