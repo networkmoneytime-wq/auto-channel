@@ -9,7 +9,8 @@
     "Cowboy Bebop|why it's still considered one of the best anime ever made decades later",
     "Jujutsu Kaisen|what makes its power system stand out from other shonen",
     "Hunter x Hunter|why fans consider its arcs some of the best written in anime",
-    "Violet Evergarden|how it tells an emotional story with almost no dialogue"
+    "Violet Evergarden|how it tells an emotional story with almost no dialogue",
+    "Neon Genesis Evangelion|why its ending is still debated decades later"
   ],
   "uploads": [
     {
@@ -149,13 +150,25 @@
       "video_id": "1445871157410292",
       "title": "The Silent Power of Violet Evergarden: 3 Storytelling Tricks",
       "at": "2026-09-24T00:11:46.810701+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "a4jfJfc_Lvw",
+      "title": "From Psychedelic Doodles to Bloodshed: Which Evangelion Ending Wins?",
+      "at": "2026-09-24T08:25:11.320952+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1728367988392545",
+      "title": "From Psychedelic Doodles to Bloodshed: Which Evangelion Ending Wins?",
+      "at": "2026-09-24T08:28:42.601294+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "mistake_warning",
     "secret_reveal",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ]
 }
