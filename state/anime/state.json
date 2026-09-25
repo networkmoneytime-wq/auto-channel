@@ -13,7 +13,8 @@
     "Neon Genesis Evangelion|why its ending is still debated decades later",
     "Spy x Family|what makes its family dynamic work so well as comedy",
     "Vinland Saga|how the story reinvents itself halfway through",
-    "Mob Psycho 100|what makes its animation style so distinct"
+    "Mob Psycho 100|what makes its animation style so distinct",
+    "One Punch Man|the joke at the center of its premise and why it still works"
   ],
   "uploads": [
     {
@@ -219,13 +220,25 @@
       "video_id": "1084603820780821",
       "title": "The Secret Vibe Behind Mob Psycho 100\u2019s Animation",
       "at": "2026-09-25T08:20:50.775686+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "h4AbeCACKZA",
+      "title": "The craziest thing One\u2011Punch Man gets right (and it\u2019s not the fights)",
+      "at": "2026-09-25T16:18:33.668367+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1322744433132883",
+      "title": "The craziest thing One\u2011Punch Man gets right (and it\u2019s not the fights)",
+      "at": "2026-09-25T16:21:58.831457+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "mistake_warning",
     "contrarian_claim",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ]
 }
