@@ -11,7 +11,8 @@
     "The strange reason a game got banned in a country",
     "A speedrunning trick that breaks a game in a way nobody expected",
     "The forgotten inventor behind an iconic piece of gaming hardware",
-    "A gaming controller design that failed for a bizarre reason"
+    "A gaming controller design that failed for a bizarre reason",
+    "An esports moment that shocked an entire arena into silence"
   ],
   "uploads": [
     {
@@ -295,27 +296,40 @@
       "video_id": "1076946748401406",
       "title": "Why the X\u2011Force controller literally melted in minutes",
       "at": "2026-09-24T16:13:43.823154+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sqjEGyNG_70",
+      "title": "When a back\u2011door turned a roaring arena into death\u2011quiet",
+      "at": "2026-09-25T00:05:31.812232+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689257203190712334",
+      "title": "When a back\u2011door turned a roaring arena into death\u2011quiet",
+      "at": "2026-09-25T00:05:34.975324+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18117540202751435",
+      "title": "When a back\u2011door turned a roaring arena into death\u2011quiet",
+      "at": "2026-09-25T00:06:09.820857+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2112246529684912",
+      "title": "When a back\u2011door turned a roaring arena into death\u2011quiet",
+      "at": "2026-09-25T00:06:16.234334+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "mistake_warning",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    37676204,
-    6803592,
-    32010204,
-    11267671,
-    5925297,
-    6781982,
-    7316358,
-    13441334,
-    6590514,
-    5009011,
-    6763336,
     35544498,
     3922465,
     4841869,
@@ -364,6 +378,17 @@
     7579664,
     6101349,
     7774567,
-    6090866
+    6090866,
+    9071009,
+    13641379,
+    37305130,
+    6193690,
+    8128351,
+    7989632,
+    6955103,
+    12330884,
+    6557476,
+    13828580,
+    7005913
   ]
 }
