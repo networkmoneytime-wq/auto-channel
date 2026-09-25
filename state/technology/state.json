@@ -13,7 +13,8 @@
     "A tech prototype that was decades ahead of the materials needed to build it",
     "The bizarre origin of a now-universal tech standard",
     "A hacker trick that exposed a massive security flaw",
-    "How AirPods quietly became one of Apple's most profitable products"
+    "How AirPods quietly became one of Apple's most profitable products",
+    "A gadget that flopped so badly it became a warning story in the industry"
   ],
   "uploads": [
     {
@@ -231,26 +232,34 @@
       "video_id": "2629114074173877",
       "title": "How Apple Turned AirPods Into a Secret Cash Machine",
       "at": "2026-09-24T16:18:39.643846+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "qJUsOFRvYhQ",
+      "title": "Why Amazon\u2019s Fire Phone Sunk Faster Than a Stone",
+      "at": "2026-09-25T00:07:49.130313+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18068669705784862",
+      "title": "Why Amazon\u2019s Fire Phone Sunk Faster Than a Stone",
+      "at": "2026-09-25T00:08:22.666663+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2285428128882645",
+      "title": "Why Amazon\u2019s Fire Phone Sunk Faster Than a Stone",
+      "at": "2026-09-25T00:08:28.366550+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "mistake_warning",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    7224360,
-    38979152,
-    8375605,
-    8375767,
-    5722222,
-    39597264,
-    8088659,
-    33037097,
-    38410498,
-    28311225,
     7108923,
     31679056,
     9008286,
@@ -300,6 +309,16 @@
     6565809,
     7464137,
     6282309,
-    9130473
+    9130473,
+    30871662,
+    25935025,
+    8751433,
+    7989667,
+    38758222,
+    7563824,
+    34354396,
+    18291332,
+    20413409,
+    5054381
   ]
 }
