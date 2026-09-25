@@ -20,7 +20,8 @@
     "A coincidence so improbable that statisticians studied it",
     "A law that is still on the books and sounds absurd today",
     "An invention that was created completely by accident",
-    "A heist that succeeded because of one overlooked detail"
+    "A heist that succeeded because of one overlooked detail",
+    "A person who was declared dead but was actually alive"
   ],
   "uploads": [
     {
@@ -436,25 +437,40 @@
       "video_id": "1417437560527446",
       "title": "How a Forgotten Fire Alarm Switch Fueled the Perfect Heist",
       "at": "2026-09-25T00:27:05.902444+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "iAMPdbog04s",
+      "title": "He Was Declared Dead, Then Came Back to Life\u2014The Real Lazarus Story",
+      "at": "2026-09-25T16:16:00.457515+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689507142801491998",
+      "title": "He Was Declared Dead, Then Came Back to Life\u2014The Real Lazarus Story",
+      "at": "2026-09-25T16:16:02.304332+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18078227444435388",
+      "title": "He Was Declared Dead, Then Came Back to Life\u2014The Real Lazarus Story",
+      "at": "2026-09-25T16:16:34.262187+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4494268394218015",
+      "title": "He Was Declared Dead, Then Came Back to Life\u2014The Real Lazarus Story",
+      "at": "2026-09-25T16:16:40.090776+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "shocking_fact",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    36498394,
-    9806657,
-    31160191,
-    4609472,
-    33863115,
-    7274838,
-    10669155,
-    10384143,
-    4551329,
     35574064,
     39031945,
     16229180,
@@ -505,6 +521,15 @@
     6343936,
     34479398,
     13736548,
-    8370546
+    8370546,
+    15365457,
+    39395899,
+    6687967,
+    8063947,
+    7584601,
+    7088468,
+    7579338,
+    8716996,
+    28144992
   ]
 }
