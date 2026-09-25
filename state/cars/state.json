@@ -16,7 +16,8 @@
     "The real story behind a famous car commercial stunt",
     "A car culture tradition with a surprising origin",
     "An electric vehicle myth that turns out to be true",
-    "A junkyard find that turned out to be worth a fortune"
+    "A junkyard find that turned out to be worth a fortune",
+    "The engineering behind how a car survives a crash test"
   ],
   "uploads": [
     {
@@ -378,27 +379,34 @@
       "video_id": "1611178450358816",
       "title": "Junkyard Find Turns Out to Be a Lost 1963 Ferrari 250 GTO Chassis",
       "at": "2026-09-25T08:14:06.345847+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "LgzHyZGoFDU",
+      "title": "The Secret Choreography Behind Car Crash Tests",
+      "at": "2026-09-25T16:04:48.038695+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689504466701305869",
+      "title": "The Secret Choreography Behind Car Crash Tests",
+      "at": "2026-09-25T16:04:50.448912+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1789389995673067",
+      "title": "The Secret Choreography Behind Car Crash Tests",
+      "at": "2026-09-25T16:08:11.411871+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "list_tease",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    34536746,
-    16552766,
-    34471436,
-    35865134,
-    5897669,
-    27972896,
-    18447539,
-    7065835,
-    18446120,
-    18436866,
-    18446506,
     18436984,
     8987292,
     31990456,
@@ -447,6 +455,17 @@
     7647335,
     39445383,
     37518976,
-    7464137
+    7464137,
+    26083304,
+    36635883,
+    28863649,
+    32085485,
+    28153193,
+    37651089,
+    35078039,
+    10326491,
+    38826674,
+    12601920,
+    8627749
   ]
 }
