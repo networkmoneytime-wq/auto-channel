@@ -14,7 +14,8 @@
     "An engine design that shouldn't work but does",
     "A racing rule that changed the sport forever after one incident",
     "The real story behind a famous car commercial stunt",
-    "A car culture tradition with a surprising origin"
+    "A car culture tradition with a surprising origin",
+    "An electric vehicle myth that turns out to be true"
   ],
   "uploads": [
     {
@@ -328,25 +329,40 @@
       "video_id": "1698190177952802",
       "title": "The Crazy Snow-Clearing Origin of Burnouts You Won\u2019t Believe",
       "at": "2026-09-24T16:09:18.777253+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "zdClHzNHmlU",
+      "title": "Plug Your EV In While Heating\u2014Boost Your Winter Range!",
+      "at": "2026-09-25T00:03:07.182165+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689256676046981133",
+      "title": "Plug Your EV In While Heating\u2014Boost Your Winter Range!",
+      "at": "2026-09-25T00:03:09.884714+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18234297472321764",
+      "title": "Plug Your EV In While Heating\u2014Boost Your Winter Range!",
+      "at": "2026-09-25T00:03:41.426441+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28295363236757091",
+      "title": "Plug Your EV In While Heating\u2014Boost Your Winter Range!",
+      "at": "2026-09-25T00:03:48.538728+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "question_hook",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    37685872,
-    39421366,
-    19343047,
-    28915909,
-    37418962,
-    28153193,
-    36597060,
-    32779590,
-    27374367,
     34279547,
     9617189,
     27668895,
@@ -397,6 +413,15 @@
     29908894,
     35412061,
     38103847,
-    37667019
+    37667019,
+    9790187,
+    8628283,
+    7688135,
+    18446021,
+    36474525,
+    6115070,
+    35815439,
+    8724226,
+    36793242
   ]
 }
