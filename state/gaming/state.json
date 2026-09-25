@@ -12,7 +12,8 @@
     "A speedrunning trick that breaks a game in a way nobody expected",
     "The forgotten inventor behind an iconic piece of gaming hardware",
     "A gaming controller design that failed for a bizarre reason",
-    "An esports moment that shocked an entire arena into silence"
+    "An esports moment that shocked an entire arena into silence",
+    "A game feature cut so late it left ghost data in the final release"
   ],
   "uploads": [
     {
@@ -320,26 +321,40 @@
       "video_id": "2112246529684912",
       "title": "When a back\u2011door turned a roaring arena into death\u2011quiet",
       "at": "2026-09-25T00:06:16.234334+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "d_vRVf7PoEA",
+      "title": "3 Ghostly Game Glitches Left Behind After a Last-Minute Cut",
+      "at": "2026-09-25T08:15:42.059244+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689383241031256078",
+      "title": "3 Ghostly Game Glitches Left Behind After a Last-Minute Cut",
+      "at": "2026-09-25T08:15:44.692401+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18074816480755465",
+      "title": "3 Ghostly Game Glitches Left Behind After a Last-Minute Cut",
+      "at": "2026-09-25T08:16:18.130936+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1406575530874337",
+      "title": "3 Ghostly Game Glitches Left Behind After a Last-Minute Cut",
+      "at": "2026-09-25T08:16:22.037369+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "list_tease",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    35544498,
-    3922465,
-    4841869,
-    6755162,
-    36302381,
-    8128031,
-    34056841,
-    34280527,
-    8005844,
-    31636965,
     12330936,
     9466137,
     7790830,
@@ -389,6 +404,16 @@
     12330884,
     6557476,
     13828580,
-    7005913
+    7005913,
+    8128417,
+    8128420,
+    18069700,
+    32025592,
+    5377532,
+    7821861,
+    7230788,
+    5801349,
+    7616839,
+    8128502
   ]
 }
