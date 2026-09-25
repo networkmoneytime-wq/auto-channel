@@ -1,0 +1,71 @@
+name: smoke-brainrot-sources
+
+# Manual-only check that every curated gameplay-backdrop video in
+# src/pipeline/brainrot.py can actually be fetched from a GitHub runner
+# (datacenter IPs are the ones YouTube most often bot-blocks), and at what
+# resolution. Nothing is uploaded and no secrets are used.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Try every background source
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python - <<'EOF'
+          import subprocess, tempfile
+          from pathlib import Path
+          from src.pipeline import yt_clip
+          from src.pipeline.brainrot import BACKGROUND_VIDEOS
+
+          print("yt-dlp version:", subprocess.run(["yt-dlp", "--version"], capture_output=True, text=True).stdout.strip())
+
+          def probe(p):
+              out = subprocess.run(
+                  ["ffprobe", "-v", "error", "-select_streams", "v:0",
+                   "-show_entries", "stream=width,height,codec_name:format=duration,size",
+                   "-of", "default=nw=1", str(p)],
+                  capture_output=True, text=True)
+              return out.stdout.replace("\n", " ").strip()
+
+          ALT = "bv*[height<=1080]+ba/b[height<=1080]/b"
+
+          def try_alt(video_id):
+              with tempfile.TemporaryDirectory() as tmp:
+                  dest = Path(tmp) / "c.mp4"
+                  r = subprocess.run(
+                      ["yt-dlp", "--download-sections", "*300-315", "-f", ALT,
+                       "--merge-output-format", "mp4", "-o", str(dest),
+                       "--no-playlist", f"https://www.youtube.com/watch?v={video_id}"],
+                      capture_output=True, text=True, timeout=300)
+                  if r.returncode != 0 or not dest.exists():
+                      return "FAILED: " + (r.stderr or r.stdout)[-400:].replace("\n", " ")
+                  return probe(dest)
+
+          current_ok = alt_ok = 0
+          for video_id, _length in BACKGROUND_VIDEOS:
+              with tempfile.TemporaryDirectory() as tmp:
+                  dest = Path(tmp) / "clip.mp4"
+                  good = yt_clip.fetch_clip(video_id, dest, start=300, duration=15)
+                  print(f"[current fmt] {video_id}: {good} {probe(dest) if good else ''}")
+                  current_ok += bool(good)
+              alt = try_alt(video_id)
+              print(f"[alt fmt]     {video_id}: {alt}")
+              alt_ok += not alt.startswith("FAILED")
+          print(f"SUMMARY: current format {current_ok}/{len(BACKGROUND_VIDEOS)}, alt format {alt_ok}/{len(BACKGROUND_VIDEOS)}")
+          EOF
