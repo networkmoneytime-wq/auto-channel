@@ -15,7 +15,8 @@
     "A racing rule that changed the sport forever after one incident",
     "The real story behind a famous car commercial stunt",
     "A car culture tradition with a surprising origin",
-    "An electric vehicle myth that turns out to be true"
+    "An electric vehicle myth that turns out to be true",
+    "A junkyard find that turned out to be worth a fortune"
   ],
   "uploads": [
     {
@@ -353,27 +354,40 @@
       "video_id": "28295363236757091",
       "title": "Plug Your EV In While Heating\u2014Boost Your Winter Range!",
       "at": "2026-09-25T00:03:48.538728+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "d0RkrrM63JU",
+      "title": "Junkyard Find Turns Out to Be a Lost 1963 Ferrari 250 GTO Chassis",
+      "at": "2026-09-25T08:13:23.888640+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689382656907298830",
+      "title": "Junkyard Find Turns Out to Be a Lost 1963 Ferrari 250 GTO Chassis",
+      "at": "2026-09-25T08:13:26.449983+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17937488178382339",
+      "title": "Junkyard Find Turns Out to Be a Lost 1963 Ferrari 250 GTO Chassis",
+      "at": "2026-09-25T08:14:01.134333+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1611178450358816",
+      "title": "Junkyard Find Turns Out to Be a Lost 1963 Ferrari 250 GTO Chassis",
+      "at": "2026-09-25T08:14:06.345847+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "shocking_fact",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    34279547,
-    9617189,
-    27668895,
-    30225108,
-    34948755,
-    7180367,
-    38668744,
-    6872465,
-    6566841,
-    6424088,
-    4547603,
     34536746,
     16552766,
     34471436,
@@ -422,6 +436,17 @@
     6115070,
     35815439,
     8724226,
-    36793242
+    36793242,
+    7118125,
+    8987455,
+    12892439,
+    34174958,
+    27563638,
+    38938856,
+    7581334,
+    7647335,
+    39445383,
+    37518976,
+    7464137
   ]
 }
