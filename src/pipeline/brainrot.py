@@ -20,16 +20,19 @@ from __future__ import annotations
 import random
 
 # Chosen by eyeballing Pexels' actual portrait results for each query, not by
-# guessing: these all came back hypnotic and vertical. Queries that sounded
-# right but returned people posing or off-topic clips ("domino", "marble
-# run", "video game", "kinetic sand") were dropped.
+# guessing: these all came back hypnotic, vertical, and frame-filling.
+# Queries that sounded right but returned people posing, off-topic clips, or
+# mostly-empty frames ("domino", "marble run", "video game", "kinetic sand",
+# "colorful liquid" -- ink clouds on black, confirmed on a dry run) were
+# dropped; "kaleidoscope" and "light trails" were hit-or-miss.
 BACKDROP_QUERIES = [
     "neon tunnel",
     "slime",
     "car drifting",
     "parkour",
-    "colorful liquid",
+    "fluid art",
     "arcade",
+    "glitter",
 ]
 
 
