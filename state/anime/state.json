@@ -12,7 +12,8 @@
     "Violet Evergarden|how it tells an emotional story with almost no dialogue",
     "Neon Genesis Evangelion|why its ending is still debated decades later",
     "Spy x Family|what makes its family dynamic work so well as comedy",
-    "Vinland Saga|how the story reinvents itself halfway through"
+    "Vinland Saga|how the story reinvents itself halfway through",
+    "Mob Psycho 100|what makes its animation style so distinct"
   ],
   "uploads": [
     {
@@ -200,13 +201,31 @@
       "video_id": "2096928694521378",
       "title": "Vinland Saga's Mid\u2011Series Shift Will Blow Your Mind",
       "at": "2026-09-25T00:11:07.387842+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "tMmtseRlX9U",
+      "title": "The Secret Vibe Behind Mob Psycho 100\u2019s Animation",
+      "at": "2026-09-25T08:20:09.284235+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17966754498168082",
+      "title": "The Secret Vibe Behind Mob Psycho 100\u2019s Animation",
+      "at": "2026-09-25T08:20:46.000480+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1084603820780821",
+      "title": "The Secret Vibe Behind Mob Psycho 100\u2019s Animation",
+      "at": "2026-09-25T08:20:50.775686+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "shocking_fact",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ]
 }
