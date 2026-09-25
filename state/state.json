@@ -19,7 +19,8 @@
     "A world record that was broken in the most unexpected way",
     "A coincidence so improbable that statisticians studied it",
     "A law that is still on the books and sounds absurd today",
-    "An invention that was created completely by accident"
+    "An invention that was created completely by accident",
+    "A heist that succeeded because of one overlooked detail"
   ],
   "uploads": [
     {
@@ -411,14 +412,38 @@
       "video_id": "2037053360278026",
       "title": "Accidental Inventions: Sticky Notes, Microwaves & a Life\u2011Saving Pacemaker",
       "at": "2026-09-24T16:17:31.468327+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sgK5wGViiYE",
+      "title": "How a Forgotten Fire Alarm Switch Fueled the Perfect Heist",
+      "at": "2026-09-25T00:26:23.252414+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689262355192023070",
+      "title": "How a Forgotten Fire Alarm Switch Fueled the Perfect Heist",
+      "at": "2026-09-25T00:26:25.359828+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18394125409200720",
+      "title": "How a Forgotten Fire Alarm Switch Fueled the Perfect Heist",
+      "at": "2026-09-25T00:27:01.125500+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1417437560527446",
+      "title": "How a Forgotten Fire Alarm Switch Fueled the Perfect Heist",
+      "at": "2026-09-25T00:27:05.902444+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "question_hook",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
     36498394,
@@ -471,6 +496,15 @@
     36460608,
     27444586,
     8460286,
-    33643950
+    33643950,
+    6473961,
+    8544030,
+    8134891,
+    35502214,
+    5054376,
+    6343936,
+    34479398,
+    13736548,
+    8370546
   ]
 }
