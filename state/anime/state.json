@@ -11,7 +11,8 @@
     "Hunter x Hunter|why fans consider its arcs some of the best written in anime",
     "Violet Evergarden|how it tells an emotional story with almost no dialogue",
     "Neon Genesis Evangelion|why its ending is still debated decades later",
-    "Spy x Family|what makes its family dynamic work so well as comedy"
+    "Spy x Family|what makes its family dynamic work so well as comedy",
+    "Vinland Saga|how the story reinvents itself halfway through"
   ],
   "uploads": [
     {
@@ -181,13 +182,31 @@
       "video_id": "1108160368223747",
       "title": "The Spy Family Secret: Why It\u2019s a Comedy Goldmine, Not a Thriller",
       "at": "2026-09-24T16:22:35.815007+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "S2pqlioWImA",
+      "title": "Vinland Saga's Mid\u2011Series Shift Will Blow Your Mind",
+      "at": "2026-09-25T00:10:26.850387+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18155341753509497",
+      "title": "Vinland Saga's Mid\u2011Series Shift Will Blow Your Mind",
+      "at": "2026-09-25T00:11:03.394025+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2096928694521378",
+      "title": "Vinland Saga's Mid\u2011Series Shift Will Blow Your Mind",
+      "at": "2026-09-25T00:11:07.387842+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "list_tease",
     "shocking_fact",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ]
 }
