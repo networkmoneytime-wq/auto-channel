@@ -14,7 +14,8 @@
     "The bizarre origin of a now-universal tech standard",
     "A hacker trick that exposed a massive security flaw",
     "How AirPods quietly became one of Apple's most profitable products",
-    "A gadget that flopped so badly it became a warning story in the industry"
+    "A gadget that flopped so badly it became a warning story in the industry",
+    "The surprising physical limit engineers are racing against in chip design"
   ],
   "uploads": [
     {
@@ -250,28 +251,34 @@
       "video_id": "2285428128882645",
       "title": "Why Amazon\u2019s Fire Phone Sunk Faster Than a Stone",
       "at": "2026-09-25T00:08:28.366550+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "PREpxhm3-b4",
+      "title": "Why Chip Design Hits the Universe\u2019s Speed Limit",
+      "at": "2026-09-25T08:17:53.700120+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18128329867758987",
+      "title": "Why Chip Design Hits the Universe\u2019s Speed Limit",
+      "at": "2026-09-25T08:18:32.319651+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1464931529034173",
+      "title": "Why Chip Design Hits the Universe\u2019s Speed Limit",
+      "at": "2026-09-25T08:18:37.927900+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "contrarian_claim",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    7108923,
-    31679056,
-    9008286,
-    7680774,
-    5924999,
-    30056318,
-    7646402,
-    9618378,
-    34516347,
-    39014670,
-    35844883,
-    35844883,
     35195175,
     6657887,
     8534742,
@@ -319,6 +326,18 @@
     34354396,
     18291332,
     20413409,
-    5054381
+    5054381,
+    15439741,
+    30974188,
+    39107672,
+    34909984,
+    36175909,
+    6755162,
+    6755168,
+    5973871,
+    28733290,
+    16456773,
+    18069803,
+    37291451
   ]
 }
