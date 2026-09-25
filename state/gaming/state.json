@@ -13,7 +13,8 @@
     "The forgotten inventor behind an iconic piece of gaming hardware",
     "A gaming controller design that failed for a bizarre reason",
     "An esports moment that shocked an entire arena into silence",
-    "A game feature cut so late it left ghost data in the final release"
+    "A game feature cut so late it left ghost data in the final release",
+    "The real-world event that inspired a beloved game's story"
   ],
   "uploads": [
     {
@@ -345,26 +346,34 @@
       "video_id": "1406575530874337",
       "title": "3 Ghostly Game Glitches Left Behind After a Last-Minute Cut",
       "at": "2026-09-25T08:16:22.037369+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sWLF5T5GoH4",
+      "title": "The Real Zombie Ant Fungus That Inspired The Last of Us",
+      "at": "2026-09-25T16:10:22.368995+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689505894811371534",
+      "title": "The Real Zombie Ant Fungus That Inspired The Last of Us",
+      "at": "2026-09-25T16:10:25.184752+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1612532604000905",
+      "title": "The Real Zombie Ant Fungus That Inspired The Last of Us",
+      "at": "2026-09-25T16:13:44.349323+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    12330936,
-    9466137,
-    7790830,
-    19577833,
-    18503908,
-    8688209,
-    7095854,
-    9070658,
-    7223609,
-    12715390,
     37617738,
     29269016,
     28344369,
@@ -414,6 +423,16 @@
     7230788,
     5801349,
     7616839,
-    8128502
+    8128502,
+    31985648,
+    11876031,
+    9407407,
+    27451037,
+    39411825,
+    6132601,
+    19922398,
+    8326454,
+    29295613,
+    24801124
   ]
 }
