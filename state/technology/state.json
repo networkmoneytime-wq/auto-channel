@@ -15,7 +15,8 @@
     "A hacker trick that exposed a massive security flaw",
     "How AirPods quietly became one of Apple's most profitable products",
     "A gadget that flopped so badly it became a warning story in the industry",
-    "The surprising physical limit engineers are racing against in chip design"
+    "The surprising physical limit engineers are racing against in chip design",
+    "A tech patent war that changed an entire industry"
   ],
   "uploads": [
     {
@@ -269,26 +270,34 @@
       "video_id": "1464931529034173",
       "title": "Why Chip Design Hits the Universe\u2019s Speed Limit",
       "at": "2026-09-25T08:18:37.927900+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "BEF_UMD6c00",
+      "title": "How a Tiny Patent Flipped an Entire Industry",
+      "at": "2026-09-25T16:15:10.674707+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18005065136989745",
+      "title": "How a Tiny Patent Flipped an Entire Industry",
+      "at": "2026-09-25T16:17:07.902712+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1123986266976715",
+      "title": "How a Tiny Patent Flipped an Entire Industry",
+      "at": "2026-09-25T16:17:12.669295+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "question_hook",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    35195175,
-    6657887,
-    8534742,
-    7579943,
-    8889195,
-    5647324,
-    9568952,
-    8003418,
-    32259631,
-    7344544,
     5846454,
     3945445,
     7579571,
@@ -338,6 +347,16 @@
     28733290,
     16456773,
     18069803,
-    37291451
+    37291451,
+    8731320,
+    8721933,
+    18069095,
+    5495901,
+    34535552,
+    3946031,
+    35529017,
+    5716222,
+    35206144,
+    8819435
   ]
 }
