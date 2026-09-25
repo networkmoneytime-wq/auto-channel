@@ -1,6 +1,6 @@
 import random
 from pathlib import Path
-from urllib.parse import parse_qsl, unquote
+from urllib.parse import unquote
 
 import requests
 
@@ -24,6 +24,10 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
     recent_ids = set(state.get("recent_clip_ids", []))
     used_ids = []
     used_wikipedia = False
+    # Off for channels whose keywords are decorative rather than about the
+    # script's subject (the meme channel's "slime"/"arcade" backdrops) --
+    # matching those to a Wikipedia article's photo would be a wrong match.
+    use_wikipedia = config["visuals"].get("wikipedia", True)
 
     for i, keyword in enumerate(keywords):
         # A beat naming a specific real person/place/thing (e.g. "the Super
@@ -32,8 +36,9 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
         # first, and only fall back to stock footage when there's no
         # confident real-world match (an abstract/generic beat like "hands
         # typing" won't resolve to a specific article, which is correct).
-        wiki_photo = wikipedia.real_photo_for(keyword)
-        print(f"[visuals] {keyword!r}: {'wikipedia hit' if wiki_photo else 'no wikipedia match, using stock'}")
+        wiki_photo = wikipedia.real_photo_for(keyword) if use_wikipedia else None
+        if use_wikipedia:
+            print(f"[visuals] {keyword!r}: {'wikipedia hit' if wiki_photo else 'no wikipedia match, using stock'}")
         if wiki_photo:
             dest = out_dir / f"clip_{i}.jpg"
             try:
@@ -90,12 +95,8 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
     preserve the real one. Two special, non-plain-URL forms get routed to a
     dedicated fetcher instead of a raw download, since neither is a simple
     file: a Steam trailer's ".m3u8" is a streaming manifest, not a video
-    file, and "youtube-clip://<id>[?start=N&duration=N]" is a marker (see
-    anilist.trailer_marker and brainrot.random_background_marker) naming a
-    specific YouTube video rather than a URL at all -- the optional query
-    string overrides fetch_clip's default 6-second trailer-length clip for
-    callers that want a longer segment (a brainrot background clip needs to
-    cover the whole narration, not just a few seconds). A third form,
+    file, and "youtube-clip://<id>" is a marker (see anilist.trailer_marker)
+    naming a specific YouTube video rather than a URL at all. A third form,
     "ai-image://<url-encoded prompt>", isn't sourced from anywhere at all --
     it's rendered on demand by image_gen (Cloudflare Workers AI), the one
     deliberately-AI-generated visual in this project; see script_gen_meme.py
@@ -103,11 +104,8 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
     paths = []
     for i, url in enumerate(urls):
         if url.startswith("youtube-clip://"):
-            video_id, _, query = url.removeprefix("youtube-clip://").partition("?")
-            params = dict(parse_qsl(query))
-            kwargs = {k: int(v) for k, v in params.items() if k in ("start", "duration")}
             dest = out_dir / f"media_{i}.mp4"
-            if yt_clip.fetch_clip(video_id, dest, **kwargs):
+            if yt_clip.fetch_clip(url.removeprefix("youtube-clip://"), dest):
                 paths.append(dest)
             continue
 

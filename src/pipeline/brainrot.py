@@ -1,33 +1,47 @@
-"""Background "brainrot"-style gameplay footage: a continuous, hyperstimulating
-clip (Subway Surfers, Minecraft parkour, ...) running under narration and
-burned captions -- the format's whole visual is this one decorative clip, not
-tied to what the script is about. Real gameplay footage, same risk profile
-already taken on for gaming/anime trailers (see src/pipeline/yt_clip.py) --
-pulled from long compilations their own uploaders titled for reuse ("free to
-use" / "no copyright"), sampled at a random offset each run so a handful of
-source videos still produce a lot of visual variety."""
+"""Decorative "brainrot"-style backdrop for the meme channel's plain-topic
+format: hypnotic, high-motion vertical stock footage (neon tunnels, slime,
+car drifting, parkour...) cutting under narration and burned captions. The
+visual is background texture, never tied to what the script says, so there's
+no per-script keyword search -- just a rotation of queries that reliably
+return eye-holding footage.
+
+This replaced an earlier design that pulled real gameplay compilations
+(Subway Surfers, Minecraft parkour) via yt-dlp. Abandoned 2026-09-25:
+YouTube answers GitHub-hosted runners with "Sign in to confirm you're not a
+bot" for every video (confirmed by a manual CI run of all five curated
+sources, both format strings), and even from a residential IP the stream
+URLs get cut off after ~20 MB without a PO token, so there was no reliable
+way to fetch the footage at run time or to pre-cut it once. Pexels is
+already integrated and its license needs no attribution. If real gameplay is
+ever wanted again, the clean path is footage the owner records themselves."""
 
 from __future__ import annotations
 
 import random
 
-# (video_id, length_seconds) -- long compilations, verified real and each
-# titled by its own uploader as free/no-copyright for reuse. Easy to extend;
-# add more (video_id, length) pairs as they're found.
-BACKGROUND_VIDEOS = [
-    ("zZ7AimPACzc", 59 * 60),  # Subway surfers 1 hour gameplay, no commentary, free to use
-    ("L_fcrOyoWZ8", 66 * 60),  # Subway Surfers compilation, 1 hour HD
-    ("vTfD20dbxho", 126 * 60),  # Subway Surfers compilation, 2 hours HD
-    ("iKggOfcKM28", 62 * 60),  # Subway Surfers gameplay, no copyright, 4K, 1 hour
-    ("85z7jqGAGcc", 149 * 60),  # Minecraft parkour gameplay, no copyright, 2 hours
+# Chosen by eyeballing Pexels' actual portrait results for each query, not by
+# guessing: these all came back hypnotic and vertical. Queries that sounded
+# right but returned people posing or off-topic clips ("domino", "marble
+# run", "video game", "kinetic sand") were dropped.
+BACKDROP_QUERIES = [
+    "neon tunnel",
+    "slime",
+    "car drifting",
+    "parkour",
+    "colorful liquid",
+    "arcade",
 ]
 
 
-def random_background_marker(duration: int) -> str:
-    """A "youtube-clip://" marker (see visuals.download_media) for a random
-    offset into a random background video, long enough to cover `duration`
-    seconds of narration with room to spare."""
-    video_id, length = random.choice(BACKGROUND_VIDEOS)
-    latest_start = max(0, length - duration - 10)
-    start = random.randint(0, latest_start) if latest_start > 0 else 0
-    return f"youtube-clip://{video_id}?start={start}&duration={duration}"
+def backdrop_keywords(n: int) -> list[str]:
+    """`n` decorative visual keywords, drawn in shuffled passes over the whole
+    list so a query doesn't repeat until every other one has been used (and
+    never twice in a row, including across the seam between two passes)."""
+    keywords: list[str] = []
+    while len(keywords) < n:
+        cycle = BACKDROP_QUERIES[:]
+        random.shuffle(cycle)
+        if keywords and cycle[0] == keywords[-1]:
+            cycle[0], cycle[-1] = cycle[-1], cycle[0]
+        keywords.extend(cycle)
+    return keywords[:n]

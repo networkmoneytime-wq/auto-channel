@@ -1,4 +1,4 @@
-niche: "meme/comedy shorts: relatable observations and short funny stories over gameplay-backdrop (brainrot) footage"
+niche: "meme/comedy shorts: relatable observations and short funny stories over hypnotic backdrop footage, plus deadpan spotlights on real Italian Brainrot characters"
 
 video:
   width: 1080
@@ -16,8 +16,8 @@ tts:
   rate: "+4%"
 
 visuals:
-  provider: "brainrot"
   orientation: "portrait"
+  wikipedia: false
 
 platforms:
   youtube:
@@ -27,6 +27,6 @@ platforms:
   tiktok:
     enabled: false
   instagram:
-    enabled: true
+    enabled: false # no Instagram account yet -- flip on once IG_ACCESS_TOKEN_MEME / IG_USER_ID_MEME exist
   facebook:
     enabled: true

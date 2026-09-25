@@ -2,11 +2,12 @@
 # Plain lines: angles/prompts for the LLM to write an original funny script
 # from -- not things to quote or repost. Keep them relatable/observational,
 # not "did you know" facts (that's every other channel's job). These get a
-# gameplay-backdrop (brainrot) visual.
-# The literal line "AI_CHARACTER" triggers the other format: an invented
-# Italian-Brainrot-style surreal creature, narrated deadpan, with its own
-# AI-generated character art (the one deliberately-AI-generated visual in
-# this project -- see script_gen_meme.py for why).
+# hypnotic stock-footage backdrop (see brainrot.py).
+# The literal line "AI_CHARACTER" triggers the other format: a deadpan
+# spotlight on one of the real, established Italian Brainrot characters in
+# brainrot_characters.py, with its own AI-generated character art (the one
+# deliberately-AI-generated visual in this project -- see script_gen_meme.py
+# for why).
 
 The specific way everyone lies about being "on my way"
 That one friend who narrates their own life like a documentary

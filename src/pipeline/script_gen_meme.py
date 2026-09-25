@@ -1,11 +1,11 @@
 """Script generation for the meme channel, which rotates two formats:
 
-- Plain topics (from topics.txt): gameplay-backdrop "brainrot" -- an LLM-
-  written joke/observation narration with a continuous, unrelated
-  hyperstimulating gameplay clip (Subway Surfers, Minecraft parkour, ...)
-  running underneath, via src/pipeline/brainrot.py. The visual is decorative
-  background, never tied to the script's content, so there's no keyword
-  search or grounding step here -- just comedy writing.
+- Plain topics (from topics.txt): "brainrot" backdrop -- an LLM-written
+  joke/observation narration over hypnotic, unrelated stock footage (neon
+  tunnels, slime, car drifting, ...) via src/pipeline/brainrot.py. The
+  visual is decorative background, never tied to the script's content, so
+  there's no grounding step here -- just comedy writing plus a rotation of
+  backdrop keywords for the standard Pexels fetch.
 - The literal topic "AI_CHARACTER": a spotlight on one of the real, already-
   popular Italian Brainrot characters in src/pipeline/brainrot_characters.py
   (Tralalero Tralala, Tung Tung Tung Sahur, ...) -- narration grounded in
@@ -23,7 +23,7 @@
 import random
 from urllib.parse import quote
 
-from src.pipeline.brainrot import random_background_marker
+from src.pipeline.brainrot import backdrop_keywords
 from src.pipeline.brainrot_characters import CHARACTERS
 from src.pipeline.llm import chat_json
 
@@ -93,10 +93,10 @@ def generate_meme_content(topic: str, config: dict, state: dict) -> dict:
     if word_count > 250:
         raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
+    # 12 cuts: at ~3.2-3.8s each that covers the 70-110 word (30-45s)
+    # narration without any clip running past the config's max_clip_sec.
     return {
         "script": result["script"],
-        "media_urls": [random_background_marker(duration=60)],
-        "visual_mode": "media",
+        "visual_keywords": backdrop_keywords(12),
         "hook_id": None,
-        "attribution": "Background gameplay via public compilation footage",
     }
