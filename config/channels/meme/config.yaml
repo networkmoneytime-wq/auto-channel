@@ -12,7 +12,7 @@ llm:
   model: "openai/gpt-oss-120b"
 
 tts:
-  voice: "en-US-JasonNeural"
+  voice: "en-US-BrianNeural"
   rate: "+4%"
 
 visuals:
