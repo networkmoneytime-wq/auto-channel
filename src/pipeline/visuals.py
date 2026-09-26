@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import random
 from pathlib import Path
 from urllib.parse import unquote
@@ -17,48 +19,100 @@ def _stream_download(url: str, dest: Path) -> None:
                 f.write(chunk)
 
 
-def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -> tuple[list[Path], bool]:
+def _subject_gallery(subject: str | None) -> list[tuple[str, str]]:
+    """(thumbnail URL, credit line) for up to 4 free photos from the Wikipedia
+    article the topic's subject names, or [] when it names no article. The
+    topic lines are written "Named thing: what happened", so the subject is
+    everything before the colon."""
+    if not subject:
+        return []
+    title = wikipedia.subject_article(subject)
+    if not title:
+        print(f"[visuals] subject {subject!r}: no Wikipedia article by that name")
+        return []
+    urls = wikipedia.article_photo_urls(title, limit=6)
+    keys = [wikipedia.file_key(u) for u in urls]
+    credits = wikipedia.credits_for([k for k in keys if k])
+    gallery = [(u, credits[k]) for u, k in zip(urls, keys) if k and credits.get(k)]
+    print(f"[visuals] subject {subject!r}: article {title!r}, {len(gallery[:4])} usable photos of {len(urls)}")
+    return gallery[:4]
+
+
+def fetch_clips(
+    keywords: list[str], config: dict, out_dir: Path, state: dict, subject: str | None = None
+) -> tuple[list[Path], list[str]]:
+    """One visual per keyword. Returns the clip paths and a credit line for
+    every Wikimedia Commons photo used (empty when none were)."""
     orientation = config["visuals"].get("orientation", "portrait")
     headers = {"Authorization": env("PEXELS_API_KEY")}
     clip_paths = []
     recent_ids = set(state.get("recent_clip_ids", []))
     used_ids = []
-    used_wikipedia = False
+    credits = []
+    used_files = set()
     # Off for channels whose keywords are decorative rather than about the
     # script's subject (the meme channel's "slime"/"arcade" backdrops) --
     # matching those to a Wikipedia article's photo would be a wrong match.
     use_wikipedia = config["visuals"].get("wikipedia", True)
-    used_photos = set()
+
+    # Real photos of what the video is about, spread over the video (beats 0, 2,
+    # 5, 8 in a 11-beat script) so the subject is on screen from the first
+    # second and comes back, with stock footage between.
+    try:
+        gallery = _subject_gallery(subject) if use_wikipedia else []
+    except Exception as e:  # photos are a bonus, never worth losing the video over
+        print(f"[visuals] subject photos failed: {e!r}")
+        gallery = []
+    slots = {int(j * len(keywords) / len(gallery)): gallery[j] for j in range(len(gallery))} if gallery else {}
+
+    def place_photo(thumb_url: str, credit: str | None, i: int) -> bool:
+        key = wikipedia.file_key(thumb_url)
+        if not key or key in used_files:
+            return False
+        if credit is None:
+            credit = wikipedia.credits_for([key]).get(key) if key else None
+            if not credit:
+                return False
+        photo = wikipedia.download_photo(thumb_url, out_dir / f"clip_{i}")
+        if not photo:
+            return False
+        clip_paths.append(photo)
+        used_files.add(key)
+        credits.append(credit)
+        return True
 
     for i, keyword in enumerate(keywords):
-        # A beat naming a specific real person/place/thing (e.g. "the Super
-        # Bowl") should show that actual thing, not an arbitrary stock clip
-        # that merely matches the keyword — try a real Wikipedia photo of it
-        # first, and only fall back to stock footage when there's no
-        # confident real-world match (a generic beat like "hands typing" isn't
-        # a name, so it never gets a lookup, which is correct). Every outcome
-        # is logged as what actually happened: this used to log "wikipedia hit"
-        # for a photo whose download then failed, and the fallback to stock
-        # was silent, so the whole feature looked fine while doing nothing.
+        # "Name | plain stock term": a beat that names a real person, place or
+        # thing gets a real photo of it, and the stock term is what to show if
+        # there is no free photo. A bare keyword is just a stock search term.
+        name, _, fallback = keyword.partition("|")
+        name, fallback = name.strip(), fallback.strip()
+        stock_query = fallback or name
+
+        # Every outcome is logged as what actually happened: this used to log
+        # "wikipedia hit" for a photo whose download then failed, and the
+        # fallback to stock was silent, so the whole feature looked fine while
+        # doing nothing.
         if use_wikipedia:
-            photo_url, detail = wikipedia.find_photo(keyword)
-            if photo_url and photo_url in used_photos:
-                photo_url, detail = None, "that photo is already in this video"
-            if photo_url:
-                photo = wikipedia.download_photo(photo_url, out_dir / f"clip_{i}")
-                if photo:
-                    print(f"[visuals] {keyword!r}: wikipedia photo of {detail!r}")
-                    clip_paths.append(photo)
-                    used_photos.add(photo_url)
-                    used_wikipedia = True
+            try:
+                if i in slots and place_photo(slots[i][0], slots[i][1], i):
+                    print(f"[visuals] beat {i}: real photo of the subject")
                     continue
-                detail = f"photo of {detail!r} would not download"
-            print(f"[visuals] {keyword!r}: stock footage ({detail})")
+                photo_url, detail = wikipedia.find_photo(name)
+                if photo_url:
+                    if place_photo(photo_url, None, i):
+                        print(f"[visuals] {name!r}: wikipedia photo of {detail!r}")
+                        continue
+                    detail = f"photo of {detail!r} unusable (used already, license, or download)"
+                if wikipedia.looks_like_a_name(name):
+                    print(f"[visuals] {name!r}: stock {stock_query!r} ({detail})")
+            except Exception as e:  # photos are a bonus, never worth losing the video over
+                print(f"[visuals] {name!r}: wikipedia step failed ({e!r}), using stock")
 
         resp = requests.get(
             "https://api.pexels.com/videos/search",
             headers=headers,
-            params={"query": keyword, "orientation": orientation, "per_page": 15},
+            params={"query": stock_query, "orientation": orientation, "per_page": 15},
             timeout=30,
         )
         resp.raise_for_status()
@@ -72,8 +126,10 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
         # for an account to read as generic/automated. Picking randomly among
         # the top matches spreads runs across different real footage, and
         # skipping clips this channel posted recently (tracked in state)
-        # stops the same specific clip resurfacing video after video.
-        pool = videos[: min(8, len(videos))]
+        # stops the same specific clip resurfacing video after video. Only the
+        # top 5, though: further down Pexels' ranking is mostly loose matches
+        # ("gull wing doors" -> seagulls, "countdown graphic" -> a New Year sign).
+        pool = videos[: min(5, len(videos))]
         fresh = [v for v in pool if v["id"] not in recent_ids]
         chosen = random.choice(fresh or pool)
         used_ids.append(chosen["id"])
@@ -90,7 +146,7 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
     if not clip_paths:
         raise RuntimeError("No stock clips found for any visual keyword")
     mark_clips_used(state, used_ids)
-    return clip_paths, used_wikipedia
+    return clip_paths, credits
 
 
 def download_media(urls: list[str], out_dir: Path) -> list[Path]:

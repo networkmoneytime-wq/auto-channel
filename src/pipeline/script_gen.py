@@ -33,14 +33,17 @@ notebook" beats "idea concept". Terms like "success", "innovation", \
 "teamwork", "concept", or "background" reliably pull generic staged corporate \
 stock — avoid them entirely; describe what's actually visible in the shot \
 instead.
-  - Exception: when the topic is a specific real thing (an event, product, \
-person, place, vehicle, or animal), use up to 4 beats for real photos of it or \
-of a real person, place, or object directly tied to it. Write that item's real \
-name in Proper Case, the way its Wikipedia article is titled ("Great Molasses \
-Flood", "Amazon Fire Phone", "Hedy Lamarr", "McLaren F1", "Voyager 1"); a real \
-photo of exactly that gets looked up. Only name things you are sure exist, name \
-each one at most once, and put the name on the beat where the script mentions \
-it. Every other beat is a lowercase stock-footage term, as above."""
+  - Write each term as something a stock library would tag literally. Never use \
+a word whose everyday meaning differs from what you intend: "gull wing doors" \
+finds seagulls, "flux" finds lightning, a film's title finds a school kid. Say \
+what the shot looks like instead ("car door opening upward").
+  - Exception: when the script names a specific real person, place, product, or \
+object, use that beat for a real photo of it. Write the item's real name in \
+Proper Case, the way its Wikipedia article is titled, then " | " and a plain \
+lowercase stock term to fall back on if there's no free photo of it: \
+"Hedy Lamarr | woman at desk", "Voyager 1 | spacecraft in space", "Boston | city \
+street". Use at most 4 such beats, only for things you are sure exist, and name \
+each one once. Every other beat is a plain lowercase stock term, as above."""
 
 
 def generate_script(topic: str, config: dict, state: dict) -> dict:

@@ -19,9 +19,28 @@ no explaining the topic. Then 3-5 relevant hashtags on their own after it.
 - "hashtags": a list of 4-6 hashtags (with # symbol, for TikTok/Instagram)"""
 
 
+# The model likes typographic punctuation, and its non-breaking hyphens
+# (U+2011) turned "Pac-Man" into "Pac‑Man" in live titles. That is a different
+# string to a search box, and titles that name the subject are only worth
+# something if people can type the name and find them.
+_PLAIN = str.maketrans({
+    "‐": "-", "‑": "-", "‒": "-", "–": "-", "—": " - ", "−": "-",
+    "‘": "'", "’": "'", "“": '"', "”": '"', " ": " ",
+})
+
+
+def _plain(value):
+    if isinstance(value, str):
+        return value.translate(_PLAIN)
+    if isinstance(value, list):
+        return [_plain(v) for v in value]
+    return value
+
+
 def generate_metadata(script: str, config: dict) -> dict:
     result = chat_json(SYSTEM, f"Script:\n{script}", model=config["llm"]["model"])
     for key in ("title", "description", "tags", "hashtags"):
         if key not in result:
             raise ValueError(f"Unexpected metadata response shape: {result}")
+        result[key] = _plain(result[key])
     return result

@@ -16,11 +16,19 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
+from urllib.parse import quote, unquote
 
 import requests
 
 SEARCH_URL = "https://en.wikipedia.org/w/rest.php/v1/search/page"
+MEDIA_LIST_URL = "https://en.wikipedia.org/api/rest_v1/page/media-list/{title}"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 HEADERS = {"User-Agent": "auto-channel/1.0 (https://github.com/networkmoneytime-wq/auto-channel)"}
+
+# Licenses this project will show: public domain, CC0, CC BY and CC BY-SA. The
+# last two need credit, which credits_for() builds. Commons holds only free
+# media, but GFDL-only and similar files would need more than a credit line.
+_USABLE_LICENSE = re.compile(r"^(public domain|pd\b|cc0|cc[ -]by(?:[ -]sa)?\b)", re.I)
 
 # Wikimedia only serves a fixed set of thumbnail widths (asking for 1080px or
 # 640px is an HTTP 400), and answers 403 to any request without a descriptive
@@ -118,21 +126,119 @@ def find_photo(keyword: str) -> tuple[str | None, str]:
     return None, f"article {named[0]['title']!r} has no free photo"
 
 
+def file_key(url: str) -> str | None:
+    """The Commons file name in a thumbnail or original URL
+    ("BostonMolassesDisaster.jpg"), which identifies a photo across sizes."""
+    m = re.search(r"/wikipedia/commons/(?:thumb/)?[0-9a-f]/[0-9a-f]{2}/([^/?]+)", url)
+    return unquote(m.group(1)) if m else None
+
+
+def subject_article(subject: str) -> str | None:
+    """Title of the article a topic's subject names ("The Great Molasses Flood
+    of 1919" -> "Great Molasses Flood"), or None if it isn't a name or no
+    article matches. Same strictness as find_photo."""
+    if not looks_like_a_name(subject):
+        return None
+    try:
+        for page in search(subject, limit=3):
+            if names_article(subject, page.get("title", "")):
+                return page["title"]
+    except requests.RequestException as e:
+        print(f"[wikipedia] search failed for {subject!r}: {e}")
+    return None
+
+
+def article_photo_urls(title: str, limit: int = 6) -> list[str]:
+    """Thumbnail URLs of the free photos in the article `title`, in article
+    order with the lead image first. Skips vector files, logos, flags, maps and
+    diagrams, and anything not hosted on Commons."""
+    try:
+        resp = requests.get(MEDIA_LIST_URL.format(title=quote(title.replace(" ", "_"), safe="")), headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        items = resp.json().get("items", [])
+    except (requests.RequestException, ValueError) as e:
+        print(f"[wikipedia] media list failed for {title!r}: {e}")
+        return []
+    items.sort(key=lambda it: not it.get("leadImage"))  # stable: lead first, rest in article order
+    urls = []
+    for it in items:
+        if it.get("type") != "image" or not it.get("srcset"):
+            continue
+        src = it["srcset"][0]["src"]
+        url = "https:" + src if src.startswith("//") else src
+        name = file_key(url)
+        if not name or not re.search(r"\.(jpe?g|png)$", name, re.I) or _NOT_A_PHOTO.search(name):
+            continue
+        urls.append(url)
+    return urls[:limit]
+
+
+def credits_for(keys: list[str]) -> dict[str, str | None]:
+    """{file name: credit line} for each Commons file whose license this
+    project can show, and None for the ones it can't (or can't confirm). The
+    line is what goes in the video's description: CC BY and CC BY-SA require
+    the author and license to be named, and naming public-domain sources too
+    costs nothing."""
+    result: dict[str, str | None] = {k: None for k in keys}
+    if not keys:
+        return result
+    try:
+        resp = requests.get(
+            COMMONS_API,
+            params={
+                "action": "query", "format": "json", "formatversion": 2, "prop": "imageinfo",
+                "iiprop": "extmetadata", "titles": "|".join("File:" + k for k in keys),
+            },
+            headers=HEADERS,
+            timeout=20,
+        )
+        resp.raise_for_status()
+        pages = resp.json()["query"]["pages"]
+    except (requests.RequestException, ValueError, KeyError) as e:
+        print(f"[wikipedia] license lookup failed: {e}")
+        return result
+    by_name = {k.replace("_", " "): k for k in keys}
+    for page in pages:
+        key = by_name.get(page.get("title", "").removeprefix("File:").replace("_", " "))
+        meta = (page.get("imageinfo") or [{}])[0].get("extmetadata", {})
+        licence = (meta.get("LicenseShortName", {}).get("value") or "").strip()
+        if key is None or not _USABLE_LICENSE.match(licence):
+            continue
+        artist = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", meta.get("Artist", {}).get("value") or "")).strip()
+        artist = re.sub(r"(?i)\bunknown( author)?\b|\bnot specified\b", "", artist).strip(" ,;")
+        result[key] = f"{key.rsplit('.', 1)[0].replace('_', ' ')}: {artist + ', ' if artist else ''}{licence}"
+    return result
+
+
 def download_photo(thumb_url: str, dest_stem: Path) -> Path | None:
-    """Saves a real-sized copy of `thumb_url` (a search thumbnail) next to
+    """Saves a real-sized copy of `thumb_url` (a Commons thumbnail URL) next to
     `dest_stem`, with the extension its content type calls for, and returns
     the path — or None after printing why it failed. (This step used to fail
     silently for every photo: no User-Agent -> 403, and the 1080px width it
-    asked for is not one Wikimedia serves -> 400.)"""
+    asked for is not one Wikimedia serves -> 400.) A file narrower than the
+    smallest standard width is only served as the original, so that is the
+    last thing tried."""
     last = "no attempt"
-    for width in THUMB_WIDTHS:
-        url = re.sub(r"/\d+px-", f"/{width}px-", thumb_url, count=1)
+    bare = thumb_url.split("?")[0]
+    original = re.sub(r"/thumb/([0-9a-f]/[0-9a-f]{2}/[^/]+)/[^/]+$", r"/\1", bare)
+    original = original.replace("://thumb.wikimedia.org/", "://upload.wikimedia.org/")
+    candidates = [re.sub(r"/\d+px-", f"/{w}px-", thumb_url, count=1) for w in THUMB_WIDTHS]
+    if original != bare:
+        candidates.append(original)
+    for label, url in zip([*(f"{w}px" for w in THUMB_WIDTHS), "original"], candidates):
         try:
             with requests.get(url, headers=HEADERS, stream=True, timeout=30) as r:
+                content_type = r.headers.get("content-type", "")
                 if r.status_code != 200:
-                    last = f"HTTP {r.status_code} at {width}px"
+                    last = f"HTTP {r.status_code} at {label}"
                     continue
-                ext = ".png" if "png" in r.headers.get("content-type", "") else ".jpg"
+                if not (content_type.startswith("image/jpeg") or content_type.startswith("image/png")):
+                    last = f"{content_type or 'unknown type'} at {label}"
+                    continue
+                if int(r.headers.get("content-length") or 0) > 25_000_000:
+                    last = f"{label} is over 25 MB"
+                    continue
+                ext = ".png" if "png" in content_type else ".jpg"
                 dest = dest_stem.with_suffix(ext)
                 with open(dest, "wb") as f:
                     for chunk in r.iter_content(chunk_size=1 << 16):
