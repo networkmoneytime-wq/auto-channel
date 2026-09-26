@@ -16,6 +16,7 @@
     "Mob Psycho 100|what makes its animation style so distinct",
     "One Punch Man|the joke at the center of its premise and why it still works",
     "Made in Abyss|why its cute art style hides one of anime's darkest stories",
+    "Attack on Titan|the moment the true scale of the story is revealed",
     "Attack on Titan|the moment the true scale of the story is revealed"
   ],
   "uploads": [
@@ -270,13 +271,25 @@
       "video_id": "1065518799590467",
       "title": "When the Walls Crumble: Attack on Titan\u2019s Game\u2011Changing Moment",
       "at": "2026-09-26T08:23:05.631197+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "heO3T8qpXHM",
+      "title": "The Attack on Titan Fact That Sounds Impossible (But Is Real)",
+      "at": "2026-09-26T16:14:34.493858+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1718678399218584",
+      "title": "The Attack on Titan Fact That Sounds Impossible (But Is Real)",
+      "at": "2026-09-26T16:17:47.457636+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "secret_reveal",
     "list_tease",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ]
 }
