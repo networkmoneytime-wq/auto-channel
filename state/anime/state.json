@@ -17,7 +17,8 @@
     "One Punch Man|the joke at the center of its premise and why it still works",
     "Made in Abyss|why its cute art style hides one of anime's darkest stories",
     "Attack on Titan|the moment the true scale of the story is revealed",
-    "Attack on Titan|the moment the true scale of the story is revealed"
+    "Attack on Titan|the moment the true scale of the story is revealed",
+    "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon"
   ],
   "uploads": [
     {
@@ -283,13 +284,31 @@
       "video_id": "1718678399218584",
       "title": "The Attack on Titan Fact That Sounds Impossible (But Is Real)",
       "at": "2026-09-26T16:17:47.457636+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Mt-oEElifgI",
+      "title": "How a Teen\u2019s Train Ride Turned Demon Slayer: Mugen Train into a $500M Phenomenon",
+      "at": "2026-09-26T22:22:24.937593+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17993989560045423",
+      "title": "How a Teen\u2019s Train Ride Turned Demon Slayer: Mugen Train into a $500M Phenomenon",
+      "at": "2026-09-26T22:22:56.333248+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1271671138418739",
+      "title": "How a Teen\u2019s Train Ride Turned Demon Slayer: Mugen Train into a $500M Phenomenon",
+      "at": "2026-09-26T22:23:02.610675+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "shocking_fact",
     "secret_reveal",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ]
 }
