@@ -16,7 +16,8 @@
     "How AirPods quietly became one of Apple's most profitable products",
     "A gadget that flopped so badly it became a warning story in the industry",
     "The surprising physical limit engineers are racing against in chip design",
-    "A tech patent war that changed an entire industry"
+    "A tech patent war that changed an entire industry",
+    "What changed about the Galaxy Z Fold since foldable phones first launched"
   ],
   "uploads": [
     {
@@ -288,25 +289,34 @@
       "video_id": "1123986266976715",
       "title": "How a Tiny Patent Flipped an Entire Industry",
       "at": "2026-09-25T16:17:12.669295+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "fQyiXlAWVeY",
+      "title": "7 Mind\u2011Blowing Evolutions of the Galaxy Z Fold (Last One Will Shock You)",
+      "at": "2026-09-26T00:07:42.784464+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18098576882544659",
+      "title": "7 Mind\u2011Blowing Evolutions of the Galaxy Z Fold (Last One Will Shock You)",
+      "at": "2026-09-26T00:09:03.733272+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1521842763320271",
+      "title": "7 Mind\u2011Blowing Evolutions of the Galaxy Z Fold (Last One Will Shock You)",
+      "at": "2026-09-26T00:09:08.775724+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "shocking_fact",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    5846454,
-    3945445,
-    7579571,
-    9655666,
-    5083053,
-    4551329,
-    6037656,
-    7652809,
-    7131837,
     18069700,
     27616843,
     38993329,
@@ -357,6 +367,15 @@
     35529017,
     5716222,
     35206144,
-    8819435
+    8819435,
+    5965060,
+    2828884,
+    7224360,
+    18516736,
+    18130530,
+    8195369,
+    6177022,
+    16657013,
+    35272570
   ]
 }
