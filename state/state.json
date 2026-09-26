@@ -23,7 +23,8 @@
     "A heist that succeeded because of one overlooked detail",
     "A person who was declared dead but was actually alive",
     "An animal migration that defies normal biological explanation",
-    "A place on Earth that is nearly impossible to survive in, yet people do"
+    "A place on Earth that is nearly impossible to survive in, yet people do",
+    "The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston"
   ],
   "uploads": [
     {
@@ -505,27 +506,40 @@
       "video_id": "2074158043186137",
       "title": "Inside Earth\u2019s Hottest Desert Where People Walk Barefoot in Acidic Springs",
       "at": "2026-09-26T16:15:51.528554+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "qu1hwwvZfog",
+      "title": "Boston\u2019s 1919 Molasses Flood: 3 Facts You\u2019ve Never Heard",
+      "at": "2026-09-26T22:13:55.003496+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689970405347493919",
+      "title": "Boston\u2019s 1919 Molasses Flood: 3 Facts You\u2019ve Never Heard",
+      "at": "2026-09-26T22:13:57.262497+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18032780642669928",
+      "title": "Boston\u2019s 1919 Molasses Flood: 3 Facts You\u2019ve Never Heard",
+      "at": "2026-09-26T22:14:37.588096+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2311673049372829",
+      "title": "Boston\u2019s 1919 Molasses Flood: 3 Facts You\u2019ve Never Heard",
+      "at": "2026-09-26T22:14:42.504661+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "question_hook",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    8135783,
-    38567783,
-    8352854,
-    10482312,
-    3304282,
-    6101306,
-    36641401,
-    6214895,
-    8724213,
-    31259979,
-    8381526,
     31259979,
     4985361,
     6575898,
@@ -574,6 +588,17 @@
     30546876,
     36108441,
     36295881,
-    9354644
+    9354644,
+    19597637,
+    35799050,
+    27700492,
+    6200841,
+    5905281,
+    11490092,
+    5930433,
+    26757162,
+    6101348,
+    34913017,
+    6866463
   ]
 }
