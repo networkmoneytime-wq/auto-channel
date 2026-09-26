@@ -17,7 +17,8 @@
     "A gadget that flopped so badly it became a warning story in the industry",
     "The surprising physical limit engineers are racing against in chip design",
     "A tech patent war that changed an entire industry",
-    "What changed about the Galaxy Z Fold since foldable phones first launched"
+    "What changed about the Galaxy Z Fold since foldable phones first launched",
+    "The strange history of how a common tech symbol or icon was designed"
   ],
   "uploads": [
     {
@@ -307,27 +308,34 @@
       "video_id": "1521842763320271",
       "title": "7 Mind\u2011Blowing Evolutions of the Galaxy Z Fold (Last One Will Shock You)",
       "at": "2026-09-26T00:09:08.775724+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "PeEOI5JrsMg",
+      "title": "The Secret Code Behind the Power Button Revealed",
+      "at": "2026-09-26T08:18:18.438324+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17918479689244508",
+      "title": "The Secret Code Behind the Power Button Revealed",
+      "at": "2026-09-26T08:20:51.325915+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1298574156681451",
+      "title": "The Secret Code Behind the Power Button Revealed",
+      "at": "2026-09-26T08:20:57.168552+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    18069700,
-    27616843,
-    38993329,
-    39473719,
-    25935024,
-    16244938,
-    5377775,
-    7431389,
-    38920360,
-    7198550,
-    7125843,
     7423951,
     33314914,
     5924966,
@@ -376,6 +384,17 @@
     8195369,
     6177022,
     16657013,
-    35272570
+    35272570,
+    35475885,
+    5698953,
+    4788410,
+    6996768,
+    5841707,
+    39055628,
+    5638359,
+    25397941,
+    8516989,
+    6962433,
+    3625774
   ]
 }
