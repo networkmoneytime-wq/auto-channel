@@ -16,7 +16,8 @@
     "A game feature cut so late it left ghost data in the final release",
     "The real-world event that inspired a beloved game's story",
     "A piece of gaming hardware banned from competitions for being too good",
-    "The surprising origin of a gaming catchphrase or meme"
+    "The surprising origin of a gaming catchphrase or meme",
+    "A prototype console that never left the lab"
   ],
   "uploads": [
     {
@@ -414,28 +415,40 @@
       "video_id": "2994926257527214",
       "title": "From a Game Salute to the Global \u2018Press\u202fF\u2019 Meme",
       "at": "2026-09-26T08:17:05.879326+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "N7oY7ermHws",
+      "title": "The Console That Builds Its Own Haptic Suit \u2013 5 Unbelievable Features",
+      "at": "2026-09-26T16:06:48.170085+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689876005649074190",
+      "title": "The Console That Builds Its Own Haptic Suit \u2013 5 Unbelievable Features",
+      "at": "2026-09-26T16:06:50.734284+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18105732398093048",
+      "title": "The Console That Builds Its Own Haptic Suit \u2013 5 Unbelievable Features",
+      "at": "2026-09-26T16:09:58.984392+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1820562558940041",
+      "title": "The Console That Builds Its Own Haptic Suit \u2013 5 Unbelievable Features",
+      "at": "2026-09-26T16:10:04.459317+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "shocking_fact",
     "contrarian_claim",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    7241002,
-    7231303,
-    6754831,
-    5377283,
-    8368662,
-    7579664,
-    6101349,
-    7774567,
-    6090866,
-    9071009,
-    13641379,
-    37305130,
     6193690,
     8128351,
     7989632,
@@ -483,6 +496,18 @@
     3694908,
     34385703,
     8816986,
-    6586070
+    6586070,
+    12715402,
+    30276831,
+    15101188,
+    6755168,
+    7914797,
+    9070658,
+    8369956,
+    7423947,
+    39361700,
+    9794864,
+    10527011,
+    7855727
   ]
 }
