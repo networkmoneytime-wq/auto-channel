@@ -18,7 +18,8 @@
     "An electric vehicle myth that turns out to be true",
     "A junkyard find that turned out to be worth a fortune",
     "The engineering behind how a car survives a crash test",
-    "A road or highway with a bizarre origin story"
+    "A road or highway with a bizarre origin story",
+    "A manufacturing process that builds a car in under a minute"
   ],
   "uploads": [
     {
@@ -422,25 +423,40 @@
       "video_id": "1300501122100527",
       "title": "The Highway That Was a Spy Plane Runway - You Won\u2019t Believe the Secrets",
       "at": "2026-09-26T00:04:05.401206+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "LFhf4UmVXAY",
+      "title": "How Cars Are Built in One Minute: Factory\u2011Scale 3D Printing",
+      "at": "2026-09-26T08:13:47.323827+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689753948239972365",
+      "title": "How Cars Are Built in One Minute: Factory\u2011Scale 3D Printing",
+      "at": "2026-09-26T08:13:49.233638+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18130810396772846",
+      "title": "How Cars Are Built in One Minute: Factory\u2011Scale 3D Printing",
+      "at": "2026-09-26T08:14:26.854624+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1122412353649862",
+      "title": "How Cars Are Built in One Minute: Factory\u2011Scale 3D Printing",
+      "at": "2026-09-26T08:14:31.680212+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "shocking_fact",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7924459,
-    5417261,
-    26256156,
-    5925297,
-    37498846,
-    39140749,
-    10330486,
-    18446622,
-    18436870,
     9019618,
     28699808,
     29908894,
@@ -491,6 +507,15 @@
     35138809,
     13024020,
     37184247,
-    28988136
+    28988136,
+    34948758,
+    35598609,
+    8328101,
+    7949695,
+    39733708,
+    29669602,
+    6782216,
+    35897445,
+    13358188
   ]
 }
