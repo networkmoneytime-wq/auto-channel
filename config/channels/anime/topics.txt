@@ -2,24 +2,76 @@
 # anime (title is looked up on AniList, so use the exact/common English title),
 # or the literal line "UPCOMING" for a roundup of real, currently-announced
 # upcoming anime pulled live from AniList. Lines starting with # are ignored.
-
-Attack on Titan|the moment the true scale of the story is revealed
-Death Note|the psychological battle at the heart of the series
-Fullmetal Alchemist: Brotherhood|what makes the brothers' journey so emotionally devastating
+# When every line has been used, the one used longest ago goes next.
+#
+# Reworked 2026-09-26. The old list had 16 distinct titles, so it ran out and
+# the channel was stuck re-posting Attack on Titan. The videos that did best
+# were about famous, named shows with a concrete hook (Violet Evergarden,
+# Demon Slayer, One Punch Man); the worst dropped the show's name or used a
+# vague angle. So: more titles people actually search for, and angles that
+# name the thing. Keep the show's name in the angle.
+Demon Slayer|how the Mugen Train movie turned into a box office phenomenon
+Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about
+Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen
 UPCOMING
-Demon Slayer|why the animation direction became a genre benchmark
-Steins;Gate|how the story turns a slow burn into an emotional gut punch
-Cowboy Bebop|why it's still considered one of the best anime ever made decades later
+Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit
+Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans
+One Piece|how One Piece has kept fans hooked for more than 25 years
+Naruto|how a rejected ninja kid became one of anime's biggest icons
+Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels
+Bleach|why the Soul Society arc made Bleach fans obsessed
+Death Note|the mind games between Light and L that define Death Note
+Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime
+Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew
 UPCOMING
-Jujutsu Kaisen|what makes its power system stand out from other shonen
-Hunter x Hunter|why fans consider its arcs some of the best written in anime
-Violet Evergarden|how it tells an emotional story with almost no dialogue
+Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece
+My Hero Academia|why My Hero Academia's take on superheroes struck a chord
+Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping
+Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy
+Cowboy Bebop|why Cowboy Bebop still feels ahead of its time
+Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated
+Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass
+Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe
 UPCOMING
-Neon Genesis Evangelion|why its ending is still debated decades later
-Spy x Family|what makes its family dynamic work so well as comedy
-Vinland Saga|how the story reinvents itself halfway through
+Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai
+Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers
+KonoSuba|how KonoSuba turned isekai cliches into comedy
+Spy x Family|what makes Spy x Family's fake-family premise work as comedy
+Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else
+One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man
+Vinland Saga|how Vinland Saga reinvents itself halfway through
+Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories
 UPCOMING
-Mob Psycho 100|what makes its animation style so distinct
-One Punch Man|the joke at the center of its premise and why it still works
-Made in Abyss|why its cute art style hides one of anime's darkest stories
+Violet Evergarden|how Violet Evergarden tells an emotional story with letters
+Dandadan|how Dandadan mashes aliens and ghosts into one story
+Kaiju No. 8|how a man in his thirties becomes a monster-fighting hero in Kaiju No. 8
+Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days
+Blue Lock|how Blue Lock turns soccer into a battle royale
+Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry
+Oshi no Ko|how the first episode of Oshi no Ko changes everything
 UPCOMING
+Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite
+Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy
+Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science
+Fire Force|the world where firefighters battle infernal beings in Fire Force
+Black Clover|the boy with no magic in a world of magic in Black Clover
+Toradora!|why Toradora! is remembered as one of the best romcoms
+Your Lie in April|the music and grief at the heart of Your Lie in April
+UPCOMING
+Clannad|why fans say Clannad is the anime that made them cry
+Monster|the psychological hunt for a killer doctor in Monster
+Berserk|why the 1997 Berserk series still haunts fans
+Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi
+Akira|how Akira changed animation
+Spirited Away|why Spirited Away became a landmark film
+Your Name.|how Your Name.'s body-swap story became a global hit
+A Silent Voice|the redemption story about bullying in A Silent Voice
+UPCOMING
+Perfect Blue|why Perfect Blue's psychological thriller influenced Hollywood
+Princess Mononoke|the clash between nature and industry in Princess Mononoke
+Fate/Zero|how the Holy Grail War becomes a dark tragedy in Fate/Zero
+Mushoku Tensei: Jobless Reincarnation|why Mushoku Tensei is called the isekai that raised the bar
+The Apothecary Diaries|how a poison-savvy servant becomes a palace detective in The Apothecary Diaries
+Delicious in Dungeon|how cooking monsters became a beloved fantasy in Delicious in Dungeon
+Kaguya-sama: Love Is War|why the battle of pride in Kaguya-sama: Love Is War is so funny
+Assassination Classroom|the tentacled monster who teaches the class in Assassination Classroom

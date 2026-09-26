@@ -2,7 +2,10 @@ from src.pipeline.llm import chat_json
 
 SYSTEM = """You write social media metadata for a short-form video. Given the \
 narration script, output strict JSON with keys:
-- "title": punchy, curiosity-driven, under 90 characters, no hashtags
+- "title": punchy, curiosity-driven, under 90 characters, no hashtags. If the \
+script is about a specific named subject (a show, game, car, device, person, or \
+event), the title must name it: people search for the name, and a vague stand-in \
+like "a 1998 space western" or "a certain phone" gets no clicks
 - "description": a short caption for the post itself, in the voice of someone \
 reacting to the video, not explaining it. One line, under 100 characters, before \
 the hashtags. Cute/funny/deadpan over informative — think of how a real person \

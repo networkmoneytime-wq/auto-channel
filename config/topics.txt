@@ -1,54 +1,70 @@
 # One topic/prompt per line. The pipeline picks an unused one each run
-# and asks the LLM to turn it into a ~40-second narrated script.
-# Lines starting with # are ignored.
-
-A bizarre true fact about deep sea creatures that sounds fake but isn't
-A historical event that sounds fictional but really happened
-A psychological trick that changes how people perceive time
-An everyday object with a surprising hidden origin story
-A space fact that makes the universe feel unsettlingly large
-A survival story of someone who beat impossible odds
-A common belief that is scientifically wrong
-A tiny decision in history that changed the world by accident
-An animal with an ability that seems like a superpower
-A mystery that was unsolved for decades and how it was finally cracked
-A war that was ended or started by an absurdly small mistake
-A con artist whose scheme was so bold it seems fictional
-An ancient civilization technology that shouldn't have been possible yet
-A natural phenomenon that looks fake but is completely real
-A disease outbreak with a cause so strange doctors almost missed it
-An explorer's expedition that went catastrophically, unbelievably wrong
-A world record that was broken in the most unexpected way
-A coincidence so improbable that statisticians studied it
-A law that is still on the books and sounds absurd today
-An invention that was created completely by accident
-A heist that succeeded because of one overlooked detail
-A person who was declared dead but was actually alive
-An animal migration that defies normal biological explanation
-A place on Earth that is nearly impossible to survive in, yet people do
-A code or cipher that took generations to finally break
-A food that was once considered poisonous but is now a staple
-An ordinary person whose one decision changed millions of lives
-A scientific experiment that had a completely unexpected result
-A shipwreck that was found in the most unlikely way
-A royal family scandal that sounds too strange to be true
-A prisoner who escaped using an ingenious, almost unbelievable method
-An optical illusion in nature that fools even experts
-A body part or biological function science still can't fully explain
-A time capsule that revealed something shocking decades later
-A city that vanished or was abandoned under mysterious circumstances
-A superstition that turned out to have a surprising grain of truth
-An athlete who overcame a disadvantage thought to be impossible
-A weather event so extreme it broke scientific models
-A language or communication system that seems almost too clever to be human
-A forgotten inventor who never got credit for a world-changing idea
-An underwater discovery that rewrote what we knew about history
-A psychological experiment with results too strange to believe
-A tiny country or micronation with a bizarre origin story
-An animal that was thought extinct and then reappeared
-A famous painting or artifact with a hidden secret inside it
-A space mission that almost failed but was saved in a wild way
-A number or mathematical fact that breaks people's intuition
-A cultural tradition that started for a reason nobody expects
-A criminal investigation cracked by a strange coincidence
-A natural disaster survival story that defies the odds
+# and asks the LLM to turn it into a ~40-second narrated script. Lines starting
+# with # are ignored. When every line has been used, the one used longest ago
+# goes next.
+#
+# Reworked 2026-09-26. The first 24 videos ran on vague prompts ("a place on
+# Earth that is nearly impossible to survive in") and averaged 7 YouTube views;
+# the channels that took off (cars, gaming) got videos about a specific, named
+# thing with stakes. So every line here names one real, well-documented story,
+# person, place, or animal and gives the twist, and the visuals get to search
+# for that exact thing instead of generic stock footage.
+The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston
+The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop
+The Great Emu War of 1932: when Australian soldiers with machine guns took on the emus
+Operation Mincemeat: the corpse with fake papers that fooled the Nazis
+The Cadaver Synod: the trial of a dead pope
+Tsutomu Yamaguchi: the man who survived both atomic bombs
+Victor Lustig: the con artist who sold the Eiffel Tower twice
+Emperor Norton: the San Francisco man who declared himself Emperor of the United States
+The Carrington Event of 1859: the solar storm that set telegraph offices on fire
+Phineas Gage: the railroad worker who survived an iron rod through his skull
+The Tunguska event of 1908: the Siberian blast that flattened millions of trees
+The Mary Celeste: the ship found sailing with nobody aboard
+Typhoid Mary: the cook who spread disease without ever feeling sick
+The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land
+The Antikythera mechanism: the ancient Greek device that worked like a computer
+The Wow! signal: the 72-second radio burst from space that nobody has explained
+D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished
+The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow
+The Voynich Manuscript: the illustrated book nobody in the world can read
+The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky
+The Great Stink of London: the summer that forced Parliament to build the sewers
+Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended
+The Piltdown Man: the fossil hoax that fooled scientists for 40 years
+The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig
+The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river
+Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew
+The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post
+The Tsar Bomba: the most powerful bomb ever detonated
+The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes
+Hachiko: the dog who waited at a train station for nine years
+The Kola Superdeep Borehole: the deepest hole humans ever drilled
+China's Great Sparrow Campaign: the war on sparrows that backfired
+The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs
+Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying
+Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters
+The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein
+The Gimli Glider: the airliner that ran out of fuel and landed on a race track
+The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later
+Krakatoa in 1883: the loudest sound in recorded history
+The plague village of Eyam: the English town that sealed itself off to protect its neighbors
+Shackleton's Endurance expedition: the polar disaster where every man came home
+Juan Pujol Garcia: the double agent who fooled Hitler about D-Day
+Ada Lovelace: the woman who wrote the first computer program before computers existed
+Sealand: the tiny micronation on an abandoned World War II sea fort
+The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell
+The immortal jellyfish: the animal that can reverse its own aging
+Tardigrades: the microscopic animals that survived the vacuum of space
+The Greenland shark: the fish that may live for centuries
+Pando: the forest that is actually one single organism
+The sailing stones of Death Valley: the rocks that move on their own
+Blood Falls in Antarctica: the waterfall that pours red
+The Svalbard Global Seed Vault: the doomsday vault buried in an Arctic mountain
+The Nazca Lines: the giant drawings only visible from the sky
+The mimic octopus: the animal that impersonates other creatures
+The Great Blue Hole: the giant underwater sinkhole off Belize
+The Terracotta Army: the thousands of clay soldiers buried to guard an emperor
+Marie Curie's notebooks: the papers still radioactive after more than a century
+Apollo 11's forgotten backup speech: the words prepared in case the astronauts were stranded on the Moon
+The Winchester Mystery House: the mansion that kept being built for decades

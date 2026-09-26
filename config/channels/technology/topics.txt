@@ -1,27 +1,63 @@
-# One topic/prompt per line. Lines starting with # are ignored.
-
-A piece of tech that was declassified decades after it was built
-The engineer who invented something world-changing and got no credit
-A tech company's first product that had nothing to do with what they're known for
+# One topic/prompt per line. Lines starting with # are ignored. When every
+# line has been used, the one used longest ago goes next.
+#
+# Reworked 2026-09-26. The old lines were vague ("a hardware design flaw that
+# took years to discover") and technology averaged 36 YouTube views a video,
+# against ~230 for cars and gaming. The winners here named a specific thing
+# with stakes (the Amazon Fire Phone, chip design's speed limit), so every line
+# names one real, well-documented story. The current-product lines are kept:
+# they did well on Facebook (Galaxy Ultra 364 views, iPhone 17 Pro camera 296).
+The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it
+The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions
+The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial
+Ariane 5's first flight: how a software overflow destroyed a rocket in 1996
+The Therac-25: the radiation machine whose software bug changed how safety-critical code is built
+The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US
+The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008
+The Nokia 1100: the humble phone that sold more than almost any phone in history
+The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons
+Google Glass: why the smart glasses everyone was curious about got rejected
+Kodak's digital camera: the company that invented it in 1975 and buried it
+Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface
+The Osborne 1: the portable computer that killed its own company by announcing its successor early
+The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage
+The Morris Worm of 1988: the first big internet worm and the student who released it
+Stuxnet: the computer worm that physically wrecked nuclear centrifuges
+The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines
+The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet
+The QWERTY keyboard: the popular story about why the layout exists and what is actually true
+The save icon: why it is still a floppy disk decades after floppies died
+The Commodore 64: the best-selling computer model of all time
+Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion
+Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away
+The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix
+The Apollo Guidance Computer: how a machine weaker than a calculator flew astronauts to the Moon
+Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010
+The first webcam: the Cambridge coffee pot that people watched online in 1991
+The first text message: how a Merry Christmas note launched SMS in 1992
+The Motorola DynaTAC: the brick phone and the first cell phone call in 1973
+IBM Simon: the 1994 phone that was the first smartphone
+MP3 and Tom's Diner: the a cappella song used to perfect the format
+ELIZA: the 1966 chatbot that made people confide in a computer
+AlphaGo's Move 37: the move that shocked the world's best Go players
+Microsoft's Tay chatbot: the AI that turned toxic in under a day
+The Mechanical Turk: the chess robot that secretly hid a human inside
+The Segway: the invention that was supposed to reshape cities
+Betamax vs VHS: why the tape that many called better lost
+BlackBerry's fall: how the phone everyone owned vanished after the iPhone
+Windows Vista: how a botched launch became Microsoft's cautionary tale
+The Apple Lisa: the expensive computer that flopped before the Mac
+Nintendo's Virtual Boy: the console that came with a red-tinged headache
+GPS and relativity: why your phone would be off by miles without Einstein
+Barcodes: the idea sketched in the sand that took 25 years to reach the checkout
+reCAPTCHA: how proving you are human quietly digitized millions of books
+Hedy Lamarr: the film star whose frequency-hopping patent foreshadowed modern wireless
+The Y2K bug: what really happened when 1999 turned into 2000
+The USB plug: why it takes three tries to plug it in
+Stanislav Petrov: the Soviet officer who distrusted his computer and may have prevented a nuclear war
+The Sony Walkman: how a request for better airplane music created it
 What's actually new about the iPhone 17 Pro's camera system this year
-A hardware design flaw that took years to discover
-The real story behind a famous tech keynote disaster
 How the Apple Watch went from a niche gadget to a serious health device
-A piece of code still running in critical systems after 40+ years
-An invention that was rejected by every company before succeeding
 What Samsung's newest Galaxy Ultra flagship actually changed from last year's model
-A tech prototype that was decades ahead of the materials needed to build it
-The bizarre origin of a now-universal tech standard
-A hacker trick that exposed a massive security flaw
 How AirPods quietly became one of Apple's most profitable products
-A gadget that flopped so badly it became a warning story in the industry
-The surprising physical limit engineers are racing against in chip design
-A tech patent war that changed an entire industry
 What changed about the Galaxy Z Fold since foldable phones first launched
-The strange history of how a common tech symbol or icon was designed
-A server or data center fact that sounds impossible but isn't
-An AI breakthrough that happened decades before it could be useful
-The true story of a tech company's near-bankruptcy comeback
-A tiny manufacturing tolerance that makes modern chips possible
-The forgotten machine that was the first of its kind
-A tech industry rivalry that came down to one product launch
