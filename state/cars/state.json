@@ -17,7 +17,8 @@
     "A car culture tradition with a surprising origin",
     "An electric vehicle myth that turns out to be true",
     "A junkyard find that turned out to be worth a fortune",
-    "The engineering behind how a car survives a crash test"
+    "The engineering behind how a car survives a crash test",
+    "A road or highway with a bizarre origin story"
   ],
   "uploads": [
     {
@@ -397,30 +398,40 @@
       "video_id": "1789389995673067",
       "title": "The Secret Choreography Behind Car Crash Tests",
       "at": "2026-09-25T16:08:11.411871+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "jHHM--LWBMA",
+      "title": "The Highway That Was a Spy Plane Runway - You Won\u2019t Believe the Secrets",
+      "at": "2026-09-26T00:02:44.161240+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689627544970364942",
+      "title": "The Highway That Was a Spy Plane Runway - You Won\u2019t Believe the Secrets",
+      "at": "2026-09-26T00:02:46.902711+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18634625302042599",
+      "title": "The Highway That Was a Spy Plane Runway - You Won\u2019t Believe the Secrets",
+      "at": "2026-09-26T00:03:59.328038+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1300501122100527",
+      "title": "The Highway That Was a Spy Plane Runway - You Won\u2019t Believe the Secrets",
+      "at": "2026-09-26T00:04:05.401206+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "question_hook",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    18436984,
-    8987292,
-    31990456,
-    7362635,
-    34719410,
-    35585184,
-    26256155,
-    7346384,
-    20523623,
-    16945380,
-    37707306,
-    6520232,
-    28928210,
-    36741982,
     7924459,
     5417261,
     26256156,
@@ -466,6 +477,20 @@
     10326491,
     38826674,
     12601920,
-    8627749
+    8627749,
+    20065901,
+    28059467,
+    37499893,
+    7639712,
+    15145743,
+    9565655,
+    33210957,
+    28566777,
+    29386241,
+    30859385,
+    35138809,
+    13024020,
+    37184247,
+    28988136
   ]
 }
