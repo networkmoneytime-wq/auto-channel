@@ -15,7 +15,8 @@
     "Vinland Saga|how the story reinvents itself halfway through",
     "Mob Psycho 100|what makes its animation style so distinct",
     "One Punch Man|the joke at the center of its premise and why it still works",
-    "Made in Abyss|why its cute art style hides one of anime's darkest stories"
+    "Made in Abyss|why its cute art style hides one of anime's darkest stories",
+    "Attack on Titan|the moment the true scale of the story is revealed"
   ],
   "uploads": [
     {
@@ -251,13 +252,31 @@
       "video_id": "1048572234670163",
       "title": "The Pastel Anime That Hides a Horror Factory",
       "at": "2026-09-26T00:10:57.417215+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UYUsunpwQLo",
+      "title": "When the Walls Crumble: Attack on Titan\u2019s Game\u2011Changing Moment",
+      "at": "2026-09-26T08:22:14.438170+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18193141327401847",
+      "title": "When the Walls Crumble: Attack on Titan\u2019s Game\u2011Changing Moment",
+      "at": "2026-09-26T08:22:58.961666+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1065518799590467",
+      "title": "When the Walls Crumble: Attack on Titan\u2019s Game\u2011Changing Moment",
+      "at": "2026-09-26T08:23:05.631197+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "secret_reveal",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ]
 }
