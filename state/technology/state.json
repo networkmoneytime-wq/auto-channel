@@ -19,7 +19,8 @@
     "A tech patent war that changed an entire industry",
     "What changed about the Galaxy Z Fold since foldable phones first launched",
     "The strange history of how a common tech symbol or icon was designed",
-    "A server or data center fact that sounds impossible but isn't"
+    "A server or data center fact that sounds impossible but isn't",
+    "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it"
   ],
   "uploads": [
     {
@@ -345,30 +346,34 @@
       "video_id": "1719579919590680",
       "title": "How One Data Center Powers a Whole City (3 Crazy Facts)",
       "at": "2026-09-26T16:13:35.067370+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "kQ8QxJVhb7M",
+      "title": "Amazon\u2019s $300\u202fMillion Fire Phone Flop",
+      "at": "2026-09-26T22:19:52.446065+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18101533196254592",
+      "title": "Amazon\u2019s $300\u202fMillion Fire Phone Flop",
+      "at": "2026-09-26T22:21:06.011124+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3009283862742397",
+      "title": "Amazon\u2019s $300\u202fMillion Fire Phone Flop",
+      "at": "2026-09-26T22:21:10.128830+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    8751433,
-    7989667,
-    38758222,
-    7563824,
-    34354396,
-    18291332,
-    20413409,
-    5054381,
-    15439741,
-    30974188,
-    39107672,
-    34909984,
-    36175909,
-    6755162,
     6755168,
     5973871,
     28733290,
@@ -414,6 +419,20 @@
     9789657,
     7698438,
     15439758,
-    18503908
+    18503908,
+    7362701,
+    8816985,
+    8513120,
+    38410501,
+    34445230,
+    30301890,
+    6931577,
+    5947622,
+    35683713,
+    6602805,
+    35069357,
+    32822009,
+    6856842,
+    33684741
   ]
 }
