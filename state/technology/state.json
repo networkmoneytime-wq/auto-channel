@@ -18,7 +18,8 @@
     "The surprising physical limit engineers are racing against in chip design",
     "A tech patent war that changed an entire industry",
     "What changed about the Galaxy Z Fold since foldable phones first launched",
-    "The strange history of how a common tech symbol or icon was designed"
+    "The strange history of how a common tech symbol or icon was designed",
+    "A server or data center fact that sounds impossible but isn't"
   ],
   "uploads": [
     {
@@ -326,26 +327,34 @@
       "video_id": "1298574156681451",
       "title": "The Secret Code Behind the Power Button Revealed",
       "at": "2026-09-26T08:20:57.168552+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "S6BahFdJwhM",
+      "title": "How One Data Center Powers a Whole City (3 Crazy Facts)",
+      "at": "2026-09-26T16:11:33.183029+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18126415556316717",
+      "title": "How One Data Center Powers a Whole City (3 Crazy Facts)",
+      "at": "2026-09-26T16:13:29.115987+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1719579919590680",
+      "title": "How One Data Center Powers a Whole City (3 Crazy Facts)",
+      "at": "2026-09-26T16:13:35.067370+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7423951,
-    33314914,
-    5924966,
-    7722399,
-    6565809,
-    7464137,
-    6282309,
-    9130473,
-    30871662,
-    25935025,
     8751433,
     7989667,
     38758222,
@@ -395,6 +404,16 @@
     25397941,
     8516989,
     6962433,
-    3625774
+    3625774,
+    13567267,
+    9019534,
+    34724848,
+    19970916,
+    13736543,
+    38571217,
+    9789657,
+    7698438,
+    15439758,
+    18503908
   ]
 }
