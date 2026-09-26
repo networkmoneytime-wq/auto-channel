@@ -60,20 +60,40 @@ def looks_like_a_name(keyword: str) -> bool:
     return all(any(c.isupper() or c.isdigit() for c in w) or w.lower() in _LOWERCASE_OK for w in words)
 
 
-def _tokens(text: str) -> set[str]:
+def _tokens(text: str) -> list[str]:
     text = re.sub(r"\([^)]*\)", " ", text.lower())  # "(film)"-style qualifiers
-    text = re.sub(r"['’]s\b", "", text)
+    text = re.sub(r"['\u2019]s\b", "", text)
     words = (w for w in re.findall(r"[a-z0-9]+", text) if w not in _STOPWORDS)
-    return {w[:-1] if len(w) > 3 and w.endswith("s") else w for w in words}
+    return [w[:-1] if len(w) > 3 and w.endswith("s") else w for w in words]
+
+
+_NAME_SUFFIXES = {"ii", "iii", "iv", "jr", "sr"}
 
 
 def names_article(keyword: str, title: str) -> bool:
     """The keyword is the article's name, or the name contains the keyword
-    ("Amazon Fire Phone" -> "Fire Phone"): every word of one side appears in
-    the other. Deliberately strict — the top search hit for a loose phrase is
-    often unrelated ("molasses thick freeze" -> the Applejack article)."""
+    ("Amazon Fire Phone" -> "Fire Phone"; "Sealand" -> "Principality of
+    Sealand"): every word of one side appears in the other. Deliberately
+    strict — the top search hit for a loose phrase is often unrelated
+    ("molasses thick freeze" -> the Applejack article). The same words in a
+    different order don't count ("The Ford Edsel" is the car, "Edsel Ford" the
+    man who ran the company), and neither does a person's name that only adds
+    a generation suffix ("Edsel Ford II")."""
     k, t = _tokens(keyword), _tokens(title)
-    return bool(k) and bool(t) and (k <= t or t <= k)
+    if not k or not t:
+        return False
+    if set(k) == set(t):
+        return k == t
+    if set(t) < set(k):
+        return True
+    return set(k) < set(t) and not (set(t) - set(k)) <= _NAME_SUFFIXES
+
+
+def _named(keyword: str, pages: list[dict]) -> list[dict]:
+    """The pages whose titles the keyword names, in the search's own relevance
+    order (which beats any ranking of mine: "Sealand" is the micronation on
+    top and a shipping company lower down, and the reverse looks tidier)."""
+    return [p for p in pages if names_article(keyword, p.get("title", ""))]
 
 
 def find_photo(keyword: str) -> tuple[str | None, str]:
@@ -107,7 +127,7 @@ def find_photo(keyword: str) -> tuple[str | None, str]:
         # not silently indistinguishable from "this topic just isn't a
         # specific enough thing to have a Wikipedia photo."
         return None, f"search failed: {e}"
-    named = [p for p in pages if names_article(keyword, p.get("title", ""))]
+    named = _named(keyword, pages)
     if not named:
         top = pages[0]["title"] if pages else "nothing"
         return None, f"no article by that name (top hit: {top!r})"
@@ -140,9 +160,9 @@ def subject_article(subject: str) -> str | None:
     if not looks_like_a_name(subject):
         return None
     try:
-        for page in search(subject, limit=3):
-            if names_article(subject, page.get("title", "")):
-                return page["title"]
+        named = _named(subject, search(subject, limit=3))
+        if named:
+            return named[0]["title"]
     except requests.RequestException as e:
         print(f"[wikipedia] search failed for {subject!r}: {e}")
     return None
