@@ -15,7 +15,8 @@
     "An esports moment that shocked an entire arena into silence",
     "A game feature cut so late it left ghost data in the final release",
     "The real-world event that inspired a beloved game's story",
-    "A piece of gaming hardware banned from competitions for being too good"
+    "A piece of gaming hardware banned from competitions for being too good",
+    "The surprising origin of a gaming catchphrase or meme"
   ],
   "uploads": [
     {
@@ -389,26 +390,40 @@
       "video_id": "1257549689894889",
       "title": "Why This Pro Controller Got Banned From Esports",
       "at": "2026-09-26T00:06:16.307745+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "RRujqCx9I9I",
+      "title": "From a Game Salute to the Global \u2018Press\u202fF\u2019 Meme",
+      "at": "2026-09-26T08:16:26.479449+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689754716967913486",
+      "title": "From a Game Salute to the Global \u2018Press\u202fF\u2019 Meme",
+      "at": "2026-09-26T08:16:28.745866+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18396680101200926",
+      "title": "From a Game Salute to the Global \u2018Press\u202fF\u2019 Meme",
+      "at": "2026-09-26T08:17:01.058134+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2994926257527214",
+      "title": "From a Game Salute to the Global \u2018Press\u202fF\u2019 Meme",
+      "at": "2026-09-26T08:17:05.879326+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    7119463,
-    7812350,
-    4836900,
-    7774955,
-    7688636,
-    4482361,
-    7047789,
-    8128419,
-    34948751,
-    39031945,
     7241002,
     7231303,
     6754831,
@@ -458,6 +473,16 @@
     8128031,
     9667211,
     6091717,
-    8128499
+    8128499,
+    5647324,
+    10499738,
+    10485467,
+    8118109,
+    19072635,
+    34149136,
+    3694908,
+    34385703,
+    8816986,
+    6586070
   ]
 }
