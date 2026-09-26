@@ -28,26 +28,32 @@ def fetch_clips(keywords: list[str], config: dict, out_dir: Path, state: dict) -
     # script's subject (the meme channel's "slime"/"arcade" backdrops) --
     # matching those to a Wikipedia article's photo would be a wrong match.
     use_wikipedia = config["visuals"].get("wikipedia", True)
+    used_photos = set()
 
     for i, keyword in enumerate(keywords):
         # A beat naming a specific real person/place/thing (e.g. "the Super
         # Bowl") should show that actual thing, not an arbitrary stock clip
         # that merely matches the keyword — try a real Wikipedia photo of it
         # first, and only fall back to stock footage when there's no
-        # confident real-world match (an abstract/generic beat like "hands
-        # typing" won't resolve to a specific article, which is correct).
-        wiki_photo = wikipedia.real_photo_for(keyword) if use_wikipedia else None
+        # confident real-world match (a generic beat like "hands typing" isn't
+        # a name, so it never gets a lookup, which is correct). Every outcome
+        # is logged as what actually happened: this used to log "wikipedia hit"
+        # for a photo whose download then failed, and the fallback to stock
+        # was silent, so the whole feature looked fine while doing nothing.
         if use_wikipedia:
-            print(f"[visuals] {keyword!r}: {'wikipedia hit' if wiki_photo else 'no wikipedia match, using stock'}")
-        if wiki_photo:
-            dest = out_dir / f"clip_{i}.jpg"
-            try:
-                _stream_download(wiki_photo, dest)
-                clip_paths.append(dest)
-                used_wikipedia = True
-                continue
-            except requests.RequestException:
-                pass  # fall through to stock footage for this beat
+            photo_url, detail = wikipedia.find_photo(keyword)
+            if photo_url and photo_url in used_photos:
+                photo_url, detail = None, "that photo is already in this video"
+            if photo_url:
+                photo = wikipedia.download_photo(photo_url, out_dir / f"clip_{i}")
+                if photo:
+                    print(f"[visuals] {keyword!r}: wikipedia photo of {detail!r}")
+                    clip_paths.append(photo)
+                    used_photos.add(photo_url)
+                    used_wikipedia = True
+                    continue
+                detail = f"photo of {detail!r} would not download"
+            print(f"[visuals] {keyword!r}: stock footage ({detail})")
 
         resp = requests.get(
             "https://api.pexels.com/videos/search",

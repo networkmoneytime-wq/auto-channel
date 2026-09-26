@@ -32,7 +32,15 @@ concept"; "beehive close up" beats "teamwork nature"; "person writing in \
 notebook" beats "idea concept". Terms like "success", "innovation", \
 "teamwork", "concept", or "background" reliably pull generic staged corporate \
 stock — avoid them entirely; describe what's actually visible in the shot \
-instead."""
+instead.
+  - Exception: when the topic is a specific real thing (an event, product, \
+person, place, vehicle, or animal), use up to 4 beats for real photos of it or \
+of a real person, place, or object directly tied to it. Write that item's real \
+name in Proper Case, the way its Wikipedia article is titled ("Great Molasses \
+Flood", "Amazon Fire Phone", "Hedy Lamarr", "McLaren F1", "Voyager 1"); a real \
+photo of exactly that gets looked up. Only name things you are sure exist, name \
+each one at most once, and put the name on the beat where the script mentions \
+it. Every other beat is a lowercase stock-footage term, as above."""
 
 
 def generate_script(topic: str, config: dict, state: dict) -> dict:

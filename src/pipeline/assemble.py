@@ -6,6 +6,22 @@ from pathlib import Path
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
+# Anything wider than this (width / height) is shown whole over a blurred copy
+# of itself instead of cropped to fill: a 16:9 screenshot or photo cropped to a
+# 9:16 frame keeps only its middle third and usually loses the subject.
+MAX_CROP_ASPECT = 0.75
+
+
+def _needs_blur_fit(path: Path) -> bool:
+    try:
+        from PIL import Image
+
+        with Image.open(path) as im:
+            w, h = im.size
+        return w / h > MAX_CROP_ASPECT
+    except Exception:
+        return False  # can't tell: keep the crop-to-fill framing
+
 
 def _clip_durations(n: int, total: float, min_d: float, max_d: float) -> list[float]:
     """Split `total` seconds across `n` clips with random per-clip weight
@@ -67,15 +83,37 @@ def assemble_video(
 
     inputs = []
     filter_parts = []
+    elapsed = 0.0
+    frames_so_far = 0
     for i, (clip, per_clip) in enumerate(zip(clip_paths, durations)):
+        # Frames for this segment, allocated by cumulative rounding so the
+        # segments add up to the narration's length instead of each one
+        # drifting by up to half a frame.
+        elapsed += per_clip
+        frames = max(1, round(elapsed * 30) - frames_so_far)
+        frames_so_far += frames
         if Path(clip).suffix.lower() in IMAGE_EXTS:
-            # Still image -> looped video + a gentle Ken Burns zoom, cropped to frame
-            # first so the pan/zoom operates on an already-correctly-framed image.
-            frames = max(1, round(per_clip * 30))
-            inputs += ["-loop", "1", "-framerate", "30", "-t", f"{per_clip:.3f}", "-i", str(clip)]
+            # Still image -> Ken Burns zoom, cropped to frame first so the
+            # pan/zoom operates on an already-correctly-framed image. The image
+            # goes in as a single frame and zoompan expands it into `frames`
+            # frames. It used to be looped at 30 fps *and* given d=frames, so
+            # every looped frame expanded into `frames` frames again: the first
+            # still in a video lasted minutes, nothing after it was ever reached
+            # (anime showed its cover art for the whole video, restarting the
+            # zoom every clip length), and the encode only stopped at -t below.
+            inputs += ["-i", str(clip)]
+            fill = f"scale={width}:{height}:force_original_aspect_ratio=increase,crop={width}:{height}"
+            if _needs_blur_fit(Path(clip)):
+                framed = (
+                    f"[{i}:v]split[a{i}][b{i}];"
+                    f"[a{i}]{fill},boxblur=40:10,eq=brightness=-0.1[bg{i}];"
+                    f"[b{i}]scale={width}:{height}:force_original_aspect_ratio=decrease[fg{i}];"
+                    f"[bg{i}][fg{i}]overlay=(W-w)/2:(H-h)/2"
+                )
+            else:
+                framed = f"[{i}:v]{fill}"
             filter_parts.append(
-                f"[{i}:v]scale={width}:{height}:force_original_aspect_ratio=increase,"
-                f"crop={width}:{height},"
+                f"{framed},"
                 f"zoompan=z='min(zoom+0.0012,1.2)':d={frames}:s={width}x{height}:fps=30,"
                 f"setsar=1[v{i}]"
             )
@@ -88,13 +126,21 @@ def assemble_video(
         # the rate/cap per clip instead of one fixed value avoids every single cut
         # moving at the same mechanical speed, which itself becomes a recognizable
         # "auto-generated" tell once you've seen a few videos from the channel.
+        # `pzoom` (the previous frame's zoom), not `zoom`: with d=1 every frame is
+        # a new input frame and `zoom` starts over at 1 each time, so the old
+        # `zoom+rate` expression never zoomed at all.
         rate = random.uniform(0.0005, 0.0014)
         cap = random.uniform(1.10, 1.22)
+        # tpad first: a stock clip shorter than its slot used to end early and
+        # pull the whole video short of the narration, so -shortest cut the
+        # last words of the voiceover (dailyap's test video lost half a second).
+        # Holding its last frame keeps every slot its full length.
         filter_parts.append(
-            f"[{i}:v]trim=0:{per_clip:.3f},setpts=PTS-STARTPTS,"
+            f"[{i}:v]tpad=stop_mode=clone:stop_duration={per_clip:.3f},"
+            f"trim=0:{per_clip:.3f},setpts=PTS-STARTPTS,"
             f"scale={width}:{height}:force_original_aspect_ratio=increase,"
             f"crop={width}:{height},fps=30,"
-            f"zoompan=z='min(zoom+{rate:.4f},{cap:.3f})':d=1:s={width}x{height}:fps=30,"
+            f"zoompan=z='min(pzoom+{rate:.4f},{cap:.3f})':d=1:s={width}x{height}:fps=30,"
             f"setsar=1[v{i}]"
         )
     concat_inputs = "".join(f"[v{i}]" for i in range(len(clip_paths)))
