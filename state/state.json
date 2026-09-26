@@ -22,7 +22,8 @@
     "An invention that was created completely by accident",
     "A heist that succeeded because of one overlooked detail",
     "A person who was declared dead but was actually alive",
-    "An animal migration that defies normal biological explanation"
+    "An animal migration that defies normal biological explanation",
+    "A place on Earth that is nearly impossible to survive in, yet people do"
   ],
   "uploads": [
     {
@@ -480,25 +481,40 @@
       "video_id": "2322532731933632",
       "title": "The eel that out\u2011smarts GPS: a 6,000\u2011mile mystery",
       "at": "2026-09-26T00:25:48.125215+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "XjisxXU_1BU",
+      "title": "Inside Earth\u2019s Hottest Desert Where People Walk Barefoot in Acidic Springs",
+      "at": "2026-09-26T16:15:04.685429+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689877803998955551",
+      "title": "Inside Earth\u2019s Hottest Desert Where People Walk Barefoot in Acidic Springs",
+      "at": "2026-09-26T16:15:08.129154+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18472712821113944",
+      "title": "Inside Earth\u2019s Hottest Desert Where People Walk Barefoot in Acidic Springs",
+      "at": "2026-09-26T16:15:44.485694+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2074158043186137",
+      "title": "Inside Earth\u2019s Hottest Desert Where People Walk Barefoot in Acidic Springs",
+      "at": "2026-09-26T16:15:51.528554+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    16561462,
-    6219844,
-    6646671,
-    9465544,
-    12751546,
-    8927413,
-    34561859,
-    6245712,
-    35664837,
     8135783,
     38567783,
     8352854,
@@ -549,6 +565,15 @@
     7429832,
     10970741,
     8852628,
-    35084459
+    35084459,
+    38184728,
+    30783914,
+    35323267,
+    12699379,
+    34462996,
+    30546876,
+    36108441,
+    36295881,
+    9354644
   ]
 }
