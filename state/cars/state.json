@@ -20,7 +20,8 @@
     "The engineering behind how a car survives a crash test",
     "A road or highway with a bizarre origin story",
     "A manufacturing process that builds a car in under a minute",
-    "An engineering trick race cars use that road cars secretly borrowed"
+    "An engineering trick race cars use that road cars secretly borrowed",
+    "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it"
   ],
   "uploads": [
     {
@@ -472,26 +473,40 @@
       "video_id": "1039488609105886",
       "title": "Racing Secrets That Turn Your Daily Drive Into a Supercar",
       "at": "2026-09-26T16:04:54.416972+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "HG6ITOwz_4o",
+      "title": "John DeLorean\u2019s $100k Courtroom Escape & the Time\u2011Travel Car He Lost",
+      "at": "2026-09-26T22:15:20.714153+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689970881904560141",
+      "title": "John DeLorean\u2019s $100k Courtroom Escape & the Time\u2011Travel Car He Lost",
+      "at": "2026-09-26T22:15:23.437164+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18025075844865531",
+      "title": "John DeLorean\u2019s $100k Courtroom Escape & the Time\u2011Travel Car He Lost",
+      "at": "2026-09-26T22:15:58.604708+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1470610061562680",
+      "title": "John DeLorean\u2019s $100k Courtroom Escape & the Time\u2011Travel Car He Lost",
+      "at": "2026-09-26T22:16:04.338837+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "list_tease",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    36474525,
-    6115070,
-    35815439,
-    8724226,
-    36793242,
-    7118125,
-    8987455,
-    12892439,
-    34174958,
-    27563638,
     38938856,
     7581334,
     7647335,
@@ -541,6 +556,16 @@
     30254380,
     35485780,
     18521318,
-    38482272
+    38482272,
+    6532090,
+    5787623,
+    28408297,
+    6872478,
+    39382916,
+    5777431,
+    7065810,
+    34379190,
+    35614364,
+    25397919
   ]
 }
