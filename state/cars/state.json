@@ -19,7 +19,8 @@
     "A junkyard find that turned out to be worth a fortune",
     "The engineering behind how a car survives a crash test",
     "A road or highway with a bizarre origin story",
-    "A manufacturing process that builds a car in under a minute"
+    "A manufacturing process that builds a car in under a minute",
+    "An engineering trick race cars use that road cars secretly borrowed"
   ],
   "uploads": [
     {
@@ -447,26 +448,40 @@
       "video_id": "1122412353649862",
       "title": "How Cars Are Built in One Minute: Factory\u2011Scale 3D Printing",
       "at": "2026-09-26T08:14:31.680212+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Mk3IhmkOsPo",
+      "title": "Racing Secrets That Turn Your Daily Drive Into a Supercar",
+      "at": "2026-09-26T16:04:08.191512+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7689875377921804302",
+      "title": "Racing Secrets That Turn Your Daily Drive Into a Supercar",
+      "at": "2026-09-26T16:04:11.868165+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18105013958211706",
+      "title": "Racing Secrets That Turn Your Daily Drive Into a Supercar",
+      "at": "2026-09-26T16:04:46.226736+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1039488609105886",
+      "title": "Racing Secrets That Turn Your Daily Drive Into a Supercar",
+      "at": "2026-09-26T16:04:54.416972+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "contrarian_claim",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    9019618,
-    28699808,
-    29908894,
-    35412061,
-    38103847,
-    37667019,
-    9790187,
-    8628283,
-    7688135,
-    18446021,
     36474525,
     6115070,
     35815439,
@@ -516,6 +531,16 @@
     29669602,
     6782216,
     35897445,
-    13358188
+    13358188,
+    18446506,
+    39733711,
+    32387343,
+    37114362,
+    6153701,
+    8987409,
+    30254380,
+    35485780,
+    18521318,
+    38482272
   ]
 }
