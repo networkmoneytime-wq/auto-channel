@@ -21,7 +21,8 @@
     "A law that is still on the books and sounds absurd today",
     "An invention that was created completely by accident",
     "A heist that succeeded because of one overlooked detail",
-    "A person who was declared dead but was actually alive"
+    "A person who was declared dead but was actually alive",
+    "An animal migration that defies normal biological explanation"
   ],
   "uploads": [
     {
@@ -461,30 +462,34 @@
       "video_id": "4494268394218015",
       "title": "He Was Declared Dead, Then Came Back to Life\u2014The Real Lazarus Story",
       "at": "2026-09-25T16:16:40.090776+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UD7Ar6uY-68",
+      "title": "The eel that out\u2011smarts GPS: a 6,000\u2011mile mystery",
+      "at": "2026-09-26T00:24:56.762743+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17945124381319395",
+      "title": "The eel that out\u2011smarts GPS: a 6,000\u2011mile mystery",
+      "at": "2026-09-26T00:25:39.099850+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2322532731933632",
+      "title": "The eel that out\u2011smarts GPS: a 6,000\u2011mile mystery",
+      "at": "2026-09-26T00:25:48.125215+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "list_tease",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    35574064,
-    39031945,
-    16229180,
-    7417540,
-    29533223,
-    4858906,
-    9807882,
-    6595457,
-    8847379,
-    5787916,
-    5742908,
-    7806864,
-    8040861,
-    8066960,
     16561462,
     6219844,
     6646671,
@@ -530,6 +535,20 @@
     7088468,
     7579338,
     8716996,
-    28144992
+    28144992,
+    8724215,
+    7189588,
+    39005864,
+    38438837,
+    6788539,
+    7255223,
+    37390068,
+    16236649,
+    39567876,
+    35703767,
+    7429832,
+    10970741,
+    8852628,
+    35084459
   ]
 }
