@@ -22,7 +22,8 @@
     "A server or data center fact that sounds impossible but isn't",
     "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it",
     "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions",
-    "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial"
+    "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial",
+    "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996"
   ],
   "uploads": [
     {
@@ -402,25 +403,34 @@
       "video_id": "1334483099748487",
       "title": "How a Unit Mix\u2011up Sank the $125M Mars Climate Orbiter",
       "at": "2026-09-27T02:22:45.395462+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "gQMyCdT5gSA",
+      "title": "How a Tiny Software Overflow Blew Up Ariane\u202f5's First Flight",
+      "at": "2026-09-27T22:18:00.904406+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910917961538342",
+      "title": "How a Tiny Software Overflow Blew Up Ariane\u202f5's First Flight",
+      "at": "2026-09-27T22:18:41.124769+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1394777849480869",
+      "title": "How a Tiny Software Overflow Blew Up Ariane\u202f5's First Flight",
+      "at": "2026-09-27T22:18:47.665696+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "secret_reveal",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    7224360,
-    18516736,
-    18130530,
-    8195369,
-    6177022,
-    16657013,
-    35272570,
-    35475885,
-    5698953,
     4788410,
     6996768,
     5841707,
@@ -471,6 +481,15 @@
     19661436,
     36066387,
     7812404,
-    6120114
+    6120114,
+    18503891,
+    7320724,
+    36628017,
+    28709421,
+    16049995,
+    36249898,
+    3826639,
+    6120119,
+    34767731
   ]
 }
