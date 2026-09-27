@@ -11,6 +11,8 @@ no windup) while varying its shape upload to upload.
 
 import random
 
+from src.pipeline import performance
+
 HOOKS = [
     {
         "id": "shocking_fact",
@@ -66,7 +68,19 @@ HOOKS = [
 
 
 def pick_hook(state: dict) -> dict:
-    """Avoid repeating either of the last two hooks used on this channel."""
+    """Avoid repeating either of the last two hooks used on this channel, and
+    among what's left, lean toward whichever archetype has actually earned
+    more views on this channel (src/pipeline/performance.py) — still
+    genuinely random, not just "always the current best", so an
+    under-sampled or unlucky-early hook keeps getting real tries instead of
+    being written off on thin data."""
     recent = state.get("recent_hooks", [])[-2:]
     candidates = [h for h in HOOKS if h["id"] not in recent] or HOOKS
-    return random.choice(candidates)
+
+    hook_avgs = performance.current().get("hooks", {})
+    if not hook_avgs:
+        return random.choice(candidates)  # no scored data yet: uniform, same as before this existed
+
+    overall = sum(hook_avgs.values()) / len(hook_avgs)
+    weights = [max(hook_avgs.get(h["id"], overall), 1.0) for h in candidates]
+    return random.choices(candidates, weights=weights, k=1)[0]

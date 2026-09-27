@@ -11,6 +11,7 @@ from src.pipeline.captions import build_captions
 from src.pipeline.ideate import pick_topic
 from src.pipeline.metadata import generate_metadata
 from src.pipeline.music import attribution_line, maybe_pick_track, track_path
+from src.pipeline import performance, topic_writer
 from src.pipeline.script_gen import generate_script
 from src.pipeline.script_gen_anime import generate_anime_content
 from src.pipeline.script_gen_gaming import generate_gaming_content
@@ -60,6 +61,7 @@ CONTENT_GENERATORS = {
 def run() -> None:
     config = load_config()
     state = load_state()
+    performance.refresh(state)
 
     generate = CONTENT_GENERATORS.get(channel(), generate_script)
 
@@ -125,13 +127,14 @@ def run() -> None:
         mark_topic_used(state, topic)
         if hook_id:
             mark_hook_used(state, hook_id)
+        topic_writer.maybe_extend_topics(state, config)
 
         for platform, uploader in UPLOADERS.items():
             if not config["platforms"].get(platform, {}).get("enabled"):
                 continue
             try:
                 video_id = uploader(final_path, metadata, config)
-                log_upload(state, platform, video_id, metadata["title"])
+                log_upload(state, platform, video_id, metadata["title"], topic=topic, hook_id=hook_id)
                 print(f"[upload:{platform}] ok -> {video_id}")
             except Exception:
                 print(f"[upload:{platform}] FAILED")

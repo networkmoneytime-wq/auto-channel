@@ -76,3 +76,10 @@ def state_path() -> Path:
     d = ROOT / "state" / ch
     d.mkdir(parents=True, exist_ok=True)
     return d / "state.json"
+
+
+def performance_path() -> Path:
+    """Same directory as state_path(), a sibling file — kept separate from
+    state.json so a from-scratch recompute (src/pipeline/performance.py)
+    never risks the append-only upload/topic history it reads."""
+    return state_path().with_name("performance.json")

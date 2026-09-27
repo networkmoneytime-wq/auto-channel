@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 from datetime import datetime, timezone
 
@@ -36,13 +38,23 @@ def mark_clips_used(state: dict, clip_ids: list) -> None:
     save_state(state)
 
 
-def log_upload(state: dict, platform: str, video_id: str, title: str) -> None:
-    state["uploads"].append(
-        {
-            "platform": platform,
-            "video_id": video_id,
-            "title": title,
-            "at": datetime.now(timezone.utc).isoformat(),
-        }
-    )
+def log_upload(
+    state: dict, platform: str, video_id: str, title: str, topic: str | None = None, hook_id: str | None = None
+) -> None:
+    """`topic`/`hook_id` are what made this specific video (which real subject,
+    which hook archetype) — src/pipeline/performance.py joins them back to
+    this same upload's view count to learn which of each actually perform.
+    Optional and omitted for content types that don't have one (e.g. a
+    channel's grounded "UPCOMING" roundups have no single hook)."""
+    record = {
+        "platform": platform,
+        "video_id": video_id,
+        "title": title,
+        "at": datetime.now(timezone.utc).isoformat(),
+    }
+    if topic is not None:
+        record["topic"] = topic
+    if hook_id is not None:
+        record["hook_id"] = hook_id
+    state["uploads"].append(record)
     save_state(state)
