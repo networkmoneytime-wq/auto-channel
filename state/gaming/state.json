@@ -18,7 +18,8 @@
     "A piece of gaming hardware banned from competitions for being too good",
     "The surprising origin of a gaming catchphrase or meme",
     "A prototype console that never left the lab",
-    "A world record in gaming that seems statistically impossible"
+    "A world record in gaming that seems statistically impossible",
+    "The engineering behind how game cartridges actually stored data"
   ],
   "uploads": [
     {
@@ -464,26 +465,34 @@
       "video_id": "2724304007964582",
       "title": "GamerX's 0.91-second Super Mario Bros. speedrun - how it's even possible",
       "at": "2026-09-26T22:18:19.023841+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "pCdecuUQ8hM",
+      "title": "Inside the Tiny Supercomputer Inside Every Game Cartridge",
+      "at": "2026-09-27T00:04:00.723344+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18074368424742474",
+      "title": "Inside the Tiny Supercomputer Inside Every Game Cartridge",
+      "at": "2026-09-27T00:05:17.890903+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1757536195476389",
+      "title": "Inside the Tiny Supercomputer Inside Every Game Cartridge",
+      "at": "2026-09-27T00:05:25.026158+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "secret_reveal",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    32025592,
-    5377532,
-    7821861,
-    7230788,
-    5801349,
-    7616839,
-    8128502,
-    31985648,
-    11876031,
-    9407407,
     27451037,
     39411825,
     6132601,
@@ -533,6 +542,16 @@
     15283162,
     6120110,
     7688797,
-    6927320
+    6927320,
+    8086291,
+    25935025,
+    38697709,
+    36167829,
+    7314034,
+    6266656,
+    7608631,
+    39686771,
+    9807739,
+    35460209
   ]
 }
