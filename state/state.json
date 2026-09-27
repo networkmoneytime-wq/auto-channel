@@ -25,7 +25,8 @@
     "An animal migration that defies normal biological explanation",
     "A place on Earth that is nearly impossible to survive in, yet people do",
     "The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston",
-    "The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop"
+    "The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop",
+    "The Great Emu War of 1932: when Australian soldiers with machine guns took on the emus"
   ],
   "uploads": [
     {
@@ -555,28 +556,40 @@
       "video_id": "2153503672190498",
       "title": "The 1518 Strasbourg Dancing Plague: When a Town Went Mad",
       "at": "2026-09-27T00:27:09.179400+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "HrK1hbCzkEA",
+      "title": "The 1932 Emu War: When Aussie Soldiers Lost to Birds",
+      "at": "2026-09-27T02:04:35.226013+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690029586315102238",
+      "title": "The 1932 Emu War: When Aussie Soldiers Lost to Birds",
+      "at": "2026-09-27T02:04:39.137475+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18186984778419954",
+      "title": "The 1932 Emu War: When Aussie Soldiers Lost to Birds",
+      "at": "2026-09-27T02:06:09.277882+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1074630005338555",
+      "title": "The 1932 Emu War: When Aussie Soldiers Lost to Birds",
+      "at": "2026-09-27T02:06:17.232800+00:00"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "shocking_fact",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    8134891,
-    35502214,
-    5054376,
-    6343936,
-    34479398,
-    13736548,
-    8370546,
-    15365457,
-    39395899,
-    6687967,
-    8063947,
-    7584601,
     7088468,
     7579338,
     8716996,
@@ -624,6 +637,18 @@
     7581435,
     28206055,
     31486382,
-    10639216
+    10639216,
+    19090632,
+    20690857,
+    9467038,
+    8718447,
+    34973036,
+    7467745,
+    9466136,
+    28077964,
+    30564620,
+    28288551,
+    7979923,
+    8718447
   ]
 }
