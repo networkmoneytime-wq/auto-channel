@@ -21,7 +21,8 @@
     "The strange history of how a common tech symbol or icon was designed",
     "A server or data center fact that sounds impossible but isn't",
     "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it",
-    "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions"
+    "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions",
+    "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial"
   ],
   "uploads": [
     {
@@ -383,25 +384,34 @@
       "video_id": "2565515513964791",
       "title": "Intel\u2019s $300 Chip Glitch That Cost Half a Billion",
       "at": "2026-09-27T00:07:42.158870+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "qnOTwrGKW-o",
+      "title": "How a Unit Mix\u2011up Sank the $125M Mars Climate Orbiter",
+      "at": "2026-09-27T02:21:58.933160+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18143430010581735",
+      "title": "How a Unit Mix\u2011up Sank the $125M Mars Climate Orbiter",
+      "at": "2026-09-27T02:22:35.047114+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1334483099748487",
+      "title": "How a Unit Mix\u2011up Sank the $125M Mars Climate Orbiter",
+      "at": "2026-09-27T02:22:45.395462+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "question_hook",
     "secret_reveal",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    5495901,
-    34535552,
-    3946031,
-    35529017,
-    5716222,
-    35206144,
-    8819435,
-    5965060,
-    2828884,
     7224360,
     18516736,
     18130530,
@@ -452,6 +462,15 @@
     6863130,
     6631154,
     8381584,
-    6331338
+    6331338,
+    7106859,
+    20436933,
+    7744312,
+    39014669,
+    33314914,
+    19661436,
+    36066387,
+    7812404,
+    6120114
   ]
 }
