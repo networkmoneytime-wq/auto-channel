@@ -20,7 +20,8 @@
     "Attack on Titan|the moment the true scale of the story is revealed",
     "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon",
     "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about",
-    "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen"
+    "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen",
+    "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit"
   ],
   "uploads": [
     {
@@ -340,13 +341,31 @@
       "video_id": "1074775805305845",
       "title": "3 Chainsaw Man Episode 1 Facts That Sound Fake (But Are Real)",
       "at": "2026-09-27T02:24:46.812564+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "pkQI4yzX3Ns",
+      "title": "Why Frieren's Post-Battle Journey Is the Most Unexpected Adventure",
+      "at": "2026-09-27T22:19:53.724525+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18141311446593502",
+      "title": "Why Frieren's Post-Battle Journey Is the Most Unexpected Adventure",
+      "at": "2026-09-27T22:20:26.736735+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2321877645235105",
+      "title": "Why Frieren's Post-Battle Journey Is the Most Unexpected Adventure",
+      "at": "2026-09-27T22:20:32.379769+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "question_hook",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ]
 }
