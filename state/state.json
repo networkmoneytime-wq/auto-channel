@@ -24,7 +24,8 @@
     "A person who was declared dead but was actually alive",
     "An animal migration that defies normal biological explanation",
     "A place on Earth that is nearly impossible to survive in, yet people do",
-    "The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston"
+    "The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston",
+    "The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop"
   ],
   "uploads": [
     {
@@ -530,26 +531,40 @@
       "video_id": "2311673049372829",
       "title": "Boston\u2019s 1919 Molasses Flood: 3 Facts You\u2019ve Never Heard",
       "at": "2026-09-26T22:14:42.504661+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "r2EHmLoogCA",
+      "title": "The 1518 Strasbourg Dancing Plague: When a Town Went Mad",
+      "at": "2026-09-27T00:26:25.098404+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690004310461564959",
+      "title": "The 1518 Strasbourg Dancing Plague: When a Town Went Mad",
+      "at": "2026-09-27T00:26:27.745525+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17966596662177352",
+      "title": "The 1518 Strasbourg Dancing Plague: When a Town Went Mad",
+      "at": "2026-09-27T00:27:04.563841+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2153503672190498",
+      "title": "The 1518 Strasbourg Dancing Plague: When a Town Went Mad",
+      "at": "2026-09-27T00:27:09.179400+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "mistake_warning",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    31259979,
-    4985361,
-    6575898,
-    9462944,
-    36460608,
-    27444586,
-    8460286,
-    33643950,
-    6473961,
-    8544030,
     8134891,
     35502214,
     5054376,
@@ -599,6 +614,16 @@
     26757162,
     6101348,
     34913017,
-    6866463
+    6866463,
+    32508091,
+    31950958,
+    37545353,
+    36627849,
+    7034348,
+    8042047,
+    7581435,
+    28206055,
+    31486382,
+    10639216
   ]
 }
