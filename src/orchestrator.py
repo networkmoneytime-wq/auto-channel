@@ -93,10 +93,13 @@ def run() -> None:
             clip_paths = download_media(script["media_urls"], tmp_dir)
             print(f"[visuals] downloaded {len(clip_paths)} sourced assets")
         else:
-            clip_paths, used_wikipedia = fetch_clips(script["visual_keywords"], config, tmp_dir, state)
-            print(f"[visuals] fetched {len(clip_paths)} clips")
-            if used_wikipedia:
-                metadata["description"] = metadata["description"] + "\n\nSome visuals via Wikipedia"
+            # Topic lines are "Named thing: what happened"; the part before the
+            # colon is what the video is about, and gets real photos of it.
+            subject = topic.split(":", 1)[0].strip() if ":" in topic else None
+            clip_paths, photo_credits = fetch_clips(script["visual_keywords"], config, tmp_dir, state, subject=subject)
+            print(f"[visuals] fetched {len(clip_paths)} clips, {len(photo_credits)} of them Wikimedia photos")
+            if photo_credits:
+                metadata["description"] += "\n\nPhotos via Wikimedia Commons: " + "; ".join(photo_credits)
 
         captions_path = build_captions(word_boundaries, config, tmp_dir / "captions.ass")
         audio_duration = _probe_duration(voiceover_path)

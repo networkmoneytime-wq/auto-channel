@@ -94,7 +94,7 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
         hook = pick_hook(state)
         hook_id = hook["id"]
         result = chat_json(_system_explain(hook["instruction"]), user, model=config["llm"]["model"])
-        media_urls = image_pool(media, max_images=8)
+        media_urls = image_pool(media, max_images=12)
         marker = trailer_marker(media)
         if marker:
             media_urls.append(marker)
@@ -111,7 +111,7 @@ def generate_anime_content(topic: str, config: dict, state: dict) -> dict:
     if word_count > 300:
         raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
 
-    media_urls = (media_urls * 8)[:8]
+    media_urls = (media_urls * 12)[:12]
     output = {"script": result["script"], "media_urls": media_urls, "visual_mode": "media", "hook_id": hook_id}
     if used_trailer:
         output["attribution"] = "Some footage via official trailers"
