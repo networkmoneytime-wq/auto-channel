@@ -21,7 +21,8 @@
     "A road or highway with a bizarre origin story",
     "A manufacturing process that builds a car in under a minute",
     "An engineering trick race cars use that road cars secretly borrowed",
-    "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it"
+    "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it",
+    "The Tucker 48: the 1948 car whose creator went on trial for fraud and was acquitted"
   ],
   "uploads": [
     {
@@ -497,29 +498,40 @@
       "video_id": "1470610061562680",
       "title": "John DeLorean\u2019s $100k Courtroom Escape & the Time\u2011Travel Car He Lost",
       "at": "2026-09-26T22:16:04.338837+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "6s-95eBs9Dw",
+      "title": "The Tucker 48: The Car That Took on the SEC and Won",
+      "at": "2026-09-27T02:15:39.709535+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690032798471653389",
+      "title": "The Tucker 48: The Car That Took on the SEC and Won",
+      "at": "2026-09-27T02:15:42.888654+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18074382560555983",
+      "title": "The Tucker 48: The Car That Took on the SEC and Won",
+      "at": "2026-09-27T02:16:16.021787+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1610528644187121",
+      "title": "The Tucker 48: The Car That Took on the SEC and Won",
+      "at": "2026-09-27T02:16:22.518333+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "question_hook",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    38938856,
-    7581334,
-    7647335,
-    39445383,
-    37518976,
-    7464137,
-    26083304,
-    36635883,
-    28863649,
-    32085485,
-    28153193,
-    37651089,
-    35078039,
     10326491,
     38826674,
     12601920,
@@ -566,6 +578,19 @@
     7065810,
     34379190,
     35614364,
-    25397919
+    25397919,
+    30603120,
+    36492484,
+    7876236,
+    7578609,
+    36287475,
+    34535564,
+    8123987,
+    11824295,
+    5846669,
+    37198879,
+    34550101,
+    34330901,
+    35815439
   ]
 }
