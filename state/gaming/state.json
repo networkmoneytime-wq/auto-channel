@@ -20,7 +20,8 @@
     "A prototype console that never left the lab",
     "A world record in gaming that seems statistically impossible",
     "The engineering behind how game cartridges actually stored data",
-    "A LAN party or gaming convention story that became legendary"
+    "A LAN party or gaming convention story that became legendary",
+    "Pac-Man's ghosts: how each ghost was programmed with its own personality"
   ],
   "uploads": [
     {
@@ -508,28 +509,40 @@
       "video_id": "1404818267832484",
       "title": "The Neon LAN Party That Turned a Town Hall Into a Battlefield",
       "at": "2026-09-27T02:20:32.021545+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "SCglUya4WTI",
+      "title": "Why Pac-Man's Ghosts Have Their Own Personalities",
+      "at": "2026-09-27T22:15:45.717403+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690342149577377805",
+      "title": "Why Pac-Man's Ghosts Have Their Own Personalities",
+      "at": "2026-09-27T22:15:47.750039+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18122351581697687",
+      "title": "Why Pac-Man's Ghosts Have Their Own Personalities",
+      "at": "2026-09-27T22:16:19.678573+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1750526639486590",
+      "title": "Why Pac-Man's Ghosts Have Their Own Personalities",
+      "at": "2026-09-27T22:16:24.835007+00:00"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "mistake_warning",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    6090859,
-    8128031,
-    9667211,
-    6091717,
-    8128499,
-    5647324,
-    10499738,
-    10485467,
-    8118109,
-    19072635,
-    34149136,
-    3694908,
     34385703,
     8816986,
     6586070,
@@ -577,6 +590,18 @@
     27036589,
     36265959,
     9071402,
-    34514149
+    34514149,
+    4172111,
+    5859014,
+    37384160,
+    5422498,
+    5422498,
+    12893579,
+    7832341,
+    34084466,
+    5859014,
+    5422498,
+    4172112,
+    7986649
   ]
 }
