@@ -18,7 +18,8 @@
     "Made in Abyss|why its cute art style hides one of anime's darkest stories",
     "Attack on Titan|the moment the true scale of the story is revealed",
     "Attack on Titan|the moment the true scale of the story is revealed",
-    "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon"
+    "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon",
+    "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about"
   ],
   "uploads": [
     {
@@ -302,13 +303,31 @@
       "video_id": "1271671138418739",
       "title": "How a Teen\u2019s Train Ride Turned Demon Slayer: Mugen Train into a $500M Phenomenon",
       "at": "2026-09-26T22:23:02.610675+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "i8lUyp-yt3U",
+      "title": "Why Gojo Satoru\u2019s Single Wink Can Erase an Entire Battlefield",
+      "at": "2026-09-27T00:09:11.333911+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18094636310438853",
+      "title": "Why Gojo Satoru\u2019s Single Wink Can Erase an Entire Battlefield",
+      "at": "2026-09-27T00:09:45.316930+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1041718425606673",
+      "title": "Why Gojo Satoru\u2019s Single Wink Can Erase an Entire Battlefield",
+      "at": "2026-09-27T00:09:51.237884+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "secret_reveal",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
