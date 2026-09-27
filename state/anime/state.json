@@ -19,7 +19,8 @@
     "Attack on Titan|the moment the true scale of the story is revealed",
     "Attack on Titan|the moment the true scale of the story is revealed",
     "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon",
-    "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about"
+    "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about",
+    "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen"
   ],
   "uploads": [
     {
@@ -321,13 +322,31 @@
       "video_id": "1041718425606673",
       "title": "Why Gojo Satoru\u2019s Single Wink Can Erase an Entire Battlefield",
       "at": "2026-09-27T00:09:51.237884+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "IVlKqLRwhBg",
+      "title": "3 Chainsaw Man Episode 1 Facts That Sound Fake (But Are Real)",
+      "at": "2026-09-27T02:24:09.514774+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18641629630053119",
+      "title": "3 Chainsaw Man Episode 1 Facts That Sound Fake (But Are Real)",
+      "at": "2026-09-27T02:24:41.112123+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1074775805305845",
+      "title": "3 Chainsaw Man Episode 1 Facts That Sound Fake (But Are Real)",
+      "at": "2026-09-27T02:24:46.812564+00:00"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "list_tease",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ]
 }
