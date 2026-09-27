@@ -20,7 +20,8 @@
     "What changed about the Galaxy Z Fold since foldable phones first launched",
     "The strange history of how a common tech symbol or icon was designed",
     "A server or data center fact that sounds impossible but isn't",
-    "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it"
+    "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it",
+    "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions"
   ],
   "uploads": [
     {
@@ -364,25 +365,34 @@
       "video_id": "3009283862742397",
       "title": "Amazon\u2019s $300\u202fMillion Fire Phone Flop",
       "at": "2026-09-26T22:21:10.128830+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "esHwl1HG0XI",
+      "title": "Intel\u2019s $300 Chip Glitch That Cost Half a Billion",
+      "at": "2026-09-27T00:07:00.628374+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18173871820452215",
+      "title": "Intel\u2019s $300 Chip Glitch That Cost Half a Billion",
+      "at": "2026-09-27T00:07:35.383672+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2565515513964791",
+      "title": "Intel\u2019s $300 Chip Glitch That Cost Half a Billion",
+      "at": "2026-09-27T00:07:42.158870+00:00"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "question_hook",
-    "secret_reveal"
+    "secret_reveal",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    6755168,
-    5973871,
-    28733290,
-    16456773,
-    18069803,
-    37291451,
-    8731320,
-    8721933,
-    18069095,
     5495901,
     34535552,
     3946031,
@@ -433,6 +443,15 @@
     35069357,
     32822009,
     6856842,
-    33684741
+    33684741,
+    4708366,
+    39482015,
+    8829559,
+    8879938,
+    6169086,
+    6863130,
+    6631154,
+    8381584,
+    6331338
   ]
 }
