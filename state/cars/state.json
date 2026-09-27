@@ -22,7 +22,8 @@
     "A manufacturing process that builds a car in under a minute",
     "An engineering trick race cars use that road cars secretly borrowed",
     "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it",
-    "The Tucker 48: the 1948 car whose creator went on trial for fraud and was acquitted"
+    "The Tucker 48: the 1948 car whose creator went on trial for fraud and was acquitted",
+    "The Ford Pinto: the fuel-tank scandal that changed how automakers face lawsuits"
   ],
   "uploads": [
     {
@@ -522,21 +523,40 @@
       "video_id": "1610528644187121",
       "title": "The Tucker 48: The Car That Took on the SEC and Won",
       "at": "2026-09-27T02:16:22.518333+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "cBiftYXXg4c",
+      "title": "The Ford Pinto Scandal: 3 Shocking Facts You Won't Believe",
+      "at": "2026-09-27T22:13:19.534601+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690341418858235917",
+      "title": "The Ford Pinto Scandal: 3 Shocking Facts You Won't Believe",
+      "at": "2026-09-27T22:13:21.894506+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17941656750091997",
+      "title": "The Ford Pinto Scandal: 3 Shocking Facts You Won't Believe",
+      "at": "2026-09-27T22:13:54.028343+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1394956492262360",
+      "title": "The Ford Pinto Scandal: 3 Shocking Facts You Won't Believe",
+      "at": "2026-09-27T22:14:02.121569+00:00"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    10326491,
-    38826674,
-    12601920,
-    8627749,
-    20065901,
     28059467,
     37499893,
     7639712,
@@ -591,6 +611,11 @@
     37198879,
     34550101,
     34330901,
-    35815439
+    35815439,
+    31882884,
+    12893579,
+    36747850,
+    38362060,
+    6520232
   ]
 }
