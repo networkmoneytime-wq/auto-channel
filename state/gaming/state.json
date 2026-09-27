@@ -19,7 +19,8 @@
     "The surprising origin of a gaming catchphrase or meme",
     "A prototype console that never left the lab",
     "A world record in gaming that seems statistically impossible",
-    "The engineering behind how game cartridges actually stored data"
+    "The engineering behind how game cartridges actually stored data",
+    "A LAN party or gaming convention story that became legendary"
   ],
   "uploads": [
     {
@@ -483,28 +484,40 @@
       "video_id": "1757536195476389",
       "title": "Inside the Tiny Supercomputer Inside Every Game Cartridge",
       "at": "2026-09-27T00:05:25.026158+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ZL5JkgkdmYQ",
+      "title": "The Neon LAN Party That Turned a Town Hall Into a Battlefield",
+      "at": "2026-09-27T02:17:50.352156+00:00"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690033182460577805",
+      "title": "The Neon LAN Party That Turned a Town Hall Into a Battlefield",
+      "at": "2026-09-27T02:17:53.048177+00:00"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18116530822996930",
+      "title": "The Neon LAN Party That Turned a Town Hall Into a Battlefield",
+      "at": "2026-09-27T02:20:26.228270+00:00"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1404818267832484",
+      "title": "The Neon LAN Party That Turned a Town Hall Into a Battlefield",
+      "at": "2026-09-27T02:20:32.021545+00:00"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "secret_reveal",
     "list_tease",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    27451037,
-    39411825,
-    6132601,
-    19922398,
-    8326454,
-    29295613,
-    24801124,
-    8128024,
-    30301758,
-    7914811,
-    29369829,
-    9643291,
     6090859,
     8128031,
     9667211,
@@ -552,6 +565,18 @@
     7608631,
     39686771,
     9807739,
-    35460209
+    35460209,
+    39701661,
+    7273908,
+    37410274,
+    19203091,
+    36459927,
+    12555598,
+    35585785,
+    7688613,
+    27036589,
+    36265959,
+    9071402,
+    34514149
   ]
 }
