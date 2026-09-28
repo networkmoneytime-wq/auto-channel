@@ -24,7 +24,8 @@
     "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit",
     "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
     "One Piece|how One Piece has kept fans hooked for more than 25 years",
-    "Naruto|how a rejected ninja kid became one of anime's biggest icons"
+    "Naruto|how a rejected ninja kid became one of anime's biggest icons",
+    "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels"
   ],
   "uploads": [
     {
@@ -434,13 +435,37 @@
       "at": "2026-09-28T03:38:50.344348+00:00",
       "topic": "Naruto|how a rejected ninja kid became one of anime's biggest icons",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Te8Qd9T8MEg",
+      "title": "When Goku Cracked the 9,000 Power-Level Ceiling",
+      "at": "2026-09-28T22:21:55.211289+00:00",
+      "topic": "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18144082162596930",
+      "title": "When Goku Cracked the 9,000 Power-Level Ceiling",
+      "at": "2026-09-28T22:22:31.881398+00:00",
+      "topic": "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1425454409761562",
+      "title": "When Goku Cracked the 9,000 Power-Level Ceiling",
+      "at": "2026-09-28T22:22:36.528964+00:00",
+      "topic": "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "secret_reveal",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ]
 }
