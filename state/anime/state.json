@@ -22,7 +22,8 @@
     "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about",
     "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen",
     "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit",
-    "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans"
+    "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
+    "One Piece|how One Piece has kept fans hooked for more than 25 years"
   ],
   "uploads": [
     {
@@ -384,13 +385,37 @@
       "at": "2026-09-28T00:09:53.473019+00:00",
       "topic": "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "PCsC_ehMF3A",
+      "title": "The Secret Behind One Piece's 25-Year Grip",
+      "at": "2026-09-28T02:26:17.846161+00:00",
+      "topic": "One Piece|how One Piece has kept fans hooked for more than 25 years",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18098079071633952",
+      "title": "The Secret Behind One Piece's 25-Year Grip",
+      "at": "2026-09-28T02:26:50.690667+00:00",
+      "topic": "One Piece|how One Piece has kept fans hooked for more than 25 years",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1400500988302511",
+      "title": "The Secret Behind One Piece's 25-Year Grip",
+      "at": "2026-09-28T02:26:55.603747+00:00",
+      "topic": "One Piece|how One Piece has kept fans hooked for more than 25 years",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "list_tease",
     "question_hook",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ]
 }
