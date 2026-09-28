@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       max-parallel: 1 # sequential: avoids concurrent pushes racing on state/
       matrix:
-        channel: [cars, gaming, technology, anime]
+        channel: [cars, gaming, technology, anime, meme]
     steps:
       - uses: actions/checkout@v4
 
@@ -53,6 +53,11 @@ jobs:
           RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          # meme's AI-character format only, not per-channel (one Cloudflare
+          # Workers AI account, shared the same way the LLM/stock-footage
+          # keys above are).
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           YOUTUBE_CLIENT_ID_CARS: ${{ secrets.YOUTUBE_CLIENT_ID_CARS }}
           YOUTUBE_CLIENT_SECRET_CARS: ${{ secrets.YOUTUBE_CLIENT_SECRET_CARS }}
           YOUTUBE_REFRESH_TOKEN_CARS: ${{ secrets.YOUTUBE_REFRESH_TOKEN_CARS }}
@@ -81,6 +86,16 @@ jobs:
           IG_ACCESS_TOKEN_ANIME: ${{ secrets.IG_ACCESS_TOKEN_ANIME }}
           IG_USER_ID_ANIME: ${{ secrets.IG_USER_ID_ANIME }}
           FB_PAGE_ID_ANIME: ${{ secrets.FB_PAGE_ID_ANIME }}
+          # meme: no TikTok (excluded per the user), no Instagram yet (no
+          # account -- config.yaml has instagram.enabled: false until one
+          # exists, so IG_ACCESS_TOKEN_MEME/IG_USER_ID_MEME aren't needed
+          # here; the token already pushed doubles as facebook.py's Page
+          # token, which is why it's still listed below).
+          YOUTUBE_CLIENT_ID_MEME: ${{ secrets.YOUTUBE_CLIENT_ID_MEME }}
+          YOUTUBE_CLIENT_SECRET_MEME: ${{ secrets.YOUTUBE_CLIENT_SECRET_MEME }}
+          YOUTUBE_REFRESH_TOKEN_MEME: ${{ secrets.YOUTUBE_REFRESH_TOKEN_MEME }}
+          IG_ACCESS_TOKEN_MEME: ${{ secrets.IG_ACCESS_TOKEN_MEME }}
+          FB_PAGE_ID_MEME: ${{ secrets.FB_PAGE_ID_MEME }}
         run: python -m src.orchestrator
 
       - name: Persist state
