@@ -88,6 +88,7 @@ def maybe_extend_topics(state: dict, config: dict) -> None:
     try:
         unused, all_lines = _unused_lines(state)
         if len(unused) >= MIN_UNUSED:
+            print(f"[topics] {len(unused)} unused topic(s) left, above the {MIN_UNUSED} threshold")
             return
         print(f"[topics] only {len(unused)} unused topic(s) left, writing {GENERATE_N} more")
 

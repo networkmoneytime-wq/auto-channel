@@ -89,6 +89,8 @@ def refresh(state: dict) -> dict:
     _CURRENT = build_digest(state)
     if _CURRENT["hooks"] or _CURRENT["topic_examples"]:
         print(f"[performance] {len(_CURRENT['topic_examples'])} scored topic(s), hook averages: {_CURRENT['hooks']}")
+    else:
+        print("[performance] no scored data yet (needs a facebook upload with a recorded topic)")
     return _CURRENT
 
 
