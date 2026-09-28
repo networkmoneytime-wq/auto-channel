@@ -23,7 +23,8 @@
     "A LAN party or gaming convention story that became legendary",
     "Pac-Man's ghosts: how each ghost was programmed with its own personality",
     "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
-    "The Konami Code: the accident that became gaming's most famous cheat"
+    "The Konami Code: the accident that became gaming's most famous cheat",
+    "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist"
   ],
   "uploads": [
     {
@@ -599,27 +600,48 @@
       "at": "2026-09-28T02:22:25.973210+00:00",
       "topic": "The Konami Code: the accident that became gaming's most famous cheat",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "kK-2_emphU4",
+      "title": "How to Access the Legendary Minus World Glitch in Super Mario Bros.",
+      "at": "2026-09-28T03:34:08.427317+00:00",
+      "topic": "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690424133787633678",
+      "title": "How to Access the Legendary Minus World Glitch in Super Mario Bros.",
+      "at": "2026-09-28T03:34:10.049049+00:00",
+      "topic": "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18115339478068529",
+      "title": "How to Access the Legendary Minus World Glitch in Super Mario Bros.",
+      "at": "2026-09-28T03:34:42.688029+00:00",
+      "topic": "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3254926324706161",
+      "title": "How to Access the Legendary Minus World Glitch in Super Mario Bros.",
+      "at": "2026-09-28T03:34:50.291751+00:00",
+      "topic": "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "list_tease",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    30653723,
-    8118112,
-    39598326,
-    36703820,
-    8128419,
-    15172075,
-    15283162,
-    6120110,
-    7688797,
-    6927320,
-    8086291,
     25935025,
     38697709,
     36167829,
@@ -668,6 +690,17 @@
     6717622,
     6321876,
     36725595,
-    8757863
+    8757863,
+    7047781,
+    8544030,
+    8888807,
+    8820124,
+    10975009,
+    12715396,
+    12866605,
+    39463971,
+    38410542,
+    8888614,
+    8822649
   ]
 }
