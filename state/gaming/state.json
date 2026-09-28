@@ -21,7 +21,8 @@
     "A world record in gaming that seems statistically impossible",
     "The engineering behind how game cartridges actually stored data",
     "A LAN party or gaming convention story that became legendary",
-    "Pac-Man's ghosts: how each ghost was programmed with its own personality"
+    "Pac-Man's ghosts: how each ghost was programmed with its own personality",
+    "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true"
   ],
   "uploads": [
     {
@@ -533,24 +534,48 @@
       "video_id": "1750526639486590",
       "title": "Why Pac-Man's Ghosts Have Their Own Personalities",
       "at": "2026-09-27T22:16:24.835007+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "eYvpN_Mryv0",
+      "title": "The Desert That Hid 700,000 Atari E.T. Cartridges",
+      "at": "2026-09-28T00:04:17.837731+00:00",
+      "topic": "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690370115590146061",
+      "title": "The Desert That Hid 700,000 Atari E.T. Cartridges",
+      "at": "2026-09-28T00:04:21.014469+00:00",
+      "topic": "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18068802578771268",
+      "title": "The Desert That Hid 700,000 Atari E.T. Cartridges",
+      "at": "2026-09-28T00:04:55.408841+00:00",
+      "topic": "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1421044956658452",
+      "title": "The Desert That Hid 700,000 Atari E.T. Cartridges",
+      "at": "2026-09-28T00:05:01.213064+00:00",
+      "topic": "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "question_hook",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    34385703,
-    8816986,
-    6586070,
-    12715402,
-    30276831,
-    15101188,
-    6755168,
-    7914797,
     9070658,
     8369956,
     7423947,
@@ -602,6 +627,14 @@
     5859014,
     5422498,
     4172112,
-    7986649
+    7986649,
+    29262623,
+    8888814,
+    28180028,
+    34521517,
+    38329893,
+    6091708,
+    8888410,
+    39145684
   ]
 }
