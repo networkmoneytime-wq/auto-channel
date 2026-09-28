@@ -25,7 +25,8 @@
     "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial",
     "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996",
     "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
-    "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US"
+    "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
+    "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008"
   ],
   "uploads": [
     {
@@ -471,27 +472,40 @@
       "at": "2026-09-28T02:24:36.499195+00:00",
       "topic": "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "av1x06GyfI4",
+      "title": "The 30GB Zune That Frozen at Midnight on New Year's 2008",
+      "at": "2026-09-28T03:36:18.631128+00:00",
+      "topic": "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17909610186489663",
+      "title": "The 30GB Zune That Frozen at Midnight on New Year's 2008",
+      "at": "2026-09-28T03:36:58.620327+00:00",
+      "topic": "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1078977431441687",
+      "title": "The 30GB Zune That Frozen at Midnight on New Year's 2008",
+      "at": "2026-09-28T03:37:04.310252+00:00",
+      "topic": "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "mistake_warning",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    8816985,
-    8513120,
-    38410501,
-    34445230,
-    30301890,
-    6931577,
-    5947622,
-    35683713,
-    6602805,
-    35069357,
-    32822009,
     6856842,
     33684741,
     4708366,
@@ -540,6 +554,17 @@
     9821713,
     10397453,
     38993329,
-    34835424
+    34835424,
+    6755162,
+    17805787,
+    5973871,
+    13511897,
+    6772980,
+    5473803,
+    8721655,
+    36804382,
+    27036589,
+    30197443,
+    34280527
   ]
 }
