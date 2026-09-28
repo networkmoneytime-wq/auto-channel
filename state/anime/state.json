@@ -23,7 +23,8 @@
     "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen",
     "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit",
     "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
-    "One Piece|how One Piece has kept fans hooked for more than 25 years"
+    "One Piece|how One Piece has kept fans hooked for more than 25 years",
+    "Naruto|how a rejected ninja kid became one of anime's biggest icons"
   ],
   "uploads": [
     {
@@ -409,13 +410,37 @@
       "at": "2026-09-28T02:26:55.603747+00:00",
       "topic": "One Piece|how One Piece has kept fans hooked for more than 25 years",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "iKXrZNN6tBw",
+      "title": "How Naruto Went From Outcast to Anime Icon",
+      "at": "2026-09-28T03:38:17.778709+00:00",
+      "topic": "Naruto|how a rejected ninja kid became one of anime's biggest icons",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18020727317872873",
+      "title": "How Naruto Went From Outcast to Anime Icon",
+      "at": "2026-09-28T03:38:46.279854+00:00",
+      "topic": "Naruto|how a rejected ninja kid became one of anime's biggest icons",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "27844651431880672",
+      "title": "How Naruto Went From Outcast to Anime Icon",
+      "at": "2026-09-28T03:38:50.344348+00:00",
+      "topic": "Naruto|how a rejected ninja kid became one of anime's biggest icons",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "question_hook",
     "secret_reveal",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
   ]
 }
