@@ -24,7 +24,8 @@
     "Pac-Man's ghosts: how each ghost was programmed with its own personality",
     "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
     "The Konami Code: the accident that became gaming's most famous cheat",
-    "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist"
+    "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
+    "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save"
   ],
   "uploads": [
     {
@@ -632,27 +633,48 @@
       "at": "2026-09-28T03:34:50.291751+00:00",
       "topic": "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Uo4pcPgiRZU",
+      "title": "MissingNo. Glitch: Could It Erase Your Pok\u00e9mon Save?",
+      "at": "2026-09-28T22:17:33.774661+00:00",
+      "topic": "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690713702496192526",
+      "title": "MissingNo. Glitch: Could It Erase Your Pok\u00e9mon Save?",
+      "at": "2026-09-28T22:17:36.518762+00:00",
+      "topic": "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18130081591804639",
+      "title": "MissingNo. Glitch: Could It Erase Your Pok\u00e9mon Save?",
+      "at": "2026-09-28T22:18:09.374799+00:00",
+      "topic": "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1452915560018036",
+      "title": "MissingNo. Glitch: Could It Erase Your Pok\u00e9mon Save?",
+      "at": "2026-09-28T22:18:16.953058+00:00",
+      "topic": "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "question_hook",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    25935025,
-    38697709,
-    36167829,
-    7314034,
-    6266656,
-    7608631,
-    39686771,
-    9807739,
-    35460209,
-    39701661,
-    7273908,
     37410274,
     19203091,
     36459927,
@@ -701,6 +723,17 @@
     39463971,
     38410542,
     8888614,
-    8822649
+    8822649,
+    25935015,
+    7330825,
+    13207159,
+    16029655,
+    34445253,
+    6108914,
+    8720756,
+    34246644,
+    8128340,
+    8466347,
+    6491686
   ]
 }
