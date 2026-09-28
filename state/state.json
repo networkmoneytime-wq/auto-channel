@@ -29,7 +29,8 @@
     "The Great Emu War of 1932: when Australian soldiers with machine guns took on the emus",
     "Operation Mincemeat: the corpse with fake papers that fooled the Nazis",
     "The Cadaver Synod: the trial of a dead pope",
-    "Tsutomu Yamaguchi: the man who survived both atomic bombs"
+    "Tsutomu Yamaguchi: the man who survived both atomic bombs",
+    "Victor Lustig: the con artist who sold the Eiffel Tower twice"
   ],
   "uploads": [
     {
@@ -671,23 +672,48 @@
       "at": "2026-09-28T02:05:38.418346+00:00",
       "topic": "Tsutomu Yamaguchi: the man who survived both atomic bombs",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "KyR6aie_xLA",
+      "title": "Lustig's Insane Eiffel Tower Scams: 3 Heists You Won't Believe",
+      "at": "2026-09-28T22:15:10.276512+00:00",
+      "topic": "Victor Lustig: the con artist who sold the Eiffel Tower twice",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690712905280833567",
+      "title": "Lustig's Insane Eiffel Tower Scams: 3 Heists You Won't Believe",
+      "at": "2026-09-28T22:15:13.871939+00:00",
+      "topic": "Victor Lustig: the con artist who sold the Eiffel Tower twice",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17900637165373399",
+      "title": "Lustig's Insane Eiffel Tower Scams: 3 Heists You Won't Believe",
+      "at": "2026-09-28T22:15:52.739157+00:00",
+      "topic": "Victor Lustig: the con artist who sold the Eiffel Tower twice",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1077830645170773",
+      "title": "Lustig's Insane Eiffel Tower Scams: 3 Heists You Won't Believe",
+      "at": "2026-09-28T22:15:59.264989+00:00",
+      "topic": "Victor Lustig: the con artist who sold the Eiffel Tower twice",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "secret_reveal",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    6200841,
-    5905281,
-    11490092,
-    5930433,
-    26757162,
-    6101348,
-    34913017,
     6866463,
     32508091,
     31950958,
@@ -740,6 +766,13 @@
     33847368,
     9245557,
     6532227,
-    32549906
+    32549906,
+    39658862,
+    12469953,
+    5921200,
+    39134701,
+    7362695,
+    6868234,
+    15461510
   ]
 }
