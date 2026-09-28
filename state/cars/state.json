@@ -24,7 +24,8 @@
     "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it",
     "The Tucker 48: the 1948 car whose creator went on trial for fraud and was acquitted",
     "The Ford Pinto: the fuel-tank scandal that changed how automakers face lawsuits",
-    "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed"
+    "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
+    "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad"
   ],
   "uploads": [
     {
@@ -580,25 +581,40 @@
       "at": "2026-09-28T00:02:44.094903+00:00",
       "topic": "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Ozjjd7zq3q4",
+      "title": "Why the Pontiac Aztek Became Breaking Bad's Unlikely Star",
+      "at": "2026-09-28T02:16:32.448158+00:00",
+      "topic": "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690404185472239629",
+      "title": "Why the Pontiac Aztek Became Breaking Bad's Unlikely Star",
+      "at": "2026-09-28T02:16:35.515373+00:00",
+      "topic": "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1903604033951834",
+      "title": "Why the Pontiac Aztek Became Breaking Bad's Unlikely Star",
+      "at": "2026-09-28T02:19:55.421688+00:00",
+      "topic": "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    15145743,
-    9565655,
-    33210957,
-    28566777,
-    29386241,
-    30859385,
-    35138809,
-    13024020,
-    37184247,
     28988136,
     34948758,
     35598609,
@@ -649,6 +665,15 @@
     6520232,
     8470701,
     39295319,
-    11269295
+    11269295,
+    26083304,
+    31443128,
+    8522838,
+    7154236,
+    9944850,
+    33596422,
+    37903577,
+    39421364,
+    18941350
   ]
 }
