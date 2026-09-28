@@ -196,4 +196,15 @@ def download_media(urls: list[str], out_dir: Path) -> list[Path]:
         dest = out_dir / f"media_{i}{ext}"
         _stream_download(url, dest)
         paths.append(dest)
+    if not paths:
+        # Every entry here is best-effort (fetch_clip/generate_image/
+        # fetch_trailer_clip all return False rather than raise, since one
+        # bad asset shouldn't sink an otherwise-fine video) — but if every
+        # single one failed, there's nothing to assemble. Raising a clear
+        # error here beats leaving assemble_video to hit an empty clip list:
+        # it previously crashed on a confusing ZeroDivisionError deep inside
+        # _clip_durations' water-filling with no indication the real cause
+        # was upstream (found when both of a DRAMA video's ai-image://
+        # prompts were rejected as false-positive NSFW in the same run).
+        raise RuntimeError(f"No media downloaded for any of {len(urls)} url(s)")
     return paths

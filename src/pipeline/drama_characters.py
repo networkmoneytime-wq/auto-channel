@@ -10,28 +10,39 @@ genre itself isn't ownable, a specific creator's specific cast is.
 A small fixed roster (not a new character invented every video) so the
 channel builds a recognizable, recurring cast the way the real trend does --
 script_gen_meme.py's DRAMA generator draws two of these per video rather
-than asking the LLM to invent characters from scratch."""
+than asking the LLM to invent characters from scratch.
+
+The "visual" fields deliberately stick to neutral, pose-based description
+(the same style already proven to render cleanly for the real characters in
+brainrot_characters.py) rather than emotionally-loaded facial-expression
+language: the first version of this roster described faces as "glaring",
+"smug", with "narrowed scheming eyes", and Cloudflare Workers AI's image
+model rejected two different characters in the same real run as NSFW content
+-- a false positive (there's nothing actually explicit about a cartoon
+pineapple), but a real, repeatable one, the same false-positive-on-wording
+class of issue brainrot_characters.py already documented for character
+names specifically. Neutral wording renders without tripping it."""
 
 CHARACTERS = [
     {
         "name": "Peaches",
         "personality": "The emotional center of every storyline. Sweet, dramatic, and always \"just found out\" something devastating.",
-        "visual": "a peach character with cartoon arms and legs and a sweet face mid dramatic gasp, one hand on its chest, soft pink lighting, photorealistic 3D render, plain background",
+        "visual": "a peach character with cartoon arms and legs, one hand on its chest, dramatic pose, soft pink lighting, photorealistic 3D render, plain background",
     },
     {
         "name": "Mango Marco",
         "personality": "A smooth-talking charmer. Confident, a little smug, and somehow the third point in every love triangle.",
-        "visual": "a mango character with cartoon arms and legs wearing sunglasses and a gold chain, smug confident pose, photorealistic 3D render, plain background",
+        "visual": "a mango character with cartoon arms and legs wearing sunglasses and a gold chain, standing pose, photorealistic 3D render, plain background",
     },
     {
         "name": "Pineapple Percy",
         "personality": "Spiky attitude to match the exterior. Loyal, quick to anger, terrible at staying quiet about a grudge.",
-        "visual": "a pineapple character with cartoon arms and legs, spiky leaves styled like hair, arms crossed and glaring, photorealistic 3D render, plain background",
+        "visual": "a pineapple character with cartoon arms and legs, spiky leaves styled like hair, arms crossed, standing pose, photorealistic 3D render, plain background",
     },
     {
         "name": "Bananarama",
         "personality": "Chaotic and can't keep a secret for five minutes. The reason everyone always finds out everything.",
-        "visual": "a banana character with cartoon arms and legs, peel open like a flowing dress, hand cupped near its mouth mid gossip, photorealistic 3D render, plain background",
+        "visual": "a banana character with cartoon arms and legs, peel open like a flowing dress, comedic pose with one hand near its mouth, photorealistic 3D render, plain background",
     },
     {
         "name": "Coco Nutt",
@@ -41,16 +52,16 @@ CHARACTERS = [
     {
         "name": "Strawberry Shay",
         "personality": "Sweet on the outside. Actually the quiet mastermind behind half the group's drama.",
-        "visual": "a strawberry character with cartoon arms and legs, sweet smile with narrowed scheming eyes, hands clasped together, photorealistic 3D render, plain background",
+        "visual": "a strawberry character with cartoon arms and legs, sweet smile, hands clasped together, standing pose, photorealistic 3D render, plain background",
     },
     {
         "name": "Big Kiwi",
         "personality": "Blunt, zero patience for nonsense, always the one who says what everyone else is only thinking.",
-        "visual": "a kiwi fruit character with cartoon arms and legs, stocky build, arms crossed, unimpressed expression, photorealistic 3D render, plain background",
+        "visual": "a kiwi fruit character with cartoon arms and legs, stocky build, arms crossed, standing pose, photorealistic 3D render, plain background",
     },
     {
         "name": "The Grapes",
         "personality": "A gossiping cluster who react to everyone else's drama like a Greek chorus. Never the center of the story, always narrating it.",
-        "visual": "a cluster of grape characters each with tiny cartoon faces, huddled together whispering, photorealistic 3D render, plain background",
+        "visual": "a cluster of grape characters each with tiny cartoon faces, huddled together, comedic pose, photorealistic 3D render, plain background",
     },
 ]
