@@ -21,7 +21,8 @@
     "Demon Slayer|how the Mugen Train movie turned into a box office phenomenon",
     "Jujutsu Kaisen|what makes Gojo the character fans cannot stop talking about",
     "Chainsaw Man|why Chainsaw Man's opening episode feels so different from other shonen",
-    "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit"
+    "Frieren: Beyond Journey's End|how a story that starts after the hero's victory became a hit",
+    "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans"
   ],
   "uploads": [
     {
@@ -359,13 +360,37 @@
       "video_id": "2321877645235105",
       "title": "Why Frieren's Post-Battle Journey Is the Most Unexpected Adventure",
       "at": "2026-09-27T22:20:32.379769+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "qdDg2rwqtQs",
+      "title": "Why Solo Leveling Became a Global Obsession",
+      "at": "2026-09-28T00:09:12.622745+00:00",
+      "topic": "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17900820489375437",
+      "title": "Why Solo Leveling Became a Global Obsession",
+      "at": "2026-09-28T00:09:48.806886+00:00",
+      "topic": "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2844902039217137",
+      "title": "Why Solo Leveling Became a Global Obsession",
+      "at": "2026-09-28T00:09:53.473019+00:00",
+      "topic": "Solo Leveling|why Solo Leveling's power fantasy set off a global wave of fans",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "shocking_fact",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "secret_reveal"
   ]
 }
