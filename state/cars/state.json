@@ -23,7 +23,8 @@
     "An engineering trick race cars use that road cars secretly borrowed",
     "The DeLorean DMC-12: the stainless-steel sports car and the rise and fall of the man behind it",
     "The Tucker 48: the 1948 car whose creator went on trial for fraud and was acquitted",
-    "The Ford Pinto: the fuel-tank scandal that changed how automakers face lawsuits"
+    "The Ford Pinto: the fuel-tank scandal that changed how automakers face lawsuits",
+    "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed"
   ],
   "uploads": [
     {
@@ -547,19 +548,48 @@
       "video_id": "1394956492262360",
       "title": "The Ford Pinto Scandal: 3 Shocking Facts You Won't Believe",
       "at": "2026-09-27T22:14:02.121569+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "fuJVEpnbA90",
+      "title": "The Corvair: The Car That Fueled Nader's 'Unsafe at Any Speed'",
+      "at": "2026-09-28T00:02:07.212380+00:00",
+      "topic": "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690369641914451982",
+      "title": "The Corvair: The Car That Fueled Nader's 'Unsafe at Any Speed'",
+      "at": "2026-09-28T00:02:09.059428+00:00",
+      "topic": "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17927859855419849",
+      "title": "The Corvair: The Car That Fueled Nader's 'Unsafe at Any Speed'",
+      "at": "2026-09-28T00:02:39.763432+00:00",
+      "topic": "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4725641927659768",
+      "title": "The Corvair: The Car That Fueled Nader's 'Unsafe at Any Speed'",
+      "at": "2026-09-28T00:02:44.094903+00:00",
+      "topic": "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    28059467,
-    37499893,
-    7639712,
     15145743,
     9565655,
     33210957,
@@ -616,6 +646,9 @@
     12893579,
     36747850,
     38362060,
-    6520232
+    6520232,
+    8470701,
+    39295319,
+    11269295
   ]
 }
