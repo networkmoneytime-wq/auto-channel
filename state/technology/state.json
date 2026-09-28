@@ -23,7 +23,8 @@
     "The Amazon Fire Phone: the flop that cost Amazon a huge write-down and what it learned from it",
     "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions",
     "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial",
-    "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996"
+    "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996",
+    "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built"
   ],
   "uploads": [
     {
@@ -421,26 +422,40 @@
       "video_id": "1394777849480869",
       "title": "How a Tiny Software Overflow Blew Up Ariane\u202f5's First Flight",
       "at": "2026-09-27T22:18:47.665696+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "0Kke9KNs5xs",
+      "title": "Therac-25: How One Bug Killed Six Cancer Patients",
+      "at": "2026-09-28T00:06:34.733866+00:00",
+      "topic": "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18174579640453708",
+      "title": "Therac-25: How One Bug Killed Six Cancer Patients",
+      "at": "2026-09-28T00:07:59.356715+00:00",
+      "topic": "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1431193939142808",
+      "title": "Therac-25: How One Bug Killed Six Cancer Patients",
+      "at": "2026-09-28T00:08:07.144884+00:00",
+      "topic": "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "secret_reveal",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    4788410,
-    6996768,
-    5841707,
-    39055628,
-    5638359,
-    25397941,
-    8516989,
-    6962433,
-    3625774,
-    13567267,
     9019534,
     34724848,
     19970916,
@@ -490,6 +505,16 @@
     36249898,
     3826639,
     6120119,
-    34767731
+    34767731,
+    12331339,
+    34402540,
+    39733705,
+    7817164,
+    39458721,
+    36354846,
+    6324534,
+    10419525,
+    36179522,
+    33315117
   ]
 }
