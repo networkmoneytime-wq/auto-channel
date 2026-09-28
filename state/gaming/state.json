@@ -22,7 +22,8 @@
     "The engineering behind how game cartridges actually stored data",
     "A LAN party or gaming convention story that became legendary",
     "Pac-Man's ghosts: how each ghost was programmed with its own personality",
-    "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true"
+    "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
+    "The Konami Code: the accident that became gaming's most famous cheat"
   ],
   "uploads": [
     {
@@ -566,24 +567,48 @@
       "at": "2026-09-28T00:05:01.213064+00:00",
       "topic": "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "1cr2mi2E30w",
+      "title": "The Real Origin of the Konami Code: A Programmer's Accident",
+      "at": "2026-09-28T02:21:37.818486+00:00",
+      "topic": "The Konami Code: the accident that became gaming's most famous cheat",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690405312804816909",
+      "title": "The Real Origin of the Konami Code: A Programmer's Accident",
+      "at": "2026-09-28T02:21:40.899129+00:00",
+      "topic": "The Konami Code: the accident that became gaming's most famous cheat",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18010432259968042",
+      "title": "The Real Origin of the Konami Code: A Programmer's Accident",
+      "at": "2026-09-28T02:22:18.797544+00:00",
+      "topic": "The Konami Code: the accident that became gaming's most famous cheat",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1613981463536214",
+      "title": "The Real Origin of the Konami Code: A Programmer's Accident",
+      "at": "2026-09-28T02:22:25.973210+00:00",
+      "topic": "The Konami Code: the accident that became gaming's most famous cheat",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "question_hook",
     "contrarian_claim",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    9070658,
-    8369956,
-    7423947,
-    39361700,
-    9794864,
-    10527011,
-    7855727,
-    7849223,
     30653723,
     8118112,
     39598326,
@@ -635,6 +660,14 @@
     38329893,
     6091708,
     8888410,
-    39145684
+    39145684,
+    8128493,
+    6520437,
+    32025592,
+    8321893,
+    6717622,
+    6321876,
+    36725595,
+    8757863
   ]
 }
