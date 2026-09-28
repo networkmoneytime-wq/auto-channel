@@ -28,7 +28,8 @@
     "The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop",
     "The Great Emu War of 1932: when Australian soldiers with machine guns took on the emus",
     "Operation Mincemeat: the corpse with fake papers that fooled the Nazis",
-    "The Cadaver Synod: the trial of a dead pope"
+    "The Cadaver Synod: the trial of a dead pope",
+    "Tsutomu Yamaguchi: the man who survived both atomic bombs"
   ],
   "uploads": [
     {
@@ -638,24 +639,48 @@
       "at": "2026-09-28T00:30:16.111727+00:00",
       "topic": "The Cadaver Synod: the trial of a dead pope",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "5Fi26PPphbY",
+      "title": "Tsutomu Yamaguchi: The Man Who Survived Both Hiroshima & Nagasaki",
+      "at": "2026-09-28T02:04:55.040604+00:00",
+      "topic": "Tsutomu Yamaguchi: the man who survived both atomic bombs",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690400937114011678",
+      "title": "Tsutomu Yamaguchi: The Man Who Survived Both Hiroshima & Nagasaki",
+      "at": "2026-09-28T02:05:00.029155+00:00",
+      "topic": "Tsutomu Yamaguchi: the man who survived both atomic bombs",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17974569053936902",
+      "title": "Tsutomu Yamaguchi: The Man Who Survived Both Hiroshima & Nagasaki",
+      "at": "2026-09-28T02:05:33.791096+00:00",
+      "topic": "Tsutomu Yamaguchi: the man who survived both atomic bombs",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1409510783922022",
+      "title": "Tsutomu Yamaguchi: The Man Who Survived Both Hiroshima & Nagasaki",
+      "at": "2026-09-28T02:05:38.418346+00:00",
+      "topic": "Tsutomu Yamaguchi: the man who survived both atomic bombs",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "shocking_fact",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    34462996,
-    30546876,
-    36108441,
-    36295881,
-    9354644,
-    19597637,
-    35799050,
-    27700492,
     6200841,
     5905281,
     11490092,
@@ -707,6 +732,14 @@
     36720340,
     6670962,
     29036645,
-    34536748
+    34536748,
+    4832756,
+    7845246,
+    29094818,
+    35516585,
+    33847368,
+    9245557,
+    6532227,
+    32549906
   ]
 }
