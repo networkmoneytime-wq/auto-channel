@@ -1,36 +1,47 @@
 # One topic/prompt per line. Lines starting with # are ignored.
+#
+# Reworked 2026-09-28 per the user's request to lean the channel harder into
+# AI-character content and add a second character-driven format. Lines
+# starting with AI_CHARACTER or DRAMA are numbered (AI_CHARACTER_1,
+# AI_CHARACTER_2, ...) rather than repeated once each: pick_topic's rotation
+# gives every distinct line its own slot, so a single repeated "AI_CHARACTER"
+# line would only ever get one slot in the rotation no matter how many times
+# it appeared, the same as any one plain line below. The number itself means
+# nothing to script_gen_meme.py (matched by startswith, not equality) -- it
+# only exists so these two formats get many slots instead of one, which is
+# what actually makes them the dominant format in the rotation.
+#
+# AI_CHARACTER_*: a deadpan spotlight on one of the real, established
+# Italian Brainrot characters in brainrot_characters.py, with matching
+# AI-generated character art.
+AI_CHARACTER_1
+AI_CHARACTER_2
+AI_CHARACTER_3
+AI_CHARACTER_4
+AI_CHARACTER_5
+AI_CHARACTER_6
+AI_CHARACTER_7
+AI_CHARACTER_8
+#
+# DRAMA_*: a short soap-opera scene about two characters from the original
+# cast in drama_characters.py -- same "anthropomorphized food melodrama"
+# genre as the "fruit that cheat on each other" trend, original cast.
+DRAMA_1
+DRAMA_2
+DRAMA_3
+DRAMA_4
+DRAMA_5
+DRAMA_6
+DRAMA_7
+DRAMA_8
+#
 # Plain lines: angles/prompts for the LLM to write an original funny script
 # from -- not things to quote or repost. Keep them relatable/observational,
 # not "did you know" facts (that's every other channel's job). These get a
-# hypnotic stock-footage backdrop (see brainrot.py).
-# The literal line "AI_CHARACTER" triggers the other format: a deadpan
-# spotlight on one of the real, established Italian Brainrot characters in
-# brainrot_characters.py, with its own AI-generated character art (the one
-# deliberately-AI-generated visual in this project -- see script_gen_meme.py
-# for why).
-
+# hypnotic stock-footage backdrop (see brainrot.py). Kept deliberately few --
+# occasional variety, not the channel's identity.
 The specific way everyone lies about being "on my way"
 That one friend who narrates their own life like a documentary
 The unhinged confidence of a toddler who just learned a new word
 Texting "we should hang out soon" and both of you knowing it's not happening
-AI_CHARACTER
 The five stages of grief but it's your phone at 1% battery
-How everyone becomes a food critic the second something's slightly undercooked
-The specific chaos of a group chat when one person leaves you on read
-That feeling when you say "you too" after the waiter says "enjoy your meal"
-AI_CHARACTER
-The unspoken rules of who has to get up when the doorbell rings
-How every household has exactly one drawer that's just chaos
-The internal monologue of a dog watching you eat something it's not allowed to have
-That one relative who asks the same question every single family gathering
-AI_CHARACTER
-The specific panic of hearing your name called in a public waiting room
-How everyone becomes an expert negotiator when splitting a group bill
-The audacity of a self-checkout machine accusing you of bagging wrong
-That moment you realize you've been pronouncing a word wrong your entire life
-AI_CHARACTER
-The specific betrayal of a chair that's shorter than you expected when you sit down
-How every group project has exactly one person who does everything
-The unwritten rules of hallway small talk with someone you barely know
-That feeling of confidently walking somewhere then immediately forgetting why
-AI_CHARACTER

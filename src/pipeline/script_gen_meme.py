@@ -1,23 +1,44 @@
-"""Script generation for the meme channel, which rotates two formats:
+"""Script generation for the meme channel, which rotates three formats:
 
 - Plain topics (from topics.txt): "brainrot" backdrop -- an LLM-written
   joke/observation narration over hypnotic, unrelated stock footage (neon
   tunnels, slime, car drifting, ...) via src/pipeline/brainrot.py. The
   visual is decorative background, never tied to the script's content, so
   there's no grounding step here -- just comedy writing plus a rotation of
-  backdrop keywords for the standard Pexels fetch.
-- The literal topic "AI_CHARACTER": a spotlight on one of the real, already-
-  popular Italian Brainrot characters in src/pipeline/brainrot_characters.py
-  (Tralalero Tralala, Tung Tung Tung Sahur, ...) -- narration grounded in
-  that character's real, established design and lore, not an invented one,
-  with matching art rendered by src/pipeline/image_gen.py (Cloudflare
-  Workers AI). This is the one deliberately-AI-generated visual in this
-  whole project -- every other channel sources real images/footage on
-  purpose (see feedback_sourced_not_generated_images) -- because this
-  specific genre's entire appeal is being openly, unmistakably AI-generated,
-  so it doesn't read as the "AI slop" the rest of this project avoids. Uses
-  characters people already know and search for rather than inventing new
-  ones nobody's heard of, per the user's explicit direction.
+  backdrop keywords for the standard Pexels fetch. A deliberately small
+  slice of the rotation now (see topics.txt) -- the channel's identity is
+  the two AI-character formats below, this is just occasional variety.
+- Topics starting with "AI_CHARACTER": a spotlight on one of the real,
+  already-popular Italian Brainrot characters in
+  src/pipeline/brainrot_characters.py (Tralalero Tralala, Tung Tung Tung
+  Sahur, ...) -- narration grounded in that character's real, established
+  design and lore, not an invented one, with matching art rendered by
+  src/pipeline/image_gen.py (Cloudflare Workers AI). This is one of two
+  deliberately-AI-generated visual formats in this whole project -- every
+  other channel sources real images/footage on purpose (see
+  feedback_sourced_not_generated_images) -- because this specific genre's
+  entire appeal is being openly, unmistakably AI-generated, so it doesn't
+  read as the "AI slop" the rest of this project avoids. Uses characters
+  people already know and search for rather than inventing new ones nobody's
+  heard of, per the user's explicit direction.
+- Topics starting with "DRAMA": a short, over-the-top soap-opera scene
+  (cheating, jealousy, a dramatic reveal) about two characters from the
+  original cast in src/pipeline/drama_characters.py, narrated like an amused
+  reality-TV voiceover. Added per the user's request for something in the
+  vein of the "anthropomorphized food melodrama" genre -- same idea as
+  AI_CHARACTER (recurring cast, AI-generated art, openly artificial rather
+  than trying to pass as real), but with an original cast instead of an
+  existing meme's, since that genre isn't tied to one specific
+  already-established character set the way Italian Brainrot is.
+
+topics.txt lists several numbered lines for each of the latter two formats
+(AI_CHARACTER_1, AI_CHARACTER_2, ... and DRAMA_1, DRAMA_2, ...) rather than
+one literal line each -- pick_topic's rotation gives every *distinct* topic
+string its own slot, so one repeated literal string is stuck at exactly one
+slot in the rotation no matter how many times it's used, while a handful of
+numbered variants gives a format that many slots. generate_meme_content
+below matches on a startswith, so the number itself is never seen past
+routing -- it only exists to give pick_topic something distinct to count.
 """
 
 import random
@@ -25,6 +46,7 @@ from urllib.parse import quote
 
 from src.pipeline.brainrot import backdrop_keywords
 from src.pipeline.brainrot_characters import CHARACTERS
+from src.pipeline.drama_characters import CHARACTERS as DRAMA_CAST
 from src.pipeline.llm import chat_json
 
 SYSTEM = """You write short, funny narrated scripts for faceless short-form video \
@@ -59,6 +81,27 @@ its established look and the detail given about it, matter-of-fact as if this is
 completely normal. No stage directions, no headings, no emojis, no hashtags."""
 
 
+SYSTEM_DRAMA = """You write short, over-the-top soap-opera scenes about an original cast \
+of anthropomorphized food characters -- cheating, jealousy, a dramatic reveal, a plot \
+twist -- narrated like an amused reality-TV voiceover, not read as literal dialogue. \
+You'll be given two characters' names and personalities -- build the scene around who \
+they are, don't contradict the personalities given or invent a third major character. \
+Output strict JSON with one key:
+- "script": narration text only, spoken conversationally, 70-110 words (about \
+30-45 seconds).
+  - Open with the juiciest line of the scene as the first sentence -- no windup, no \
+scene-setting before the drama starts.
+  - Say both characters' names clearly and often enough that a viewer who's never \
+seen this channel before can follow who's who.
+  - Play it completely straight and dramatic, the way a reality show narrator treats \
+even the pettiest conflict as a huge deal -- that seriousness about something silly is \
+the joke. Short punchy sentences, real rhythm, a one-word sentence for impact here and \
+there.
+  - End on the biggest twist or the line that reframes everything, not a trailing-off \
+summary.
+  - No stage directions, no headings, no emojis, no hashtags."""
+
+
 def _generate_ai_character(config: dict) -> dict:
     character = random.choice(CHARACTERS)
     user = f"Character: {character['name']}\n{character['lore']}\n\nWrite the narration now."
@@ -71,13 +114,43 @@ def _generate_ai_character(config: dict) -> dict:
     return {"script": result["script"], "image_prompt": character["visual"]}
 
 
+def _generate_drama(config: dict) -> dict:
+    a, b = random.sample(DRAMA_CAST, 2)
+    user = (
+        f"{a['name']}: {a['personality']}\n{b['name']}: {b['personality']}\n\n"
+        "Write the scene now."
+    )
+    result = chat_json(SYSTEM_DRAMA, user, model=config["llm"]["model"])
+    if "script" not in result:
+        raise ValueError(f"Unexpected LLM response shape: {result}")
+    word_count = len(result["script"].split())
+    if word_count > 200:
+        raise ValueError(f"LLM script way over length ({word_count} words) — likely a runaway generation")
+    return {"script": result["script"], "image_prompts": [a["visual"], b["visual"]]}
+
+
 def generate_meme_content(topic: str, config: dict, state: dict) -> dict:
-    if topic.strip().upper() == "AI_CHARACTER":
+    # startswith, not ==: topics.txt lists several AI_CHARACTER_N / DRAMA_N
+    # lines so pick_topic's rotation (one slot per distinct string) gives
+    # these formats several slots each instead of the one slot a single
+    # literal "AI_CHARACTER" line would be stuck at -- see the comment atop
+    # topics.txt for why that matters.
+    if topic.strip().upper().startswith("AI_CHARACTER"):
         result = _generate_ai_character(config)
         marker = f"ai-image://{quote(result['image_prompt'])}"
         return {
             "script": result["script"],
             "media_urls": [marker],
+            "visual_mode": "media",
+            "hook_id": None,
+            "attribution": "Character art generated with Cloudflare Workers AI (Flux)",
+        }
+
+    if topic.strip().upper().startswith("DRAMA"):
+        result = _generate_drama(config)
+        return {
+            "script": result["script"],
+            "media_urls": [f"ai-image://{quote(p)}" for p in result["image_prompts"]],
             "visual_mode": "media",
             "hook_id": None,
             "attribution": "Character art generated with Cloudflare Workers AI (Flux)",
