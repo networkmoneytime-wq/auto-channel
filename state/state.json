@@ -27,7 +27,8 @@
     "The Great Molasses Flood of 1919: how a burst tank sent a wave of syrup through Boston",
     "The Dancing Plague of 1518: the Strasbourg outbreak where people danced for days and could not stop",
     "The Great Emu War of 1932: when Australian soldiers with machine guns took on the emus",
-    "Operation Mincemeat: the corpse with fake papers that fooled the Nazis"
+    "Operation Mincemeat: the corpse with fake papers that fooled the Nazis",
+    "The Cadaver Synod: the trial of a dead pope"
   ],
   "uploads": [
     {
@@ -605,27 +606,48 @@
       "video_id": "2251903692319632",
       "title": "Operation Mincemeat's Insane Dead-Man Deception That Fooled Hitler",
       "at": "2026-09-27T22:15:05.063520+00:00"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "6GDACOcr3IM",
+      "title": "The Cadaver Synod: How a Dead Pope's Trial Shook the Church",
+      "at": "2026-09-28T00:28:07.728261+00:00",
+      "topic": "The Cadaver Synod: the trial of a dead pope",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690376106096248862",
+      "title": "The Cadaver Synod: How a Dead Pope's Trial Shook the Church",
+      "at": "2026-09-28T00:28:11.174586+00:00",
+      "topic": "The Cadaver Synod: the trial of a dead pope",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17908809276551069",
+      "title": "The Cadaver Synod: How a Dead Pope's Trial Shook the Church",
+      "at": "2026-09-28T00:30:07.835554+00:00",
+      "topic": "The Cadaver Synod: the trial of a dead pope",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1379763544355949",
+      "title": "The Cadaver Synod: How a Dead Pope's Trial Shook the Church",
+      "at": "2026-09-28T00:30:16.111727+00:00",
+      "topic": "The Cadaver Synod: the trial of a dead pope",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "contrarian_claim",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    16236649,
-    39567876,
-    35703767,
-    7429832,
-    10970741,
-    8852628,
-    35084459,
-    38184728,
-    30783914,
-    35323267,
-    12699379,
     34462996,
     30546876,
     36108441,
@@ -674,6 +696,17 @@
     38383002,
     27060242,
     6790017,
-    16920252
+    16920252,
+    8544030,
+    6923065,
+    11384843,
+    6266110,
+    38785989,
+    32175559,
+    10388941,
+    36720340,
+    6670962,
+    29036645,
+    34536748
   ]
 }
