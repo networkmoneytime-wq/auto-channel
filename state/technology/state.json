@@ -26,7 +26,8 @@
     "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996",
     "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
     "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
-    "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008"
+    "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
+    "The Nokia 1100: the humble phone that sold more than almost any phone in history"
   ],
   "uploads": [
     {
@@ -496,27 +497,40 @@
       "at": "2026-09-28T03:37:04.310252+00:00",
       "topic": "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Oq__xGivers",
+      "title": "Why the Nokia 1100 Beat Every Smartphone",
+      "at": "2026-09-28T22:20:04.056909+00:00",
+      "topic": "The Nokia 1100: the humble phone that sold more than almost any phone in history",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18410358412084035",
+      "title": "Why the Nokia 1100 Beat Every Smartphone",
+      "at": "2026-09-28T22:20:37.525751+00:00",
+      "topic": "The Nokia 1100: the humble phone that sold more than almost any phone in history",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1517793003436981",
+      "title": "Why the Nokia 1100 Beat Every Smartphone",
+      "at": "2026-09-28T22:20:46.107031+00:00",
+      "topic": "The Nokia 1100: the humble phone that sold more than almost any phone in history",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "shocking_fact",
     "secret_reveal",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6856842,
-    33684741,
-    4708366,
-    39482015,
-    8829559,
-    8879938,
-    6169086,
-    6863130,
-    6631154,
-    8381584,
-    6331338,
     7106859,
     20436933,
     7744312,
@@ -565,6 +579,17 @@
     36804382,
     27036589,
     30197443,
-    34280527
+    34280527,
+    6624858,
+    19657013,
+    3832194,
+    19598802,
+    7681544,
+    7563941,
+    28635502,
+    7046612,
+    27353857,
+    5708180,
+    39767743
   ]
 }
