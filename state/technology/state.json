@@ -24,7 +24,8 @@
     "The Intel Pentium FDIV bug: the tiny math error in a 1994 chip that cost Intel hundreds of millions",
     "The Mars Climate Orbiter: the spacecraft lost because one team used metric and another used imperial",
     "Ariane 5's first flight: how a software overflow destroyed a rocket in 1996",
-    "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built"
+    "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
+    "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US"
   ],
   "uploads": [
     {
@@ -446,26 +447,40 @@
       "at": "2026-09-28T00:08:07.144884+00:00",
       "topic": "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "R0oVmgiWzV0",
+      "title": "How a Single AT&T Patch Silenced the Whole US in 1990",
+      "at": "2026-09-28T02:23:57.896826+00:00",
+      "topic": "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17973635091160566",
+      "title": "How a Single AT&T Patch Silenced the Whole US in 1990",
+      "at": "2026-09-28T02:24:30.620670+00:00",
+      "topic": "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1102515882228486",
+      "title": "How a Single AT&T Patch Silenced the Whole US in 1990",
+      "at": "2026-09-28T02:24:36.499195+00:00",
+      "topic": "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "shocking_fact",
     "question_hook",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    9019534,
-    34724848,
-    19970916,
-    13736543,
-    38571217,
-    9789657,
-    7698438,
-    15439758,
-    18503908,
-    7362701,
     8816985,
     8513120,
     38410501,
@@ -515,6 +530,16 @@
     6324534,
     10419525,
     36179522,
-    33315117
+    33315117,
+    36541195,
+    5135794,
+    34459460,
+    36205993,
+    38028328,
+    4604126,
+    9821713,
+    10397453,
+    38993329,
+    34835424
   ]
 }
