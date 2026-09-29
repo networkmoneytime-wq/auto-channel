@@ -3,7 +3,8 @@
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
     "AI_CHARACTER_2",
-    "AI_CHARACTER_3"
+    "AI_CHARACTER_3",
+    "AI_CHARACTER_4"
   ],
   "uploads": [
     {
@@ -61,6 +62,20 @@
       "title": "Meet Lirili Larila: The Sandal-Wearing Elephant with a Pocket Watch",
       "at": "2026-09-29T02:27:27.993798+00:00",
       "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "oI0rYihHm84",
+      "title": "Meet Tralalero Tralala: The Three-Legged Shark That Walks in Sneakers",
+      "at": "2026-09-29T22:25:07.720419+00:00",
+      "topic": "AI_CHARACTER_4"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1272101915045693",
+      "title": "Meet Tralalero Tralala: The Three-Legged Shark That Walks in Sneakers",
+      "at": "2026-09-29T22:25:13.529208+00:00",
+      "topic": "AI_CHARACTER_4"
     }
   ],
   "recent_clip_ids": [
