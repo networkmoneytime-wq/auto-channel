@@ -27,7 +27,8 @@
     "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
     "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
     "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
-    "The Nintendo PlayStation: the prototype born from a deal that fell apart"
+    "The Nintendo PlayStation: the prototype born from a deal that fell apart",
+    "Doom running on a calculator, a pregnancy test, and everything else"
   ],
   "uploads": [
     {
@@ -731,26 +732,48 @@
       "at": "2026-09-29T02:21:25.486831+00:00",
       "topic": "The Nintendo PlayStation: the prototype born from a deal that fell apart",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "jjWAtzDHZ5I",
+      "title": "Doom on a Graphing Calculator? Tiny LCD Turns Into a Shooter",
+      "at": "2026-09-29T22:18:40.161809+00:00",
+      "topic": "Doom running on a calculator, a pregnancy test, and everything else",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691085020315863053",
+      "title": "Doom on a Graphing Calculator? Tiny LCD Turns Into a Shooter",
+      "at": "2026-09-29T22:18:43.228844+00:00",
+      "topic": "Doom running on a calculator, a pregnancy test, and everything else",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17895853905410216",
+      "title": "Doom on a Graphing Calculator? Tiny LCD Turns Into a Shooter",
+      "at": "2026-09-29T22:19:20.715319+00:00",
+      "topic": "Doom running on a calculator, a pregnancy test, and everything else",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1997627950937269",
+      "title": "Doom on a Graphing Calculator? Tiny LCD Turns Into a Shooter",
+      "at": "2026-09-29T22:19:25.892104+00:00",
+      "topic": "Doom running on a calculator, a pregnancy test, and everything else",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    9071402,
-    34514149,
-    4172111,
-    5859014,
-    37384160,
-    5422498,
-    5422498,
-    12893579,
-    7832341,
-    34084466,
     5859014,
     5422498,
     4172112,
@@ -800,6 +823,16 @@
     38374838,
     5823859,
     8127926,
-    8889184
+    8889184,
+    6120120,
+    33315117,
+    6150146,
+    6464590,
+    26621092,
+    34822970,
+    39481916,
+    16951628,
+    5752048,
+    6927325
   ]
 }
