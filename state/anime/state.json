@@ -26,7 +26,8 @@
     "One Piece|how One Piece has kept fans hooked for more than 25 years",
     "Naruto|how a rejected ninja kid became one of anime's biggest icons",
     "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
-    "Bleach|why the Soul Society arc made Bleach fans obsessed"
+    "Bleach|why the Soul Society arc made Bleach fans obsessed",
+    "Death Note|the mind games between Light and L that define Death Note"
   ],
   "uploads": [
     {
@@ -484,13 +485,37 @@
       "at": "2026-09-29T00:11:11.217799+00:00",
       "topic": "Bleach|why the Soul Society arc made Bleach fans obsessed",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "AxEhfuPje7Y",
+      "title": "Death Note's Deadliest Mind Games Between Light and L",
+      "at": "2026-09-29T02:25:37.370235+00:00",
+      "topic": "Death Note|the mind games between Light and L that define Death Note",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18127695469799854",
+      "title": "Death Note's Deadliest Mind Games Between Light and L",
+      "at": "2026-09-29T02:26:11.587333+00:00",
+      "topic": "Death Note|the mind games between Light and L that define Death Note",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1567607131312703",
+      "title": "Death Note's Deadliest Mind Games Between Light and L",
+      "at": "2026-09-29T02:26:17.547223+00:00",
+      "topic": "Death Note|the mind games between Light and L that define Death Note",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "mistake_warning",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ]
 }
