@@ -2,7 +2,8 @@
   "used_topics": [
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
-    "AI_CHARACTER_2"
+    "AI_CHARACTER_2",
+    "AI_CHARACTER_3"
   ],
   "uploads": [
     {
@@ -46,6 +47,20 @@
       "title": "Patapim the Toad-Tree: Italy's Weird Meme Badge",
       "at": "2026-09-29T00:12:29.482825+00:00",
       "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "A9aR6zSPp4w",
+      "title": "Meet Lirili Larila: The Sandal-Wearing Elephant with a Pocket Watch",
+      "at": "2026-09-29T02:27:23.214321+00:00",
+      "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1590414859236837",
+      "title": "Meet Lirili Larila: The Sandal-Wearing Elephant with a Pocket Watch",
+      "at": "2026-09-29T02:27:27.993798+00:00",
+      "topic": "AI_CHARACTER_3"
     }
   ],
   "recent_clip_ids": [
