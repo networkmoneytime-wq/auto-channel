@@ -29,7 +29,8 @@
     "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
     "The Nokia 1100: the humble phone that sold more than almost any phone in history",
     "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
-    "Google Glass: why the smart glasses everyone was curious about got rejected"
+    "Google Glass: why the smart glasses everyone was curious about got rejected",
+    "Kodak's digital camera: the company that invented it in 1975 and buried it"
   ],
   "uploads": [
     {
@@ -571,26 +572,40 @@
       "at": "2026-09-29T02:24:29.181527+00:00",
       "topic": "Google Glass: why the smart glasses everyone was curious about got rejected",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Lb0GGx4sgKs",
+      "title": "Kodak's Secret First Digital Camera: How They Lost the Race",
+      "at": "2026-09-29T22:21:11.596261+00:00",
+      "topic": "Kodak's digital camera: the company that invented it in 1975 and buried it",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18146240338493609",
+      "title": "Kodak's Secret First Digital Camera: How They Lost the Race",
+      "at": "2026-09-29T22:21:45.742269+00:00",
+      "topic": "Kodak's digital camera: the company that invented it in 1975 and buried it",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28387672850853526",
+      "title": "Kodak's Secret First Digital Camera: How They Lost the Race",
+      "at": "2026-09-29T22:21:52.094214+00:00",
+      "topic": "Kodak's digital camera: the company that invented it in 1975 and buried it",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    16049995,
-    36249898,
-    3826639,
-    6120119,
-    34767731,
-    12331339,
-    34402540,
-    39733705,
-    7817164,
-    39458721,
     36354846,
     6324534,
     10419525,
@@ -640,6 +655,16 @@
     9790183,
     7426703,
     7679426,
-    7251759
+    7251759,
+    10352454,
+    34336322,
+    37116270,
+    4554456,
+    8466351,
+    6083619,
+    6624829,
+    25935025,
+    5871181,
+    27375350
   ]
 }
