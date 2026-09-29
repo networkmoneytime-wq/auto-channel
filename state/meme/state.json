@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "The specific way everyone lies about being \"on my way\"",
-    "AI_CHARACTER_1"
+    "AI_CHARACTER_1",
+    "AI_CHARACTER_2"
   ],
   "uploads": [
     {
@@ -31,6 +32,20 @@
       "title": "Brr Brr Patapim: The Tree-Headed Toad That Flags Authentic Brainrot",
       "at": "2026-09-28T22:23:44.824832+00:00",
       "topic": "AI_CHARACTER_1"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "l8VVMSgaQHA",
+      "title": "Patapim the Toad-Tree: Italy's Weird Meme Badge",
+      "at": "2026-09-29T00:12:24.568439+00:00",
+      "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2073022496913623",
+      "title": "Patapim the Toad-Tree: Italy's Weird Meme Badge",
+      "at": "2026-09-29T00:12:29.482825+00:00",
+      "topic": "AI_CHARACTER_2"
     }
   ],
   "recent_clip_ids": [
