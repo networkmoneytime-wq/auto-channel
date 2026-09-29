@@ -32,7 +32,8 @@
     "Tsutomu Yamaguchi: the man who survived both atomic bombs",
     "Victor Lustig: the con artist who sold the Eiffel Tower twice",
     "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
-    "The Carrington Event of 1859: the solar storm that set telegraph offices on fire"
+    "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
+    "Phineas Gage: the railroad worker who survived an iron rod through his skull"
   ],
   "uploads": [
     {
@@ -770,19 +771,48 @@
       "at": "2026-09-29T02:05:43.396875+00:00",
       "topic": "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "9ip3eaEyDFc",
+      "title": "Phineas Gage: The Railroad Worker Who Walked Out of a Fatal Blast",
+      "at": "2026-09-29T22:15:26.141819+00:00",
+      "topic": "Phineas Gage: the railroad worker who survived an iron rod through his skull",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691084182486796319",
+      "title": "Phineas Gage: The Railroad Worker Who Walked Out of a Fatal Blast",
+      "at": "2026-09-29T22:15:28.256534+00:00",
+      "topic": "Phineas Gage: the railroad worker who survived an iron rod through his skull",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18139933075623978",
+      "title": "Phineas Gage: The Railroad Worker Who Walked Out of a Fatal Blast",
+      "at": "2026-09-29T22:16:02.784278+00:00",
+      "topic": "Phineas Gage: the railroad worker who survived an iron rod through his skull",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2289251968611476",
+      "title": "Phineas Gage: The Railroad Worker Who Walked Out of a Fatal Blast",
+      "at": "2026-09-29T22:16:09.819167+00:00",
+      "topic": "Phineas Gage: the railroad worker who survived an iron rod through his skull",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "list_tease",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    30564620,
-    28288551,
-    7979923,
     8718447,
     8076866,
     13229523,
@@ -839,6 +869,9 @@
     12601961,
     6219899,
     34922986,
-    28191115
+    28191115,
+    5453370,
+    8814502,
+    7089361
   ]
 }
