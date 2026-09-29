@@ -26,7 +26,8 @@
     "The Konami Code: the accident that became gaming's most famous cheat",
     "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
     "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
-    "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights"
+    "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
+    "The Nintendo PlayStation: the prototype born from a deal that fell apart"
   ],
   "uploads": [
     {
@@ -698,21 +699,48 @@
       "at": "2026-09-29T00:06:02.904719+00:00",
       "topic": "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "VAaj8OQxV1c",
+      "title": "The Nintendo PlayStation: Nintendo & Sony's Lost Prototype",
+      "at": "2026-09-29T02:20:31.500082+00:00",
+      "topic": "The Nintendo PlayStation: the prototype born from a deal that fell apart",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690776308888307726",
+      "title": "The Nintendo PlayStation: Nintendo & Sony's Lost Prototype",
+      "at": "2026-09-29T02:20:33.578492+00:00",
+      "topic": "The Nintendo PlayStation: the prototype born from a deal that fell apart",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18141595171645716",
+      "title": "The Nintendo PlayStation: Nintendo & Sony's Lost Prototype",
+      "at": "2026-09-29T02:21:20.884270+00:00",
+      "topic": "The Nintendo PlayStation: the prototype born from a deal that fell apart",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1571619877508162",
+      "title": "The Nintendo PlayStation: Nintendo & Sony's Lost Prototype",
+      "at": "2026-09-29T02:21:25.486831+00:00",
+      "topic": "The Nintendo PlayStation: the prototype born from a deal that fell apart",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    12555598,
-    35585785,
-    7688613,
-    27036589,
-    36265959,
     9071402,
     34514149,
     4172111,
@@ -767,6 +795,11 @@
     6491686,
     16277044,
     5637306,
-    30353173
+    30353173,
+    7981954,
+    38374838,
+    5823859,
+    8127926,
+    8889184
   ]
 }
