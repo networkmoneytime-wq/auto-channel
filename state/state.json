@@ -30,7 +30,8 @@
     "Operation Mincemeat: the corpse with fake papers that fooled the Nazis",
     "The Cadaver Synod: the trial of a dead pope",
     "Tsutomu Yamaguchi: the man who survived both atomic bombs",
-    "Victor Lustig: the con artist who sold the Eiffel Tower twice"
+    "Victor Lustig: the con artist who sold the Eiffel Tower twice",
+    "Emperor Norton: the San Francisco man who declared himself Emperor of the United States"
   ],
   "uploads": [
     {
@@ -704,26 +705,48 @@
       "at": "2026-09-28T22:15:59.264989+00:00",
       "topic": "Victor Lustig: the con artist who sold the Eiffel Tower twice",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "FPCcPw8Zb6E",
+      "title": "Emperor Norton: San Francisco's 19th-Century Self-Made Emperor",
+      "at": "2026-09-29T00:27:38.392101+00:00",
+      "topic": "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690747092796524574",
+      "title": "Emperor Norton: San Francisco's 19th-Century Self-Made Emperor",
+      "at": "2026-09-29T00:27:41.179298+00:00",
+      "topic": "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18335023273256986",
+      "title": "Emperor Norton: San Francisco's 19th-Century Self-Made Emperor",
+      "at": "2026-09-29T00:28:26.160400+00:00",
+      "topic": "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1646882370274363",
+      "title": "Emperor Norton: San Francisco's 19th-Century Self-Made Emperor",
+      "at": "2026-09-29T00:28:32.086485+00:00",
+      "topic": "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "contrarian_claim",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    6866463,
-    32508091,
-    31950958,
-    37545353,
-    36627849,
-    7034348,
-    8042047,
-    7581435,
-    28206055,
-    31486382,
     10639216,
     19090632,
     20690857,
@@ -773,6 +796,16 @@
     39134701,
     7362695,
     6868234,
-    15461510
+    15461510,
+    17880205,
+    5985476,
+    3832273,
+    33163264,
+    28346937,
+    6203180,
+    7266148,
+    35062148,
+    4604126,
+    10055515
   ]
 }
