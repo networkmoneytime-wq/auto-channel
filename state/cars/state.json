@@ -27,7 +27,8 @@
     "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
     "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
     "The Ford Edsel: the most famous flop in American car history",
-    "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold"
+    "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
+    "The McLaren F1: the supercar with the driver in the middle"
   ],
   "uploads": [
     {
@@ -671,24 +672,40 @@
       "at": "2026-09-29T00:03:45.611003+00:00",
       "topic": "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "6daAo9ZZe4w",
+      "title": "The 1992 McLaren F1's Secret: Why Its Central Cockpit Still Shocks",
+      "at": "2026-09-29T02:15:23.114073+00:00",
+      "topic": "The McLaren F1: the supercar with the driver in the middle",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690774932371998733",
+      "title": "The 1992 McLaren F1's Secret: Why Its Central Cockpit Still Shocks",
+      "at": "2026-09-29T02:15:26.911281+00:00",
+      "topic": "The McLaren F1: the supercar with the driver in the middle",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1083969494504040",
+      "title": "The 1992 McLaren F1's Secret: Why Its Central Cockpit Still Shocks",
+      "at": "2026-09-29T02:18:55.558420+00:00",
+      "topic": "The McLaren F1: the supercar with the driver in the middle",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    39733711,
-    32387343,
-    37114362,
-    6153701,
-    8987409,
-    30254380,
-    35485780,
-    18521318,
     38482272,
     6532090,
     5787623,
@@ -740,6 +757,14 @@
     39421370,
     8987402,
     28315396,
-    39421357
+    39421357,
+    36781254,
+    5925297,
+    35403186,
+    4489888,
+    36538096,
+    30802751,
+    34127176,
+    32010530
   ]
 }
