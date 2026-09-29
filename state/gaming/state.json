@@ -25,7 +25,8 @@
     "The Atari E.T. cartridges: the New Mexico landfill dig that proved the legend true",
     "The Konami Code: the accident that became gaming's most famous cheat",
     "Super Mario Bros.' Minus World: the glitch that sent players to a water level that should not exist",
-    "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save"
+    "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
+    "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights"
   ],
   "uploads": [
     {
@@ -665,19 +666,48 @@
       "at": "2026-09-28T22:18:16.953058+00:00",
       "topic": "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "rYO8TPQ5ba0",
+      "title": "The Crazy Legal Twists Behind Tetris's Rise to Power",
+      "at": "2026-09-29T00:05:19.742915+00:00",
+      "topic": "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690741479907739661",
+      "title": "The Crazy Legal Twists Behind Tetris's Rise to Power",
+      "at": "2026-09-29T00:05:22.163717+00:00",
+      "topic": "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18157337392501667",
+      "title": "The Crazy Legal Twists Behind Tetris's Rise to Power",
+      "at": "2026-09-29T00:05:56.496707+00:00",
+      "topic": "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1676717690538565",
+      "title": "The Crazy Legal Twists Behind Tetris's Rise to Power",
+      "at": "2026-09-29T00:06:02.904719+00:00",
+      "topic": "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "mistake_warning",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    37410274,
-    19203091,
-    36459927,
     12555598,
     35585785,
     7688613,
@@ -734,6 +764,9 @@
     34246644,
     8128340,
     8466347,
-    6491686
+    6491686,
+    16277044,
+    5637306,
+    30353173
   ]
 }
