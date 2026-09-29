@@ -27,7 +27,8 @@
     "The Therac-25: the radiation machine whose software bug changed how safety-critical code is built",
     "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
     "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
-    "The Nokia 1100: the humble phone that sold more than almost any phone in history"
+    "The Nokia 1100: the humble phone that sold more than almost any phone in history",
+    "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons"
   ],
   "uploads": [
     {
@@ -521,23 +522,40 @@
       "at": "2026-09-28T22:20:46.107031+00:00",
       "topic": "The Nokia 1100: the humble phone that sold more than almost any phone in history",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "nVMxuTRyD0k",
+      "title": "Why the Apple Newton Became The Simpsons' Biggest Joke",
+      "at": "2026-09-29T00:07:46.395561+00:00",
+      "topic": "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18105472136105917",
+      "title": "Why the Apple Newton Became The Simpsons' Biggest Joke",
+      "at": "2026-09-29T00:08:23.577738+00:00",
+      "topic": "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "945799278086815",
+      "title": "Why the Apple Newton Became The Simpsons' Biggest Joke",
+      "at": "2026-09-29T00:08:28.715074+00:00",
+      "topic": "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "secret_reveal",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    7106859,
-    20436933,
-    7744312,
-    39014669,
-    33314914,
-    19661436,
-    36066387,
     7812404,
     6120114,
     18503891,
@@ -590,6 +608,13 @@
     7046612,
     27353857,
     5708180,
-    39767743
+    39767743,
+    8879938,
+    38455331,
+    36056987,
+    5651586,
+    6955103,
+    6931577,
+    7171528
   ]
 }
