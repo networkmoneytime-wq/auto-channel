@@ -28,7 +28,8 @@
     "The 1990 AT&T long-distance crash: how one software update knocked out phone calls across the US",
     "The Zune leap-year bug: the day every 30GB Zune froze on New Year's Eve 2008",
     "The Nokia 1100: the humble phone that sold more than almost any phone in history",
-    "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons"
+    "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
+    "Google Glass: why the smart glasses everyone was curious about got rejected"
   ],
   "uploads": [
     {
@@ -546,22 +547,40 @@
       "at": "2026-09-29T00:08:28.715074+00:00",
       "topic": "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "gvvajfuEhC8",
+      "title": "Why Google Glass Failed: The 3 Blind Spots Nobody Told You",
+      "at": "2026-09-29T02:23:06.514846+00:00",
+      "topic": "Google Glass: why the smart glasses everyone was curious about got rejected",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18097846217387196",
+      "title": "Why Google Glass Failed: The 3 Blind Spots Nobody Told You",
+      "at": "2026-09-29T02:24:24.939345+00:00",
+      "topic": "Google Glass: why the smart glasses everyone was curious about got rejected",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2165470297337419",
+      "title": "Why Google Glass Failed: The 3 Blind Spots Nobody Told You",
+      "at": "2026-09-29T02:24:29.181527+00:00",
+      "topic": "Google Glass: why the smart glasses everyone was curious about got rejected",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "list_tease",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    7812404,
-    6120114,
-    18503891,
-    7320724,
-    36628017,
-    28709421,
     16049995,
     36249898,
     3826639,
@@ -615,6 +634,12 @@
     5651586,
     6955103,
     6931577,
-    7171528
+    7171528,
+    8334855,
+    8416653,
+    9790183,
+    7426703,
+    7679426,
+    7251759
   ]
 }
