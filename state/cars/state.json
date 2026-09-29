@@ -28,7 +28,8 @@
     "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
     "The Ford Edsel: the most famous flop in American car history",
     "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
-    "The McLaren F1: the supercar with the driver in the middle"
+    "The McLaren F1: the supercar with the driver in the middle",
+    "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies"
   ],
   "uploads": [
     {
@@ -696,20 +697,48 @@
       "at": "2026-09-29T02:18:55.558420+00:00",
       "topic": "The McLaren F1: the supercar with the driver in the middle",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "lk5yW-sOSGY",
+      "title": "The 1966 Le Mans Battle That Changed Ford & Ferrari Forever",
+      "at": "2026-09-29T22:14:03.185084+00:00",
+      "topic": "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691083910863652877",
+      "title": "The 1966 Le Mans Battle That Changed Ford & Ferrari Forever",
+      "at": "2026-09-29T22:14:05.149247+00:00",
+      "topic": "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18125766040892016",
+      "title": "The 1966 Le Mans Battle That Changed Ford & Ferrari Forever",
+      "at": "2026-09-29T22:16:45.853896+00:00",
+      "topic": "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28558860490411894",
+      "title": "The 1966 Le Mans Battle That Changed Ford & Ferrari Forever",
+      "at": "2026-09-29T22:16:52.461781+00:00",
+      "topic": "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    38482272,
-    6532090,
-    5787623,
-    28408297,
     6872478,
     39382916,
     5777431,
@@ -765,6 +794,10 @@
     36538096,
     30802751,
     34127176,
-    32010530
+    32010530,
+    8724209,
+    8348917,
+    18447539,
+    18446120
   ]
 }
