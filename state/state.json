@@ -31,7 +31,8 @@
     "The Cadaver Synod: the trial of a dead pope",
     "Tsutomu Yamaguchi: the man who survived both atomic bombs",
     "Victor Lustig: the con artist who sold the Eiffel Tower twice",
-    "Emperor Norton: the San Francisco man who declared himself Emperor of the United States"
+    "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
+    "The Carrington Event of 1859: the solar storm that set telegraph offices on fire"
   ],
   "uploads": [
     {
@@ -737,25 +738,48 @@
       "at": "2026-09-29T00:28:32.086485+00:00",
       "topic": "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "xLoNnlvjy4g",
+      "title": "The Carrington Event: Why Those Pretty Auroras Could Blackout the World",
+      "at": "2026-09-29T02:04:52.004398+00:00",
+      "topic": "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690772091725383711",
+      "title": "The Carrington Event: Why Those Pretty Auroras Could Blackout the World",
+      "at": "2026-09-29T02:04:56.569688+00:00",
+      "topic": "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18281784520292383",
+      "title": "The Carrington Event: Why Those Pretty Auroras Could Blackout the World",
+      "at": "2026-09-29T02:05:37.819515+00:00",
+      "topic": "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1751299649490627",
+      "title": "The Carrington Event: Why Those Pretty Auroras Could Blackout the World",
+      "at": "2026-09-29T02:05:43.396875+00:00",
+      "topic": "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "contrarian_claim",
     "shocking_fact",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    10639216,
-    19090632,
-    20690857,
-    9467038,
-    8718447,
-    34973036,
-    7467745,
-    9466136,
-    28077964,
     30564620,
     28288551,
     7979923,
@@ -806,6 +830,15 @@
     7266148,
     35062148,
     4604126,
-    10055515
+    10055515,
+    37944582,
+    6396117,
+    34432068,
+    5930433,
+    31042591,
+    12601961,
+    6219899,
+    34922986,
+    28191115
   ]
 }
