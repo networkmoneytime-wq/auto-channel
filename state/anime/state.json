@@ -27,7 +27,8 @@
     "Naruto|how a rejected ninja kid became one of anime's biggest icons",
     "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
     "Bleach|why the Soul Society arc made Bleach fans obsessed",
-    "Death Note|the mind games between Light and L that define Death Note"
+    "Death Note|the mind games between Light and L that define Death Note",
+    "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime"
   ],
   "uploads": [
     {
@@ -509,13 +510,37 @@
       "at": "2026-09-29T02:26:17.547223+00:00",
       "topic": "Death Note|the mind games between Light and L that define Death Note",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ikQOhlsH7OE",
+      "title": "Why Fullmetal Alchemist: Brotherhood's Sacrifice Feels So Perfect",
+      "at": "2026-09-29T22:23:07.585799+00:00",
+      "topic": "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18089996732198773",
+      "title": "Why Fullmetal Alchemist: Brotherhood's Sacrifice Feels So Perfect",
+      "at": "2026-09-29T22:23:42.390266+00:00",
+      "topic": "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "970154282796562",
+      "title": "Why Fullmetal Alchemist: Brotherhood's Sacrifice Feels So Perfect",
+      "at": "2026-09-29T22:23:45.501818+00:00",
+      "topic": "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ]
 }
