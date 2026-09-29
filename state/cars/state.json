@@ -26,7 +26,8 @@
     "The Ford Pinto: the fuel-tank scandal that changed how automakers face lawsuits",
     "The Chevrolet Corvair: the car that inspired the book Unsafe at Any Speed",
     "The Pontiac Aztek: from one of the ugliest SUVs ever to a TV icon in Breaking Bad",
-    "The Ford Edsel: the most famous flop in American car history"
+    "The Ford Edsel: the most famous flop in American car history",
+    "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold"
   ],
   "uploads": [
     {
@@ -638,21 +639,48 @@
       "at": "2026-09-28T22:15:35.515755+00:00",
       "topic": "The Ford Edsel: the most famous flop in American car history",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "9IG_WmWYzI8",
+      "title": "Bugatti Veyron: VW Lost $300K on Every One",
+      "at": "2026-09-29T00:03:02.351548+00:00",
+      "topic": "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7690740922887473165",
+      "title": "Bugatti Veyron: VW Lost $300K on Every One",
+      "at": "2026-09-29T00:03:04.797849+00:00",
+      "topic": "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18030272987911957",
+      "title": "Bugatti Veyron: VW Lost $300K on Every One",
+      "at": "2026-09-29T00:03:38.308914+00:00",
+      "topic": "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2260831918039873",
+      "title": "Bugatti Veyron: VW Lost $300K on Every One",
+      "at": "2026-09-29T00:03:45.611003+00:00",
+      "topic": "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    29669602,
-    6782216,
-    35897445,
-    13358188,
-    18446506,
     39733711,
     32387343,
     37114362,
@@ -707,6 +735,11 @@
     26312663,
     34948763,
     19343052,
-    8987407
+    8987407,
+    15821943,
+    39421370,
+    8987402,
+    28315396,
+    39421357
   ]
 }
