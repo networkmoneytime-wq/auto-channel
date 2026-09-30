@@ -29,7 +29,8 @@
     "Bleach|why the Soul Society arc made Bleach fans obsessed",
     "Death Note|the mind games between Light and L that define Death Note",
     "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
-    "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew"
+    "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
+    "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece"
   ],
   "uploads": [
     {
@@ -559,13 +560,37 @@
       "at": "2026-09-30T00:11:47.272389+00:00",
       "topic": "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "IbwXslCeWEM",
+      "title": "Why the Chimera Ant Arc Is Hunter x Hunter's Dark Masterpiece",
+      "at": "2026-09-30T02:23:53.371861+00:00",
+      "topic": "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17906446257329867",
+      "title": "Why the Chimera Ant Arc Is Hunter x Hunter's Dark Masterpiece",
+      "at": "2026-09-30T02:24:28.349664+00:00",
+      "topic": "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1783887526269345",
+      "title": "Why the Chimera Ant Arc Is Hunter x Hunter's Dark Masterpiece",
+      "at": "2026-09-30T02:24:34.361393+00:00",
+      "topic": "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "list_tease",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ]
 }
