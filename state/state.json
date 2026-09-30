@@ -33,7 +33,8 @@
     "Victor Lustig: the con artist who sold the Eiffel Tower twice",
     "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
     "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
-    "Phineas Gage: the railroad worker who survived an iron rod through his skull"
+    "Phineas Gage: the railroad worker who survived an iron rod through his skull",
+    "The Tunguska event of 1908: the Siberian blast that flattened millions of trees"
   ],
   "uploads": [
     {
@@ -803,28 +804,40 @@
       "at": "2026-09-29T22:16:09.819167+00:00",
       "topic": "Phineas Gage: the railroad worker who survived an iron rod through his skull",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "TjTbXy4W3Ls",
+      "title": "The 1908 Tunguska Sky-Bomb: 10-Megaton Blast That Left No Crater",
+      "at": "2026-09-30T00:27:59.786362+00:00",
+      "topic": "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17907866304484970",
+      "title": "The 1908 Tunguska Sky-Bomb: 10-Megaton Blast That Left No Crater",
+      "at": "2026-09-30T00:30:12.609675+00:00",
+      "topic": "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4527053667580534",
+      "title": "The 1908 Tunguska Sky-Bomb: 10-Megaton Blast That Left No Crater",
+      "at": "2026-09-30T00:30:21.774021+00:00",
+      "topic": "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "question_hook",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    8718447,
-    8076866,
-    13229523,
-    6981275,
-    8477387,
-    7984168,
-    37837661,
-    8828766,
-    38383002,
-    27060242,
-    6790017,
-    16920252,
     8544030,
     6923065,
     11384843,
@@ -872,6 +885,18 @@
     28191115,
     5453370,
     8814502,
-    7089361
+    7089361,
+    10443251,
+    29250903,
+    16318782,
+    34906333,
+    35649906,
+    35091434,
+    28370405,
+    37029441,
+    6491645,
+    18999053,
+    8852749,
+    5149094
   ]
 }
