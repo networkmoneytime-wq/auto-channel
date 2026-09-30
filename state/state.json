@@ -34,7 +34,8 @@
     "Emperor Norton: the San Francisco man who declared himself Emperor of the United States",
     "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
     "Phineas Gage: the railroad worker who survived an iron rod through his skull",
-    "The Tunguska event of 1908: the Siberian blast that flattened millions of trees"
+    "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
+    "The Mary Celeste: the ship found sailing with nobody aboard"
   ],
   "uploads": [
     {
@@ -828,24 +829,40 @@
       "at": "2026-09-30T00:30:21.774021+00:00",
       "topic": "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "noqh15mPKmU",
+      "title": "Why the Mary Celeste Really Vanished: 3 Theories That Actually Hold Water",
+      "at": "2026-09-30T02:05:51.039445+00:00",
+      "topic": "The Mary Celeste: the ship found sailing with nobody aboard",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691143510573418526",
+      "title": "Why the Mary Celeste Really Vanished: 3 Theories That Actually Hold Water",
+      "at": "2026-09-30T02:05:53.709800+00:00",
+      "topic": "The Mary Celeste: the ship found sailing with nobody aboard",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2204136180313014",
+      "title": "Why the Mary Celeste Really Vanished: 3 Theories That Actually Hold Water",
+      "at": "2026-09-30T02:09:30.922972+00:00",
+      "topic": "The Mary Celeste: the ship found sailing with nobody aboard",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "contrarian_claim",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    8544030,
-    6923065,
-    11384843,
-    6266110,
-    38785989,
-    32175559,
-    10388941,
-    36720340,
     6670962,
     29036645,
     34536748,
@@ -897,6 +914,14 @@
     6491645,
     18999053,
     8852749,
-    5149094
+    5149094,
+    5537823,
+    33789659,
+    3832194,
+    10410003,
+    4919448,
+    31204884,
+    20349819,
+    32098125
   ]
 }
