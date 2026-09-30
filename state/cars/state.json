@@ -31,7 +31,8 @@
     "The McLaren F1: the supercar with the driver in the middle",
     "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
     "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
-    "The Mazda 787B: the rotary-powered car that won Le Mans in 1991"
+    "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
+    "The Toyota AE86: the humble Corolla that became a drift legend"
   ],
   "uploads": [
     {
@@ -795,24 +796,48 @@
       "at": "2026-09-30T02:17:52.654200+00:00",
       "topic": "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "xfcTOSAJbe8",
+      "title": "Why the Toyota AE86 Is the Ultimate Drift Legend",
+      "at": "2026-09-30T22:14:59.494315+00:00",
+      "topic": "The Toyota AE86: the humble Corolla that became a drift legend",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691455083216947213",
+      "title": "Why the Toyota AE86 Is the Ultimate Drift Legend",
+      "at": "2026-09-30T22:15:02.774850+00:00",
+      "topic": "The Toyota AE86: the humble Corolla that became a drift legend",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18033730130845070",
+      "title": "Why the Toyota AE86 Is the Ultimate Drift Legend",
+      "at": "2026-09-30T22:15:36.005371+00:00",
+      "topic": "The Toyota AE86: the humble Corolla that became a drift legend",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "872181495924702",
+      "title": "Why the Toyota AE86 Is the Ultimate Drift Legend",
+      "at": "2026-09-30T22:15:42.239074+00:00",
+      "topic": "The Toyota AE86: the humble Corolla that became a drift legend",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    37198879,
-    34550101,
-    34330901,
-    35815439,
-    31882884,
-    12893579,
-    36747850,
-    38362060,
     6520232,
     8470701,
     39295319,
@@ -864,6 +889,14 @@
     16403223,
     18104148,
     39670424,
-    36438809
+    36438809,
+    8724223,
+    35743109,
+    26261559,
+    13675325,
+    37667027,
+    8627749,
+    37667019,
+    7311798
   ]
 }
