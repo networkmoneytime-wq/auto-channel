@@ -28,7 +28,8 @@
     "Dragon Ball Z|why the Saiyan saga still defines how fans think about power levels",
     "Bleach|why the Soul Society arc made Bleach fans obsessed",
     "Death Note|the mind games between Light and L that define Death Note",
-    "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime"
+    "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
+    "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew"
   ],
   "uploads": [
     {
@@ -534,13 +535,37 @@
       "at": "2026-09-29T22:23:45.501818+00:00",
       "topic": "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "3bv7tFRYMrI",
+      "title": "Why Attack on Titan's First Season Is a Mind-Blowing Roller Coaster",
+      "at": "2026-09-30T00:11:03.207558+00:00",
+      "topic": "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18021251717877331",
+      "title": "Why Attack on Titan's First Season Is a Mind-Blowing Roller Coaster",
+      "at": "2026-09-30T00:11:40.124781+00:00",
+      "topic": "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1629627631863035",
+      "title": "Why Attack on Titan's First Season Is a Mind-Blowing Roller Coaster",
+      "at": "2026-09-30T00:11:47.272389+00:00",
+      "topic": "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ]
 }
