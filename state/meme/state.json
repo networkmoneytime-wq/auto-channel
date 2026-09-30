@@ -6,7 +6,8 @@
     "AI_CHARACTER_3",
     "AI_CHARACTER_4",
     "AI_CHARACTER_5",
-    "AI_CHARACTER_6"
+    "AI_CHARACTER_6",
+    "AI_CHARACTER_7"
   ],
   "uploads": [
     {
@@ -106,6 +107,20 @@
       "title": "Meet Lirili Larila: The Elephant That Wears Sandals & a Pocket Watch",
       "at": "2026-09-30T02:25:47.053129+00:00",
       "topic": "AI_CHARACTER_6"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "_7yUganWKg0",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup Taking Over Meme Culture",
+      "at": "2026-09-30T22:26:23.997978+00:00",
+      "topic": "AI_CHARACTER_7"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2904912163224577",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup Taking Over Meme Culture",
+      "at": "2026-09-30T22:26:31.144308+00:00",
+      "topic": "AI_CHARACTER_7"
     }
   ],
   "recent_clip_ids": [
