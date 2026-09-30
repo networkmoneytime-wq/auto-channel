@@ -30,7 +30,8 @@
     "Death Note|the mind games between Light and L that define Death Note",
     "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
     "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
-    "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece"
+    "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
+    "My Hero Academia|why My Hero Academia's take on superheroes struck a chord"
   ],
   "uploads": [
     {
@@ -584,13 +585,37 @@
       "at": "2026-09-30T02:24:34.361393+00:00",
       "topic": "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "SAdANw6gNcw",
+      "title": "Why My Hero Academia Is More Than Just Flashy Fights",
+      "at": "2026-09-30T22:24:11.897510+00:00",
+      "topic": "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17981649881901107",
+      "title": "Why My Hero Academia Is More Than Just Flashy Fights",
+      "at": "2026-09-30T22:24:51.334794+00:00",
+      "topic": "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1649892410259003",
+      "title": "Why My Hero Academia Is More Than Just Flashy Fights",
+      "at": "2026-09-30T22:24:57.017553+00:00",
+      "topic": "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "shocking_fact",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "mistake_warning"
   ]
 }
