@@ -29,7 +29,8 @@
     "The Ford Edsel: the most famous flop in American car history",
     "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
     "The McLaren F1: the supercar with the driver in the middle",
-    "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies"
+    "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
+    "Niki Lauda's 1976 crash: the champion who came back to race six weeks later"
   ],
   "uploads": [
     {
@@ -729,26 +730,48 @@
       "at": "2026-09-29T22:16:52.461781+00:00",
       "topic": "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "HKiC2hGka_g",
+      "title": "Niki Lauda's 1976 N\u00fcrburgring comeback: 3 insane facts you won't believe",
+      "at": "2026-09-30T00:02:58.679660+00:00",
+      "topic": "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691112010708518926",
+      "title": "Niki Lauda's 1976 N\u00fcrburgring comeback: 3 insane facts you won't believe",
+      "at": "2026-09-30T00:03:01.929441+00:00",
+      "topic": "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18282649582294069",
+      "title": "Niki Lauda's 1976 N\u00fcrburgring comeback: 3 insane facts you won't believe",
+      "at": "2026-09-30T00:04:55.891530+00:00",
+      "topic": "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2896877897349829",
+      "title": "Niki Lauda's 1976 N\u00fcrburgring comeback: 3 insane facts you won't believe",
+      "at": "2026-09-30T00:05:02.075958+00:00",
+      "topic": "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "mistake_warning",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6872478,
-    39382916,
-    5777431,
-    7065810,
-    34379190,
-    35614364,
-    25397919,
-    30603120,
-    36492484,
-    7876236,
     7578609,
     36287475,
     34535564,
@@ -798,6 +821,16 @@
     8724209,
     8348917,
     18447539,
-    18446120
+    18446120,
+    35659522,
+    9019574,
+    18436866,
+    34263157,
+    6011525,
+    5767764,
+    34402538,
+    32960636,
+    5638239,
+    7005869
   ]
 }
