@@ -35,7 +35,8 @@
     "The Carrington Event of 1859: the solar storm that set telegraph offices on fire",
     "Phineas Gage: the railroad worker who survived an iron rod through his skull",
     "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
-    "The Mary Celeste: the ship found sailing with nobody aboard"
+    "The Mary Celeste: the ship found sailing with nobody aboard",
+    "Typhoid Mary: the cook who spread disease without ever feeling sick"
   ],
   "uploads": [
     {
@@ -853,24 +854,48 @@
       "at": "2026-09-30T02:09:30.922972+00:00",
       "topic": "The Mary Celeste: the ship found sailing with nobody aboard",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "nJ4CHcC-42M",
+      "title": "Typhoid Mary: The Asymptomatic Carrier Who Ignored the Deadliest Outbreak",
+      "at": "2026-09-30T22:15:26.910484+00:00",
+      "topic": "Typhoid Mary: the cook who spread disease without ever feeling sick",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691455085603358751",
+      "title": "Typhoid Mary: The Asymptomatic Carrier Who Ignored the Deadliest Outbreak",
+      "at": "2026-09-30T22:15:29.404970+00:00",
+      "topic": "Typhoid Mary: the cook who spread disease without ever feeling sick",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17923958853205726",
+      "title": "Typhoid Mary: The Asymptomatic Carrier Who Ignored the Deadliest Outbreak",
+      "at": "2026-09-30T22:16:04.761559+00:00",
+      "topic": "Typhoid Mary: the cook who spread disease without ever feeling sick",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1593791308899374",
+      "title": "Typhoid Mary: The Asymptomatic Carrier Who Ignored the Deadliest Outbreak",
+      "at": "2026-09-30T22:16:10.071970+00:00",
+      "topic": "Typhoid Mary: the cook who spread disease without ever feeling sick",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "list_tease",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    6670962,
-    29036645,
-    34536748,
-    4832756,
-    7845246,
-    29094818,
-    35516585,
-    33847368,
     9245557,
     6532227,
     32549906,
@@ -922,6 +947,14 @@
     4919448,
     31204884,
     20349819,
-    32098125
+    32098125,
+    35262334,
+    15566120,
+    5824199,
+    37116258,
+    6011531,
+    5722112,
+    6998655,
+    8455760
   ]
 }
