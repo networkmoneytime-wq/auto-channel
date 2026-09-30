@@ -30,7 +30,8 @@
     "The Bugatti Veyron: why Volkswagen reportedly lost money on every one it sold",
     "The McLaren F1: the supercar with the driver in the middle",
     "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
-    "Niki Lauda's 1976 crash: the champion who came back to race six weeks later"
+    "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
+    "The Mazda 787B: the rotary-powered car that won Le Mans in 1991"
   ],
   "uploads": [
     {
@@ -762,22 +763,48 @@
       "at": "2026-09-30T00:05:02.075958+00:00",
       "topic": "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "GPKoBEbt6Hg",
+      "title": "How Mazda's 787B Rotary Beat Le\u202fMans Giants in 1991",
+      "at": "2026-09-30T02:17:04.681171+00:00",
+      "topic": "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691146575503001614",
+      "title": "How Mazda's 787B Rotary Beat Le\u202fMans Giants in 1991",
+      "at": "2026-09-30T02:17:08.260923+00:00",
+      "topic": "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18068917286591107",
+      "title": "How Mazda's 787B Rotary Beat Le\u202fMans Giants in 1991",
+      "at": "2026-09-30T02:17:47.353424+00:00",
+      "topic": "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1099756649508623",
+      "title": "How Mazda's 787B Rotary Beat Le\u202fMans Giants in 1991",
+      "at": "2026-09-30T02:17:52.654200+00:00",
+      "topic": "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7578609,
-    36287475,
-    34535564,
-    8123987,
-    11824295,
-    5846669,
     37198879,
     34550101,
     34330901,
@@ -831,6 +858,12 @@
     34402538,
     32960636,
     5638239,
-    7005869
+    7005869,
+    18446506,
+    5532761,
+    16403223,
+    18104148,
+    39670424,
+    36438809
   ]
 }
