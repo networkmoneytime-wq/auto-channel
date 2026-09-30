@@ -31,7 +31,8 @@
     "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
     "Google Glass: why the smart glasses everyone was curious about got rejected",
     "Kodak's digital camera: the company that invented it in 1975 and buried it",
-    "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface"
+    "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
+    "The Osborne 1: the portable computer that killed its own company by announcing its successor early"
   ],
   "uploads": [
     {
@@ -621,21 +622,40 @@
       "at": "2026-09-30T00:09:59.037588+00:00",
       "topic": "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "-UJZx5z30F4",
+      "title": "The Osborne 1: The Laptop That Sank Its Own Company",
+      "at": "2026-09-30T02:21:40.076108+00:00",
+      "topic": "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18110143714892967",
+      "title": "The Osborne 1: The Laptop That Sank Its Own Company",
+      "at": "2026-09-30T02:22:21.260933+00:00",
+      "topic": "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1096886356376127",
+      "title": "The Osborne 1: The Laptop That Sank Its Own Company",
+      "at": "2026-09-30T02:22:26.399687+00:00",
+      "topic": "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "secret_reveal",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    38028328,
-    4604126,
-    9821713,
-    10397453,
-    38993329,
     34835424,
     6755162,
     17805787,
@@ -690,6 +710,11 @@
     6963412,
     6177474,
     8720746,
-    39425816
+    39425816,
+    34280528,
+    5708471,
+    10449873,
+    4773265,
+    5924999
   ]
 }
