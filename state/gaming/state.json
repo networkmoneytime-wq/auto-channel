@@ -28,7 +28,8 @@
     "Pokemon's Missingno.: the glitch creature that could corrupt a Red or Blue save",
     "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
     "The Nintendo PlayStation: the prototype born from a deal that fell apart",
-    "Doom running on a calculator, a pregnancy test, and everything else"
+    "Doom running on a calculator, a pregnancy test, and everything else",
+    "The Pokemon episode that sent hundreds of kids to hospitals in 1997"
   ],
   "uploads": [
     {
@@ -764,26 +765,48 @@
       "at": "2026-09-29T22:19:25.892104+00:00",
       "topic": "Doom running on a calculator, a pregnancy test, and everything else",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "9TQe0ixxv8A",
+      "title": "The Pok\u00e9mon Episode \"Electric Soldier Porygon\" That Hospitalized 600 Kids",
+      "at": "2026-09-30T00:06:59.834945+00:00",
+      "topic": "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691113038628685838",
+      "title": "The Pok\u00e9mon Episode \"Electric Soldier Porygon\" That Hospitalized 600 Kids",
+      "at": "2026-09-30T00:07:03.641602+00:00",
+      "topic": "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18034732790660731",
+      "title": "The Pok\u00e9mon Episode \"Electric Soldier Porygon\" That Hospitalized 600 Kids",
+      "at": "2026-09-30T00:07:43.396483+00:00",
+      "topic": "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1091955466524797",
+      "title": "The Pok\u00e9mon Episode \"Electric Soldier Porygon\" That Hospitalized 600 Kids",
+      "at": "2026-09-30T00:07:50.588933+00:00",
+      "topic": "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "list_tease",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    5859014,
-    5422498,
-    4172112,
-    7986649,
-    29262623,
-    8888814,
-    28180028,
-    34521517,
-    38329893,
-    6091708,
     8888410,
     39145684,
     8128493,
@@ -833,6 +856,16 @@
     39481916,
     16951628,
     5752048,
-    6927325
+    6927325,
+    12751587,
+    6976215,
+    31397167,
+    5897669,
+    19192721,
+    6248839,
+    8114986,
+    6976215,
+    4842588,
+    8724209
   ]
 }
