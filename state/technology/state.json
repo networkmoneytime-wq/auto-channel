@@ -32,7 +32,8 @@
     "Google Glass: why the smart glasses everyone was curious about got rejected",
     "Kodak's digital camera: the company that invented it in 1975 and buried it",
     "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
-    "The Osborne 1: the portable computer that killed its own company by announcing its successor early"
+    "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
+    "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage"
   ],
   "uploads": [
     {
@@ -646,26 +647,40 @@
       "at": "2026-09-30T02:22:26.399687+00:00",
       "topic": "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "o-UpuUtcBeQ",
+      "title": "How Steve Jobs Pulled Off the Perfect iPhone Demo",
+      "at": "2026-09-30T22:22:16.190373+00:00",
+      "topic": "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17906893482331565",
+      "title": "How Steve Jobs Pulled Off the Perfect iPhone Demo",
+      "at": "2026-09-30T22:22:50.477877+00:00",
+      "topic": "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1144089967972729",
+      "title": "How Steve Jobs Pulled Off the Perfect iPhone Demo",
+      "at": "2026-09-30T22:22:56.369707+00:00",
+      "topic": "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "mistake_warning",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    34835424,
-    6755162,
-    17805787,
-    5973871,
-    13511897,
-    6772980,
-    5473803,
-    8721655,
-    36804382,
-    27036589,
     30197443,
     34280527,
     6624858,
@@ -715,6 +730,16 @@
     5708471,
     10449873,
     4773265,
-    5924999
+    5924999,
+    38627617,
+    7431692,
+    37778389,
+    18516736,
+    6931255,
+    18069700,
+    34613302,
+    7984182,
+    28144992,
+    6801664
   ]
 }
