@@ -30,7 +30,8 @@
     "The Nokia 1100: the humble phone that sold more than almost any phone in history",
     "The Apple Newton: the handwriting recognition flop that became a running joke on The Simpsons",
     "Google Glass: why the smart glasses everyone was curious about got rejected",
-    "Kodak's digital camera: the company that invented it in 1975 and buried it"
+    "Kodak's digital camera: the company that invented it in 1975 and buried it",
+    "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface"
   ],
   "uploads": [
     {
@@ -596,25 +597,40 @@
       "at": "2026-09-29T22:21:52.094214+00:00",
       "topic": "Kodak's digital camera: the company that invented it in 1975 and buried it",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "s_Ck9AMDKDk",
+      "title": "How Steve Jobs Stole the Mouse and Made the Mac",
+      "at": "2026-09-30T00:09:20.563272+00:00",
+      "topic": "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18104729530979858",
+      "title": "How Steve Jobs Stole the Mouse and Made the Mac",
+      "at": "2026-09-30T00:09:53.812830+00:00",
+      "topic": "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1747860656293321",
+      "title": "How Steve Jobs Stole the Mouse and Made the Mac",
+      "at": "2026-09-30T00:09:59.037588+00:00",
+      "topic": "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    36354846,
-    6324534,
-    10419525,
-    36179522,
-    33315117,
-    36541195,
-    5135794,
-    34459460,
-    36205993,
     38028328,
     4604126,
     9821713,
@@ -665,6 +681,15 @@
     6624829,
     25935025,
     5871181,
-    27375350
+    27375350,
+    7657341,
+    33314914,
+    7295968,
+    7279193,
+    9096860,
+    6963412,
+    6177474,
+    8720746,
+    39425816
   ]
 }
