@@ -30,7 +30,8 @@
     "The Nintendo PlayStation: the prototype born from a deal that fell apart",
     "Doom running on a calculator, a pregnancy test, and everything else",
     "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
-    "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal"
+    "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
+    "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars"
   ],
   "uploads": [
     {
@@ -830,24 +831,48 @@
       "at": "2026-09-30T02:20:06.887709+00:00",
       "topic": "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "URRGOXN-5uc",
+      "title": "Why the Xbox 360's Red Ring of Death Cost Microsoft $1 Billion",
+      "at": "2026-09-30T22:17:28.409872+00:00",
+      "topic": "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691455867275364366",
+      "title": "Why the Xbox 360's Red Ring of Death Cost Microsoft $1 Billion",
+      "at": "2026-09-30T22:17:30.809077+00:00",
+      "topic": "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910885468542802",
+      "title": "Why the Xbox 360's Red Ring of Death Cost Microsoft $1 Billion",
+      "at": "2026-09-30T22:20:08.940270+00:00",
+      "topic": "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1309022441229715",
+      "title": "Why the Xbox 360's Red Ring of Death Cost Microsoft $1 Billion",
+      "at": "2026-09-30T22:20:14.843553+00:00",
+      "topic": "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "shocking_fact",
     "secret_reveal",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    6520437,
-    32025592,
-    8321893,
-    6717622,
-    6321876,
-    36725595,
-    8757863,
-    7047781,
     8544030,
     8888807,
     8820124,
@@ -899,6 +924,14 @@
     8724209,
     12486784,
     7065829,
-    7602139
+    7602139,
+    12715348,
+    9017835,
+    6754831,
+    28029791,
+    7821798,
+    6755168,
+    7047270,
+    7774947
   ]
 }
