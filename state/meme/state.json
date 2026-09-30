@@ -5,7 +5,8 @@
     "AI_CHARACTER_2",
     "AI_CHARACTER_3",
     "AI_CHARACTER_4",
-    "AI_CHARACTER_5"
+    "AI_CHARACTER_5",
+    "AI_CHARACTER_6"
   ],
   "uploads": [
     {
@@ -91,6 +92,20 @@
       "title": "Meet Lirili Larila: The Sandal-Wearing Elephant That Keeps Calm in Meme Chaos",
       "at": "2026-09-30T00:13:02.159896+00:00",
       "topic": "AI_CHARACTER_5"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "J68Th69N_Xs",
+      "title": "Meet Lirili Larila: The Elephant That Wears Sandals & a Pocket Watch",
+      "at": "2026-09-30T02:25:42.747676+00:00",
+      "topic": "AI_CHARACTER_6"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1129316389660483",
+      "title": "Meet Lirili Larila: The Elephant That Wears Sandals & a Pocket Watch",
+      "at": "2026-09-30T02:25:47.053129+00:00",
+      "topic": "AI_CHARACTER_6"
     }
   ],
   "recent_clip_ids": [
