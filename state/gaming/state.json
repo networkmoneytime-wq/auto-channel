@@ -29,7 +29,8 @@
     "Tetris: the Soviet programmer, the Game Boy deal, and the scramble over who owned the rights",
     "The Nintendo PlayStation: the prototype born from a deal that fell apart",
     "Doom running on a calculator, a pregnancy test, and everything else",
-    "The Pokemon episode that sent hundreds of kids to hospitals in 1997"
+    "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
+    "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal"
   ],
   "uploads": [
     {
@@ -797,19 +798,48 @@
       "at": "2026-09-30T00:07:50.588933+00:00",
       "topic": "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "8eqokBGODPw",
+      "title": "How Minecraft Went From Weekend Hobby to a $2.5\u202fBillion Microsoft Deal",
+      "at": "2026-09-30T02:19:26.910589+00:00",
+      "topic": "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691147009306396685",
+      "title": "How Minecraft Went From Weekend Hobby to a $2.5\u202fBillion Microsoft Deal",
+      "at": "2026-09-30T02:19:28.731717+00:00",
+      "topic": "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18121893064901993",
+      "title": "How Minecraft Went From Weekend Hobby to a $2.5\u202fBillion Microsoft Deal",
+      "at": "2026-09-30T02:20:01.948156+00:00",
+      "topic": "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1622629865998046",
+      "title": "How Minecraft Went From Weekend Hobby to a $2.5\u202fBillion Microsoft Deal",
+      "at": "2026-09-30T02:20:06.887709+00:00",
+      "topic": "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "mistake_warning",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    8888410,
-    39145684,
-    8128493,
     6520437,
     32025592,
     8321893,
@@ -866,6 +896,9 @@
     8114986,
     6976215,
     4842588,
-    8724209
+    8724209,
+    12486784,
+    7065829,
+    7602139
   ]
 }
