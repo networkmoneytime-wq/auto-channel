@@ -38,7 +38,8 @@
     "The Mary Celeste: the ship found sailing with nobody aboard",
     "Typhoid Mary: the cook who spread disease without ever feeling sick",
     "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
-    "The Antikythera mechanism: the ancient Greek device that worked like a computer"
+    "The Antikythera mechanism: the ancient Greek device that worked like a computer",
+    "The Wow! signal: the 72-second radio burst from space that nobody has explained"
   ],
   "uploads": [
     {
@@ -952,25 +953,48 @@
       "at": "2026-10-01T02:06:16.536372+00:00",
       "topic": "The Antikythera mechanism: the ancient Greek device that worked like a computer",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "j7U6HsirwKk",
+      "title": "The Wow! Signal: 72 Seconds That Still Haunt Astronomers",
+      "at": "2026-10-01T22:13:58.384644+00:00",
+      "topic": "The Wow! signal: the 72-second radio burst from space that nobody has explained",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691825790115219486",
+      "title": "The Wow! Signal: 72 Seconds That Still Haunt Astronomers",
+      "at": "2026-10-01T22:14:00.099929+00:00",
+      "topic": "The Wow! signal: the 72-second radio burst from space that nobody has explained",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17987727042026652",
+      "title": "The Wow! Signal: 72 Seconds That Still Haunt Astronomers",
+      "at": "2026-10-01T22:15:16.773874+00:00",
+      "topic": "The Wow! signal: the 72-second radio burst from space that nobody has explained",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1016761564714202",
+      "title": "The Wow! Signal: 72 Seconds That Still Haunt Astronomers",
+      "at": "2026-10-01T22:15:22.837712+00:00",
+      "topic": "The Wow! signal: the 72-second radio burst from space that nobody has explained",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    10055515,
-    37944582,
-    6396117,
-    34432068,
-    5930433,
-    31042591,
-    12601961,
-    6219899,
-    34922986,
     28191115,
     5453370,
     8814502,
@@ -1021,6 +1045,15 @@
     34536746,
     7089944,
     34775733,
-    19798253
+    19798253,
+    9127873,
+    18308552,
+    31485697,
+    8088319,
+    39626072,
+    7034335,
+    29450498,
+    20349276,
+    30560632
   ]
 }
