@@ -34,7 +34,8 @@
     "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
     "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
     "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
-    "The Morris Worm of 1988: the first big internet worm and the student who released it"
+    "The Morris Worm of 1988: the first big internet worm and the student who released it",
+    "Stuxnet: the computer worm that physically wrecked nuclear centrifuges"
   ],
   "uploads": [
     {
@@ -696,24 +697,40 @@
       "at": "2026-10-01T00:08:32.489386+00:00",
       "topic": "The Morris Worm of 1988: the first big internet worm and the student who released it",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "joFYYE_TZJk",
+      "title": "Stuxnet: The Code That Melted Iran's Uranium Centrifuges",
+      "at": "2026-10-01T02:24:24.654907+00:00",
+      "topic": "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18097164812320003",
+      "title": "Stuxnet: The Code That Melted Iran's Uranium Centrifuges",
+      "at": "2026-10-01T02:24:55.600538+00:00",
+      "topic": "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2587743014976827",
+      "title": "Stuxnet: The Code That Melted Iran's Uranium Centrifuges",
+      "at": "2026-10-01T02:25:00.298427+00:00",
+      "topic": "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "secret_reveal",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    7681544,
-    7563941,
-    28635502,
-    7046612,
-    27353857,
-    5708180,
-    39767743,
-    8879938,
     38455331,
     36056987,
     5651586,
@@ -765,6 +782,14 @@
     6700011,
     39597264,
     13885687,
-    8348727
+    8348727,
+    8084856,
+    36643187,
+    36825184,
+    9573571,
+    5839090,
+    17951653,
+    37585311,
+    33315117
   ]
 }
