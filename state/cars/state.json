@@ -34,7 +34,8 @@
     "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
     "The Toyota AE86: the humble Corolla that became a drift legend",
     "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
-    "The Honda NSX: the supercar Ayrton Senna helped fine-tune"
+    "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
+    "The Tesla Roadster in space: how a car became a Falcon Heavy passenger"
   ],
   "uploads": [
     {
@@ -886,25 +887,48 @@
       "at": "2026-10-01T02:20:35.173641+00:00",
       "topic": "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "zYZDSm9vFBw",
+      "title": "Tesla Roadster's Wild Journey: From Starman's Seat to a Sun-Orbiting Time Capsule",
+      "at": "2026-10-01T22:13:34.249288+00:00",
+      "topic": "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691825891756443662",
+      "title": "Tesla Roadster's Wild Journey: From Starman's Seat to a Sun-Orbiting Time Capsule",
+      "at": "2026-10-01T22:13:36.782014+00:00",
+      "topic": "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18097633499292550",
+      "title": "Tesla Roadster's Wild Journey: From Starman's Seat to a Sun-Orbiting Time Capsule",
+      "at": "2026-10-01T22:14:16.620532+00:00",
+      "topic": "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2669847480117983",
+      "title": "Tesla Roadster's Wild Journey: From Starman's Seat to a Sun-Orbiting Time Capsule",
+      "at": "2026-10-01T22:14:21.300189+00:00",
+      "topic": "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "question_hook",
     "contrarian_claim",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    18941350,
-    32676398,
-    8321893,
-    26312663,
-    34948763,
-    19343052,
-    8987407,
-    15821943,
-    39421370,
     8987402,
     28315396,
     39421357,
@@ -955,6 +979,15 @@
     36543597,
     12194619,
     37834012,
-    8516376
+    8516376,
+    18437017,
+    8470008,
+    8474616,
+    9035107,
+    36961921,
+    37001814,
+    29669602,
+    35221616,
+    39188873
   ]
 }
