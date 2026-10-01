@@ -32,7 +32,8 @@
     "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
     "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
     "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
-    "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping"
+    "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
+    "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy"
   ],
   "uploads": [
     {
@@ -634,13 +635,37 @@
       "at": "2026-10-01T00:10:34.417357+00:00",
       "topic": "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "WDHmExQhAH4",
+      "title": "Steins;Gate's Phone Microwave: How a Text-Sending Gadget Wrecked Every Future",
+      "at": "2026-10-01T02:26:30.638321+00:00",
+      "topic": "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18107376632238056",
+      "title": "Steins;Gate's Phone Microwave: How a Text-Sending Gadget Wrecked Every Future",
+      "at": "2026-10-01T02:27:46.840072+00:00",
+      "topic": "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1051225114584397",
+      "title": "Steins;Gate's Phone Microwave: How a Text-Sending Gadget Wrecked Every Future",
+      "at": "2026-10-01T02:27:52.452676+00:00",
+      "topic": "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "contrarian_claim",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ]
 }
