@@ -37,7 +37,8 @@
     "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
     "The Mary Celeste: the ship found sailing with nobody aboard",
     "Typhoid Mary: the cook who spread disease without ever feeling sick",
-    "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land"
+    "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
+    "The Antikythera mechanism: the ancient Greek device that worked like a computer"
   ],
   "uploads": [
     {
@@ -919,26 +920,48 @@
       "at": "2026-10-01T00:29:49.799985+00:00",
       "topic": "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "1a-Y93d2PK4",
+      "title": "The Antikythera Mechanism: Ancient Greek Computer That Predates Smartphones",
+      "at": "2026-10-01T02:05:33.273905+00:00",
+      "topic": "The Antikythera mechanism: the ancient Greek device that worked like a computer",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691514561911851038",
+      "title": "The Antikythera Mechanism: Ancient Greek Computer That Predates Smartphones",
+      "at": "2026-10-01T02:05:35.802769+00:00",
+      "topic": "The Antikythera mechanism: the ancient Greek device that worked like a computer",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18088286882306018",
+      "title": "The Antikythera Mechanism: Ancient Greek Computer That Predates Smartphones",
+      "at": "2026-10-01T02:06:11.373883+00:00",
+      "topic": "The Antikythera mechanism: the ancient Greek device that worked like a computer",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1566926215204071",
+      "title": "The Antikythera Mechanism: Ancient Greek Computer That Predates Smartphones",
+      "at": "2026-10-01T02:06:16.536372+00:00",
+      "topic": "The Antikythera mechanism: the ancient Greek device that worked like a computer",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    15461510,
-    17880205,
-    5985476,
-    3832273,
-    33163264,
-    28346937,
-    6203180,
-    7266148,
-    35062148,
-    4604126,
     10055515,
     37944582,
     6396117,
@@ -988,6 +1011,16 @@
     35074273,
     35965011,
     36215049,
-    27517823
+    27517823,
+    5846713,
+    37949924,
+    39149890,
+    39582953,
+    39310474,
+    6528789,
+    34536746,
+    7089944,
+    34775733,
+    19798253
   ]
 }
