@@ -8,7 +8,8 @@
     "AI_CHARACTER_5",
     "AI_CHARACTER_6",
     "AI_CHARACTER_7",
-    "AI_CHARACTER_8"
+    "AI_CHARACTER_8",
+    "DRAMA_1"
   ],
   "uploads": [
     {
@@ -136,6 +137,20 @@
       "title": "Lirili Larila: The Sandal-Clad Elephant with a Pocket Watch",
       "at": "2026-10-01T00:12:26.082616+00:00",
       "topic": "AI_CHARACTER_8"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "neajVQi8hwQ",
+      "title": "When Strawberry Shay's Sweet Smile Shatters - Marco's Love-Note Bomb",
+      "at": "2026-10-01T02:29:25.030920+00:00",
+      "topic": "DRAMA_1"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1130690086580750",
+      "title": "When Strawberry Shay's Sweet Smile Shatters - Marco's Love-Note Bomb",
+      "at": "2026-10-01T02:29:30.390536+00:00",
+      "topic": "DRAMA_1"
     }
   ],
   "recent_clip_ids": [
