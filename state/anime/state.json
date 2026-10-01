@@ -31,7 +31,8 @@
     "Fullmetal Alchemist: Brotherhood|why fans call Fullmetal Alchemist: Brotherhood one of the most complete stories in anime",
     "Attack on Titan|how Attack on Titan kept flipping what viewers thought they knew",
     "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
-    "My Hero Academia|why My Hero Academia's take on superheroes struck a chord"
+    "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
+    "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping"
   ],
   "uploads": [
     {
@@ -609,13 +610,37 @@
       "at": "2026-09-30T22:24:57.017553+00:00",
       "topic": "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "wJziHaduWHo",
+      "title": "Why Tokyo Ghoul's Dark Premise Hooks You - The Shocking Twist",
+      "at": "2026-10-01T00:09:59.387399+00:00",
+      "topic": "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18030410864853820",
+      "title": "Why Tokyo Ghoul's Dark Premise Hooks You - The Shocking Twist",
+      "at": "2026-10-01T00:10:29.032737+00:00",
+      "topic": "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2330129241152000",
+      "title": "Why Tokyo Ghoul's Dark Premise Hooks You - The Shocking Twist",
+      "at": "2026-10-01T00:10:34.417357+00:00",
+      "topic": "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "question_hook",
     "contrarian_claim",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ]
 }
