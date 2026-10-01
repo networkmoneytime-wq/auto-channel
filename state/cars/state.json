@@ -33,7 +33,8 @@
     "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
     "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
     "The Toyota AE86: the humble Corolla that became a drift legend",
-    "The Nissan Skyline GT-R: how Godzilla took over touring car racing"
+    "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
+    "The Honda NSX: the supercar Ayrton Senna helped fine-tune"
   ],
   "uploads": [
     {
@@ -861,24 +862,40 @@
       "at": "2026-10-01T00:03:36.135798+00:00",
       "topic": "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ZjsgIYsr47o",
+      "title": "How Ayrton Senna Turned the Honda NSX Into a Beast",
+      "at": "2026-10-01T02:17:15.558307+00:00",
+      "topic": "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691517540879026190",
+      "title": "How Ayrton Senna Turned the Honda NSX Into a Beast",
+      "at": "2026-10-01T02:17:18.897236+00:00",
+      "topic": "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1518860746929661",
+      "title": "How Ayrton Senna Turned the Honda NSX Into a Beast",
+      "at": "2026-10-01T02:20:35.173641+00:00",
+      "topic": "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "mistake_warning",
     "question_hook",
     "contrarian_claim",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    26083304,
-    31443128,
-    8522838,
-    7154236,
-    9944850,
-    33596422,
-    37903577,
-    39421364,
     18941350,
     32676398,
     8321893,
@@ -930,6 +947,14 @@
     8987292,
     33647930,
     34514149,
-    31397167
+    31397167,
+    27936941,
+    32779590,
+    4612661,
+    8469666,
+    36543597,
+    12194619,
+    37834012,
+    8516376
   ]
 }
