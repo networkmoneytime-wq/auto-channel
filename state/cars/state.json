@@ -32,7 +32,8 @@
     "Ford vs Ferrari at Le Mans in 1966: the race that reshaped both companies",
     "Niki Lauda's 1976 crash: the champion who came back to race six weeks later",
     "The Mazda 787B: the rotary-powered car that won Le Mans in 1991",
-    "The Toyota AE86: the humble Corolla that became a drift legend"
+    "The Toyota AE86: the humble Corolla that became a drift legend",
+    "The Nissan Skyline GT-R: how Godzilla took over touring car racing"
   ],
   "uploads": [
     {
@@ -828,20 +829,48 @@
       "at": "2026-09-30T22:15:42.239074+00:00",
       "topic": "The Toyota AE86: the humble Corolla that became a drift legend",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "yVGG2PGk04Q",
+      "title": "How the Nissan Skyline GT-R Became the Real 'Godzilla' of Racing",
+      "at": "2026-10-01T00:02:51.995339+00:00",
+      "topic": "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691483094297184270",
+      "title": "How the Nissan Skyline GT-R Became the Real 'Godzilla' of Racing",
+      "at": "2026-10-01T00:02:55.843622+00:00",
+      "topic": "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17988574302113489",
+      "title": "How the Nissan Skyline GT-R Became the Real 'Godzilla' of Racing",
+      "at": "2026-10-01T00:03:29.014064+00:00",
+      "topic": "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "994295787032219",
+      "title": "How the Nissan Skyline GT-R Became the Real 'Godzilla' of Racing",
+      "at": "2026-10-01T00:03:36.135798+00:00",
+      "topic": "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "mistake_warning",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6520232,
-    8470701,
-    39295319,
-    11269295,
     26083304,
     31443128,
     8522838,
@@ -897,6 +926,10 @@
     37667027,
     8627749,
     37667019,
-    7311798
+    7311798,
+    8987292,
+    33647930,
+    34514149,
+    31397167
   ]
 }
