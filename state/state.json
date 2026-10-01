@@ -36,7 +36,8 @@
     "Phineas Gage: the railroad worker who survived an iron rod through his skull",
     "The Tunguska event of 1908: the Siberian blast that flattened millions of trees",
     "The Mary Celeste: the ship found sailing with nobody aboard",
-    "Typhoid Mary: the cook who spread disease without ever feeling sick"
+    "Typhoid Mary: the cook who spread disease without ever feeling sick",
+    "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land"
   ],
   "uploads": [
     {
@@ -886,25 +887,48 @@
       "at": "2026-09-30T22:16:10.071970+00:00",
       "topic": "Typhoid Mary: the cook who spread disease without ever feeling sick",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "YXzFWPh96fI",
+      "title": "1914 Christmas Truce: Soldiers Play Soccer in No-Man's Land",
+      "at": "2026-10-01T00:29:02.460707+00:00",
+      "topic": "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691489465705121822",
+      "title": "1914 Christmas Truce: Soldiers Play Soccer in No-Man's Land",
+      "at": "2026-10-01T00:29:06.779376+00:00",
+      "topic": "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18140839807520570",
+      "title": "1914 Christmas Truce: Soldiers Play Soccer in No-Man's Land",
+      "at": "2026-10-01T00:29:43.967323+00:00",
+      "topic": "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1801096994417611",
+      "title": "1914 Christmas Truce: Soldiers Play Soccer in No-Man's Land",
+      "at": "2026-10-01T00:29:49.799985+00:00",
+      "topic": "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "shocking_fact",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    9245557,
-    6532227,
-    32549906,
-    39658862,
-    12469953,
-    5921200,
-    39134701,
-    7362695,
-    6868234,
     15461510,
     17880205,
     5985476,
@@ -955,6 +979,15 @@
     6011531,
     5722112,
     6998655,
-    8455760
+    8455760,
+    18922459,
+    6650287,
+    36509537,
+    36248260,
+    5832683,
+    35074273,
+    35965011,
+    36215049,
+    27517823
   ]
 }
