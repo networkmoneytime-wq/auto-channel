@@ -33,7 +33,8 @@
     "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
     "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
     "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs",
-    "Duck Hunt's light gun: the trick that made it work on old TVs"
+    "Duck Hunt's light gun: the trick that made it work on old TVs",
+    "P.T.: the playable teaser that vanished from the PlayStation Store"
   ],
   "uploads": [
     {
@@ -929,21 +930,48 @@
       "at": "2026-10-01T02:22:56.845610+00:00",
       "topic": "Duck Hunt's light gun: the trick that made it work on old TVs",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "IVspHivkxaI",
+      "title": "Why the Haunted P.T. Demo Disappeared From PlayStation Store",
+      "at": "2026-10-01T22:16:01.720751+00:00",
+      "topic": "P.T.: the playable teaser that vanished from the PlayStation Store",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691826635737155598",
+      "title": "Why the Haunted P.T. Demo Disappeared From PlayStation Store",
+      "at": "2026-10-01T22:16:03.988388+00:00",
+      "topic": "P.T.: the playable teaser that vanished from the PlayStation Store",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18229659463333119",
+      "title": "Why the Haunted P.T. Demo Disappeared From PlayStation Store",
+      "at": "2026-10-01T22:16:36.669732+00:00",
+      "topic": "P.T.: the playable teaser that vanished from the PlayStation Store",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1098624399287905",
+      "title": "Why the Haunted P.T. Demo Disappeared From PlayStation Store",
+      "at": "2026-10-01T22:16:42.488121+00:00",
+      "topic": "P.T.: the playable teaser that vanished from the PlayStation Store",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    6491686,
-    16277044,
-    5637306,
-    30353173,
-    7981954,
     38374838,
     5823859,
     8127926,
@@ -998,6 +1026,11 @@
     32365211,
     7744312,
     6091316,
-    4836568
+    4836568,
+    7701961,
+    34377522,
+    8128352,
+    7236937,
+    8128351
   ]
 }
