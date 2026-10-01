@@ -32,7 +32,8 @@
     "The Pokemon episode that sent hundreds of kids to hospitals in 1997",
     "Minecraft: how Notch's side project became a $2.5 billion Microsoft deal",
     "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
-    "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs"
+    "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs",
+    "Duck Hunt's light gun: the trick that made it work on old TVs"
   ],
   "uploads": [
     {
@@ -896,28 +897,48 @@
       "at": "2026-10-01T00:06:05.960325+00:00",
       "topic": "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "iymZPX7qNBw",
+      "title": "How Duck Hunt's Light Gun Really Works (It's Not a Laser)",
+      "at": "2026-10-01T02:22:11.787952+00:00",
+      "topic": "Duck Hunt's light gun: the trick that made it work on old TVs",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691518584639555598",
+      "title": "How Duck Hunt's Light Gun Really Works (It's Not a Laser)",
+      "at": "2026-10-01T02:22:13.934823+00:00",
+      "topic": "Duck Hunt's light gun: the trick that made it work on old TVs",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18091589240414850",
+      "title": "How Duck Hunt's Light Gun Really Works (It's Not a Laser)",
+      "at": "2026-10-01T02:22:52.286643+00:00",
+      "topic": "Duck Hunt's light gun: the trick that made it work on old TVs",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1596811105466467",
+      "title": "How Duck Hunt's Light Gun Really Works (It's Not a Laser)",
+      "at": "2026-10-01T02:22:56.845610+00:00",
+      "topic": "Duck Hunt's light gun: the trick that made it work on old TVs",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "list_tease",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    8888614,
-    8822649,
-    25935015,
-    7330825,
-    13207159,
-    16029655,
-    34445253,
-    6108914,
-    8720756,
-    34246644,
-    8128340,
-    8466347,
     6491686,
     16277044,
     5637306,
@@ -965,6 +986,18 @@
     6660940,
     39723356,
     8798824,
-    36124120
+    36124120,
+    4842596,
+    9414109,
+    9807744,
+    7088468,
+    6091316,
+    9667666,
+    31683087,
+    8128349,
+    32365211,
+    7744312,
+    6091316,
+    4836568
   ]
 }
