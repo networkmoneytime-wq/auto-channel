@@ -9,7 +9,8 @@
     "AI_CHARACTER_6",
     "AI_CHARACTER_7",
     "AI_CHARACTER_8",
-    "DRAMA_1"
+    "DRAMA_1",
+    "DRAMA_2"
   ],
   "uploads": [
     {
@@ -151,6 +152,20 @@
       "title": "When Strawberry Shay's Sweet Smile Shatters - Marco's Love-Note Bomb",
       "at": "2026-10-01T02:29:30.390536+00:00",
       "topic": "DRAMA_1"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "YcrIumWa-eo",
+      "title": "Big Kiwi vs Pineapple Percy: The Fruit-Fight You Won't Believe!",
+      "at": "2026-10-01T22:23:49.356879+00:00",
+      "topic": "DRAMA_2"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1101773668977644",
+      "title": "Big Kiwi vs Pineapple Percy: The Fruit-Fight You Won't Believe!",
+      "at": "2026-10-01T22:23:54.643924+00:00",
+      "topic": "DRAMA_2"
     }
   ],
   "recent_clip_ids": [
