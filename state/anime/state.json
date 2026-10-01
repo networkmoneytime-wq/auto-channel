@@ -33,7 +33,8 @@
     "Hunter x Hunter|why the Chimera Ant arc is considered a masterpiece",
     "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
     "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
-    "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy"
+    "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
+    "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time"
   ],
   "uploads": [
     {
@@ -659,13 +660,37 @@
       "at": "2026-10-01T02:27:52.452676+00:00",
       "topic": "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "vUqxnRKMjU0",
+      "title": "Why Cowboy Bebop Still Feels Fresh in 2024",
+      "at": "2026-10-01T22:21:41.008959+00:00",
+      "topic": "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18099721478160536",
+      "title": "Why Cowboy Bebop Still Feels Fresh in 2024",
+      "at": "2026-10-01T22:22:12.496214+00:00",
+      "topic": "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1765326494588745",
+      "title": "Why Cowboy Bebop Still Feels Fresh in 2024",
+      "at": "2026-10-01T22:22:17.766937+00:00",
+      "topic": "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "mistake_warning",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ]
 }
