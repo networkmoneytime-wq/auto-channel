@@ -33,7 +33,8 @@
     "Kodak's digital camera: the company that invented it in 1975 and buried it",
     "Xerox PARC: how Steve Jobs's famous visit shaped the Mac's interface",
     "The Osborne 1: the portable computer that killed its own company by announcing its successor early",
-    "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage"
+    "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
+    "The Morris Worm of 1988: the first big internet worm and the student who released it"
   ],
   "uploads": [
     {
@@ -671,22 +672,40 @@
       "at": "2026-09-30T22:22:56.369707+00:00",
       "topic": "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "cmPnK5Bzm1g",
+      "title": "How the 1988 Morris Worm Shut Down the Early Internet",
+      "at": "2026-10-01T00:07:50.682775+00:00",
+      "topic": "The Morris Worm of 1988: the first big internet worm and the student who released it",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18118724249516146",
+      "title": "How the 1988 Morris Worm Shut Down the Early Internet",
+      "at": "2026-10-01T00:08:26.214883+00:00",
+      "topic": "The Morris Worm of 1988: the first big internet worm and the student who released it",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1100631045661620",
+      "title": "How the 1988 Morris Worm Shut Down the Early Internet",
+      "at": "2026-10-01T00:08:32.489386+00:00",
+      "topic": "The Morris Worm of 1988: the first big internet worm and the student who released it",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "shocking_fact",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    30197443,
-    34280527,
-    6624858,
-    19657013,
-    3832194,
-    19598802,
     7681544,
     7563941,
     28635502,
@@ -740,6 +759,12 @@
     34613302,
     7984182,
     28144992,
-    6801664
+    6801664,
+    12271136,
+    35062665,
+    6700011,
+    39597264,
+    13885687,
+    8348727
   ]
 }
