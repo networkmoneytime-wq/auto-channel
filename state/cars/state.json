@@ -35,7 +35,8 @@
     "The Toyota AE86: the humble Corolla that became a drift legend",
     "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
     "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
-    "The Tesla Roadster in space: how a car became a Falcon Heavy passenger"
+    "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
+    "The Ford Model T: the assembly line trick that put the world on wheels"
   ],
   "uploads": [
     {
@@ -919,20 +920,48 @@
       "at": "2026-10-01T22:14:21.300189+00:00",
       "topic": "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "57iIG2hmlYc",
+      "title": "How Henry Ford's 93-Minute Model T Changed the World",
+      "at": "2026-10-02T00:03:16.619273+00:00",
+      "topic": "The Ford Model T: the assembly line trick that put the world on wheels",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691854280495581198",
+      "title": "How Henry Ford's 93-Minute Model T Changed the World",
+      "at": "2026-10-02T00:03:20.262931+00:00",
+      "topic": "The Ford Model T: the assembly line trick that put the world on wheels",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18021584402712402",
+      "title": "How Henry Ford's 93-Minute Model T Changed the World",
+      "at": "2026-10-02T00:03:51.878835+00:00",
+      "topic": "The Ford Model T: the assembly line trick that put the world on wheels",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1910820730301064",
+      "title": "How Henry Ford's 93-Minute Model T Changed the World",
+      "at": "2026-10-02T00:03:55.527195+00:00",
+      "topic": "The Ford Model T: the assembly line trick that put the world on wheels",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    8987402,
-    28315396,
-    39421357,
-    36781254,
     5925297,
     35403186,
     4489888,
@@ -988,6 +1017,10 @@
     37001814,
     29669602,
     35221616,
-    39188873
+    39188873,
+    31715277,
+    34952824,
+    10040070,
+    20488156
   ]
 }
