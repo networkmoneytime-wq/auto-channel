@@ -37,7 +37,8 @@
     "The Morris Worm of 1988: the first big internet worm and the student who released it",
     "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
     "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines",
-    "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet"
+    "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
+    "The QWERTY keyboard: the popular story about why the layout exists and what is actually true"
   ],
   "uploads": [
     {
@@ -771,27 +772,40 @@
       "at": "2026-10-02T00:09:06.494256+00:00",
       "topic": "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "yn1S79fJuRk",
+      "title": "Why the QWERTY Keyboard Isn't Built for Speed",
+      "at": "2026-10-02T02:23:06.512916+00:00",
+      "topic": "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18144425533532588",
+      "title": "Why the QWERTY Keyboard Isn't Built for Speed",
+      "at": "2026-10-02T02:23:41.648408+00:00",
+      "topic": "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1404955017800818",
+      "title": "Why the QWERTY Keyboard Isn't Built for Speed",
+      "at": "2026-10-02T02:23:47.859655+00:00",
+      "topic": "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7657341,
-    33314914,
-    7295968,
-    7279193,
-    9096860,
-    6963412,
-    6177474,
-    8720746,
-    39425816,
-    34280528,
-    5708471,
     10449873,
     4773265,
     5924999,
@@ -840,6 +854,17 @@
     10224112,
     7643339,
     9047399,
-    7646797
+    7646797,
+    13555319,
+    27378595,
+    27440760,
+    34573350,
+    6037656,
+    37086478,
+    33315143,
+    12896411,
+    3945445,
+    7362700,
+    5647324
   ]
 }
