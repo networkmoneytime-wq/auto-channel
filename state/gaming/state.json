@@ -34,7 +34,8 @@
     "The Xbox 360 Red Ring of Death: the hardware failure that cost Microsoft over a billion dollars",
     "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs",
     "Duck Hunt's light gun: the trick that made it work on old TVs",
-    "P.T.: the playable teaser that vanished from the PlayStation Store"
+    "P.T.: the playable teaser that vanished from the PlayStation Store",
+    "Grand Theft Auto: San Andreas and the Hot Coffee mod"
   ],
   "uploads": [
     {
@@ -962,23 +963,48 @@
       "at": "2026-10-01T22:16:42.488121+00:00",
       "topic": "P.T.: the playable teaser that vanished from the PlayStation Store",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UKBMAcKomx4",
+      "title": "The GTA: San Andreas 'Hot Coffee' Secret That Shocked Congress",
+      "at": "2026-10-02T00:05:36.018430+00:00",
+      "topic": "Grand Theft Auto: San Andreas and the Hot Coffee mod",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691854814229186574",
+      "title": "The GTA: San Andreas 'Hot Coffee' Secret That Shocked Congress",
+      "at": "2026-10-02T00:05:38.456579+00:00",
+      "topic": "Grand Theft Auto: San Andreas and the Hot Coffee mod",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18129114817759397",
+      "title": "The GTA: San Andreas 'Hot Coffee' Secret That Shocked Congress",
+      "at": "2026-10-02T00:06:17.059712+00:00",
+      "topic": "Grand Theft Auto: San Andreas and the Hot Coffee mod",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1132835335891931",
+      "title": "The GTA: San Andreas 'Hot Coffee' Secret That Shocked Congress",
+      "at": "2026-10-02T00:06:28.945157+00:00",
+      "topic": "Grand Theft Auto: San Andreas and the Hot Coffee mod",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "question_hook",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    38374838,
-    5823859,
-    8127926,
-    8889184,
-    6120120,
-    33315117,
-    6150146,
     6464590,
     26621092,
     34822970,
@@ -1031,6 +1057,13 @@
     34377522,
     8128352,
     7236937,
-    8128351
+    8128351,
+    6943536,
+    19086477,
+    7986012,
+    35426476,
+    4334323,
+    5823856,
+    9783691
   ]
 }
