@@ -40,7 +40,8 @@
     "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
     "The Antikythera mechanism: the ancient Greek device that worked like a computer",
     "The Wow! signal: the 72-second radio burst from space that nobody has explained",
-    "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished"
+    "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
+    "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow"
   ],
   "uploads": [
     {
@@ -1018,23 +1019,48 @@
       "at": "2026-10-02T00:28:39.226716+00:00",
       "topic": "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "xbhcgyHvEqM",
+      "title": "Dyatlov Pass: The 3 Theories That Still Haunt the Ural Mountains",
+      "at": "2026-10-02T02:06:19.285127+00:00",
+      "topic": "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691885795224995870",
+      "title": "Dyatlov Pass: The 3 Theories That Still Haunt the Ural Mountains",
+      "at": "2026-10-02T02:06:22.121830+00:00",
+      "topic": "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18037613552835892",
+      "title": "Dyatlov Pass: The 3 Theories That Still Haunt the Ural Mountains",
+      "at": "2026-10-02T02:08:23.823444+00:00",
+      "topic": "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1605519694632518",
+      "title": "Dyatlov Pass: The 3 Theories That Still Haunt the Ural Mountains",
+      "at": "2026-10-02T02:08:34.722730+00:00",
+      "topic": "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    35649906,
-    35091434,
-    28370405,
-    37029441,
-    6491645,
-    18999053,
-    8852749,
     5149094,
     5537823,
     33789659,
@@ -1087,6 +1113,13 @@
     8852384,
     33132435,
     36092437,
-    31399118
+    31399118,
+    19983368,
+    35605008,
+    34764401,
+    5925297,
+    8049823,
+    6091717,
+    25526446
   ]
 }
