@@ -36,7 +36,8 @@
     "The Nissan Skyline GT-R: how Godzilla took over touring car racing",
     "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
     "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
-    "The Ford Model T: the assembly line trick that put the world on wheels"
+    "The Ford Model T: the assembly line trick that put the world on wheels",
+    "The Trabant: the East German car built from a cotton-and-resin material"
   ],
   "uploads": [
     {
@@ -952,21 +953,48 @@
       "at": "2026-10-02T00:03:55.527195+00:00",
       "topic": "The Ford Model T: the assembly line trick that put the world on wheels",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sWdezCwe75M",
+      "title": "Why the East German Trabant Was Basically a Giant Plastic Toy",
+      "at": "2026-10-02T02:16:08.704138+00:00",
+      "topic": "The Trabant: the East German car built from a cotton-and-resin material",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691888495405025294",
+      "title": "Why the East German Trabant Was Basically a Giant Plastic Toy",
+      "at": "2026-10-02T02:16:11.432483+00:00",
+      "topic": "The Trabant: the East German car built from a cotton-and-resin material",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18104380394527804",
+      "title": "Why the East German Trabant Was Basically a Giant Plastic Toy",
+      "at": "2026-10-02T02:16:46.090247+00:00",
+      "topic": "The Trabant: the East German car built from a cotton-and-resin material",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1390109333190719",
+      "title": "Why the East German Trabant Was Basically a Giant Plastic Toy",
+      "at": "2026-10-02T02:16:51.044741+00:00",
+      "topic": "The Trabant: the East German car built from a cotton-and-resin material",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    5925297,
-    35403186,
-    4489888,
-    36538096,
-    30802751,
     34127176,
     32010530,
     8724209,
@@ -1021,6 +1049,11 @@
     31715277,
     34952824,
     10040070,
-    20488156
+    20488156,
+    39499043,
+    4482082,
+    39597233,
+    32494606,
+    10097868
   ]
 }
