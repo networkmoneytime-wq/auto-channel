@@ -11,7 +11,8 @@
     "AI_CHARACTER_8",
     "DRAMA_1",
     "DRAMA_2",
-    "DRAMA_3"
+    "DRAMA_3",
+    "DRAMA_4"
   ],
   "uploads": [
     {
@@ -181,6 +182,20 @@
       "title": "Pineapple Percy vs. Coco Nutt: The Kitchen Showdown You Won't Believe",
       "at": "2026-10-02T00:13:41.254094+00:00",
       "topic": "DRAMA_3"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "z1yfA0YRUKE",
+      "title": "Big Kiwi vs Bananarama: The Spicy Love-Potion Twist",
+      "at": "2026-10-02T02:27:44.457109+00:00",
+      "topic": "DRAMA_4"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2325296148293241",
+      "title": "Big Kiwi vs Bananarama: The Spicy Love-Potion Twist",
+      "at": "2026-10-02T02:27:52.712116+00:00",
+      "topic": "DRAMA_4"
     }
   ],
   "recent_clip_ids": [
