@@ -39,7 +39,8 @@
     "Typhoid Mary: the cook who spread disease without ever feeling sick",
     "The Christmas Truce of 1914: when enemy soldiers stopped fighting and played games in no man's land",
     "The Antikythera mechanism: the ancient Greek device that worked like a computer",
-    "The Wow! signal: the 72-second radio burst from space that nobody has explained"
+    "The Wow! signal: the 72-second radio burst from space that nobody has explained",
+    "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished"
   ],
   "uploads": [
     {
@@ -985,24 +986,48 @@
       "at": "2026-10-01T22:15:22.837712+00:00",
       "topic": "The Wow! signal: the 72-second radio burst from space that nobody has explained",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "MAAKLq4n39c",
+      "title": "4 Wild D.B. Cooper Facts You Won't Believe",
+      "at": "2026-10-02T00:27:57.677312+00:00",
+      "topic": "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691860198164088863",
+      "title": "4 Wild D.B. Cooper Facts You Won't Believe",
+      "at": "2026-10-02T00:28:00.427477+00:00",
+      "topic": "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18199813555376830",
+      "title": "4 Wild D.B. Cooper Facts You Won't Believe",
+      "at": "2026-10-02T00:28:33.747370+00:00",
+      "topic": "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2038143016838925",
+      "title": "4 Wild D.B. Cooper Facts You Won't Believe",
+      "at": "2026-10-02T00:28:39.226716+00:00",
+      "topic": "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    28191115,
-    5453370,
-    8814502,
-    7089361,
-    10443251,
-    29250903,
-    16318782,
-    34906333,
     35649906,
     35091434,
     28370405,
@@ -1054,6 +1079,14 @@
     7034335,
     29450498,
     20349276,
-    30560632
+    30560632,
+    34769697,
+    15408229,
+    38868442,
+    4836592,
+    8852384,
+    33132435,
+    36092437,
+    31399118
   ]
 }
