@@ -38,7 +38,8 @@
     "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
     "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines",
     "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
-    "The QWERTY keyboard: the popular story about why the layout exists and what is actually true"
+    "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
+    "The save icon: why it is still a floppy disk decades after floppies died"
   ],
   "uploads": [
     {
@@ -796,28 +797,32 @@
       "at": "2026-10-02T02:23:47.859655+00:00",
       "topic": "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sunUbYy6SGE",
+      "title": "Why the Floppy Disk Still Saves Your Files in 2024",
+      "at": "2026-10-02T22:24:18.182622+00:00",
+      "topic": "The save icon: why it is still a floppy disk decades after floppies died",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1085092154505909",
+      "title": "Why the Floppy Disk Still Saves Your Files in 2024",
+      "at": "2026-10-02T22:27:41.142918+00:00",
+      "topic": "The save icon: why it is still a floppy disk decades after floppies died",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    10449873,
-    4773265,
-    5924999,
-    38627617,
-    7431692,
-    37778389,
-    18516736,
-    6931255,
-    18069700,
-    34613302,
-    7984182,
-    28144992,
     6801664,
     12271136,
     35062665,
@@ -865,6 +870,18 @@
     12896411,
     3945445,
     7362700,
-    5647324
+    5647324,
+    28904747,
+    8888815,
+    29459827,
+    28315385,
+    39425816,
+    8348326,
+    36633825,
+    38096885,
+    6996651,
+    5077484,
+    29276577,
+    30653723
   ]
 }
