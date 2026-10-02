@@ -36,7 +36,8 @@
     "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
     "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
     "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
-    "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass"
+    "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
+    "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe"
   ],
   "uploads": [
     {
@@ -734,13 +735,37 @@
       "at": "2026-10-02T02:25:49.224002+00:00",
       "topic": "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "9PeoqHvwA6Q",
+      "title": "Why Gurren Lagann Is Way Bigger Than You Remember",
+      "at": "2026-10-02T22:29:07.079556+00:00",
+      "topic": "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18012744761976532",
+      "title": "Why Gurren Lagann Is Way Bigger Than You Remember",
+      "at": "2026-10-02T22:30:18.346781+00:00",
+      "topic": "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "965228189318312",
+      "title": "Why Gurren Lagann Is Way Bigger Than You Remember",
+      "at": "2026-10-02T22:30:22.895957+00:00",
+      "topic": "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "question_hook",
     "mistake_warning",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ]
 }
