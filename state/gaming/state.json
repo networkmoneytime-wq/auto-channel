@@ -36,7 +36,8 @@
     "Duck Hunt's light gun: the trick that made it work on old TVs",
     "P.T.: the playable teaser that vanished from the PlayStation Store",
     "Grand Theft Auto: San Andreas and the Hot Coffee mod",
-    "Cyberpunk 2077: the disastrous launch and the long road to redemption"
+    "Cyberpunk 2077: the disastrous launch and the long road to redemption",
+    "No Man's Sky: the launch backlash and the comeback"
   ],
   "uploads": [
     {
@@ -1028,27 +1029,48 @@
       "at": "2026-10-02T02:21:13.358589+00:00",
       "topic": "Cyberpunk 2077: the disastrous launch and the long road to redemption",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "aY0jj8Wca9Y",
+      "title": "How No Man's Sky Went From Disaster to Galactic Phenomenon",
+      "at": "2026-10-02T22:18:35.121213+00:00",
+      "topic": "No Man's Sky: the launch backlash and the comeback",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692198222927972366",
+      "title": "How No Man's Sky Went From Disaster to Galactic Phenomenon",
+      "at": "2026-10-02T22:18:37.917081+00:00",
+      "topic": "No Man's Sky: the launch backlash and the comeback",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18163237480497129",
+      "title": "How No Man's Sky Went From Disaster to Galactic Phenomenon",
+      "at": "2026-10-02T22:22:26.114951+00:00",
+      "topic": "No Man's Sky: the launch backlash and the comeback",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4467600536811390",
+      "title": "How No Man's Sky Went From Disaster to Galactic Phenomenon",
+      "at": "2026-10-02T22:22:31.049816+00:00",
+      "topic": "No Man's Sky: the launch backlash and the comeback",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
-    "mistake_warning"
+    "mistake_warning",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    6976215,
-    31397167,
-    5897669,
-    19192721,
-    6248839,
-    8114986,
-    6976215,
-    4842588,
-    8724209,
-    12486784,
-    7065829,
     7602139,
     12715348,
     9017835,
@@ -1097,6 +1119,17 @@
     31997525,
     38908776,
     8051641,
-    38993333
+    38993333,
+    7985875,
+    8128500,
+    33315143,
+    19532053,
+    6803592,
+    34199757,
+    7047789,
+    37029441,
+    8558752,
+    6321259,
+    35288525
   ]
 }
