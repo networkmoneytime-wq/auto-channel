@@ -36,7 +36,8 @@
     "The first iPhone keynote demo: the scripted path that kept the unfinished phone from crashing on stage",
     "The Morris Worm of 1988: the first big internet worm and the student who released it",
     "Stuxnet: the computer worm that physically wrecked nuclear centrifuges",
-    "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines"
+    "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines",
+    "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet"
   ],
   "uploads": [
     {
@@ -746,26 +747,40 @@
       "at": "2026-10-01T22:20:08.087774+00:00",
       "topic": "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Bt4gtiMrYP8",
+      "title": "Heartbleed: How a 3-Byte Slip Exposed Your Passwords",
+      "at": "2026-10-02T00:08:27.636233+00:00",
+      "topic": "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18634626250003867",
+      "title": "Heartbleed: How a 3-Byte Slip Exposed Your Passwords",
+      "at": "2026-10-02T00:09:00.890719+00:00",
+      "topic": "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1417785793019180",
+      "title": "Heartbleed: How a 3-Byte Slip Exposed Your Passwords",
+      "at": "2026-10-02T00:09:06.494256+00:00",
+      "topic": "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "shocking_fact",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    10352454,
-    34336322,
-    37116270,
-    4554456,
-    8466351,
-    6083619,
-    6624829,
-    25935025,
-    5871181,
-    27375350,
     7657341,
     33314914,
     7295968,
@@ -815,6 +830,16 @@
     39077468,
     37116258,
     37157735,
-    38902001
+    38902001,
+    19532053,
+    5473803,
+    8472219,
+    39459371,
+    7652166,
+    11025439,
+    10224112,
+    7643339,
+    9047399,
+    7646797
   ]
 }
