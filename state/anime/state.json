@@ -34,7 +34,8 @@
     "My Hero Academia|why My Hero Academia's take on superheroes struck a chord",
     "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
     "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
-    "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time"
+    "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
+    "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated"
   ],
   "uploads": [
     {
@@ -684,13 +685,37 @@
       "at": "2026-10-01T22:22:17.766937+00:00",
       "topic": "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "F2Btg06SYiA",
+      "title": "Why Evangelion's Finale Is Anything But a Happy Ending",
+      "at": "2026-10-02T00:10:26.741600+00:00",
+      "topic": "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17913820671496034",
+      "title": "Why Evangelion's Finale Is Anything But a Happy Ending",
+      "at": "2026-10-02T00:11:06.432323+00:00",
+      "topic": "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1030721410025146",
+      "title": "Why Evangelion's Finale Is Anything But a Happy Ending",
+      "at": "2026-10-02T00:11:10.514438+00:00",
+      "topic": "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "mistake_warning",
     "list_tease",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
