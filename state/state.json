@@ -41,7 +41,8 @@
     "The Antikythera mechanism: the ancient Greek device that worked like a computer",
     "The Wow! signal: the 72-second radio burst from space that nobody has explained",
     "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
-    "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow"
+    "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
+    "The Voynich Manuscript: the illustrated book nobody in the world can read"
   ],
   "uploads": [
     {
@@ -1051,22 +1052,48 @@
       "at": "2026-10-02T02:08:34.722730+00:00",
       "topic": "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "90rcQ8VqyEQ",
+      "title": "The Voynich Manuscript: Hoax, Lost Language, or Alien Cipher?",
+      "at": "2026-10-02T22:14:33.950307+00:00",
+      "topic": "The Voynich Manuscript: the illustrated book nobody in the world can read",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692197003840981023",
+      "title": "The Voynich Manuscript: Hoax, Lost Language, or Alien Cipher?",
+      "at": "2026-10-02T22:14:36.751988+00:00",
+      "topic": "The Voynich Manuscript: the illustrated book nobody in the world can read",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18108249394918873",
+      "title": "The Voynich Manuscript: Hoax, Lost Language, or Alien Cipher?",
+      "at": "2026-10-02T22:15:08.833307+00:00",
+      "topic": "The Voynich Manuscript: the illustrated book nobody in the world can read",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1350861513791831",
+      "title": "The Voynich Manuscript: Hoax, Lost Language, or Alien Cipher?",
+      "at": "2026-10-02T22:15:14.739782+00:00",
+      "topic": "The Voynich Manuscript: the illustrated book nobody in the world can read",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    5149094,
-    5537823,
-    33789659,
-    3832194,
-    10410003,
-    4919448,
     31204884,
     20349819,
     32098125,
@@ -1120,6 +1147,12 @@
     5925297,
     8049823,
     6091717,
-    25526446
+    25526446,
+    7815413,
+    6929077,
+    8484146,
+    18308550,
+    34761075,
+    34835402
   ]
 }
