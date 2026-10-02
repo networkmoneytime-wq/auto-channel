@@ -10,7 +10,8 @@
     "AI_CHARACTER_7",
     "AI_CHARACTER_8",
     "DRAMA_1",
-    "DRAMA_2"
+    "DRAMA_2",
+    "DRAMA_3"
   ],
   "uploads": [
     {
@@ -166,6 +167,20 @@
       "title": "Big Kiwi vs Pineapple Percy: The Fruit-Fight You Won't Believe!",
       "at": "2026-10-01T22:23:54.643924+00:00",
       "topic": "DRAMA_2"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "ubK8FVrJFtU",
+      "title": "Pineapple Percy vs. Coco Nutt: The Kitchen Showdown You Won't Believe",
+      "at": "2026-10-02T00:13:36.580778+00:00",
+      "topic": "DRAMA_3"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28365739633054984",
+      "title": "Pineapple Percy vs. Coco Nutt: The Kitchen Showdown You Won't Believe",
+      "at": "2026-10-02T00:13:41.254094+00:00",
+      "topic": "DRAMA_3"
     }
   ],
   "recent_clip_ids": [
