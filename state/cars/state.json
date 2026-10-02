@@ -37,7 +37,8 @@
     "The Honda NSX: the supercar Ayrton Senna helped fine-tune",
     "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
     "The Ford Model T: the assembly line trick that put the world on wheels",
-    "The Trabant: the East German car built from a cotton-and-resin material"
+    "The Trabant: the East German car built from a cotton-and-resin material",
+    "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field"
   ],
   "uploads": [
     {
@@ -985,27 +986,48 @@
       "at": "2026-10-02T02:16:51.044741+00:00",
       "topic": "The Trabant: the East German car built from a cotton-and-resin material",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "c-y8JAz1Rs8",
+      "title": "The Citro\u00ebn 2CV's Egg-Basket Test & Other Crazy True Facts",
+      "at": "2026-10-02T22:15:48.891992+00:00",
+      "topic": "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692197593107499022",
+      "title": "The Citro\u00ebn 2CV's Egg-Basket Test & Other Crazy True Facts",
+      "at": "2026-10-02T22:15:53.498262+00:00",
+      "topic": "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18078526325402869",
+      "title": "The Citro\u00ebn 2CV's Egg-Basket Test & Other Crazy True Facts",
+      "at": "2026-10-02T22:16:28.989647+00:00",
+      "topic": "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28691231760507356",
+      "title": "The Citro\u00ebn 2CV's Egg-Basket Test & Other Crazy True Facts",
+      "at": "2026-10-02T22:16:35.086376+00:00",
+      "topic": "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    34127176,
-    32010530,
-    8724209,
-    8348917,
-    18447539,
-    18446120,
-    35659522,
-    9019574,
-    18436866,
-    34263157,
-    6011525,
     5767764,
     34402538,
     32960636,
@@ -1054,6 +1076,17 @@
     4482082,
     39597233,
     32494606,
-    10097868
+    10097868,
+    8527626,
+    7002820,
+    12204618,
+    37454295,
+    32010543,
+    37175109,
+    19409607,
+    33530296,
+    35069362,
+    24837713,
+    4883833
   ]
 }
