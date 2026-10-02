@@ -35,7 +35,8 @@
     "The Wii wrist strap: why Nintendo mailed out stronger straps after flying remotes broke TVs",
     "Duck Hunt's light gun: the trick that made it work on old TVs",
     "P.T.: the playable teaser that vanished from the PlayStation Store",
-    "Grand Theft Auto: San Andreas and the Hot Coffee mod"
+    "Grand Theft Auto: San Andreas and the Hot Coffee mod",
+    "Cyberpunk 2077: the disastrous launch and the long road to redemption"
   ],
   "uploads": [
     {
@@ -995,24 +996,48 @@
       "at": "2026-10-02T00:06:28.945157+00:00",
       "topic": "Grand Theft Auto: San Andreas and the Hot Coffee mod",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "26LwW8sV6Rc",
+      "title": "3 Cyberpunk 2077 Launch Disasters That Almost Killed Night City",
+      "at": "2026-10-02T02:18:39.677541+00:00",
+      "topic": "Cyberpunk 2077: the disastrous launch and the long road to redemption",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7691889085866444814",
+      "title": "3 Cyberpunk 2077 Launch Disasters That Almost Killed Night City",
+      "at": "2026-10-02T02:18:42.774763+00:00",
+      "topic": "Cyberpunk 2077: the disastrous launch and the long road to redemption",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18094403627445932",
+      "title": "3 Cyberpunk 2077 Launch Disasters That Almost Killed Night City",
+      "at": "2026-10-02T02:21:09.644912+00:00",
+      "topic": "Cyberpunk 2077: the disastrous launch and the long road to redemption",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4509703889279388",
+      "title": "3 Cyberpunk 2077 Launch Disasters That Almost Killed Night City",
+      "at": "2026-10-02T02:21:13.358589+00:00",
+      "topic": "Cyberpunk 2077: the disastrous launch and the long road to redemption",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "mistake_warning",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6464590,
-    26621092,
-    34822970,
-    39481916,
-    16951628,
-    5752048,
-    6927325,
-    12751587,
     6976215,
     31397167,
     5897669,
@@ -1064,6 +1089,14 @@
     35426476,
     4334323,
     5823856,
-    9783691
+    9783691,
+    36265959,
+    18503891,
+    39477149,
+    35782210,
+    31997525,
+    38908776,
+    8051641,
+    38993333
   ]
 }
