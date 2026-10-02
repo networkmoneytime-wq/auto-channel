@@ -35,7 +35,8 @@
     "Tokyo Ghoul|what made Tokyo Ghoul's dark premise so gripping",
     "Steins;Gate|how a phone-controlled microwave sparks Steins;Gate's time travel tragedy",
     "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
-    "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated"
+    "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
+    "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass"
   ],
   "uploads": [
     {
@@ -709,13 +710,37 @@
       "at": "2026-10-02T00:11:10.514438+00:00",
       "topic": "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "hsC1SB5WjAg",
+      "title": "How Code Geass's Empire Tech Made a Bored Kid the World's Greatest Rebel",
+      "at": "2026-10-02T02:25:11.407099+00:00",
+      "topic": "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17911886832495054",
+      "title": "How Code Geass's Empire Tech Made a Bored Kid the World's Greatest Rebel",
+      "at": "2026-10-02T02:25:44.413696+00:00",
+      "topic": "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1112177527974814",
+      "title": "How Code Geass's Empire Tech Made a Bored Kid the World's Greatest Rebel",
+      "at": "2026-10-02T02:25:49.224002+00:00",
+      "topic": "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "secret_reveal"
   ]
 }
