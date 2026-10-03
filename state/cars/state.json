@@ -38,7 +38,8 @@
     "The Tesla Roadster in space: how a car became a Falcon Heavy passenger",
     "The Ford Model T: the assembly line trick that put the world on wheels",
     "The Trabant: the East German car built from a cotton-and-resin material",
-    "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field"
+    "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
+    "The original Mini: how one clever engine layout fit a family into a tiny car"
   ],
   "uploads": [
     {
@@ -1018,24 +1019,48 @@
       "at": "2026-10-02T22:16:35.086376+00:00",
       "topic": "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "oeKDDonsmiA",
+      "title": "The Mini's secret: fitting five people into a shoebox-sized hatchback",
+      "at": "2026-10-03T00:03:01.530974+00:00",
+      "topic": "The original Mini: how one clever engine layout fit a family into a tiny car",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692225252881074190",
+      "title": "The Mini's secret: fitting five people into a shoebox-sized hatchback",
+      "at": "2026-10-03T00:03:05.047696+00:00",
+      "topic": "The original Mini: how one clever engine layout fit a family into a tiny car",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17949936366320065",
+      "title": "The Mini's secret: fitting five people into a shoebox-sized hatchback",
+      "at": "2026-10-03T00:03:34.063218+00:00",
+      "topic": "The original Mini: how one clever engine layout fit a family into a tiny car",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "993658150420232",
+      "title": "The Mini's secret: fitting five people into a shoebox-sized hatchback",
+      "at": "2026-10-03T00:03:39.566403+00:00",
+      "topic": "The original Mini: how one clever engine layout fit a family into a tiny car",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    5767764,
-    34402538,
-    32960636,
-    5638239,
-    7005869,
-    18446506,
-    5532761,
-    16403223,
     18104148,
     39670424,
     36438809,
@@ -1087,6 +1112,14 @@
     33530296,
     35069362,
     24837713,
-    4883833
+    4883833,
+    8865237,
+    26262653,
+    39645503,
+    30802750,
+    35069361,
+    6657887,
+    4482251,
+    12196783
   ]
 }
