@@ -37,7 +37,8 @@
     "P.T.: the playable teaser that vanished from the PlayStation Store",
     "Grand Theft Auto: San Andreas and the Hot Coffee mod",
     "Cyberpunk 2077: the disastrous launch and the long road to redemption",
-    "No Man's Sky: the launch backlash and the comeback"
+    "No Man's Sky: the launch backlash and the comeback",
+    "Skyrim: how a 2011 game keeps getting re-released on everything"
   ],
   "uploads": [
     {
@@ -1061,25 +1062,48 @@
       "at": "2026-10-02T22:22:31.049816+00:00",
       "topic": "No Man's Sky: the launch backlash and the comeback",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "FbsUwwjGEvo",
+      "title": "Skyrim's Never-Ending Reboot: From PC Classic to Dragon-Streaming Service",
+      "at": "2026-10-03T00:05:46.105420+00:00",
+      "topic": "Skyrim: how a 2011 game keeps getting re-released on everything",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692225972589824014",
+      "title": "Skyrim's Never-Ending Reboot: From PC Classic to Dragon-Streaming Service",
+      "at": "2026-10-03T00:05:48.623796+00:00",
+      "topic": "Skyrim: how a 2011 game keeps getting re-released on everything",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18464673871185413",
+      "title": "Skyrim's Never-Ending Reboot: From PC Classic to Dragon-Streaming Service",
+      "at": "2026-10-03T00:06:21.850723+00:00",
+      "topic": "Skyrim: how a 2011 game keeps getting re-released on everything",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1100676122611520",
+      "title": "Skyrim's Never-Ending Reboot: From PC Classic to Dragon-Streaming Service",
+      "at": "2026-10-03T00:06:26.484310+00:00",
+      "topic": "Skyrim: how a 2011 game keeps getting re-released on everything",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "shocking_fact",
     "contrarian_claim",
     "mistake_warning",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    7602139,
-    12715348,
-    9017835,
-    6754831,
-    28029791,
-    7821798,
-    6755168,
-    7047270,
-    7774947,
     6658327,
     6660941,
     6782251,
@@ -1130,6 +1154,15 @@
     37029441,
     8558752,
     6321259,
-    35288525
+    35288525,
+    9068465,
+    6615429,
+    35475376,
+    7942840,
+    7236940,
+    13443895,
+    38455331,
+    30554634,
+    14093921
   ]
 }
