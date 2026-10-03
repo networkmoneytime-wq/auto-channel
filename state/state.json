@@ -43,7 +43,8 @@
     "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
     "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
     "The Voynich Manuscript: the illustrated book nobody in the world can read",
-    "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky"
+    "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
+    "The Great Stink of London: the summer that forced Parliament to build the sewers"
   ],
   "uploads": [
     {
@@ -1117,21 +1118,48 @@
       "at": "2026-10-03T00:26:32.159338+00:00",
       "topic": "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "LNP3xM-j47M",
+      "title": "How the 1858 Great Stink Forced London to Build Its Sewers",
+      "at": "2026-10-03T02:04:13.476973+00:00",
+      "topic": "The Great Stink of London: the summer that forced Parliament to build the sewers",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692256196350429214",
+      "title": "How the 1858 Great Stink Forced London to Build Its Sewers",
+      "at": "2026-10-03T02:04:16.975052+00:00",
+      "topic": "The Great Stink of London: the summer that forced Parliament to build the sewers",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18100437353638789",
+      "title": "How the 1858 Great Stink Forced London to Build Its Sewers",
+      "at": "2026-10-03T02:04:45.846407+00:00",
+      "topic": "The Great Stink of London: the summer that forced Parliament to build the sewers",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1822457225419414",
+      "title": "How the 1858 Great Stink Forced London to Build Its Sewers",
+      "at": "2026-10-03T02:04:50.961450+00:00",
+      "topic": "The Great Stink of London: the summer that forced Parliament to build the sewers",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "shocking_fact",
     "contrarian_claim",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    5722112,
-    6998655,
-    8455760,
-    18922459,
-    6650287,
     36509537,
     36248260,
     5832683,
@@ -1186,6 +1214,11 @@
     30575359,
     6130231,
     32766523,
-    12328908
+    12328908,
+    35566355,
+    36791118,
+    14281553,
+    4620487,
+    39555817
   ]
 }
