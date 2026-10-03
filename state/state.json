@@ -42,7 +42,8 @@
     "The Wow! signal: the 72-second radio burst from space that nobody has explained",
     "D. B. Cooper: the hijacker who jumped out of a plane with $200,000 and vanished",
     "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
-    "The Voynich Manuscript: the illustrated book nobody in the world can read"
+    "The Voynich Manuscript: the illustrated book nobody in the world can read",
+    "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky"
   ],
   "uploads": [
     {
@@ -1084,24 +1085,48 @@
       "at": "2026-10-02T22:15:14.739782+00:00",
       "topic": "The Voynich Manuscript: the illustrated book nobody in the world can read",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "yN8YaHSYamk",
+      "title": "When Beef Rained Down on a Kentucky Farm in 1876",
+      "at": "2026-10-03T00:25:47.225552+00:00",
+      "topic": "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692230877216032798",
+      "title": "When Beef Rained Down on a Kentucky Farm in 1876",
+      "at": "2026-10-03T00:25:49.499450+00:00",
+      "topic": "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18076803329415590",
+      "title": "When Beef Rained Down on a Kentucky Farm in 1876",
+      "at": "2026-10-03T00:26:27.344598+00:00",
+      "topic": "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1789188372281598",
+      "title": "When Beef Rained Down on a Kentucky Farm in 1876",
+      "at": "2026-10-03T00:26:32.159338+00:00",
+      "topic": "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    31204884,
-    20349819,
-    32098125,
-    35262334,
-    15566120,
-    5824199,
-    37116258,
-    6011531,
     5722112,
     6998655,
     8455760,
@@ -1153,6 +1178,14 @@
     8484146,
     18308550,
     34761075,
-    34835402
+    34835402,
+    4911443,
+    25957041,
+    39623398,
+    35715821,
+    30575359,
+    6130231,
+    32766523,
+    12328908
   ]
 }
