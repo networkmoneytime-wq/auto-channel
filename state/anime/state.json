@@ -37,7 +37,8 @@
     "Cowboy Bebop|why Cowboy Bebop still feels ahead of its time",
     "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
     "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
-    "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe"
+    "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
+    "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai"
   ],
   "uploads": [
     {
@@ -759,13 +760,37 @@
       "at": "2026-10-02T22:30:22.895957+00:00",
       "topic": "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "8MZsjUj1_0M",
+      "title": "Sword Art Online: The 2012 VR Anime That Started the Isekai Boom",
+      "at": "2026-10-03T00:10:37.871389+00:00",
+      "topic": "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18467553949189823",
+      "title": "Sword Art Online: The 2012 VR Anime That Started the Isekai Boom",
+      "at": "2026-10-03T00:11:10.218280+00:00",
+      "topic": "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "919309951003098",
+      "title": "Sword Art Online: The 2012 VR Anime That Started the Isekai Boom",
+      "at": "2026-10-03T00:11:15.307550+00:00",
+      "topic": "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "mistake_warning",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ]
 }
