@@ -38,7 +38,8 @@
     "Neon Genesis Evangelion|the finale of Neon Genesis Evangelion that split fans and is still debated",
     "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
     "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
-    "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai"
+    "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
+    "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers"
   ],
   "uploads": [
     {
@@ -784,13 +785,37 @@
       "at": "2026-10-03T00:11:15.307550+00:00",
       "topic": "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "aA5agrrw9OU",
+      "title": "Why Re:Zero's Endless Death Loop Is So Addictive",
+      "at": "2026-10-03T02:24:47.140398+00:00",
+      "topic": "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17997073064826030",
+      "title": "Why Re:Zero's Endless Death Loop Is So Addictive",
+      "at": "2026-10-03T02:25:28.866325+00:00",
+      "topic": "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1137172985544917",
+      "title": "Why Re:Zero's Endless Death Loop Is So Addictive",
+      "at": "2026-10-03T02:25:33.509934+00:00",
+      "topic": "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
