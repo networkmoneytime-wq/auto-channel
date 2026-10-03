@@ -14,7 +14,8 @@
     "DRAMA_3",
     "DRAMA_4",
     "DRAMA_5",
-    "DRAMA_6"
+    "DRAMA_6",
+    "DRAMA_7"
   ],
   "uploads": [
     {
@@ -226,6 +227,20 @@
       "title": "Peaches vs. Big Kiwi: The Honey Drizzle Betrayal",
       "at": "2026-10-03T00:12:35.610929+00:00",
       "topic": "DRAMA_6"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "8rkUa3-rHlM",
+      "title": "Mango Marco's Kiss Bomb & Coco Nutt's Secret Mango Seed Reveal",
+      "at": "2026-10-03T02:27:16.012713+00:00",
+      "topic": "DRAMA_7"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4150822245207642",
+      "title": "Mango Marco's Kiss Bomb & Coco Nutt's Secret Mango Seed Reveal",
+      "at": "2026-10-03T02:27:19.881137+00:00",
+      "topic": "DRAMA_7"
     }
   ],
   "recent_clip_ids": [
