@@ -40,7 +40,8 @@
     "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
     "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
     "The save icon: why it is still a floppy disk decades after floppies died",
-    "The Commodore 64: the best-selling computer model of all time"
+    "The Commodore 64: the best-selling computer model of all time",
+    "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion"
   ],
   "uploads": [
     {
@@ -838,27 +839,40 @@
       "at": "2026-10-03T00:08:55.860264+00:00",
       "topic": "The Commodore 64: the best-selling computer model of all time",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "87XCZZHygzQ",
+      "title": "Deep\u202fBlue's Secret Opening That Shocked Kasparov in 1997",
+      "at": "2026-10-03T02:22:48.394626+00:00",
+      "topic": "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17892339060610959",
+      "title": "Deep\u202fBlue's Secret Opening That Shocked Kasparov in 1997",
+      "at": "2026-10-03T02:23:22.590251+00:00",
+      "topic": "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1064834176601583",
+      "title": "Deep\u202fBlue's Secret Opening That Shocked Kasparov in 1997",
+      "at": "2026-10-03T02:23:27.480130+00:00",
+      "topic": "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "question_hook",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    9573571,
-    5839090,
-    17951653,
-    37585311,
-    33315117,
-    8724306,
-    34459460,
-    34782568,
-    27807391,
-    7706626,
-    33315143,
     5377697,
     36631395,
     39077468,
@@ -907,6 +921,17 @@
     29587622,
     3960178,
     6755162,
-    16049995
+    16049995,
+    7688803,
+    9594848,
+    10388941,
+    8428302,
+    8758291,
+    7688807,
+    33688494,
+    6058483,
+    34488756,
+    36392049,
+    7005924
   ]
 }
