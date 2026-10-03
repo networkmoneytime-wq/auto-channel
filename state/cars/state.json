@@ -39,7 +39,8 @@
     "The Ford Model T: the assembly line trick that put the world on wheels",
     "The Trabant: the East German car built from a cotton-and-resin material",
     "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
-    "The original Mini: how one clever engine layout fit a family into a tiny car"
+    "The original Mini: how one clever engine layout fit a family into a tiny car",
+    "The Jeep: how a wartime scout car became a legend"
   ],
   "uploads": [
     {
@@ -1051,22 +1052,48 @@
       "at": "2026-10-03T00:03:39.566403+00:00",
       "topic": "The original Mini: how one clever engine layout fit a family into a tiny car",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "vdYOx2Tqsdw",
+      "title": "How the WWII Jeep Became the Ultimate Off-Road Legend",
+      "at": "2026-10-03T02:17:43.244169+00:00",
+      "topic": "The Jeep: how a wartime scout car became a legend",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692259899358824461",
+      "title": "How the WWII Jeep Became the Ultimate Off-Road Legend",
+      "at": "2026-10-03T02:17:47.852994+00:00",
+      "topic": "The Jeep: how a wartime scout car became a legend",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17973140700144882",
+      "title": "How the WWII Jeep Became the Ultimate Off-Road Legend",
+      "at": "2026-10-03T02:18:24.283869+00:00",
+      "topic": "The Jeep: how a wartime scout car became a legend",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1657894215858460",
+      "title": "How the WWII Jeep Became the Ultimate Off-Road Legend",
+      "at": "2026-10-03T02:18:30.132185+00:00",
+      "topic": "The Jeep: how a wartime scout car became a legend",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    18104148,
-    39670424,
-    36438809,
-    8724223,
-    35743109,
-    26261559,
     13675325,
     37667027,
     8627749,
@@ -1120,6 +1147,12 @@
     35069361,
     6657887,
     4482251,
-    12196783
+    12196783,
+    39944815,
+    28510568,
+    10780740,
+    31697001,
+    19953762,
+    7205326
   ]
 }
