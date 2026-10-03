@@ -39,7 +39,8 @@
     "The CrowdStrike outage of July 2024: how one bad update grounded flights and froze millions of Windows machines",
     "The Heartbleed bug: the tiny coding mistake that exposed the secrets of the internet",
     "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
-    "The save icon: why it is still a floppy disk decades after floppies died"
+    "The save icon: why it is still a floppy disk decades after floppies died",
+    "The Commodore 64: the best-selling computer model of all time"
   ],
   "uploads": [
     {
@@ -813,26 +814,40 @@
       "at": "2026-10-02T22:27:41.142918+00:00",
       "topic": "The save icon: why it is still a floppy disk decades after floppies died",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "BLLuzuO4_Fs",
+      "title": "The Secret Behind the Commodore 64's 17\u202fMillion-Unit Boom",
+      "at": "2026-10-03T00:08:17.663129+00:00",
+      "topic": "The Commodore 64: the best-selling computer model of all time",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18095259617554133",
+      "title": "The Secret Behind the Commodore 64's 17\u202fMillion-Unit Boom",
+      "at": "2026-10-03T00:08:50.700212+00:00",
+      "topic": "The Commodore 64: the best-selling computer model of all time",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1404044761940412",
+      "title": "The Secret Behind the Commodore 64's 17\u202fMillion-Unit Boom",
+      "at": "2026-10-03T00:08:55.860264+00:00",
+      "topic": "The Commodore 64: the best-selling computer model of all time",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    6801664,
-    12271136,
-    35062665,
-    6700011,
-    39597264,
-    13885687,
-    8348727,
-    8084856,
-    36643187,
-    36825184,
     9573571,
     5839090,
     17951653,
@@ -882,6 +897,16 @@
     6996651,
     5077484,
     29276577,
-    30653723
+    30653723,
+    7563824,
+    6755165,
+    1821832,
+    33314914,
+    8720756,
+    6174537,
+    29587622,
+    3960178,
+    6755162,
+    16049995
   ]
 }
