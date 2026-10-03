@@ -38,7 +38,8 @@
     "Grand Theft Auto: San Andreas and the Hot Coffee mod",
     "Cyberpunk 2077: the disastrous launch and the long road to redemption",
     "No Man's Sky: the launch backlash and the comeback",
-    "Skyrim: how a 2011 game keeps getting re-released on everything"
+    "Skyrim: how a 2011 game keeps getting re-released on everything",
+    "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda"
   ],
   "uploads": [
     {
@@ -1094,25 +1095,48 @@
       "at": "2026-10-03T00:06:26.484310+00:00",
       "topic": "Skyrim: how a 2011 game keeps getting re-released on everything",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "8J3cbEd5wtk",
+      "title": "How Shigeru Miyamoto's Childhood Caves Shaped Zelda's Dungeons",
+      "at": "2026-10-03T02:20:09.403787+00:00",
+      "topic": "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692260405531625486",
+      "title": "How Shigeru Miyamoto's Childhood Caves Shaped Zelda's Dungeons",
+      "at": "2026-10-03T02:20:12.127923+00:00",
+      "topic": "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18011465597764667",
+      "title": "How Shigeru Miyamoto's Childhood Caves Shaped Zelda's Dungeons",
+      "at": "2026-10-03T02:20:46.215971+00:00",
+      "topic": "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2329248577845112",
+      "title": "How Shigeru Miyamoto's Childhood Caves Shaped Zelda's Dungeons",
+      "at": "2026-10-03T02:20:50.110551+00:00",
+      "topic": "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "mistake_warning",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    6658327,
-    6660941,
-    6782251,
-    34679115,
-    6660940,
-    39723356,
-    8798824,
-    36124120,
-    4842596,
     9414109,
     9807744,
     7088468,
@@ -1163,6 +1187,15 @@
     13443895,
     38455331,
     30554634,
-    14093921
+    14093921,
+    29065930,
+    37319598,
+    7505998,
+    7080843,
+    8128420,
+    27258261,
+    7668146,
+    37617036,
+    32653723
   ]
 }
