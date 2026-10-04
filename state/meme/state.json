@@ -16,7 +16,8 @@
     "DRAMA_5",
     "DRAMA_6",
     "DRAMA_7",
-    "DRAMA_8"
+    "DRAMA_8",
+    "That one friend who narrates their own life like a documentary"
   ],
   "uploads": [
     {
@@ -256,6 +257,20 @@
       "title": "Percy's Pineapple Fury & Coco's Salsa Scandal Exposed",
       "at": "2026-10-04T03:07:21.605531+00:00",
       "topic": "DRAMA_8"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "nAVeMWZFuC0",
+      "title": "When Your Friend Turns Everyday Life Into a Nature Documentary",
+      "at": "2026-10-04T04:23:06.294261+00:00",
+      "topic": "That one friend who narrates their own life like a documentary"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1626740855757586",
+      "title": "When Your Friend Turns Everyday Life Into a Nature Documentary",
+      "at": "2026-10-04T04:23:11.286909+00:00",
+      "topic": "That one friend who narrates their own life like a documentary"
     }
   ],
   "recent_clip_ids": [
@@ -270,6 +285,18 @@
     9833948,
     34533160,
     34707013,
-    35078286
+    35078286,
+    28261443,
+    26083304,
+    17256943,
+    3454834,
+    39475114,
+    36108327,
+    6150661,
+    35013678,
+    27973797,
+    6150668,
+    3454834,
+    37707306
   ]
 }
