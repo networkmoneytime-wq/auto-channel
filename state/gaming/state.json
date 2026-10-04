@@ -42,7 +42,8 @@
     "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
     "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
     "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
-    "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion"
+    "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
+    "Elden Ring: how George R. R. Martin helped shape its world"
   ],
   "uploads": [
     {
@@ -1226,19 +1227,48 @@
       "at": "2026-10-04T04:16:45.517188+00:00",
       "topic": "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Iz4b8dFh_2Y",
+      "title": "George R.R. Martin's Secret Hand in Elden Ring's Lore",
+      "at": "2026-10-04T22:16:40.091656+00:00",
+      "topic": "Elden Ring: how George R. R. Martin helped shape its world",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692939973003413517",
+      "title": "George R.R. Martin's Secret Hand in Elden Ring's Lore",
+      "at": "2026-10-04T22:16:42.789333+00:00",
+      "topic": "Elden Ring: how George R. R. Martin helped shape its world",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17892879717436908",
+      "title": "George R.R. Martin's Secret Hand in Elden Ring's Lore",
+      "at": "2026-10-04T22:18:03.238505+00:00",
+      "topic": "Elden Ring: how George R. R. Martin helped shape its world",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2942078516126838",
+      "title": "George R.R. Martin's Secret Hand in Elden Ring's Lore",
+      "at": "2026-10-04T22:18:07.448555+00:00",
+      "topic": "Elden Ring: how George R. R. Martin helped shape its world",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    8051641,
-    38993333,
-    7985875,
     8128500,
     33315143,
     19532053,
@@ -1295,6 +1325,9 @@
     8626599,
     5839090,
     8725789,
-    7318813
+    7318813,
+    7354829,
+    37617747,
+    8516378
   ]
 }
