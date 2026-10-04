@@ -44,7 +44,8 @@
     "The Dyatlov Pass incident: nine hikers who cut their way out of their tent and fled into the snow",
     "The Voynich Manuscript: the illustrated book nobody in the world can read",
     "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
-    "The Great Stink of London: the summer that forced Parliament to build the sewers"
+    "The Great Stink of London: the summer that forced Parliament to build the sewers",
+    "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended"
   ],
   "uploads": [
     {
@@ -1150,25 +1151,48 @@
       "at": "2026-10-03T02:04:50.961450+00:00",
       "topic": "The Great Stink of London: the summer that forced Parliament to build the sewers",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "jL7g-MbtC2I",
+      "title": "The Soldier Who Refused to Surrender: Hiroo Onoda's 30-Year Fight",
+      "at": "2026-10-04T02:54:16.783992+00:00",
+      "topic": "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692640224761006110",
+      "title": "The Soldier Who Refused to Surrender: Hiroo Onoda's 30-Year Fight",
+      "at": "2026-10-04T02:54:19.581799+00:00",
+      "topic": "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18118048565051276",
+      "title": "The Soldier Who Refused to Surrender: Hiroo Onoda's 30-Year Fight",
+      "at": "2026-10-04T02:57:38.705923+00:00",
+      "topic": "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1356849729856287",
+      "title": "The Soldier Who Refused to Surrender: Hiroo Onoda's 30-Year Fight",
+      "at": "2026-10-04T02:57:43.177602+00:00",
+      "topic": "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "contrarian_claim",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    36509537,
-    36248260,
-    5832683,
-    35074273,
-    35965011,
-    36215049,
-    27517823,
-    5846713,
-    37949924,
     39149890,
     39582953,
     39310474,
@@ -1219,6 +1243,15 @@
     36791118,
     14281553,
     4620487,
-    39555817
+    39555817,
+    33584587,
+    39944821,
+    39917095,
+    20064340,
+    4551884,
+    9467657,
+    6567830,
+    35701014,
+    39018702
   ]
 }
