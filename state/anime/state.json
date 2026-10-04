@@ -40,7 +40,8 @@
     "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
     "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
     "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
-    "KonoSuba|how KonoSuba turned isekai cliches into comedy"
+    "KonoSuba|how KonoSuba turned isekai cliches into comedy",
+    "Spy x Family|what makes Spy x Family's fake-family premise work as comedy"
   ],
   "uploads": [
     {
@@ -834,13 +835,37 @@
       "at": "2026-10-04T03:05:57.662705+00:00",
       "topic": "KonoSuba|how KonoSuba turned isekai cliches into comedy",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Qd7TpKb6axg",
+      "title": "Why Spy\u00d7Family's Family Mismatch Is the Real Comedy Gold",
+      "at": "2026-10-04T04:20:25.746056+00:00",
+      "topic": "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18028290809884210",
+      "title": "Why Spy\u00d7Family's Family Mismatch Is the Real Comedy Gold",
+      "at": "2026-10-04T04:21:00.981496+00:00",
+      "topic": "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1748789863018041",
+      "title": "Why Spy\u00d7Family's Family Mismatch Is the Real Comedy Gold",
+      "at": "2026-10-04T04:21:05.260178+00:00",
+      "topic": "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "contrarian_claim",
     "question_hook",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ]
 }
