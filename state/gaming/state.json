@@ -40,7 +40,8 @@
     "No Man's Sky: the launch backlash and the comeback",
     "Skyrim: how a 2011 game keeps getting re-released on everything",
     "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
-    "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars"
+    "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
+    "Half-Life 2's source code leak: the theft that derailed Valve's biggest release"
   ],
   "uploads": [
     {
@@ -1160,27 +1161,48 @@
       "at": "2026-10-04T02:57:10.029340+00:00",
       "topic": "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "3jC6y-uyNqk",
+      "title": "Half-Life\u202f2 Leak: How a Torrent Almost Stopped Valve",
+      "at": "2026-10-04T03:05:51.570301+00:00",
+      "topic": "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692643465347221517",
+      "title": "Half-Life\u202f2 Leak: How a Torrent Almost Stopped Valve",
+      "at": "2026-10-04T03:05:54.757415+00:00",
+      "topic": "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18117616690758647",
+      "title": "Half-Life\u202f2 Leak: How a Torrent Almost Stopped Valve",
+      "at": "2026-10-04T03:07:24.352259+00:00",
+      "topic": "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3727864677364441",
+      "title": "Half-Life\u202f2 Leak: How a Torrent Almost Stopped Valve",
+      "at": "2026-10-04T03:07:30.543606+00:00",
+      "topic": "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    8128349,
-    32365211,
-    7744312,
-    6091316,
-    4836568,
-    7701961,
-    34377522,
-    8128352,
-    7236937,
-    8128351,
-    6943536,
     19086477,
     7986012,
     35426476,
@@ -1229,6 +1251,17 @@
     6755165,
     5787612,
     9618043,
-    7047781
+    7047781,
+    35417397,
+    7953595,
+    18069700,
+    38055591,
+    20738332,
+    39105222,
+    8128342,
+    27936931,
+    9910216,
+    4829710,
+    10050461
   ]
 }
