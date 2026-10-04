@@ -41,7 +41,8 @@
     "The QWERTY keyboard: the popular story about why the layout exists and what is actually true",
     "The save icon: why it is still a floppy disk decades after floppies died",
     "The Commodore 64: the best-selling computer model of all time",
-    "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion"
+    "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
+    "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away"
   ],
   "uploads": [
     {
@@ -863,25 +864,32 @@
       "at": "2026-10-03T02:23:27.480130+00:00",
       "topic": "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4DNTrb-SSso",
+      "title": "Voyager\u202f1's Near-Death Memory Glitch & How NASA Revived It",
+      "at": "2026-10-04T02:59:05.857099+00:00",
+      "topic": "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1068842729275778",
+      "title": "Voyager\u202f1's Near-Death Memory Glitch & How NASA Revived It",
+      "at": "2026-10-04T03:02:34.296222+00:00",
+      "topic": "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "shocking_fact",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    5377697,
-    36631395,
-    39077468,
-    37116258,
-    37157735,
-    38902001,
-    19532053,
-    5473803,
-    8472219,
     39459371,
     7652166,
     11025439,
@@ -932,6 +940,15 @@
     6058483,
     34488756,
     36392049,
-    7005924
+    7005924,
+    39266727,
+    5377991,
+    33315117,
+    28709421,
+    7423951,
+    12665167,
+    12317074,
+    28709421,
+    18308552
   ]
 }
