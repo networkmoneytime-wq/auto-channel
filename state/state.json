@@ -47,7 +47,8 @@
     "The Great Stink of London: the summer that forced Parliament to build the sewers",
     "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
     "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
-    "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig"
+    "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
+    "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river"
   ],
   "uploads": [
     {
@@ -1241,25 +1242,48 @@
       "at": "2026-10-04T04:07:14.897294+00:00",
       "topic": "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Ab9M3MdJsOs",
+      "title": "How Sully Turned a Crashing Plane into the Hudson Miracle in Seconds",
+      "at": "2026-10-04T22:15:11.429909+00:00",
+      "topic": "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692939286274115614",
+      "title": "How Sully Turned a Crashing Plane into the Hudson Miracle in Seconds",
+      "at": "2026-10-04T22:15:13.615153+00:00",
+      "topic": "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18126470182873609",
+      "title": "How Sully Turned a Crashing Plane into the Hudson Miracle in Seconds",
+      "at": "2026-10-04T22:15:50.583633+00:00",
+      "topic": "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3098455550516425",
+      "title": "How Sully Turned a Crashing Plane into the Hudson Miracle in Seconds",
+      "at": "2026-10-04T22:15:55.271352+00:00",
+      "topic": "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7034335,
-    29450498,
-    20349276,
-    30560632,
-    34769697,
-    15408229,
-    38868442,
-    4836592,
-    8852384,
     33132435,
     36092437,
     31399118,
@@ -1310,6 +1334,15 @@
     35957844,
     39310477,
     28180029,
-    37799952
+    37799952,
+    19917421,
+    34543237,
+    31557201,
+    37116402,
+    24768494,
+    31729545,
+    35117355,
+    11292266,
+    39796362
   ]
 }
