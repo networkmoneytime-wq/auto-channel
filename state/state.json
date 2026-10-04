@@ -45,7 +45,8 @@
     "The Voynich Manuscript: the illustrated book nobody in the world can read",
     "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
     "The Great Stink of London: the summer that forced Parliament to build the sewers",
-    "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended"
+    "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
+    "The Piltdown Man: the fossil hoax that fooled scientists for 40 years"
   ],
   "uploads": [
     {
@@ -1183,24 +1184,40 @@
       "at": "2026-10-04T02:57:43.177602+00:00",
       "topic": "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "w2gKwJsVKFk",
+      "title": "The Piltdown Man Hoax: How a Fake \"Missing Link\" Fooled Science",
+      "at": "2026-10-04T03:21:04.001231+00:00",
+      "topic": "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692647125494122526",
+      "title": "The Piltdown Man Hoax: How a Fake \"Missing Link\" Fooled Science",
+      "at": "2026-10-04T03:21:07.104292+00:00",
+      "topic": "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3635015623323330",
+      "title": "The Piltdown Man Hoax: How a Fake \"Missing Link\" Fooled Science",
+      "at": "2026-10-04T03:24:20.321170+00:00",
+      "topic": "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "secret_reveal",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    39149890,
-    39582953,
-    39310474,
-    6528789,
-    34536746,
-    7089944,
-    34775733,
-    19798253,
     9127873,
     18308552,
     31485697,
@@ -1252,6 +1269,14 @@
     9467657,
     6567830,
     35701014,
-    39018702
+    39018702,
+    17285284,
+    28145145,
+    6528846,
+    8490216,
+    8927955,
+    19314470,
+    10449873,
+    7830751
   ]
 }
