@@ -41,7 +41,8 @@
     "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
     "The original Mini: how one clever engine layout fit a family into a tiny car",
     "The Jeep: how a wartime scout car became a legend",
-    "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive"
+    "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
+    "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes"
   ],
   "uploads": [
     {
@@ -1117,26 +1118,48 @@
       "at": "2026-10-04T02:54:57.177307+00:00",
       "topic": "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "aMKljDo-tN4",
+      "title": "Texas museum sinkhole devours eight Corvettes",
+      "at": "2026-10-04T03:03:04.261473+00:00",
+      "topic": "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692642711459072014",
+      "title": "Texas museum sinkhole devours eight Corvettes",
+      "at": "2026-10-04T03:03:07.250541+00:00",
+      "topic": "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18114781468816746",
+      "title": "Texas museum sinkhole devours eight Corvettes",
+      "at": "2026-10-04T03:03:48.729058+00:00",
+      "topic": "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2175385640049668",
+      "title": "Texas museum sinkhole devours eight Corvettes",
+      "at": "2026-10-04T03:03:54.317998+00:00",
+      "topic": "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "mistake_warning",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    31397167,
-    27936941,
-    32779590,
-    4612661,
-    8469666,
-    36543597,
-    12194619,
-    37834012,
-    8516376,
-    18437017,
     8470008,
     8474616,
     9035107,
@@ -1186,6 +1209,16 @@
     28849812,
     28730771,
     20728389,
-    8822552
+    8822552,
+    37048014,
+    35327333,
+    7830152,
+    25252204,
+    16979063,
+    27668910,
+    10476434,
+    35061906,
+    34701532,
+    6012513
   ]
 }
