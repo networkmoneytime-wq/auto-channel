@@ -41,7 +41,8 @@
     "Skyrim: how a 2011 game keeps getting re-released on everything",
     "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
     "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
-    "Half-Life 2's source code leak: the theft that derailed Valve's biggest release"
+    "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
+    "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion"
   ],
   "uploads": [
     {
@@ -1193,28 +1194,48 @@
       "at": "2026-10-04T03:07:30.543606+00:00",
       "topic": "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "X372pBBBQ2M",
+      "title": "How Sweet Home (1989) Shaped Resident Evil's Haunted Mansion",
+      "at": "2026-10-04T04:14:09.307676+00:00",
+      "topic": "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692660888175888397",
+      "title": "How Sweet Home (1989) Shaped Resident Evil's Haunted Mansion",
+      "at": "2026-10-04T04:14:12.954320+00:00",
+      "topic": "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18075385736555168",
+      "title": "How Sweet Home (1989) Shaped Resident Evil's Haunted Mansion",
+      "at": "2026-10-04T04:16:40.649333+00:00",
+      "topic": "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1637740961305024",
+      "title": "How Sweet Home (1989) Shaped Resident Evil's Haunted Mansion",
+      "at": "2026-10-04T04:16:45.517188+00:00",
+      "topic": "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "contrarian_claim",
     "question_hook",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    19086477,
-    7986012,
-    35426476,
-    4334323,
-    5823856,
-    9783691,
-    36265959,
-    18503891,
-    39477149,
-    35782210,
-    31997525,
-    38908776,
     8051641,
     38993333,
     7985875,
@@ -1262,6 +1283,18 @@
     27936931,
     9910216,
     4829710,
-    10050461
+    10050461,
+    14517238,
+    8544030,
+    8888814,
+    35626497,
+    8983989,
+    9807882,
+    6956686,
+    39443725,
+    8626599,
+    5839090,
+    8725789,
+    7318813
   ]
 }
