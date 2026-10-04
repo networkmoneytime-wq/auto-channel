@@ -39,7 +39,8 @@
     "Cyberpunk 2077: the disastrous launch and the long road to redemption",
     "No Man's Sky: the launch backlash and the comeback",
     "Skyrim: how a 2011 game keeps getting re-released on everything",
-    "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda"
+    "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
+    "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars"
   ],
   "uploads": [
     {
@@ -1127,22 +1128,48 @@
       "at": "2026-10-03T02:20:50.110551+00:00",
       "topic": "Miyamoto's childhood caves: how exploring the countryside inspired The Legend of Zelda",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "h2xzxMSOyBg",
+      "title": "The Truth About Sega's Blast Processing Myth",
+      "at": "2026-10-04T02:56:31.752076+00:00",
+      "topic": "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692641030328403982",
+      "title": "The Truth About Sega's Blast Processing Myth",
+      "at": "2026-10-04T02:56:33.776047+00:00",
+      "topic": "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18120404680940829",
+      "title": "The Truth About Sega's Blast Processing Myth",
+      "at": "2026-10-04T02:57:06.543681+00:00",
+      "topic": "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1414272980881340",
+      "title": "The Truth About Sega's Blast Processing Myth",
+      "at": "2026-10-04T02:57:10.029340+00:00",
+      "topic": "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    9414109,
-    9807744,
-    7088468,
-    6091316,
-    9667666,
-    31683087,
     8128349,
     32365211,
     7744312,
@@ -1196,6 +1223,12 @@
     27258261,
     7668146,
     37617036,
-    32653723
+    32653723,
+    4842503,
+    6755165,
+    6755165,
+    5787612,
+    9618043,
+    7047781
   ]
 }
