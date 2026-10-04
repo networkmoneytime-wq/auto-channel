@@ -40,7 +40,8 @@
     "The Trabant: the East German car built from a cotton-and-resin material",
     "The Citroen 2CV: the car designed to carry a basket of eggs across a bumpy field",
     "The original Mini: how one clever engine layout fit a family into a tiny car",
-    "The Jeep: how a wartime scout car became a legend"
+    "The Jeep: how a wartime scout car became a legend",
+    "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive"
   ],
   "uploads": [
     {
@@ -1084,24 +1085,48 @@
       "at": "2026-10-03T02:18:30.132185+00:00",
       "topic": "The Jeep: how a wartime scout car became a legend",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "BXX3U3_SrSE",
+      "title": "Arnold's Secret Hummer H1 Fact: It Walks Through 6 Feet of Water",
+      "at": "2026-10-04T02:54:05.298528+00:00",
+      "topic": "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692640405195638797",
+      "title": "Arnold's Secret Hummer H1 Fact: It Walks Through 6 Feet of Water",
+      "at": "2026-10-04T02:54:08.479207+00:00",
+      "topic": "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18155655472518001",
+      "title": "Arnold's Secret Hummer H1 Fact: It Walks Through 6 Feet of Water",
+      "at": "2026-10-04T02:54:51.901139+00:00",
+      "topic": "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1116504904676093",
+      "title": "Arnold's Secret Hummer H1 Fact: It Walks Through 6 Feet of Water",
+      "at": "2026-10-04T02:54:57.177307+00:00",
+      "topic": "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "list_tease",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    13675325,
-    37667027,
-    8627749,
-    37667019,
-    7311798,
-    8987292,
-    33647930,
-    34514149,
     31397167,
     27936941,
     32779590,
@@ -1153,6 +1178,14 @@
     10780740,
     31697001,
     19953762,
-    7205326
+    7205326,
+    16265138,
+    30306550,
+    13358202,
+    30942710,
+    28849812,
+    28730771,
+    20728389,
+    8822552
   ]
 }
