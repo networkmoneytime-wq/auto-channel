@@ -15,7 +15,8 @@
     "DRAMA_4",
     "DRAMA_5",
     "DRAMA_6",
-    "DRAMA_7"
+    "DRAMA_7",
+    "DRAMA_8"
   ],
   "uploads": [
     {
@@ -241,6 +242,20 @@
       "title": "Mango Marco's Kiss Bomb & Coco Nutt's Secret Mango Seed Reveal",
       "at": "2026-10-03T02:27:19.881137+00:00",
       "topic": "DRAMA_7"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "w5qLJ0tdSPs",
+      "title": "Percy's Pineapple Fury & Coco's Salsa Scandal Exposed",
+      "at": "2026-10-04T03:07:15.880148+00:00",
+      "topic": "DRAMA_8"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1726711832798298",
+      "title": "Percy's Pineapple Fury & Coco's Salsa Scandal Exposed",
+      "at": "2026-10-04T03:07:21.605531+00:00",
+      "topic": "DRAMA_8"
     }
   ],
   "recent_clip_ids": [
