@@ -17,7 +17,8 @@
     "DRAMA_6",
     "DRAMA_7",
     "DRAMA_8",
-    "That one friend who narrates their own life like a documentary"
+    "That one friend who narrates their own life like a documentary",
+    "The unhinged confidence of a toddler who just learned a new word"
   ],
   "uploads": [
     {
@@ -271,6 +272,20 @@
       "title": "When Your Friend Turns Everyday Life Into a Nature Documentary",
       "at": "2026-10-04T04:23:11.286909+00:00",
       "topic": "That one friend who narrates their own life like a documentary"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "L0Aw_wAawiY",
+      "title": "Toddler Declares 'BANANA!' Like It's a Revolutionary Word",
+      "at": "2026-10-04T22:24:25.425111+00:00",
+      "topic": "The unhinged confidence of a toddler who just learned a new word"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1443133257731427",
+      "title": "Toddler Declares 'BANANA!' Like It's a Revolutionary Word",
+      "at": "2026-10-04T22:24:31.644930+00:00",
+      "topic": "The unhinged confidence of a toddler who just learned a new word"
     }
   ],
   "recent_clip_ids": [
@@ -297,6 +312,18 @@
     27973797,
     6150668,
     3454834,
-    37707306
+    37707306,
+    39505995,
+    26261559,
+    28650314,
+    39467721,
+    8347739,
+    36108326,
+    8516362,
+    28203566,
+    26261559,
+    7639852,
+    5871327,
+    28846360
   ]
 }
