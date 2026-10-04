@@ -42,7 +42,8 @@
     "The save icon: why it is still a floppy disk decades after floppies died",
     "The Commodore 64: the best-selling computer model of all time",
     "Deep Blue vs Kasparov: the 1997 chess match and the strange move that rattled the champion",
-    "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away"
+    "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away",
+    "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix"
   ],
   "uploads": [
     {
@@ -880,25 +881,40 @@
       "at": "2026-10-04T03:02:34.296222+00:00",
       "topic": "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4xUjnYgRUs0",
+      "title": "How Hubble's Blurry Eyes Got a Space-Age Contact Lens Fix",
+      "at": "2026-10-04T04:18:19.019966+00:00",
+      "topic": "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17952387756282040",
+      "title": "How Hubble's Blurry Eyes Got a Space-Age Contact Lens Fix",
+      "at": "2026-10-04T04:18:58.775703+00:00",
+      "topic": "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2604327563348537",
+      "title": "How Hubble's Blurry Eyes Got a Space-Age Contact Lens Fix",
+      "at": "2026-10-04T04:19:02.849545+00:00",
+      "topic": "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    39459371,
-    7652166,
-    11025439,
-    10224112,
-    7643339,
-    9047399,
-    7646797,
-    13555319,
-    27378595,
     27440760,
     34573350,
     6037656,
@@ -949,6 +965,15 @@
     12665167,
     12317074,
     28709421,
-    18308552
+    18308552,
+    14618955,
+    37723924,
+    29644226,
+    6474390,
+    7171121,
+    11884378,
+    39576931,
+    20349634,
+    20349634
   ]
 }
