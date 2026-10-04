@@ -43,7 +43,8 @@
     "The Jeep: how a wartime scout car became a legend",
     "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
     "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
-    "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy"
+    "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
+    "Irv Gordon's Volvo P1800: the coupe that drove over three million miles"
   ],
   "uploads": [
     {
@@ -1183,24 +1184,48 @@
       "at": "2026-10-04T04:12:14.044662+00:00",
       "topic": "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Ig-nEzfpWhI",
+      "title": "Irv Gordon's 45-Year, 3-Million-Mile Journey in a 1966 Volvo P1800",
+      "at": "2026-10-04T22:14:19.636472+00:00",
+      "topic": "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692939381899970573",
+      "title": "Irv Gordon's 45-Year, 3-Million-Mile Journey in a 1966 Volvo P1800",
+      "at": "2026-10-04T22:14:21.948206+00:00",
+      "topic": "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18100670231635263",
+      "title": "Irv Gordon's 45-Year, 3-Million-Mile Journey in a 1966 Volvo P1800",
+      "at": "2026-10-04T22:14:59.147922+00:00",
+      "topic": "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4248854128738979",
+      "title": "Irv Gordon's 45-Year, 3-Million-Mile Journey in a 1966 Volvo P1800",
+      "at": "2026-10-04T22:15:04.419728+00:00",
+      "topic": "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "question_hook",
     "list_tease",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    34952824,
-    10040070,
-    20488156,
-    39499043,
-    4482082,
-    39597233,
-    32494606,
-    10097868,
     8527626,
     7002820,
     12204618,
@@ -1252,6 +1277,14 @@
     5924999,
     38362060,
     37157735,
-    39418152
+    39418152,
+    7154239,
+    36632256,
+    8987301,
+    30207865,
+    10380577,
+    37392411,
+    24837752,
+    5787612
   ]
 }
