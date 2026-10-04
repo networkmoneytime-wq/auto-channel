@@ -42,7 +42,8 @@
     "The original Mini: how one clever engine layout fit a family into a tiny car",
     "The Jeep: how a wartime scout car became a legend",
     "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
-    "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes"
+    "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
+    "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy"
   ],
   "uploads": [
     {
@@ -1150,25 +1151,48 @@
       "at": "2026-10-04T03:03:54.317998+00:00",
       "topic": "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "lS1BvXr86-I",
+      "title": "Dealers Hated the 1970 Plymouth Superbird - Here's Why",
+      "at": "2026-10-04T04:09:17.956272+00:00",
+      "topic": "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692659701682833421",
+      "title": "Dealers Hated the 1970 Plymouth Superbird - Here's Why",
+      "at": "2026-10-04T04:09:21.092492+00:00",
+      "topic": "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18143372572598416",
+      "title": "Dealers Hated the 1970 Plymouth Superbird - Here's Why",
+      "at": "2026-10-04T04:12:08.234314+00:00",
+      "topic": "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1980991142573608",
+      "title": "Dealers Hated the 1970 Plymouth Superbird - Here's Why",
+      "at": "2026-10-04T04:12:14.044662+00:00",
+      "topic": "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "question_hook",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    8470008,
-    8474616,
-    9035107,
-    36961921,
-    37001814,
-    29669602,
-    35221616,
-    39188873,
-    31715277,
     34952824,
     10040070,
     20488156,
@@ -1219,6 +1243,15 @@
     10476434,
     35061906,
     34701532,
-    6012513
+    6012513,
+    7154232,
+    5925297,
+    8555172,
+    36632262,
+    7247829,
+    5924999,
+    38362060,
+    37157735,
+    39418152
   ]
 }
