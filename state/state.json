@@ -46,7 +46,8 @@
     "The Kentucky Meat Shower of 1876: the day chunks of meat fell from the sky",
     "The Great Stink of London: the summer that forced Parliament to build the sewers",
     "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
-    "The Piltdown Man: the fossil hoax that fooled scientists for 40 years"
+    "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
+    "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig"
   ],
   "uploads": [
     {
@@ -1208,21 +1209,48 @@
       "at": "2026-10-04T03:24:20.321170+00:00",
       "topic": "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "2_MUQyhzZXE",
+      "title": "The 1859 Pig War: When a Single Pig Sparked a U.S.-Britain Standoff",
+      "at": "2026-10-04T04:06:35.761452+00:00",
+      "topic": "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692658837958002718",
+      "title": "The 1859 Pig War: When a Single Pig Sparked a U.S.-Britain Standoff",
+      "at": "2026-10-04T04:06:38.439823+00:00",
+      "topic": "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18018525005946561",
+      "title": "The 1859 Pig War: When a Single Pig Sparked a U.S.-Britain Standoff",
+      "at": "2026-10-04T04:07:09.349121+00:00",
+      "topic": "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1110978608065710",
+      "title": "The 1859 Pig War: When a Single Pig Sparked a U.S.-Britain Standoff",
+      "at": "2026-10-04T04:07:14.897294+00:00",
+      "topic": "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "secret_reveal",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    9127873,
-    18308552,
-    31485697,
-    8088319,
-    39626072,
     7034335,
     29450498,
     20349276,
@@ -1277,6 +1305,11 @@
     8927955,
     19314470,
     10449873,
-    7830751
+    7830751,
+    35172940,
+    35957844,
+    39310477,
+    28180029,
+    37799952
   ]
 }
