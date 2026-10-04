@@ -41,7 +41,8 @@
     "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
     "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
     "KonoSuba|how KonoSuba turned isekai cliches into comedy",
-    "Spy x Family|what makes Spy x Family's fake-family premise work as comedy"
+    "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
+    "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else"
   ],
   "uploads": [
     {
@@ -859,13 +860,37 @@
       "at": "2026-10-04T04:21:05.260178+00:00",
       "topic": "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "0jOOvMzlHzM",
+      "title": "Why Mob Psycho 100 Looks Like a Caffeinated Doodler's Dream",
+      "at": "2026-10-04T22:21:52.120307+00:00",
+      "topic": "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18090288728443140",
+      "title": "Why Mob Psycho 100 Looks Like a Caffeinated Doodler's Dream",
+      "at": "2026-10-04T22:22:24.492636+00:00",
+      "topic": "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3283707191817488",
+      "title": "Why Mob Psycho 100 Looks Like a Caffeinated Doodler's Dream",
+      "at": "2026-10-04T22:22:29.411812+00:00",
+      "topic": "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "shocking_fact",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ]
 }
