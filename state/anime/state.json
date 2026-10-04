@@ -39,7 +39,8 @@
     "Code Geass|how one power turns a schoolboy into a rebel leader in Code Geass",
     "Gurren Lagann|how Gurren Lagann escalates from a hole in the ground to the whole universe",
     "Sword Art Online|how Sword Art Online's trapped-in-a-game premise launched a wave of isekai",
-    "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers"
+    "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
+    "KonoSuba|how KonoSuba turned isekai cliches into comedy"
   ],
   "uploads": [
     {
@@ -809,13 +810,37 @@
       "at": "2026-10-03T02:25:33.509934+00:00",
       "topic": "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "WFPWBBJoQsE",
+      "title": "Why KonoSuba Flips the Isekai Formula for Comedy",
+      "at": "2026-10-04T03:04:00.279353+00:00",
+      "topic": "KonoSuba|how KonoSuba turned isekai cliches into comedy",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18115448770816404",
+      "title": "Why KonoSuba Flips the Isekai Formula for Comedy",
+      "at": "2026-10-04T03:05:53.387639+00:00",
+      "topic": "KonoSuba|how KonoSuba turned isekai cliches into comedy",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4380608228737880",
+      "title": "Why KonoSuba Flips the Isekai Formula for Comedy",
+      "at": "2026-10-04T03:05:57.662705+00:00",
+      "topic": "KonoSuba|how KonoSuba turned isekai cliches into comedy",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ]
 }
