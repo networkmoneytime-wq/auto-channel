@@ -19,7 +19,8 @@
     "DRAMA_8",
     "That one friend who narrates their own life like a documentary",
     "The unhinged confidence of a toddler who just learned a new word",
-    "Texting \"we should hang out soon\" and both of you knowing it's not happening"
+    "Texting \"we should hang out soon\" and both of you knowing it's not happening",
+    "The five stages of grief but it's your phone at 1% battery"
   ],
   "uploads": [
     {
@@ -301,6 +302,20 @@
       "title": "When \"Let's Hang Out\" Is Just Code for Ghosting",
       "at": "2026-10-05T00:13:53.705188+00:00",
       "topic": "Texting \"we should hang out soon\" and both of you knowing it's not happening"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "YCw_B_IAwOU",
+      "title": "When Your Phone Hits 1% and the Drama Unfolds",
+      "at": "2026-10-05T02:29:55.919697+00:00",
+      "topic": "The five stages of grief but it's your phone at 1% battery"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2180506492814632",
+      "title": "When Your Phone Hits 1% and the Drama Unfolds",
+      "at": "2026-10-05T02:30:01.235571+00:00",
+      "topic": "The five stages of grief but it's your phone at 1% battery"
     }
   ],
   "recent_clip_ids": [
@@ -351,6 +366,18 @@
     26050311,
     8516369,
     39738086,
-    28650314
+    28650314,
+    3454834,
+    17256943,
+    37707306,
+    5871327,
+    5780795,
+    39467721,
+    6002029,
+    34533160,
+    26261559,
+    39738086,
+    28650314,
+    6150669
   ]
 }
