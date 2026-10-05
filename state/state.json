@@ -50,7 +50,8 @@
     "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
     "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
     "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
-    "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post"
+    "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
+    "The Tsar Bomba: the most powerful bomb ever detonated"
   ],
   "uploads": [
     {
@@ -1340,20 +1341,48 @@
       "at": "2026-10-05T02:06:59.806631+00:00",
       "topic": "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "d4WuIk2VPA8",
+      "title": "4 Crazy Tsar Bomba Facts That Actually Happened",
+      "at": "2026-10-05T22:14:51.665451+00:00",
+      "topic": "The Tsar Bomba: the most powerful bomb ever detonated",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693310203525253150",
+      "title": "4 Crazy Tsar Bomba Facts That Actually Happened",
+      "at": "2026-10-05T22:14:54.807387+00:00",
+      "topic": "The Tsar Bomba: the most powerful bomb ever detonated",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17887695243478754",
+      "title": "4 Crazy Tsar Bomba Facts That Actually Happened",
+      "at": "2026-10-05T22:15:29.123682+00:00",
+      "topic": "The Tsar Bomba: the most powerful bomb ever detonated",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1727258155497179",
+      "title": "4 Crazy Tsar Bomba Facts That Actually Happened",
+      "at": "2026-10-05T22:15:34.059491+00:00",
+      "topic": "The Tsar Bomba: the most powerful bomb ever detonated",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "contrarian_claim",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    8484146,
-    18308550,
-    34761075,
-    34835402,
     4911443,
     25957041,
     39623398,
@@ -1409,6 +1438,10 @@
     8322050,
     38333286,
     32208156,
-    37644156
+    37644156,
+    26798002,
+    34536129,
+    15172694,
+    11095529
   ]
 }
