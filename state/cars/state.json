@@ -44,7 +44,8 @@
     "The Hummer H1: the military truck Arnold Schwarzenegger wanted to drive",
     "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
     "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
-    "Irv Gordon's Volvo P1800: the coupe that drove over three million miles"
+    "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
+    "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it"
   ],
   "uploads": [
     {
@@ -1216,23 +1217,48 @@
       "at": "2026-10-04T22:15:04.419728+00:00",
       "topic": "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "v2GAJZH60qo",
+      "title": "Why the Toyota Hilux Survives a Wrecking Ball, Fire & a River",
+      "at": "2026-10-05T00:02:58.180841+00:00",
+      "topic": "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692967458751121421",
+      "title": "Why the Toyota Hilux Survives a Wrecking Ball, Fire & a River",
+      "at": "2026-10-05T00:03:01.449729+00:00",
+      "topic": "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17890277889614813",
+      "title": "Why the Toyota Hilux Survives a Wrecking Ball, Fire & a River",
+      "at": "2026-10-05T00:04:11.738709+00:00",
+      "topic": "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1807074413825967",
+      "title": "Why the Toyota Hilux Survives a Wrecking Ball, Fire & a River",
+      "at": "2026-10-05T00:04:16.813590+00:00",
+      "topic": "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "secret_reveal",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    8527626,
-    7002820,
-    12204618,
-    37454295,
-    32010543,
-    37175109,
-    19409607,
     33530296,
     35069362,
     24837713,
@@ -1285,6 +1311,13 @@
     10380577,
     37392411,
     24837752,
-    5787612
+    5787612,
+    28823329,
+    37552904,
+    19713833,
+    30747991,
+    6717621,
+    36227035,
+    26261563
   ]
 }
