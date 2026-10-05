@@ -46,7 +46,8 @@
     "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
     "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
     "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
-    "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era"
+    "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
+    "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari"
   ],
   "uploads": [
     {
@@ -1282,21 +1283,48 @@
       "at": "2026-10-05T02:18:05.363195+00:00",
       "topic": "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Mi6CWFW5tzY",
+      "title": "How Ferruccio Lamborghini Turned a Tractor Shop into a Bull-Powered Supercar",
+      "at": "2026-10-05T22:14:55.316534+00:00",
+      "topic": "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693310556400306189",
+      "title": "How Ferruccio Lamborghini Turned a Tractor Shop into a Bull-Powered Supercar",
+      "at": "2026-10-05T22:14:58.146858+00:00",
+      "topic": "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18103463723001525",
+      "title": "How Ferruccio Lamborghini Turned a Tractor Shop into a Bull-Powered Supercar",
+      "at": "2026-10-05T22:15:35.232599+00:00",
+      "topic": "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1401047288673970",
+      "title": "How Ferruccio Lamborghini Turned a Tractor Shop into a Bull-Powered Supercar",
+      "at": "2026-10-05T22:15:40.324653+00:00",
+      "topic": "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    39645503,
-    30802750,
-    35069361,
-    6657887,
-    4482251,
     12196783,
     39944815,
     28510568,
@@ -1351,6 +1379,11 @@
     16403223,
     36110193,
     33313836,
-    18102448
+    18102448,
+    20654630,
+    5846641,
+    34396726,
+    9790184,
+    39421363
   ]
 }
