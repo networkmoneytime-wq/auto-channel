@@ -45,7 +45,8 @@
     "The 2014 Corvette sinkhole: the night a hole opened under a museum and swallowed eight Corvettes",
     "The 1970 Plymouth Superbird: the winged NASCAR monster nobody wanted to buy",
     "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
-    "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it"
+    "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
+    "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era"
   ],
   "uploads": [
     {
@@ -1249,22 +1250,48 @@
       "at": "2026-10-05T00:04:16.813590+00:00",
       "topic": "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "EcRo-zU-Yic",
+      "title": "How the Lamborghini Countach Redefined Supercars Forever",
+      "at": "2026-10-05T02:17:25.510441+00:00",
+      "topic": "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693001929387198477",
+      "title": "How the Lamborghini Countach Redefined Supercars Forever",
+      "at": "2026-10-05T02:17:28.268522+00:00",
+      "topic": "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18122532709931157",
+      "title": "How the Lamborghini Countach Redefined Supercars Forever",
+      "at": "2026-10-05T02:17:58.375995+00:00",
+      "topic": "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2219498728782002",
+      "title": "How the Lamborghini Countach Redefined Supercars Forever",
+      "at": "2026-10-05T02:18:05.363195+00:00",
+      "topic": "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    33530296,
-    35069362,
-    24837713,
-    4883833,
-    8865237,
-    26262653,
     39645503,
     30802750,
     35069361,
@@ -1318,6 +1345,12 @@
     30747991,
     6717621,
     36227035,
-    26261563
+    26261563,
+    8293311,
+    36248857,
+    16403223,
+    36110193,
+    33313836,
+    18102448
   ]
 }
