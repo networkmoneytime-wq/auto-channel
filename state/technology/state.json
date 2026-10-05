@@ -45,7 +45,8 @@
     "Voyager 1's memory glitch: how engineers fixed a nearly half-century-old spacecraft from billions of miles away",
     "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix",
     "The Apollo Guidance Computer: how a machine weaker than a calculator flew astronauts to the Moon",
-    "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010"
+    "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010",
+    "The first webcam: the Cambridge coffee pot that people watched online in 1991"
   ],
   "uploads": [
     {
@@ -955,27 +956,40 @@
       "at": "2026-10-05T00:10:05.360654+00:00",
       "topic": "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "07YvBjsMurk",
+      "title": "The 1991 Cambridge Coffee Pot: The First Thing Ever Streamed Online",
+      "at": "2026-10-05T02:23:39.843792+00:00",
+      "topic": "The first webcam: the Cambridge coffee pot that people watched online in 1991",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18629777353024539",
+      "title": "The 1991 Cambridge Coffee Pot: The First Thing Ever Streamed Online",
+      "at": "2026-10-05T02:24:13.987003+00:00",
+      "topic": "The first webcam: the Cambridge coffee pot that people watched online in 1991",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1132620675945691",
+      "title": "The 1991 Cambridge Coffee Pot: The First Thing Ever Streamed Online",
+      "at": "2026-10-05T02:24:18.058763+00:00",
+      "topic": "The first webcam: the Cambridge coffee pot that people watched online in 1991",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "secret_reveal",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    29459827,
-    28315385,
-    39425816,
-    8348326,
-    36633825,
-    38096885,
-    6996651,
-    5077484,
-    29276577,
-    30653723,
-    7563824,
     6755165,
     1821832,
     33314914,
@@ -1024,6 +1038,17 @@
     13457419,
     35544498,
     6093662,
-    13441356
+    13441356,
+    7206363,
+    8381602,
+    8721655,
+    6955104,
+    15283234,
+    7394201,
+    8371243,
+    35585641,
+    8522975,
+    7598831,
+    11511479
   ]
 }
