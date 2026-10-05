@@ -48,7 +48,8 @@
     "Hiroo Onoda: the soldier who kept fighting World War II for nearly 30 years after it ended",
     "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
     "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
-    "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river"
+    "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
+    "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew"
   ],
   "uploads": [
     {
@@ -1274,23 +1275,48 @@
       "at": "2026-10-04T22:15:55.271352+00:00",
       "topic": "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "fj5RQns9U98",
+      "title": "Apollo 13's DIY Air Filter: The Copper Tube Hack That Saved the Crew",
+      "at": "2026-10-05T00:29:27.634124+00:00",
+      "topic": "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692974115434629151",
+      "title": "Apollo 13's DIY Air Filter: The Copper Tube Hack That Saved the Crew",
+      "at": "2026-10-05T00:29:29.785067+00:00",
+      "topic": "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18079731941723369",
+      "title": "Apollo 13's DIY Air Filter: The Copper Tube Hack That Saved the Crew",
+      "at": "2026-10-05T00:30:06.445907+00:00",
+      "topic": "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2019028562087559",
+      "title": "Apollo 13's DIY Air Filter: The Copper Tube Hack That Saved the Crew",
+      "at": "2026-10-05T00:30:10.437951+00:00",
+      "topic": "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    33132435,
-    36092437,
-    31399118,
-    19983368,
-    35605008,
-    34764401,
-    5925297,
     8049823,
     6091717,
     25526446,
@@ -1343,6 +1369,13 @@
     31729545,
     35117355,
     11292266,
-    39796362
+    39796362,
+    8724209,
+    6823842,
+    8107399,
+    34679119,
+    7308361,
+    30614799,
+    6498753
   ]
 }
