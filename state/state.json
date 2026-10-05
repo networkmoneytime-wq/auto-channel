@@ -49,7 +49,8 @@
     "The Piltdown Man: the fossil hoax that fooled scientists for 40 years",
     "The Pig War of 1859: the standoff between America and Britain where the only casualty was a pig",
     "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
-    "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew"
+    "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
+    "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post"
   ],
   "uploads": [
     {
@@ -1307,21 +1308,48 @@
       "at": "2026-10-05T00:30:10.437951+00:00",
       "topic": "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Mt6DSWRGNU0",
+      "title": "The Lost Colony of Roanoke's 3 Most Bizarre Theories",
+      "at": "2026-10-05T02:05:34.989592+00:00",
+      "topic": "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692998962994759710",
+      "title": "The Lost Colony of Roanoke's 3 Most Bizarre Theories",
+      "at": "2026-10-05T02:05:37.461998+00:00",
+      "topic": "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18118004725982390",
+      "title": "The Lost Colony of Roanoke's 3 Most Bizarre Theories",
+      "at": "2026-10-05T02:06:55.819922+00:00",
+      "topic": "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1670892907882869",
+      "title": "The Lost Colony of Roanoke's 3 Most Bizarre Theories",
+      "at": "2026-10-05T02:06:59.806631+00:00",
+      "topic": "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    8049823,
-    6091717,
-    25526446,
-    7815413,
-    6929077,
     8484146,
     18308550,
     34761075,
@@ -1376,6 +1404,11 @@
     34679119,
     7308361,
     30614799,
-    6498753
+    6498753,
+    6790011,
+    8322050,
+    38333286,
+    32208156,
+    37644156
   ]
 }
