@@ -43,7 +43,8 @@
     "Sonic the Hedgehog and Blast Processing: the marketing claim that fueled the console wars",
     "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
     "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
-    "Elden Ring: how George R. R. Martin helped shape its world"
+    "Elden Ring: how George R. R. Martin helped shape its world",
+    "Baldur's Gate 3: how Larian's game swept the Game of the Year awards"
   ],
   "uploads": [
     {
@@ -1259,25 +1260,48 @@
       "at": "2026-10-04T22:18:07.448555+00:00",
       "topic": "Elden Ring: how George R. R. Martin helped shape its world",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "L5Vn0uAc7WA",
+      "title": "Why Baldur's Gate\u202f3 Is the Game of the Year Nobody Saw Coming",
+      "at": "2026-10-05T00:06:13.373317+00:00",
+      "topic": "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7692968202951231501",
+      "title": "Why Baldur's Gate\u202f3 Is the Game of the Year Nobody Saw Coming",
+      "at": "2026-10-05T00:06:16.647993+00:00",
+      "topic": "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18193537246400222",
+      "title": "Why Baldur's Gate\u202f3 Is the Game of the Year Nobody Saw Coming",
+      "at": "2026-10-05T00:07:39.649655+00:00",
+      "topic": "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2584090962100165",
+      "title": "Why Baldur's Gate\u202f3 Is the Game of the Year Nobody Saw Coming",
+      "at": "2026-10-05T00:07:44.786199+00:00",
+      "topic": "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    8128500,
-    33315143,
-    19532053,
-    6803592,
-    34199757,
-    7047789,
-    37029441,
-    8558752,
-    6321259,
     35288525,
     9068465,
     6615429,
@@ -1328,6 +1352,15 @@
     7318813,
     7354829,
     37617747,
-    8516378
+    8516378,
+    28400000,
+    6265061,
+    32583169,
+    16392807,
+    6498981,
+    39598754,
+    6565268,
+    7005841,
+    12715348
   ]
 }
