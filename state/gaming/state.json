@@ -44,7 +44,8 @@
     "Half-Life 2's source code leak: the theft that derailed Valve's biggest release",
     "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
     "Elden Ring: how George R. R. Martin helped shape its world",
-    "Baldur's Gate 3: how Larian's game swept the Game of the Year awards"
+    "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
+    "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched"
   ],
   "uploads": [
     {
@@ -1292,23 +1293,48 @@
       "at": "2026-10-05T00:07:44.786199+00:00",
       "topic": "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "90EwKVyrMa8",
+      "title": "How a 5-Year Hollow Knight: Silksong Delay Turned Into a Meme Party",
+      "at": "2026-10-05T02:20:00.310906+00:00",
+      "topic": "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693002679546628110",
+      "title": "How a 5-Year Hollow Knight: Silksong Delay Turned Into a Meme Party",
+      "at": "2026-10-05T02:20:03.362721+00:00",
+      "topic": "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18178563517429458",
+      "title": "How a 5-Year Hollow Knight: Silksong Delay Turned Into a Meme Party",
+      "at": "2026-10-05T02:21:55.939433+00:00",
+      "topic": "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2005822530107524",
+      "title": "How a 5-Year Hollow Knight: Silksong Delay Turned Into a Meme Party",
+      "at": "2026-10-05T02:22:01.734638+00:00",
+      "topic": "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    35288525,
-    9068465,
-    6615429,
-    35475376,
-    7942840,
-    7236940,
-    13443895,
     38455331,
     30554634,
     14093921,
@@ -1361,6 +1387,13 @@
     39598754,
     6565268,
     7005841,
-    12715348
+    12715348,
+    39645503,
+    36435098,
+    17512949,
+    7356018,
+    33314914,
+    29660629,
+    35117249
   ]
 }
