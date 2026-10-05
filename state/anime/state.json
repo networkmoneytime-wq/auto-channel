@@ -43,7 +43,8 @@
     "KonoSuba|how KonoSuba turned isekai cliches into comedy",
     "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
     "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
-    "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man"
+    "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
+    "Vinland Saga|how Vinland Saga reinvents itself halfway through"
   ],
   "uploads": [
     {
@@ -909,13 +910,37 @@
       "at": "2026-10-05T00:12:13.223668+00:00",
       "topic": "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "QaWfvzHXlJs",
+      "title": "Vinland Saga's Secret Shift: From Blood-Soaked Revenge to Peaceful Philosophy",
+      "at": "2026-10-05T02:25:52.471499+00:00",
+      "topic": "Vinland Saga|how Vinland Saga reinvents itself halfway through",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18139267330616941",
+      "title": "Vinland Saga's Secret Shift: From Blood-Soaked Revenge to Peaceful Philosophy",
+      "at": "2026-10-05T02:27:55.713204+00:00",
+      "topic": "Vinland Saga|how Vinland Saga reinvents itself halfway through",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2310499466353316",
+      "title": "Vinland Saga's Secret Shift: From Blood-Soaked Revenge to Peaceful Philosophy",
+      "at": "2026-10-05T02:28:00.079902+00:00",
+      "topic": "Vinland Saga|how Vinland Saga reinvents itself halfway through",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "mistake_warning",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ]
 }
