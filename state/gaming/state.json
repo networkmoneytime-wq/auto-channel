@@ -45,7 +45,8 @@
     "Resident Evil's ancestor: the 1989 game Sweet Home that inspired the mansion",
     "Elden Ring: how George R. R. Martin helped shape its world",
     "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
-    "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched"
+    "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
+    "Red Dead Redemption 2: the absurd little details Rockstar buried in the game"
   ],
   "uploads": [
     {
@@ -1325,24 +1326,48 @@
       "at": "2026-10-05T02:22:01.734638+00:00",
       "topic": "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "5qVnAZRNSrU",
+      "title": "The 3 Red Dead Redemption 2 Easter Eggs You've Never Seen",
+      "at": "2026-10-05T22:17:27.309720+00:00",
+      "topic": "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693311118319781901",
+      "title": "The 3 Red Dead Redemption 2 Easter Eggs You've Never Seen",
+      "at": "2026-10-05T22:17:30.150927+00:00",
+      "topic": "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17903069580597944",
+      "title": "The 3 Red Dead Redemption 2 Easter Eggs You've Never Seen",
+      "at": "2026-10-05T22:18:02.608394+00:00",
+      "topic": "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1888685032094863",
+      "title": "The 3 Red Dead Redemption 2 Easter Eggs You've Never Seen",
+      "at": "2026-10-05T22:18:07.633202+00:00",
+      "topic": "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "question_hook",
     "mistake_warning",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    38455331,
-    30554634,
-    14093921,
-    29065930,
-    37319598,
-    7505998,
-    7080843,
-    8128420,
     27258261,
     7668146,
     37617036,
@@ -1394,6 +1419,14 @@
     7356018,
     33314914,
     29660629,
-    35117249
+    35117249,
+    34445230,
+    8625215,
+    31997525,
+    8322145,
+    25957041,
+    11210466,
+    34757159,
+    38844616
   ]
 }
