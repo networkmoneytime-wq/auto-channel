@@ -42,7 +42,8 @@
     "Re:Zero|why Subaru's suffering in Re:Zero hooked so many viewers",
     "KonoSuba|how KonoSuba turned isekai cliches into comedy",
     "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
-    "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else"
+    "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
+    "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man"
   ],
   "uploads": [
     {
@@ -884,13 +885,37 @@
       "at": "2026-10-04T22:22:29.411812+00:00",
       "topic": "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "YY1QPUSJl6E",
+      "title": "Why Saitama's One Punch Is the Most Boring Superpower Ever",
+      "at": "2026-10-05T00:11:36.414559+00:00",
+      "topic": "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18108951833610105",
+      "title": "Why Saitama's One Punch Is the Most Boring Superpower Ever",
+      "at": "2026-10-05T00:12:09.080739+00:00",
+      "topic": "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1401348568275323",
+      "title": "Why Saitama's One Punch Is the Most Boring Superpower Ever",
+      "at": "2026-10-05T00:12:13.223668+00:00",
+      "topic": "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "secret_reveal",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
