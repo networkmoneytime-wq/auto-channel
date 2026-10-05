@@ -44,7 +44,8 @@
     "Spy x Family|what makes Spy x Family's fake-family premise work as comedy",
     "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
     "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
-    "Vinland Saga|how Vinland Saga reinvents itself halfway through"
+    "Vinland Saga|how Vinland Saga reinvents itself halfway through",
+    "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories"
   ],
   "uploads": [
     {
@@ -934,13 +935,37 @@
       "at": "2026-10-05T02:28:00.079902+00:00",
       "topic": "Vinland Saga|how Vinland Saga reinvents itself halfway through",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "bkz9LSJJc7M",
+      "title": "The Dark Secret Behind Made in Abyss's Cute Art",
+      "at": "2026-10-05T22:21:45.955430+00:00",
+      "topic": "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18444896020122308",
+      "title": "The Dark Secret Behind Made in Abyss's Cute Art",
+      "at": "2026-10-05T22:22:17.155534+00:00",
+      "topic": "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1614974467024023",
+      "title": "The Dark Secret Behind Made in Abyss's Cute Art",
+      "at": "2026-10-05T22:22:21.335962+00:00",
+      "topic": "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "question_hook",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ]
 }
