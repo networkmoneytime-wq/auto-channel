@@ -46,7 +46,8 @@
     "The Hubble Space Telescope's flawed mirror: the blurry-image disaster and the contact-lens fix",
     "The Apollo Guidance Computer: how a machine weaker than a calculator flew astronauts to the Moon",
     "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010",
-    "The first webcam: the Cambridge coffee pot that people watched online in 1991"
+    "The first webcam: the Cambridge coffee pot that people watched online in 1991",
+    "The first text message: how a Merry Christmas note launched SMS in 1992"
   ],
   "uploads": [
     {
@@ -980,25 +981,40 @@
       "at": "2026-10-05T02:24:18.058763+00:00",
       "topic": "The first webcam: the Cambridge coffee pot that people watched online in 1991",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "DYXwxu6pfTc",
+      "title": "How Neil Papworth's 1992 'Merry Christmas' SMS Changed Everything",
+      "at": "2026-10-05T22:19:52.296559+00:00",
+      "topic": "The first text message: how a Merry Christmas note launched SMS in 1992",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18108530540240479",
+      "title": "How Neil Papworth's 1992 'Merry Christmas' SMS Changed Everything",
+      "at": "2026-10-05T22:20:25.072396+00:00",
+      "topic": "The first text message: how a Merry Christmas note launched SMS in 1992",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "38885133617767615",
+      "title": "How Neil Papworth's 1992 'Merry Christmas' SMS Changed Everything",
+      "at": "2026-10-05T22:20:28.882293+00:00",
+      "topic": "The first text message: how a Merry Christmas note launched SMS in 1992",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "list_tease",
     "shocking_fact",
-    "secret_reveal"
+    "secret_reveal",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6755165,
-    1821832,
-    33314914,
-    8720756,
-    6174537,
-    29587622,
-    3960178,
-    6755162,
-    16049995,
     7688803,
     9594848,
     10388941,
@@ -1049,6 +1065,15 @@
     35585641,
     8522975,
     7598831,
-    11511479
+    11511479,
+    6336767,
+    4872898,
+    6278948,
+    5473969,
+    8165942,
+    9898435,
+    6521520,
+    33315143,
+    4551878
   ]
 }
