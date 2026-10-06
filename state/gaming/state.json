@@ -46,7 +46,8 @@
     "Elden Ring: how George R. R. Martin helped shape its world",
     "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
     "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
-    "Red Dead Redemption 2: the absurd little details Rockstar buried in the game"
+    "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
+    "The Witcher 3: how a game from a Polish studio outshone the giants"
   ],
   "uploads": [
     {
@@ -1358,21 +1359,48 @@
       "at": "2026-10-05T22:18:07.633202+00:00",
       "topic": "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "TytQQG5LUPs",
+      "title": "How The Witcher 3 Outsmarted Gaming Giants",
+      "at": "2026-10-06T00:06:03.123482+00:00",
+      "topic": "The Witcher 3: how a game from a Polish studio outshone the giants",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693339211566729229",
+      "title": "How The Witcher 3 Outsmarted Gaming Giants",
+      "at": "2026-10-06T00:06:06.487221+00:00",
+      "topic": "The Witcher 3: how a game from a Polish studio outshone the giants",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18085742747699686",
+      "title": "How The Witcher 3 Outsmarted Gaming Giants",
+      "at": "2026-10-06T00:07:24.519916+00:00",
+      "topic": "The Witcher 3: how a game from a Polish studio outshone the giants",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1082866547901463",
+      "title": "How The Witcher 3 Outsmarted Gaming Giants",
+      "at": "2026-10-06T00:07:28.920427+00:00",
+      "topic": "The Witcher 3: how a game from a Polish studio outshone the giants",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "mistake_warning",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    27258261,
-    7668146,
-    37617036,
-    32653723,
-    4842503,
     6755165,
     6755165,
     5787612,
@@ -1427,6 +1455,11 @@
     25957041,
     11210466,
     34757159,
-    38844616
+    38844616,
+    6324544,
+    36597637,
+    7047789,
+    39892711,
+    6568125
   ]
 }
