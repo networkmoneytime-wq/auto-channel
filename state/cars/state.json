@@ -48,7 +48,8 @@
     "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
     "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
     "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
-    "The Porsche 911: the design that refused to die"
+    "The Porsche 911: the design that refused to die",
+    "The Volkswagen Beetle: how it became one of the best-selling cars ever made"
   ],
   "uploads": [
     {
@@ -1348,22 +1349,48 @@
       "at": "2026-10-06T00:04:06.826900+00:00",
       "topic": "The Porsche 911: the design that refused to die",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "rCDOidq0DiQ",
+      "title": "The Dark Secret Behind the Volkswagen Beetle's Rise",
+      "at": "2026-10-06T02:19:03.946703+00:00",
+      "topic": "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693373435296892942",
+      "title": "The Dark Secret Behind the Volkswagen Beetle's Rise",
+      "at": "2026-10-06T02:19:06.876782+00:00",
+      "topic": "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18024375776925328",
+      "title": "The Dark Secret Behind the Volkswagen Beetle's Rise",
+      "at": "2026-10-06T02:19:40.319836+00:00",
+      "topic": "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1738605660769770",
+      "title": "The Dark Secret Behind the Volkswagen Beetle's Rise",
+      "at": "2026-10-06T02:19:46.915864+00:00",
+      "topic": "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "mistake_warning",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    7205326,
-    16265138,
-    30306550,
-    13358202,
-    30942710,
-    28849812,
     28730771,
     20728389,
     8822552,
@@ -1417,6 +1444,12 @@
     36543597,
     37628072,
     9790214,
-    36684844
+    36684844,
+    37021485,
+    34948760,
+    5545110,
+    5899555,
+    39198677,
+    15821941
   ]
 }
