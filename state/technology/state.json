@@ -49,7 +49,8 @@
     "The first webcam: the Cambridge coffee pot that people watched online in 1991",
     "The first text message: how a Merry Christmas note launched SMS in 1992",
     "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
-    "IBM Simon: the 1994 phone that was the first smartphone"
+    "IBM Simon: the 1994 phone that was the first smartphone",
+    "MP3 and Tom's Diner: the a cappella song used to perfect the format"
   ],
   "uploads": [
     {
@@ -1055,25 +1056,40 @@
       "at": "2026-10-06T02:24:42.065064+00:00",
       "topic": "IBM Simon: the 1994 phone that was the first smartphone",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "BGIoR3WN6LU",
+      "title": "How Suzanne Vega's \"Tom's Diner\" Became the MP3 Litmus Test",
+      "at": "2026-10-06T22:19:49.981036+00:00",
+      "topic": "MP3 and Tom's Diner: the a cappella song used to perfect the format",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910387420512449",
+      "title": "How Suzanne Vega's \"Tom's Diner\" Became the MP3 Litmus Test",
+      "at": "2026-10-06T22:20:23.746741+00:00",
+      "topic": "MP3 and Tom's Diner: the a cappella song used to perfect the format",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1076044691725801",
+      "title": "How Suzanne Vega's \"Tom's Diner\" Became the MP3 Litmus Test",
+      "at": "2026-10-06T22:20:29.548077+00:00",
+      "topic": "MP3 and Tom's Diner: the a cappella song used to perfect the format",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "secret_reveal",
     "contrarian_claim",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    7005924,
-    39266727,
-    5377991,
-    33315117,
-    28709421,
-    7423951,
-    12665167,
-    12317074,
-    28709421,
     18308552,
     14618955,
     37723924,
@@ -1124,6 +1140,15 @@
     11446095,
     7670130,
     7681177,
-    6177762
+    6177762,
+    35235434,
+    12330875,
+    4985359,
+    39626072,
+    7586642,
+    15283162,
+    6646043,
+    13736673,
+    7337217
   ]
 }
