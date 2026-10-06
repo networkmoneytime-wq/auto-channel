@@ -48,7 +48,8 @@
     "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
     "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
     "The Witcher 3: how a game from a Polish studio outshone the giants",
-    "Fortnite: how a failed co-op game pivoted to battle royale"
+    "Fortnite: how a failed co-op game pivoted to battle royale",
+    "Among Us: the game that went almost unnoticed for two years before exploding"
   ],
   "uploads": [
     {
@@ -1424,22 +1425,48 @@
       "at": "2026-10-06T02:22:11.672842+00:00",
       "topic": "Fortnite: how a failed co-op game pivoted to battle royale",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "74QRlmwPMas",
+      "title": "The Crazy Truth Behind Among Us's 100M-Download Explosion",
+      "at": "2026-10-06T22:17:20.063915+00:00",
+      "topic": "Among Us: the game that went almost unnoticed for two years before exploding",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693682234443909134",
+      "title": "The Crazy Truth Behind Among Us's 100M-Download Explosion",
+      "at": "2026-10-06T22:17:22.526290+00:00",
+      "topic": "Among Us: the game that went almost unnoticed for two years before exploding",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18094743710651587",
+      "title": "The Crazy Truth Behind Among Us's 100M-Download Explosion",
+      "at": "2026-10-06T22:17:54.981426+00:00",
+      "topic": "Among Us: the game that went almost unnoticed for two years before exploding",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1603497364652924",
+      "title": "The Crazy Truth Behind Among Us's 100M-Download Explosion",
+      "at": "2026-10-06T22:17:59.816231+00:00",
+      "topic": "Among Us: the game that went almost unnoticed for two years before exploding",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    20738332,
-    39105222,
-    8128342,
-    27936931,
-    9910216,
-    4829710,
     10050461,
     14517238,
     8544030,
@@ -1493,6 +1520,12 @@
     36584708,
     35047933,
     8828911,
-    8128351
+    8128351,
+    39107672,
+    7362700,
+    8128725,
+    29378859,
+    8829608,
+    34514149
   ]
 }
