@@ -22,7 +22,8 @@
     "Texting \"we should hang out soon\" and both of you knowing it's not happening",
     "The five stages of grief but it's your phone at 1% battery",
     "The specific way everyone lies about being \"on my way\"",
-    "AI_CHARACTER_1"
+    "AI_CHARACTER_1",
+    "AI_CHARACTER_2"
   ],
   "uploads": [
     {
@@ -346,6 +347,20 @@
       "title": "Bombardiro Crocodilo: The Croc-Bomber That Patrols the Skies",
       "at": "2026-10-06T00:13:04.415338+00:00",
       "topic": "AI_CHARACTER_1"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UKDTL2E4IgY",
+      "title": "Frigo Camelo: The Meme-Making Camel-Refrigerator You Didn't Know Existed",
+      "at": "2026-10-06T02:28:14.864928+00:00",
+      "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "994661063666901",
+      "title": "Frigo Camelo: The Meme-Making Camel-Refrigerator You Didn't Know Existed",
+      "at": "2026-10-06T02:28:20.246059+00:00",
+      "topic": "AI_CHARACTER_2"
     }
   ],
   "recent_clip_ids": [
