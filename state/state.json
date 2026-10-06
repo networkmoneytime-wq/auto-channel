@@ -53,7 +53,8 @@
     "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
     "The Tsar Bomba: the most powerful bomb ever detonated",
     "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
-    "Hachiko: the dog who waited at a train station for nine years"
+    "Hachiko: the dog who waited at a train station for nine years",
+    "The Kola Superdeep Borehole: the deepest hole humans ever drilled"
   ],
   "uploads": [
     {
@@ -1439,23 +1440,48 @@
       "at": "2026-10-06T02:06:11.209464+00:00",
       "topic": "Hachiko: the dog who waited at a train station for nine years",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "YsX7DaiRwRY",
+      "title": "The Kola Superdeep Borehole: Earth's Deepest Man-Made Mystery",
+      "at": "2026-10-06T22:15:16.036940+00:00",
+      "topic": "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693681614182549534",
+      "title": "The Kola Superdeep Borehole: Earth's Deepest Man-Made Mystery",
+      "at": "2026-10-06T22:15:18.976161+00:00",
+      "topic": "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18196677232388705",
+      "title": "The Kola Superdeep Borehole: Earth's Deepest Man-Made Mystery",
+      "at": "2026-10-06T22:15:54.267601+00:00",
+      "topic": "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4055636378077301",
+      "title": "The Kola Superdeep Borehole: Earth's Deepest Man-Made Mystery",
+      "at": "2026-10-06T22:15:59.824492+00:00",
+      "topic": "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "mistake_warning",
     "list_tease",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6567830,
-    35701014,
-    39018702,
-    17285284,
-    28145145,
-    6528846,
-    8490216,
     8927955,
     19314470,
     10449873,
@@ -1508,6 +1534,13 @@
     28869249,
     28896834,
     6666532,
-    34950299
+    34950299,
+    8544030,
+    19675232,
+    32376203,
+    34912747,
+    8726216,
+    8381580,
+    19953121
   ]
 }
