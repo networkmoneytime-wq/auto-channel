@@ -47,7 +47,8 @@
     "Baldur's Gate 3: how Larian's game swept the Game of the Year awards",
     "Hollow Knight: Silksong: the years-long wait that became a running joke before it finally launched",
     "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
-    "The Witcher 3: how a game from a Polish studio outshone the giants"
+    "The Witcher 3: how a game from a Polish studio outshone the giants",
+    "Fortnite: how a failed co-op game pivoted to battle royale"
   ],
   "uploads": [
     {
@@ -1391,25 +1392,48 @@
       "at": "2026-10-06T00:07:28.920427+00:00",
       "topic": "The Witcher 3: how a game from a Polish studio outshone the giants",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "xSwzj6wbMcU",
+      "title": "How Fortnite Went From Zombie Co-op to Battle Royale Beast",
+      "at": "2026-10-06T02:21:31.623224+00:00",
+      "topic": "Fortnite: how a failed co-op game pivoted to battle royale",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693373915795982349",
+      "title": "How Fortnite Went From Zombie Co-op to Battle Royale Beast",
+      "at": "2026-10-06T02:21:34.598609+00:00",
+      "topic": "Fortnite: how a failed co-op game pivoted to battle royale",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17960584410238374",
+      "title": "How Fortnite Went From Zombie Co-op to Battle Royale Beast",
+      "at": "2026-10-06T02:22:07.242692+00:00",
+      "topic": "Fortnite: how a failed co-op game pivoted to battle royale",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1098767612743749",
+      "title": "How Fortnite Went From Zombie Co-op to Battle Royale Beast",
+      "at": "2026-10-06T02:22:11.672842+00:00",
+      "topic": "Fortnite: how a failed co-op game pivoted to battle royale",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "secret_reveal",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6755165,
-    6755165,
-    5787612,
-    9618043,
-    7047781,
-    35417397,
-    7953595,
-    18069700,
-    38055591,
     20738332,
     39105222,
     8128342,
@@ -1460,6 +1484,15 @@
     36597637,
     7047789,
     39892711,
-    6568125
+    6568125,
+    8128500,
+    4841883,
+    31961382,
+    8819930,
+    6498969,
+    36584708,
+    35047933,
+    8828911,
+    8128351
   ]
 }
