@@ -48,7 +48,8 @@
     "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010",
     "The first webcam: the Cambridge coffee pot that people watched online in 1991",
     "The first text message: how a Merry Christmas note launched SMS in 1992",
-    "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973"
+    "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
+    "IBM Simon: the 1994 phone that was the first smartphone"
   ],
   "uploads": [
     {
@@ -1030,18 +1031,40 @@
       "at": "2026-10-06T00:09:40.178163+00:00",
       "topic": "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "lEAJiSBsQh8",
+      "title": "IBM Simon: The 1994 Smartphone That Preceded the iPhone",
+      "at": "2026-10-06T02:24:01.355432+00:00",
+      "topic": "IBM Simon: the 1994 phone that was the first smartphone",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18129343984828945",
+      "title": "IBM Simon: The 1994 Smartphone That Preceded the iPhone",
+      "at": "2026-10-06T02:24:35.323144+00:00",
+      "topic": "IBM Simon: the 1994 phone that was the first smartphone",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2246708579520704",
+      "title": "IBM Simon: The 1994 Smartphone That Preceded the iPhone",
+      "at": "2026-10-06T02:24:42.065064+00:00",
+      "topic": "IBM Simon: the 1994 phone that was the first smartphone",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "secret_reveal",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    34488756,
-    36392049,
     7005924,
     39266727,
     5377991,
@@ -1099,6 +1122,8 @@
     6520259,
     5777431,
     11446095,
-    7670130
+    7670130,
+    7681177,
+    6177762
   ]
 }
