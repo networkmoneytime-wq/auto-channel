@@ -23,7 +23,8 @@
     "The five stages of grief but it's your phone at 1% battery",
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
-    "AI_CHARACTER_2"
+    "AI_CHARACTER_2",
+    "AI_CHARACTER_3"
   ],
   "uploads": [
     {
@@ -361,6 +362,20 @@
       "title": "Frigo Camelo: The Meme-Making Camel-Refrigerator You Didn't Know Existed",
       "at": "2026-10-06T02:28:20.246059+00:00",
       "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "HeJdqF_Xc00",
+      "title": "Frigo Camelo: The Camel-Refrigerator That Became an Internet Sensation",
+      "at": "2026-10-06T22:23:33.708230+00:00",
+      "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1140345031681012",
+      "title": "Frigo Camelo: The Camel-Refrigerator That Became an Internet Sensation",
+      "at": "2026-10-06T22:23:38.911164+00:00",
+      "topic": "AI_CHARACTER_3"
     }
   ],
   "recent_clip_ids": [
