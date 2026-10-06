@@ -47,7 +47,8 @@
     "Irv Gordon's Volvo P1800: the coupe that drove over three million miles",
     "The Top Gear Toyota Hilux: the pickup that survived everything they threw at it",
     "The Lamborghini Countach: the wedge-shaped supercar that defined the bedroom-poster era",
-    "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari"
+    "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
+    "The Porsche 911: the design that refused to die"
   ],
   "uploads": [
     {
@@ -1315,22 +1316,48 @@
       "at": "2026-10-05T22:15:40.324653+00:00",
       "topic": "The Lamborghini origin story: the tractor maker who set out to build a better Ferrari",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "UzBYW27qqQg",
+      "title": "How the Porsche 911 Stayed the Same While Everything Else Changed",
+      "at": "2026-10-06T00:03:14.766931+00:00",
+      "topic": "The Porsche 911: the design that refused to die",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693338569867593741",
+      "title": "How the Porsche 911 Stayed the Same While Everything Else Changed",
+      "at": "2026-10-06T00:03:17.200944+00:00",
+      "topic": "The Porsche 911: the design that refused to die",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18101725598530197",
+      "title": "How the Porsche 911 Stayed the Same While Everything Else Changed",
+      "at": "2026-10-06T00:03:54.283015+00:00",
+      "topic": "The Porsche 911: the design that refused to die",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1662932248789576",
+      "title": "How the Porsche 911 Stayed the Same While Everything Else Changed",
+      "at": "2026-10-06T00:04:06.826900+00:00",
+      "topic": "The Porsche 911: the design that refused to die",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "question_hook",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    12196783,
-    39944815,
-    28510568,
-    10780740,
-    31697001,
-    19953762,
     7205326,
     16265138,
     30306550,
@@ -1384,6 +1411,12 @@
     5846641,
     34396726,
     9790184,
-    39421363
+    39421363,
+    8078752,
+    28866456,
+    36543597,
+    37628072,
+    9790214,
+    36684844
   ]
 }
