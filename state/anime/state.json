@@ -45,7 +45,8 @@
     "Mob Psycho 100|why Mob Psycho 100's animation looks like nothing else",
     "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
     "Vinland Saga|how Vinland Saga reinvents itself halfway through",
-    "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories"
+    "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
+    "Violet Evergarden|how Violet Evergarden tells an emotional story with letters"
   ],
   "uploads": [
     {
@@ -959,13 +960,37 @@
       "at": "2026-10-05T22:22:21.335962+00:00",
       "topic": "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4QyUosQ5EoE",
+      "title": "Why Violet Evergarden Is More Than a War-Girl Anime",
+      "at": "2026-10-06T00:11:16.253392+00:00",
+      "topic": "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18114901454038317",
+      "title": "Why Violet Evergarden Is More Than a War-Girl Anime",
+      "at": "2026-10-06T00:11:48.679950+00:00",
+      "topic": "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1903743284334758",
+      "title": "Why Violet Evergarden Is More Than a War-Girl Anime",
+      "at": "2026-10-06T00:11:52.998723+00:00",
+      "topic": "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "question_hook",
     "shocking_fact",
     "contrarian_claim",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
