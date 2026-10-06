@@ -51,7 +51,8 @@
     "The Miracle on the Hudson: the minutes that turned US Airways Flight 1549 into a landing on a river",
     "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
     "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
-    "The Tsar Bomba: the most powerful bomb ever detonated"
+    "The Tsar Bomba: the most powerful bomb ever detonated",
+    "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes"
   ],
   "uploads": [
     {
@@ -1373,23 +1374,48 @@
       "at": "2026-10-05T22:15:34.059491+00:00",
       "topic": "The Tsar Bomba: the most powerful bomb ever detonated",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "M42SAo07VL0",
+      "title": "How a Yorkshire Village Fooled Sir Arthur Conan Doyle with Fake Fairy Photos",
+      "at": "2026-10-06T00:30:00.640453+00:00",
+      "topic": "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693344907280418847",
+      "title": "How a Yorkshire Village Fooled Sir Arthur Conan Doyle with Fake Fairy Photos",
+      "at": "2026-10-06T00:30:03.592822+00:00",
+      "topic": "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18340525525274754",
+      "title": "How a Yorkshire Village Fooled Sir Arthur Conan Doyle with Fake Fairy Photos",
+      "at": "2026-10-06T00:30:41.316157+00:00",
+      "topic": "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1606288340979065",
+      "title": "How a Yorkshire Village Fooled Sir Arthur Conan Doyle with Fake Fairy Photos",
+      "at": "2026-10-06T00:30:48.095857+00:00",
+      "topic": "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "contrarian_claim",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    4911443,
-    25957041,
-    39623398,
-    35715821,
-    30575359,
-    6130231,
-    32766523,
     12328908,
     35566355,
     36791118,
@@ -1442,6 +1468,13 @@
     26798002,
     34536129,
     15172694,
-    11095529
+    11095529,
+    28468902,
+    32156316,
+    20413409,
+    7131952,
+    7957110,
+    34479882,
+    35790734
   ]
 }
