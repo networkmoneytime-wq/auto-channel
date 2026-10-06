@@ -52,7 +52,8 @@
     "Apollo 13: how engineers built a carbon dioxide filter from spare parts to save the crew",
     "The Lost Colony of Roanoke: the settlement that vanished and left a single word carved on a post",
     "The Tsar Bomba: the most powerful bomb ever detonated",
-    "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes"
+    "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
+    "Hachiko: the dog who waited at a train station for nine years"
   ],
   "uploads": [
     {
@@ -1406,28 +1407,48 @@
       "at": "2026-10-06T00:30:48.095857+00:00",
       "topic": "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "wLqI96sQnJ0",
+      "title": "The Real Story Behind Hachiko: Japan's Loyal Train-Station Dog",
+      "at": "2026-10-06T02:05:27.358332+00:00",
+      "topic": "Hachiko: the dog who waited at a train station for nine years",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693369393014949918",
+      "title": "The Real Story Behind Hachiko: Japan's Loyal Train-Station Dog",
+      "at": "2026-10-06T02:05:30.656356+00:00",
+      "topic": "Hachiko: the dog who waited at a train station for nine years",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18139986190624328",
+      "title": "The Real Story Behind Hachiko: Japan's Loyal Train-Station Dog",
+      "at": "2026-10-06T02:06:06.146693+00:00",
+      "topic": "Hachiko: the dog who waited at a train station for nine years",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1082788078076842",
+      "title": "The Real Story Behind Hachiko: Japan's Loyal Train-Station Dog",
+      "at": "2026-10-06T02:06:11.209464+00:00",
+      "topic": "Hachiko: the dog who waited at a train station for nine years",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "mistake_warning",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    12328908,
-    35566355,
-    36791118,
-    14281553,
-    4620487,
-    39555817,
-    33584587,
-    39944821,
-    39917095,
-    20064340,
-    4551884,
-    9467657,
     6567830,
     35701014,
     39018702,
@@ -1475,6 +1496,18 @@
     7131952,
     7957110,
     34479882,
-    35790734
+    35790734,
+    3627321,
+    5740693,
+    37364032,
+    28971806,
+    34975555,
+    34672206,
+    32332687,
+    32938028,
+    28869249,
+    28896834,
+    6666532,
+    34950299
   ]
 }
