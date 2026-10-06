@@ -46,7 +46,8 @@
     "One Punch Man|why a hero who wins in one punch is still gripping in One Punch Man",
     "Vinland Saga|how Vinland Saga reinvents itself halfway through",
     "Made in Abyss|why Made in Abyss's cute art style hides one of anime's darkest stories",
-    "Violet Evergarden|how Violet Evergarden tells an emotional story with letters"
+    "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
+    "Dandadan|how Dandadan mashes aliens and ghosts into one story"
   ],
   "uploads": [
     {
@@ -984,13 +985,37 @@
       "at": "2026-10-06T00:11:52.998723+00:00",
       "topic": "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Ih2eNL2p3x4",
+      "title": "Why Dandadan Is Actually a Ghost-Alien Mash-Up, Not Just a Teen Romance",
+      "at": "2026-10-06T02:26:12.141563+00:00",
+      "topic": "Dandadan|how Dandadan mashes aliens and ghosts into one story",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18119300287822220",
+      "title": "Why Dandadan Is Actually a Ghost-Alien Mash-Up, Not Just a Teen Romance",
+      "at": "2026-10-06T02:26:52.646827+00:00",
+      "topic": "Dandadan|how Dandadan mashes aliens and ghosts into one story",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1109039544946689",
+      "title": "Why Dandadan Is Actually a Ghost-Alien Mash-Up, Not Just a Teen Romance",
+      "at": "2026-10-06T02:26:57.291321+00:00",
+      "topic": "Dandadan|how Dandadan mashes aliens and ghosts into one story",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "contrarian_claim",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ]
 }
