@@ -47,7 +47,8 @@
     "The Apollo Guidance Computer: how a machine weaker than a calculator flew astronauts to the Moon",
     "Bitcoin Pizza Day: the 10,000 bitcoin purchase of two pizzas in 2010",
     "The first webcam: the Cambridge coffee pot that people watched online in 1991",
-    "The first text message: how a Merry Christmas note launched SMS in 1992"
+    "The first text message: how a Merry Christmas note launched SMS in 1992",
+    "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973"
   ],
   "uploads": [
     {
@@ -1005,24 +1006,40 @@
       "at": "2026-10-05T22:20:28.882293+00:00",
       "topic": "The first text message: how a Merry Christmas note launched SMS in 1992",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "V3GnJGH3bV8",
+      "title": "First Cell-Phone Call: A $4,000 Brick That Talked for Under a Minute",
+      "at": "2026-10-06T00:09:02.964702+00:00",
+      "topic": "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18101503058369504",
+      "title": "First Cell-Phone Call: A $4,000 Brick That Talked for Under a Minute",
+      "at": "2026-10-06T00:09:36.200127+00:00",
+      "topic": "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1459038422959465",
+      "title": "First Cell-Phone Call: A $4,000 Brick That Talked for Under a Minute",
+      "at": "2026-10-06T00:09:40.178163+00:00",
+      "topic": "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "list_tease",
     "shocking_fact",
     "secret_reveal",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    7688803,
-    9594848,
-    10388941,
-    8428302,
-    8758291,
-    7688807,
-    33688494,
-    6058483,
     34488756,
     36392049,
     7005924,
@@ -1074,6 +1091,14 @@
     9898435,
     6521520,
     33315143,
-    4551878
+    4551878,
+    7241748,
+    36511035,
+    7563828,
+    35262334,
+    6520259,
+    5777431,
+    11446095,
+    7670130
   ]
 }
