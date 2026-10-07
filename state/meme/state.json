@@ -24,7 +24,8 @@
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
     "AI_CHARACTER_2",
-    "AI_CHARACTER_3"
+    "AI_CHARACTER_3",
+    "AI_CHARACTER_4"
   ],
   "uploads": [
     {
@@ -376,6 +377,20 @@
       "title": "Frigo Camelo: The Camel-Refrigerator That Became an Internet Sensation",
       "at": "2026-10-06T22:23:38.911164+00:00",
       "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "yRB8LMRrxZc",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup Taking Memes by Storm",
+      "at": "2026-10-07T02:27:08.052428+00:00",
+      "topic": "AI_CHARACTER_4"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1137063752326827",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup Taking Memes by Storm",
+      "at": "2026-10-07T02:27:12.163281+00:00",
+      "topic": "AI_CHARACTER_4"
     }
   ],
   "recent_clip_ids": [
