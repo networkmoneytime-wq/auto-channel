@@ -50,7 +50,8 @@
     "The first text message: how a Merry Christmas note launched SMS in 1992",
     "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
     "IBM Simon: the 1994 phone that was the first smartphone",
-    "MP3 and Tom's Diner: the a cappella song used to perfect the format"
+    "MP3 and Tom's Diner: the a cappella song used to perfect the format",
+    "ELIZA: the 1966 chatbot that made people confide in a computer"
   ],
   "uploads": [
     {
@@ -1080,23 +1081,40 @@
       "at": "2026-10-06T22:20:29.548077+00:00",
       "topic": "MP3 and Tom's Diner: the a cappella song used to perfect the format",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "QB-DwxcNCXE",
+      "title": "ELIZA's 3 Tricks That Made a 1966 Bot Sound Like a Therapist",
+      "at": "2026-10-07T00:07:54.119024+00:00",
+      "topic": "ELIZA: the 1966 chatbot that made people confide in a computer",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18138212746718740",
+      "title": "ELIZA's 3 Tricks That Made a 1966 Bot Sound Like a Therapist",
+      "at": "2026-10-07T00:08:26.749245+00:00",
+      "topic": "ELIZA: the 1966 chatbot that made people confide in a computer",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1148184947643511",
+      "title": "ELIZA's 3 Tricks That Made a 1966 Bot Sound Like a Therapist",
+      "at": "2026-10-07T00:08:31.481503+00:00",
+      "topic": "ELIZA: the 1966 chatbot that made people confide in a computer",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "contrarian_claim",
     "list_tease",
     "shocking_fact",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    18308552,
-    14618955,
-    37723924,
-    29644226,
-    6474390,
-    7171121,
-    11884378,
     39576931,
     20349634,
     20349634,
@@ -1149,6 +1167,13 @@
     15283162,
     6646043,
     13736673,
-    7337217
+    7337217,
+    33315117,
+    5377697,
+    7011568,
+    36302386,
+    30653723,
+    14202315,
+    9430547
   ]
 }
