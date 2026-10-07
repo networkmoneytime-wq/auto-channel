@@ -56,7 +56,8 @@
     "Hachiko: the dog who waited at a train station for nine years",
     "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
     "China's Great Sparrow Campaign: the war on sparrows that backfired",
-    "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs"
+    "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
+    "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying"
   ],
   "uploads": [
     {
@@ -1538,26 +1539,48 @@
       "at": "2026-10-07T02:09:06.328995+00:00",
       "topic": "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "Gj3hPtr8OjQ",
+      "title": "\u00d6tzi the Iceman: The Copper Axe That Proves He Was a Hunter, Not a Tourist",
+      "at": "2026-10-07T22:14:02.366574+00:00",
+      "topic": "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694052203967399967",
+      "title": "\u00d6tzi the Iceman: The Copper Axe That Proves He Was a Hunter, Not a Tourist",
+      "at": "2026-10-07T22:14:04.462119+00:00",
+      "topic": "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17870551440648658",
+      "title": "\u00d6tzi the Iceman: The Copper Axe That Proves He Was a Hunter, Not a Tourist",
+      "at": "2026-10-07T22:14:36.701675+00:00",
+      "topic": "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2285011505630954",
+      "title": "\u00d6tzi the Iceman: The Copper Axe That Proves He Was a Hunter, Not a Tourist",
+      "at": "2026-10-07T22:14:41.295720+00:00",
+      "topic": "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    11292266,
-    39796362,
-    8724209,
-    6823842,
-    8107399,
-    34679119,
-    7308361,
-    30614799,
-    6498753,
-    6790011,
     8322050,
     38333286,
     32208156,
@@ -1607,6 +1630,16 @@
     15283164,
     6549543,
     38454843,
-    38817100
+    38817100,
+    10905317,
+    10398239,
+    6655883,
+    29042555,
+    6653240,
+    7102536,
+    6668845,
+    32810112,
+    27604137,
+    6650205
   ]
 }
