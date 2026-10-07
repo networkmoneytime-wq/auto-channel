@@ -51,7 +51,8 @@
     "The Motorola DynaTAC: the brick phone and the first cell phone call in 1973",
     "IBM Simon: the 1994 phone that was the first smartphone",
     "MP3 and Tom's Diner: the a cappella song used to perfect the format",
-    "ELIZA: the 1966 chatbot that made people confide in a computer"
+    "ELIZA: the 1966 chatbot that made people confide in a computer",
+    "AlphaGo's Move 37: the move that shocked the world's best Go players"
   ],
   "uploads": [
     {
@@ -1105,28 +1106,32 @@
       "at": "2026-10-07T00:08:31.481503+00:00",
       "topic": "ELIZA: the 1966 chatbot that made people confide in a computer",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18094351532417284",
+      "title": "Lee Sedol's Move 37: The Go Blunder That Shocked the World",
+      "at": "2026-10-07T02:23:26.829094+00:00",
+      "topic": "AlphaGo's Move 37: the move that shocked the world's best Go players",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1853902015580205",
+      "title": "Lee Sedol's Move 37: The Go Blunder That Shocked the World",
+      "at": "2026-10-07T02:23:32.977403+00:00",
+      "topic": "AlphaGo's Move 37: the move that shocked the world's best Go players",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "shocking_fact",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    39576931,
-    20349634,
-    20349634,
-    7683537,
-    38697705,
-    8117222,
-    39425776,
-    7087635,
-    6654770,
-    4836776,
-    13457419,
-    35544498,
     6093662,
     13441356,
     7206363,
@@ -1174,6 +1179,18 @@
     36302386,
     30653723,
     14202315,
-    9430547
+    9430547,
+    6134226,
+    7296326,
+    39270835,
+    8087012,
+    39262883,
+    28915639,
+    38370131,
+    34996611,
+    8087010,
+    28144843,
+    34385703,
+    25935014
   ]
 }
