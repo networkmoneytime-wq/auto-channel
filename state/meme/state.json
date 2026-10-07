@@ -25,7 +25,8 @@
     "AI_CHARACTER_1",
     "AI_CHARACTER_2",
     "AI_CHARACTER_3",
-    "AI_CHARACTER_4"
+    "AI_CHARACTER_4",
+    "AI_CHARACTER_5"
   ],
   "uploads": [
     {
@@ -391,6 +392,20 @@
       "title": "Cappuccino Assassino: The Ninja Espresso Cup Taking Memes by Storm",
       "at": "2026-10-07T02:27:12.163281+00:00",
       "topic": "AI_CHARACTER_4"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "tOhA-BwuMwg",
+      "title": "Ballerina Cappuccina: The Coffee Cup Dancer You Won't Believe Exists",
+      "at": "2026-10-07T22:23:04.063679+00:00",
+      "topic": "AI_CHARACTER_5"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1090141080328114",
+      "title": "Ballerina Cappuccina: The Coffee Cup Dancer You Won't Believe Exists",
+      "at": "2026-10-07T22:23:09.732064+00:00",
+      "topic": "AI_CHARACTER_5"
     }
   ],
   "recent_clip_ids": [
