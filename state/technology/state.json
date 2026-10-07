@@ -52,7 +52,8 @@
     "IBM Simon: the 1994 phone that was the first smartphone",
     "MP3 and Tom's Diner: the a cappella song used to perfect the format",
     "ELIZA: the 1966 chatbot that made people confide in a computer",
-    "AlphaGo's Move 37: the move that shocked the world's best Go players"
+    "AlphaGo's Move 37: the move that shocked the world's best Go players",
+    "Microsoft's Tay chatbot: the AI that turned toxic in under a day"
   ],
   "uploads": [
     {
@@ -1122,25 +1123,32 @@
       "at": "2026-10-07T02:23:32.977403+00:00",
       "topic": "AlphaGo's Move 37: the move that shocked the world's best Go players",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18144730609585756",
+      "title": "How Microsoft's Tay Went From Friendly Chatbot to Hate Machine in 24 Hours",
+      "at": "2026-10-07T22:19:22.395752+00:00",
+      "topic": "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1582234562969126",
+      "title": "How Microsoft's Tay Went From Friendly Chatbot to Hate Machine in 24 Hours",
+      "at": "2026-10-07T22:19:28.120291+00:00",
+      "topic": "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "mistake_warning",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    6093662,
-    13441356,
-    7206363,
-    8381602,
-    8721655,
-    6955104,
-    15283234,
-    7394201,
-    8371243,
     35585641,
     8522975,
     7598831,
@@ -1191,6 +1199,15 @@
     8087010,
     28144843,
     34385703,
-    25935014
+    25935014,
+    18503891,
+    6962128,
+    7594018,
+    8682965,
+    9790182,
+    6100008,
+    8087073,
+    15101188,
+    8627749
   ]
 }
