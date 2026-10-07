@@ -51,7 +51,8 @@
     "Fortnite: how a failed co-op game pivoted to battle royale",
     "Among Us: the game that went almost unnoticed for two years before exploding",
     "Genshin Impact: how a free-to-play game made billions",
-    "Halo: Combat Evolved: the game that started as a Mac strategy title"
+    "Halo: Combat Evolved: the game that started as a Mac strategy title",
+    "Ocarina of Time's Z-targeting: the invention that solved 3D combat"
   ],
   "uploads": [
     {
@@ -1523,26 +1524,48 @@
       "at": "2026-10-07T02:20:52.183144+00:00",
       "topic": "Halo: Combat Evolved: the game that started as a Mac strategy title",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "KJ7V-eeRpkw",
+      "title": "How Zelda's Z-Targeting Revolutionized 3D Sword Combat",
+      "at": "2026-10-07T22:16:03.470492+00:00",
+      "topic": "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694053031050266637",
+      "title": "How Zelda's Z-Targeting Revolutionized 3D Sword Combat",
+      "at": "2026-10-07T22:16:06.575992+00:00",
+      "topic": "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18107958484915970",
+      "title": "How Zelda's Z-Targeting Revolutionized 3D Sword Combat",
+      "at": "2026-10-07T22:16:41.319588+00:00",
+      "topic": "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1769442987653085",
+      "title": "How Zelda's Z-Targeting Revolutionized 3D Sword Combat",
+      "at": "2026-10-07T22:16:46.626565+00:00",
+      "topic": "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "list_tease",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    5839090,
-    8725789,
-    7318813,
-    7354829,
-    37617747,
-    8516378,
-    28400000,
-    6265061,
-    32583169,
-    16392807,
     6498981,
     39598754,
     6565268,
@@ -1592,6 +1615,16 @@
     6266655,
     12715396,
     7120811,
-    7668148
+    7668148,
+    8888776,
+    34385703,
+    7774947,
+    34443825,
+    8097548,
+    38527407,
+    10599408,
+    9071005,
+    30166083,
+    7790830
   ]
 }
