@@ -49,7 +49,8 @@
     "Red Dead Redemption 2: the absurd little details Rockstar buried in the game",
     "The Witcher 3: how a game from a Polish studio outshone the giants",
     "Fortnite: how a failed co-op game pivoted to battle royale",
-    "Among Us: the game that went almost unnoticed for two years before exploding"
+    "Among Us: the game that went almost unnoticed for two years before exploding",
+    "Genshin Impact: how a free-to-play game made billions"
   ],
   "uploads": [
     {
@@ -1457,23 +1458,48 @@
       "at": "2026-10-06T22:17:59.816231+00:00",
       "topic": "Among Us: the game that went almost unnoticed for two years before exploding",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "i3eiGwh5E3Q",
+      "title": "The Genshin Impact Money Loop: 3 Tricks That Make It a Cash Magnet",
+      "at": "2026-10-07T00:05:24.486648+00:00",
+      "topic": "Genshin Impact: how a free-to-play game made billions",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693710272397461517",
+      "title": "The Genshin Impact Money Loop: 3 Tricks That Make It a Cash Magnet",
+      "at": "2026-10-07T00:05:26.996353+00:00",
+      "topic": "Genshin Impact: how a free-to-play game made billions",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18343636429259727",
+      "title": "The Genshin Impact Money Loop: 3 Tricks That Make It a Cash Magnet",
+      "at": "2026-10-07T00:05:58.028996+00:00",
+      "topic": "Genshin Impact: how a free-to-play game made billions",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1070290725785198",
+      "title": "The Genshin Impact Money Loop: 3 Tricks That Make It a Cash Magnet",
+      "at": "2026-10-07T00:06:01.980797+00:00",
+      "topic": "Genshin Impact: how a free-to-play game made billions",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "contrarian_claim",
     "question_hook",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    10050461,
-    14517238,
-    8544030,
-    8888814,
-    35626497,
-    8983989,
-    9807882,
     6956686,
     39443725,
     8626599,
@@ -1526,6 +1552,13 @@
     8128725,
     29378859,
     8829608,
-    34514149
+    34514149,
+    4706243,
+    3047260,
+    6961804,
+    6380637,
+    39889268,
+    6353331,
+    6266655
   ]
 }
