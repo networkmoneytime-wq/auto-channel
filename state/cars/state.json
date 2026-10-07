@@ -52,7 +52,8 @@
     "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
     "The Toyota Prius: the hybrid that made electric drivetrains mainstream",
     "The Dodge Charger General Lee: why The Dukes of Hazzard wrecked hundreds of cars",
-    "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star"
+    "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
+    "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico"
   ],
   "uploads": [
     {
@@ -1480,21 +1481,48 @@
       "at": "2026-10-07T02:18:32.139918+00:00",
       "topic": "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "-SuW9vvtm5E",
+      "title": "Bullitt Mustang's 40-Year Garage Secret Finally Exposed",
+      "at": "2026-10-07T22:13:47.025569+00:00",
+      "topic": "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694052510830495757",
+      "title": "Bullitt Mustang's 40-Year Garage Secret Finally Exposed",
+      "at": "2026-10-07T22:13:49.648861+00:00",
+      "topic": "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18354130192223669",
+      "title": "Bullitt Mustang's 40-Year Garage Secret Finally Exposed",
+      "at": "2026-10-07T22:14:23.486095+00:00",
+      "topic": "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2217612909104258",
+      "title": "Bullitt Mustang's 40-Year Garage Secret Finally Exposed",
+      "at": "2026-10-07T22:14:28.622228+00:00",
+      "topic": "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "list_tease",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    30207865,
-    10380577,
-    37392411,
-    24837752,
-    5787612,
     28823329,
     37552904,
     19713833,
@@ -1549,6 +1577,11 @@
     19036346,
     35069356,
     27668910,
-    37239101
+    37239101,
+    18103913,
+    12892449,
+    33447617,
+    14914854,
+    39400640
   ]
 }
