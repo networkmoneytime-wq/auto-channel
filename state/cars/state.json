@@ -51,7 +51,8 @@
     "The Porsche 911: the design that refused to die",
     "The Volkswagen Beetle: how it became one of the best-selling cars ever made",
     "The Toyota Prius: the hybrid that made electric drivetrains mainstream",
-    "The Dodge Charger General Lee: why The Dukes of Hazzard wrecked hundreds of cars"
+    "The Dodge Charger General Lee: why The Dukes of Hazzard wrecked hundreds of cars",
+    "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star"
   ],
   "uploads": [
     {
@@ -1447,25 +1448,48 @@
       "at": "2026-10-07T00:03:45.088533+00:00",
       "topic": "The Dodge Charger General Lee: why The Dukes of Hazzard wrecked hundreds of cars",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "J-wvW8rrXtg",
+      "title": "The Secret Origin of the 1966 Batmobile: A Lincoln Continental in Disguise",
+      "at": "2026-10-07T02:17:37.768966+00:00",
+      "topic": "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693744254690658318",
+      "title": "The Secret Origin of the 1966 Batmobile: A Lincoln Continental in Disguise",
+      "at": "2026-10-07T02:17:41.133790+00:00",
+      "topic": "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17945227533357638",
+      "title": "The Secret Origin of the 1966 Batmobile: A Lincoln Continental in Disguise",
+      "at": "2026-10-07T02:18:26.409127+00:00",
+      "topic": "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1618201479768916",
+      "title": "The Secret Origin of the 1966 Batmobile: A Lincoln Continental in Disguise",
+      "at": "2026-10-07T02:18:32.139918+00:00",
+      "topic": "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "contrarian_claim",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    36632262,
-    7247829,
-    5924999,
-    38362060,
-    37157735,
-    39418152,
-    7154239,
-    36632256,
-    8987301,
     30207865,
     10380577,
     37392411,
@@ -1516,6 +1540,15 @@
     34488756,
     31077204,
     36889889,
-    31073804
+    31073804,
+    19343046,
+    39608307,
+    39986152,
+    13358202,
+    35069361,
+    19036346,
+    35069356,
+    27668910,
+    37239101
   ]
 }
