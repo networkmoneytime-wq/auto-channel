@@ -55,7 +55,8 @@
     "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
     "Hachiko: the dog who waited at a train station for nine years",
     "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
-    "China's Great Sparrow Campaign: the war on sparrows that backfired"
+    "China's Great Sparrow Campaign: the war on sparrows that backfired",
+    "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs"
   ],
   "uploads": [
     {
@@ -1505,22 +1506,48 @@
       "at": "2026-10-07T00:31:00.018067+00:00",
       "topic": "China's Great Sparrow Campaign: the war on sparrows that backfired",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "wkvMepjTBBk",
+      "title": "How the Rosetta Stone Cracked a 1,400-Year-Old Language Mystery",
+      "at": "2026-10-07T02:06:23.835012+00:00",
+      "topic": "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693741065610479646",
+      "title": "How the Rosetta Stone Cracked a 1,400-Year-Old Language Mystery",
+      "at": "2026-10-07T02:06:27.565350+00:00",
+      "topic": "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17916066633261644",
+      "title": "How the Rosetta Stone Cracked a 1,400-Year-Old Language Mystery",
+      "at": "2026-10-07T02:08:59.758896+00:00",
+      "topic": "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1838636737133577",
+      "title": "How the Rosetta Stone Cracked a 1,400-Year-Old Language Mystery",
+      "at": "2026-10-07T02:09:06.328995+00:00",
+      "topic": "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    34543237,
-    31557201,
-    37116402,
-    24768494,
-    31729545,
-    35117355,
     11292266,
     39796362,
     8724209,
@@ -1574,6 +1601,12 @@
     12060840,
     39820912,
     39640392,
-    35487485
+    35487485,
+    39310488,
+    39310488,
+    15283164,
+    6549543,
+    38454843,
+    38817100
   ]
 }
