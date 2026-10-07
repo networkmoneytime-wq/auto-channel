@@ -54,7 +54,8 @@
     "The Tsar Bomba: the most powerful bomb ever detonated",
     "The Cottingley Fairies: the photographs that fooled the creator of Sherlock Holmes",
     "Hachiko: the dog who waited at a train station for nine years",
-    "The Kola Superdeep Borehole: the deepest hole humans ever drilled"
+    "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
+    "China's Great Sparrow Campaign: the war on sparrows that backfired"
   ],
   "uploads": [
     {
@@ -1472,26 +1473,48 @@
       "at": "2026-10-06T22:15:59.824492+00:00",
       "topic": "The Kola Superdeep Borehole: the deepest hole humans ever drilled",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "y8NUu_we9Sw",
+      "title": "The Great Sparrow Campaign's Forgotten Disaster",
+      "at": "2026-10-07T00:30:21.104316+00:00",
+      "topic": "China's Great Sparrow Campaign: the war on sparrows that backfired",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693716611806758942",
+      "title": "The Great Sparrow Campaign's Forgotten Disaster",
+      "at": "2026-10-07T00:30:23.382221+00:00",
+      "topic": "China's Great Sparrow Campaign: the war on sparrows that backfired",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18094684316146547",
+      "title": "The Great Sparrow Campaign's Forgotten Disaster",
+      "at": "2026-10-07T00:30:56.141042+00:00",
+      "topic": "China's Great Sparrow Campaign: the war on sparrows that backfired",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2042962933080015",
+      "title": "The Great Sparrow Campaign's Forgotten Disaster",
+      "at": "2026-10-07T00:31:00.018067+00:00",
+      "topic": "China's Great Sparrow Campaign: the war on sparrows that backfired",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "secret_reveal",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    8927955,
-    19314470,
-    10449873,
-    7830751,
-    35172940,
-    35957844,
-    39310477,
-    28180029,
-    37799952,
-    19917421,
     34543237,
     31557201,
     37116402,
@@ -1541,6 +1564,16 @@
     34912747,
     8726216,
     8381580,
-    19953121
+    19953121,
+    7344845,
+    6996637,
+    26628210,
+    31947240,
+    10854653,
+    20682356,
+    12060840,
+    39820912,
+    39640392,
+    35487485
   ]
 }
