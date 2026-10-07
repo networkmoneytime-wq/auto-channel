@@ -50,7 +50,8 @@
     "The Witcher 3: how a game from a Polish studio outshone the giants",
     "Fortnite: how a failed co-op game pivoted to battle royale",
     "Among Us: the game that went almost unnoticed for two years before exploding",
-    "Genshin Impact: how a free-to-play game made billions"
+    "Genshin Impact: how a free-to-play game made billions",
+    "Halo: Combat Evolved: the game that started as a Mac strategy title"
   ],
   "uploads": [
     {
@@ -1490,19 +1491,48 @@
       "at": "2026-10-07T00:06:01.980797+00:00",
       "topic": "Genshin Impact: how a free-to-play game made billions",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "vJNWdYomgq8",
+      "title": "How Halo: Combat Evolved Was Almost a Mac RTS Called Monkey Magic",
+      "at": "2026-10-07T02:20:11.812252+00:00",
+      "topic": "Halo: Combat Evolved: the game that started as a Mac strategy title",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7693744942644037645",
+      "title": "How Halo: Combat Evolved Was Almost a Mac RTS Called Monkey Magic",
+      "at": "2026-10-07T02:20:13.839769+00:00",
+      "topic": "Halo: Combat Evolved: the game that started as a Mac strategy title",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17955638688254745",
+      "title": "How Halo: Combat Evolved Was Almost a Mac RTS Called Monkey Magic",
+      "at": "2026-10-07T02:20:47.563309+00:00",
+      "topic": "Halo: Combat Evolved: the game that started as a Mac strategy title",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2537968116667813",
+      "title": "How Halo: Combat Evolved Was Almost a Mac RTS Called Monkey Magic",
+      "at": "2026-10-07T02:20:52.183144+00:00",
+      "topic": "Halo: Combat Evolved: the game that started as a Mac strategy title",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "question_hook",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    6956686,
-    39443725,
-    8626599,
     5839090,
     8725789,
     7318813,
@@ -1559,6 +1589,9 @@
     6380637,
     39889268,
     6353331,
-    6266655
+    6266655,
+    12715396,
+    7120811,
+    7668148
   ]
 }
