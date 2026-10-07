@@ -50,7 +50,8 @@
     "Dandadan|how Dandadan mashes aliens and ghosts into one story",
     "Kaiju No. 8|how a man in his thirties becomes a monster-fighting hero in Kaiju No. 8",
     "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days",
-    "Blue Lock|how Blue Lock turns soccer into a battle royale"
+    "Blue Lock|how Blue Lock turns soccer into a battle royale",
+    "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry"
   ],
   "uploads": [
     {
@@ -1076,13 +1077,29 @@
       "at": "2026-10-07T02:25:33.186650+00:00",
       "topic": "Blue Lock|how Blue Lock turns soccer into a battle royale",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18092792645269234",
+      "title": "The Hidden Brutality of Haikyu!! That'll Make You Sweat",
+      "at": "2026-10-07T22:21:30.216940+00:00",
+      "topic": "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1782924672832135",
+      "title": "The Hidden Brutality of Haikyu!! That'll Make You Sweat",
+      "at": "2026-10-07T22:21:34.579314+00:00",
+      "topic": "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
     "list_tease",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ]
 }
