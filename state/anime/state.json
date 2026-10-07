@@ -49,7 +49,8 @@
     "Violet Evergarden|how Violet Evergarden tells an emotional story with letters",
     "Dandadan|how Dandadan mashes aliens and ghosts into one story",
     "Kaiju No. 8|how a man in his thirties becomes a monster-fighting hero in Kaiju No. 8",
-    "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days"
+    "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days",
+    "Blue Lock|how Blue Lock turns soccer into a battle royale"
   ],
   "uploads": [
     {
@@ -1059,13 +1060,29 @@
       "at": "2026-10-07T00:10:39.791635+00:00",
       "topic": "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18092977175190612",
+      "title": "Blue Lock: Soccer Turns Into a Ruthless Battle Royale",
+      "at": "2026-10-07T02:25:27.568643+00:00",
+      "topic": "Blue Lock|how Blue Lock turns soccer into a battle royale",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1496034559250009",
+      "title": "Blue Lock: Soccer Turns Into a Ruthless Battle Royale",
+      "at": "2026-10-07T02:25:33.186650+00:00",
+      "topic": "Blue Lock|how Blue Lock turns soccer into a battle royale",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "mistake_warning"
   ]
 }
