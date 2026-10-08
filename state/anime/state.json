@@ -52,7 +52,8 @@
     "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days",
     "Blue Lock|how Blue Lock turns soccer into a battle royale",
     "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
-    "Oshi no Ko|how the first episode of Oshi no Ko changes everything"
+    "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
+    "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite"
   ],
   "uploads": [
     {
@@ -1110,13 +1111,29 @@
       "at": "2026-10-08T00:13:47.037574+00:00",
       "topic": "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17993977790843801",
+      "title": "How Bocchi-chan's Bedroom Guitar Cover Went Viral",
+      "at": "2026-10-08T02:24:43.431813+00:00",
+      "topic": "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1110545024811573",
+      "title": "How Bocchi-chan's Bedroom Guitar Cover Went Viral",
+      "at": "2026-10-08T02:24:47.630476+00:00",
+      "topic": "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "mistake_warning",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ]
 }
