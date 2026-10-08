@@ -54,7 +54,8 @@
     "ELIZA: the 1966 chatbot that made people confide in a computer",
     "AlphaGo's Move 37: the move that shocked the world's best Go players",
     "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
-    "The Mechanical Turk: the chess robot that secretly hid a human inside"
+    "The Mechanical Turk: the chess robot that secretly hid a human inside",
+    "The Segway: the invention that was supposed to reshape cities"
   ],
   "uploads": [
     {
@@ -1156,21 +1157,32 @@
       "at": "2026-10-08T00:10:29.157382+00:00",
       "topic": "The Mechanical Turk: the chess robot that secretly hid a human inside",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18060119759543102",
+      "title": "Why the Segway Never Rewired Our Cities (And the Wildest Idea)",
+      "at": "2026-10-08T02:22:29.576405+00:00",
+      "topic": "The Segway: the invention that was supposed to reshape cities",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2021010588559518",
+      "title": "Why the Segway Never Rewired Our Cities (And the Wildest Idea)",
+      "at": "2026-10-08T02:22:36.409319+00:00",
+      "topic": "The Segway: the invention that was supposed to reshape cities",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "question_hook",
     "shocking_fact",
     "mistake_warning",
-    "secret_reveal"
+    "secret_reveal",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    8165942,
-    9898435,
-    6521520,
-    33315143,
-    4551878,
     7241748,
     36511035,
     7563828,
@@ -1225,6 +1237,11 @@
     10567194,
     36233831,
     29912549,
-    6799015
+    6799015,
+    31115111,
+    38994254,
+    8328148,
+    30849421,
+    39022531
   ]
 }
