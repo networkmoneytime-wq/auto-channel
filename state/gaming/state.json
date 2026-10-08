@@ -54,7 +54,8 @@
     "Halo: Combat Evolved: the game that started as a Mac strategy title",
     "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
     "Street Fighter II's combos: the feature that was discovered by accident",
-    "The Sims: the game that began as an architecture experiment after a firestorm"
+    "The Sims: the game that began as an architecture experiment after a firestorm",
+    "Portal: the student project that Valve turned into a phenomenon"
   ],
   "uploads": [
     {
@@ -1622,26 +1623,48 @@
       "at": "2026-10-08T02:19:45.083950+00:00",
       "topic": "The Sims: the game that began as an architecture experiment after a firestorm",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4N50OGlz0eU",
+      "title": "How a College Project Became the Iconic Puzzle Game Portal",
+      "at": "2026-10-08T22:25:43.407128+00:00",
+      "topic": "Portal: the student project that Valve turned into a phenomenon",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694426652688173070",
+      "title": "How a College Project Became the Iconic Puzzle Game Portal",
+      "at": "2026-10-08T22:25:45.734130+00:00",
+      "topic": "Portal: the student project that Valve turned into a phenomenon",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17905465326571903",
+      "title": "How a College Project Became the Iconic Puzzle Game Portal",
+      "at": "2026-10-08T22:26:18.652424+00:00",
+      "topic": "Portal: the student project that Valve turned into a phenomenon",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28555774274048981",
+      "title": "How a College Project Became the Iconic Puzzle Game Portal",
+      "at": "2026-10-08T22:26:33.905098+00:00",
+      "topic": "Portal: the student project that Valve turned into a phenomenon",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    39892711,
-    6568125,
-    8128500,
-    4841883,
-    31961382,
-    8819930,
-    6498969,
-    36584708,
-    35047933,
-    8828911,
     8128351,
     39107672,
     7362700,
@@ -1691,6 +1714,16 @@
     38410501,
     7328467,
     4836568,
-    31572927
+    31572927,
+    19063512,
+    8127925,
+    12893579,
+    6813383,
+    8087011,
+    7551697,
+    7949700,
+    7914826,
+    8554093,
+    6282947
   ]
 }
