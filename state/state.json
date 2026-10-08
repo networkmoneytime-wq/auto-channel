@@ -58,7 +58,8 @@
     "China's Great Sparrow Campaign: the war on sparrows that backfired",
     "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
     "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
-    "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters"
+    "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters",
+    "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein"
   ],
   "uploads": [
     {
@@ -1604,23 +1605,48 @@
       "at": "2026-10-08T00:29:46.684867+00:00",
       "topic": "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "pUhI9_Io_nc",
+      "title": "A volcanic winter that birthed Frankenstein - the 1815 Tambora secret",
+      "at": "2026-10-08T02:06:27.649394+00:00",
+      "topic": "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694112360271104030",
+      "title": "A volcanic winter that birthed Frankenstein - the 1815 Tambora secret",
+      "at": "2026-10-08T02:06:31.020934+00:00",
+      "topic": "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18142961368596602",
+      "title": "A volcanic winter that birthed Frankenstein - the 1815 Tambora secret",
+      "at": "2026-10-08T02:07:05.526183+00:00",
+      "topic": "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1540909941393033",
+      "title": "A volcanic winter that birthed Frankenstein - the 1815 Tambora secret",
+      "at": "2026-10-08T02:07:12.605334+00:00",
+      "topic": "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "secret_reveal",
     "question_hook",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    28468902,
-    32156316,
-    20413409,
-    7131952,
-    7957110,
-    34479882,
-    35790734,
     3627321,
     5740693,
     37364032,
@@ -1673,6 +1699,13 @@
     34183776,
     12145873,
     30474697,
-    35071086
+    35071086,
+    39878395,
+    10187912,
+    31184528,
+    37700771,
+    27375353,
+    32693344,
+    39425773
   ]
 }
