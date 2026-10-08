@@ -52,7 +52,8 @@
     "Among Us: the game that went almost unnoticed for two years before exploding",
     "Genshin Impact: how a free-to-play game made billions",
     "Halo: Combat Evolved: the game that started as a Mac strategy title",
-    "Ocarina of Time's Z-targeting: the invention that solved 3D combat"
+    "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
+    "Street Fighter II's combos: the feature that was discovered by accident"
   ],
   "uploads": [
     {
@@ -1556,28 +1557,48 @@
       "at": "2026-10-07T22:16:46.626565+00:00",
       "topic": "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "BykYYPjZ5dU",
+      "title": "Street Fighter\u202fII's Combo Craze Was a Happy Accident",
+      "at": "2026-10-08T00:06:20.686587+00:00",
+      "topic": "Street Fighter II's combos: the feature that was discovered by accident",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694081516766431246",
+      "title": "Street Fighter\u202fII's Combo Craze Was a Happy Accident",
+      "at": "2026-10-08T00:06:22.843304+00:00",
+      "topic": "Street Fighter II's combos: the feature that was discovered by accident",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18133013731709142",
+      "title": "Street Fighter\u202fII's Combo Craze Was a Happy Accident",
+      "at": "2026-10-08T00:06:55.983550+00:00",
+      "topic": "Street Fighter II's combos: the feature that was discovered by accident",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1609312184301939",
+      "title": "Street Fighter\u202fII's Combo Craze Was a Happy Accident",
+      "at": "2026-10-08T00:07:05.407557+00:00",
+      "topic": "Street Fighter II's combos: the feature that was discovered by accident",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    6498981,
-    39598754,
-    6565268,
-    7005841,
-    12715348,
-    39645503,
-    36435098,
-    17512949,
-    7356018,
-    33314914,
-    29660629,
-    35117249,
     34445230,
     8625215,
     31997525,
@@ -1625,6 +1646,18 @@
     10599408,
     9071005,
     30166083,
-    7790830
+    7790830,
+    5767764,
+    9071009,
+    4835514,
+    6296292,
+    8819490,
+    5846315,
+    35585186,
+    8098084,
+    6177024,
+    6331338,
+    4836414,
+    3139878
   ]
 }
