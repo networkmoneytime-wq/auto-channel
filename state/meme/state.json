@@ -26,7 +26,8 @@
     "AI_CHARACTER_2",
     "AI_CHARACTER_3",
     "AI_CHARACTER_4",
-    "AI_CHARACTER_5"
+    "AI_CHARACTER_5",
+    "AI_CHARACTER_6"
   ],
   "uploads": [
     {
@@ -406,6 +407,20 @@
       "title": "Ballerina Cappuccina: The Coffee Cup Dancer You Won't Believe Exists",
       "at": "2026-10-07T22:23:09.732064+00:00",
       "topic": "AI_CHARACTER_5"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "npqIWCbon3s",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup You Didn't Know Existed",
+      "at": "2026-10-08T00:15:03.414760+00:00",
+      "topic": "AI_CHARACTER_6"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1040308429032265",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup You Didn't Know Existed",
+      "at": "2026-10-08T00:15:07.493472+00:00",
+      "topic": "AI_CHARACTER_6"
     }
   ],
   "recent_clip_ids": [
