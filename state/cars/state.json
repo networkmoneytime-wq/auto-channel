@@ -54,7 +54,8 @@
     "The Dodge Charger General Lee: why The Dukes of Hazzard wrecked hundreds of cars",
     "The 1966 Batmobile: how a one-off Lincoln concept car became a TV star",
     "The Bullitt Mustang: the movie car that hid in a family garage for decades while its stunt twin turned up in Mexico",
-    "The Mercedes 300SL Gullwing: the doors that were a design necessity, not a style choice"
+    "The Mercedes 300SL Gullwing: the doors that were a design necessity, not a style choice",
+    "The Audi Quattro: how all-wheel drive changed rallying forever"
   ],
   "uploads": [
     {
@@ -1546,22 +1547,48 @@
       "at": "2026-10-08T00:04:01.635687+00:00",
       "topic": "The Mercedes 300SL Gullwing: the doors that were a design necessity, not a style choice",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "A_Ta_H6e2sY",
+      "title": "How the Audi Quattro Turned Rally Racing on Its Head",
+      "at": "2026-10-08T02:16:28.018894+00:00",
+      "topic": "The Audi Quattro: how all-wheel drive changed rallying forever",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694115066249594894",
+      "title": "How the Audi Quattro Turned Rally Racing on Its Head",
+      "at": "2026-10-08T02:16:32.572944+00:00",
+      "topic": "The Audi Quattro: how all-wheel drive changed rallying forever",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18628308742050508",
+      "title": "How the Audi Quattro Turned Rally Racing on Its Head",
+      "at": "2026-10-08T02:17:07.677855+00:00",
+      "topic": "The Audi Quattro: how all-wheel drive changed rallying forever",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1428704059364328",
+      "title": "How the Audi Quattro Turned Rally Racing on Its Head",
+      "at": "2026-10-08T02:17:14.481456+00:00",
+      "topic": "The Audi Quattro: how all-wheel drive changed rallying forever",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "mistake_warning",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    36248857,
-    16403223,
-    36110193,
-    33313836,
-    18102448,
-    20654630,
     5846641,
     34396726,
     9790184,
@@ -1615,6 +1642,12 @@
     8469666,
     34568748,
     18446506,
-    7646445
+    7646445,
+    37904641,
+    34847340,
+    27374367,
+    18503908,
+    31942310,
+    9035107
   ]
 }
