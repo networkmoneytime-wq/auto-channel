@@ -53,7 +53,8 @@
     "Genshin Impact: how a free-to-play game made billions",
     "Halo: Combat Evolved: the game that started as a Mac strategy title",
     "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
-    "Street Fighter II's combos: the feature that was discovered by accident"
+    "Street Fighter II's combos: the feature that was discovered by accident",
+    "The Sims: the game that began as an architecture experiment after a firestorm"
   ],
   "uploads": [
     {
@@ -1589,27 +1590,48 @@
       "at": "2026-10-08T00:07:05.407557+00:00",
       "topic": "Street Fighter II's combos: the feature that was discovered by accident",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "M-M9Tr8vJ3Q",
+      "title": "The Sims' Origin Story: A Campus Fire Ignited the Sandbox",
+      "at": "2026-10-08T02:19:08.180743+00:00",
+      "topic": "The Sims: the game that began as an architecture experiment after a firestorm",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694115805033744397",
+      "title": "The Sims' Origin Story: A Campus Fire Ignited the Sandbox",
+      "at": "2026-10-08T02:19:10.882544+00:00",
+      "topic": "The Sims: the game that began as an architecture experiment after a firestorm",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17894461314612400",
+      "title": "The Sims' Origin Story: A Campus Fire Ignited the Sandbox",
+      "at": "2026-10-08T02:19:39.704546+00:00",
+      "topic": "The Sims: the game that began as an architecture experiment after a firestorm",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1609196797021756",
+      "title": "The Sims' Origin Story: A Campus Fire Ignited the Sandbox",
+      "at": "2026-10-08T02:19:45.083950+00:00",
+      "topic": "The Sims: the game that began as an architecture experiment after a firestorm",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    34445230,
-    8625215,
-    31997525,
-    8322145,
-    25957041,
-    11210466,
-    34757159,
-    38844616,
-    6324544,
-    36597637,
-    7047789,
     39892711,
     6568125,
     8128500,
@@ -1658,6 +1680,17 @@
     6177024,
     6331338,
     4836414,
-    3139878
+    3139878,
+    7683403,
+    8435090,
+    8128342,
+    8751433,
+    36842451,
+    9849787,
+    17807161,
+    38410501,
+    7328467,
+    4836568,
+    31572927
   ]
 }
