@@ -53,7 +53,8 @@
     "MP3 and Tom's Diner: the a cappella song used to perfect the format",
     "ELIZA: the 1966 chatbot that made people confide in a computer",
     "AlphaGo's Move 37: the move that shocked the world's best Go players",
-    "Microsoft's Tay chatbot: the AI that turned toxic in under a day"
+    "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
+    "The Mechanical Turk: the chess robot that secretly hid a human inside"
   ],
   "uploads": [
     {
@@ -1139,24 +1140,32 @@
       "at": "2026-10-07T22:19:28.120291+00:00",
       "topic": "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17909685630489419",
+      "title": "The Mechanical Turk Wasn't a Robot - It Hid a Teen Inside!",
+      "at": "2026-10-08T00:10:24.019671+00:00",
+      "topic": "The Mechanical Turk: the chess robot that secretly hid a human inside",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1041556502251152",
+      "title": "The Mechanical Turk Wasn't a Robot - It Hid a Teen Inside!",
+      "at": "2026-10-08T00:10:29.157382+00:00",
+      "topic": "The Mechanical Turk: the chess robot that secretly hid a human inside",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "mistake_warning",
     "question_hook",
     "shocking_fact",
-    "mistake_warning"
+    "mistake_warning",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    35585641,
-    8522975,
-    7598831,
-    11511479,
-    6336767,
-    4872898,
-    6278948,
-    5473969,
     8165942,
     9898435,
     6521520,
@@ -1208,6 +1217,14 @@
     6100008,
     8087073,
     15101188,
-    8627749
+    8627749,
+    7830309,
+    5846713,
+    8118112,
+    5867579,
+    10567194,
+    36233831,
+    29912549,
+    6799015
   ]
 }
