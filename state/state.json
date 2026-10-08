@@ -59,7 +59,8 @@
     "The Rosetta Stone: the slab that finally cracked Egyptian hieroglyphs",
     "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
     "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters",
-    "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein"
+    "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
+    "The Gimli Glider: the airliner that ran out of fuel and landed on a race track"
   ],
   "uploads": [
     {
@@ -1637,23 +1638,48 @@
       "at": "2026-10-08T02:07:12.605334+00:00",
       "topic": "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "sAhbU6FhBpI",
+      "title": "The Gimli Glider: How a 767 Became an 80-Mile Glider",
+      "at": "2026-10-08T22:15:32.330660+00:00",
+      "topic": "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694424005511563295",
+      "title": "The Gimli Glider: How a 767 Became an 80-Mile Glider",
+      "at": "2026-10-08T22:15:34.277643+00:00",
+      "topic": "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18123762676906439",
+      "title": "The Gimli Glider: How a 767 Became an 80-Mile Glider",
+      "at": "2026-10-08T22:16:55.234602+00:00",
+      "topic": "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "939249752214339",
+      "title": "The Gimli Glider: How a 767 Became an 80-Mile Glider",
+      "at": "2026-10-08T22:17:03.388854+00:00",
+      "topic": "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "contrarian_claim",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    3627321,
-    5740693,
-    37364032,
-    28971806,
-    34975555,
-    34672206,
-    32332687,
     32938028,
     28869249,
     28896834,
@@ -1706,6 +1732,13 @@
     37700771,
     27375353,
     32693344,
-    39425773
+    39425773,
+    6781912,
+    36561197,
+    3945496,
+    27916368,
+    6278890,
+    16265185,
+    31607515
   ]
 }
