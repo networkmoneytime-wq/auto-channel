@@ -53,7 +53,8 @@
     "Blue Lock|how Blue Lock turns soccer into a battle royale",
     "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
     "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
-    "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite"
+    "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
+    "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy"
   ],
   "uploads": [
     {
@@ -1127,13 +1128,29 @@
       "at": "2026-10-08T02:24:47.630476+00:00",
       "topic": "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17943595644369604",
+      "title": "Why Cyberpunk: Edgerunners Is a Tragic Knockout Punch",
+      "at": "2026-10-08T22:31:59.012775+00:00",
+      "topic": "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4609795342573042",
+      "title": "Why Cyberpunk: Edgerunners Is a Tragic Knockout Punch",
+      "at": "2026-10-08T22:32:03.904577+00:00",
+      "topic": "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "mistake_warning",
     "contrarian_claim",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "mistake_warning"
   ]
 }
