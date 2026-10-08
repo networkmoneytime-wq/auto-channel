@@ -28,7 +28,8 @@
     "AI_CHARACTER_4",
     "AI_CHARACTER_5",
     "AI_CHARACTER_6",
-    "AI_CHARACTER_7"
+    "AI_CHARACTER_7",
+    "AI_CHARACTER_8"
   ],
   "uploads": [
     {
@@ -436,6 +437,20 @@
       "title": "Cappuccino Assassino: The Ninja Espresso Cup Stealing Meme Spotlight",
       "at": "2026-10-08T02:26:19.181293+00:00",
       "topic": "AI_CHARACTER_7"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "oYOYLekRHLg",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup You Didn't Know You Needed",
+      "at": "2026-10-08T22:33:18.950336+00:00",
+      "topic": "AI_CHARACTER_8"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1735379200879042",
+      "title": "Cappuccino Assassino: The Ninja Espresso Cup You Didn't Know You Needed",
+      "at": "2026-10-08T22:33:22.148577+00:00",
+      "topic": "AI_CHARACTER_8"
     }
   ],
   "recent_clip_ids": [
