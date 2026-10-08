@@ -51,7 +51,8 @@
     "Kaiju No. 8|how a man in his thirties becomes a monster-fighting hero in Kaiju No. 8",
     "Sakamoto Days|the retired hitman who runs a convenience store in Sakamoto Days",
     "Blue Lock|how Blue Lock turns soccer into a battle royale",
-    "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry"
+    "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
+    "Oshi no Ko|how the first episode of Oshi no Ko changes everything"
   ],
   "uploads": [
     {
@@ -1093,13 +1094,29 @@
       "at": "2026-10-07T22:21:34.579314+00:00",
       "topic": "Haikyu!!|why a volleyball anime like Haikyu!! made viewers cry",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18095760527552937",
+      "title": "The First Episode of Oshi no Ko That Redefines Everything",
+      "at": "2026-10-08T00:13:41.909732+00:00",
+      "topic": "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1442170651135385",
+      "title": "The First Episode of Oshi no Ko That Redefines Everything",
+      "at": "2026-10-08T00:13:47.037574+00:00",
+      "topic": "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "list_tease",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ]
 }
