@@ -55,7 +55,8 @@
     "AlphaGo's Move 37: the move that shocked the world's best Go players",
     "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
     "The Mechanical Turk: the chess robot that secretly hid a human inside",
-    "The Segway: the invention that was supposed to reshape cities"
+    "The Segway: the invention that was supposed to reshape cities",
+    "Betamax vs VHS: why the tape that many called better lost"
   ],
   "uploads": [
     {
@@ -1173,21 +1174,32 @@
       "at": "2026-10-08T02:22:36.409319+00:00",
       "topic": "The Segway: the invention that was supposed to reshape cities",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910073977505950",
+      "title": "Why Betamax Lost to VHS: The 3 Surprising Reasons",
+      "at": "2026-10-08T22:29:28.623706+00:00",
+      "topic": "Betamax vs VHS: why the tape that many called better lost",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1414996543403619",
+      "title": "Why Betamax Lost to VHS: The 3 Surprising Reasons",
+      "at": "2026-10-08T22:29:35.176542+00:00",
+      "topic": "Betamax vs VHS: why the tape that many called better lost",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "mistake_warning",
     "secret_reveal",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    7241748,
-    36511035,
-    7563828,
-    35262334,
-    6520259,
     5777431,
     11446095,
     7670130,
@@ -1242,6 +1254,11 @@
     38994254,
     8328148,
     30849421,
-    39022531
+    39022531,
+    9807739,
+    9807740,
+    32393434,
+    8048478,
+    6336605
   ]
 }
