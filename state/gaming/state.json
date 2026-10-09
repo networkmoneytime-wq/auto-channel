@@ -55,7 +55,8 @@
     "Ocarina of Time's Z-targeting: the invention that solved 3D combat",
     "Street Fighter II's combos: the feature that was discovered by accident",
     "The Sims: the game that began as an architecture experiment after a firestorm",
-    "Portal: the student project that Valve turned into a phenomenon"
+    "Portal: the student project that Valve turned into a phenomenon",
+    "Undertale: how one person's game became a beloved phenomenon"
   ],
   "uploads": [
     {
@@ -1655,20 +1656,48 @@
       "at": "2026-10-08T22:26:33.905098+00:00",
       "topic": "Portal: the student project that Valve turned into a phenomenon",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "rvd3GVOBs8k",
+      "title": "How Undertale's One Line of Code Spawned the Sans Meme Explosion",
+      "at": "2026-10-09T00:08:07.534623+00:00",
+      "topic": "Undertale: how one person's game became a beloved phenomenon",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694452940266047502",
+      "title": "How Undertale's One Line of Code Spawned the Sans Meme Explosion",
+      "at": "2026-10-09T00:08:10.655935+00:00",
+      "topic": "Undertale: how one person's game became a beloved phenomenon",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18136356997648619",
+      "title": "How Undertale's One Line of Code Spawned the Sans Meme Explosion",
+      "at": "2026-10-09T00:08:48.972586+00:00",
+      "topic": "Undertale: how one person's game became a beloved phenomenon",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1642102053943690",
+      "title": "How Undertale's One Line of Code Spawned the Sans Meme Explosion",
+      "at": "2026-10-09T00:08:54.906815+00:00",
+      "topic": "Undertale: how one person's game became a beloved phenomenon",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "secret_reveal",
     "mistake_warning",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    8128351,
-    39107672,
-    7362700,
-    8128725,
     29378859,
     8829608,
     34514149,
@@ -1724,6 +1753,10 @@
     7949700,
     7914826,
     8554093,
-    6282947
+    6282947,
+    6177774,
+    39787566,
+    5554206,
+    15462802
   ]
 }
