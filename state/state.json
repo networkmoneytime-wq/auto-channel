@@ -62,7 +62,8 @@
     "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
     "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
     "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
-    "Krakatoa in 1883: the loudest sound in recorded history"
+    "Krakatoa in 1883: the loudest sound in recorded history",
+    "The plague village of Eyam: the English town that sealed itself off to protect its neighbors"
   ],
   "uploads": [
     {
@@ -1736,27 +1737,40 @@
       "at": "2026-10-09T02:09:34.583387+00:00",
       "topic": "Krakatoa in 1883: the loudest sound in recorded history",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "2HCY6YJjGNs",
+      "title": "Eyam's Plague Quarantine: How a Tiny Village Saved England",
+      "at": "2026-10-09T22:16:14.591252+00:00",
+      "topic": "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17957991492016667",
+      "title": "Eyam's Plague Quarantine: How a Tiny Village Saved England",
+      "at": "2026-10-09T22:17:06.097985+00:00",
+      "topic": "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2266314323931051",
+      "title": "Eyam's Plague Quarantine: How a Tiny Village Saved England",
+      "at": "2026-10-09T22:17:20.160852+00:00",
+      "topic": "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    7344845,
-    6996637,
-    26628210,
-    31947240,
-    10854653,
-    20682356,
-    12060840,
-    39820912,
-    39640392,
-    35487485,
-    39310488,
     39310488,
     15283164,
     6549543,
@@ -1805,6 +1819,17 @@
     37697596,
     8539754,
     29171249,
-    30923353
+    30923353,
+    7691961,
+    30635188,
+    35213708,
+    8165554,
+    6317854,
+    7080902,
+    39995488,
+    38235626,
+    13721415,
+    35601601,
+    6381261
   ]
 }
