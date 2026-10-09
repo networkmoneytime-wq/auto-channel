@@ -56,7 +56,8 @@
     "Microsoft's Tay chatbot: the AI that turned toxic in under a day",
     "The Mechanical Turk: the chess robot that secretly hid a human inside",
     "The Segway: the invention that was supposed to reshape cities",
-    "Betamax vs VHS: why the tape that many called better lost"
+    "Betamax vs VHS: why the tape that many called better lost",
+    "BlackBerry's fall: how the phone everyone owned vanished after the iPhone"
   ],
   "uploads": [
     {
@@ -1190,26 +1191,32 @@
       "at": "2026-10-08T22:29:35.176542+00:00",
       "topic": "Betamax vs VHS: why the tape that many called better lost",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17993220513047028",
+      "title": "Why BlackBerry Really Died: The 3 Moves That Sank It",
+      "at": "2026-10-09T00:10:54.520428+00:00",
+      "topic": "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "989191934237039",
+      "title": "Why BlackBerry Really Died: The 3 Moves That Sank It",
+      "at": "2026-10-09T00:10:59.561720+00:00",
+      "topic": "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "mistake_warning",
     "secret_reveal",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    5777431,
-    11446095,
-    7670130,
-    7681177,
-    6177762,
-    35235434,
-    12330875,
-    4985359,
-    39626072,
-    7586642,
     15283162,
     6646043,
     13736673,
@@ -1259,6 +1266,16 @@
     9807740,
     32393434,
     8048478,
-    6336605
+    6336605,
+    12328908,
+    1821832,
+    6612199,
+    5082599,
+    34679079,
+    6278948,
+    5697633,
+    7565395,
+    7643453,
+    32365211
   ]
 }
