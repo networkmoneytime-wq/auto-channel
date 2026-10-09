@@ -61,7 +61,8 @@
     "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters",
     "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
     "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
-    "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later"
+    "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
+    "Krakatoa in 1883: the loudest sound in recorded history"
   ],
   "uploads": [
     {
@@ -1703,22 +1704,48 @@
       "at": "2026-10-09T00:33:45.928657+00:00",
       "topic": "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "C00o_YgmCOA",
+      "title": "Krakatoa's 1883 Blast: The Loudest Eruption Ever Heard 3,000 Miles Away",
+      "at": "2026-10-09T02:07:23.442299+00:00",
+      "topic": "Krakatoa in 1883: the loudest sound in recorded history",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694483664880961567",
+      "title": "Krakatoa's 1883 Blast: The Loudest Eruption Ever Heard 3,000 Miles Away",
+      "at": "2026-10-09T02:07:26.556255+00:00",
+      "topic": "Krakatoa in 1883: the loudest sound in recorded history",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18128891705297583",
+      "title": "Krakatoa's 1883 Blast: The Loudest Eruption Ever Heard 3,000 Miles Away",
+      "at": "2026-10-09T02:09:27.726854+00:00",
+      "topic": "Krakatoa in 1883: the loudest sound in recorded history",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2624056874712517",
+      "title": "Krakatoa's 1883 Blast: The Loudest Eruption Ever Heard 3,000 Miles Away",
+      "at": "2026-10-09T02:09:34.583387+00:00",
+      "topic": "Krakatoa in 1883: the loudest sound in recorded history",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "secret_reveal",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    19675232,
-    32376203,
-    34912747,
-    8726216,
-    8381580,
-    19953121,
     7344845,
     6996637,
     26628210,
@@ -1772,6 +1799,12 @@
     39548769,
     40049764,
     37656182,
-    29976416
+    29976416,
+    9632422,
+    39623398,
+    37697596,
+    8539754,
+    29171249,
+    30923353
   ]
 }
