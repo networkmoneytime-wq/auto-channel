@@ -57,7 +57,8 @@
     "The Sims: the game that began as an architecture experiment after a firestorm",
     "Portal: the student project that Valve turned into a phenomenon",
     "Undertale: how one person's game became a beloved phenomenon",
-    "Stardew Valley: the four-year project by a single developer"
+    "Stardew Valley: the four-year project by a single developer",
+    "The Nintendo Switch: how Nintendo bounced back after the Wii U"
   ],
   "uploads": [
     {
@@ -1721,23 +1722,48 @@
       "at": "2026-10-09T02:21:28.856219+00:00",
       "topic": "Stardew Valley: the four-year project by a single developer",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "fQtqGP17Pv4",
+      "title": "How the Nintendo Switch Turned a Wii\u202fU Flop into a Global Hit",
+      "at": "2026-10-09T22:19:13.151870+00:00",
+      "topic": "The Nintendo Switch: how Nintendo bounced back after the Wii U",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694795999046830093",
+      "title": "How the Nintendo Switch Turned a Wii\u202fU Flop into a Global Hit",
+      "at": "2026-10-09T22:19:15.760065+00:00",
+      "topic": "The Nintendo Switch: how Nintendo bounced back after the Wii U",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18104817842636796",
+      "title": "How the Nintendo Switch Turned a Wii\u202fU Flop into a Global Hit",
+      "at": "2026-10-09T22:20:31.127238+00:00",
+      "topic": "The Nintendo Switch: how Nintendo bounced back after the Wii U",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1094721473528067",
+      "title": "How the Nintendo Switch Turned a Wii\u202fU Flop into a Global Hit",
+      "at": "2026-10-09T22:20:38.724962+00:00",
+      "topic": "The Nintendo Switch: how Nintendo bounced back after the Wii U",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6266655,
-    12715396,
-    7120811,
-    7668148,
-    8888776,
-    34385703,
-    7774947,
     34443825,
     8097548,
     38527407,
@@ -1790,6 +1816,13 @@
     5561410,
     29065070,
     29604470,
-    8798278
+    8798278,
+    7855727,
+    36635920,
+    7563828,
+    4836567,
+    9667860,
+    6646802,
+    38993333
   ]
 }
