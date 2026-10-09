@@ -31,7 +31,8 @@
     "AI_CHARACTER_7",
     "AI_CHARACTER_8",
     "DRAMA_1",
-    "DRAMA_2"
+    "DRAMA_2",
+    "DRAMA_3"
   ],
   "uploads": [
     {
@@ -481,6 +482,20 @@
       "title": "Strawberry Shay's Kitchen Scandal Exposed!",
       "at": "2026-10-09T02:29:10.051154+00:00",
       "topic": "DRAMA_2"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "f8kAgrKgkFA",
+      "title": "Coco Nutt's Midnight Truffle Scandal Shocks Peaches",
+      "at": "2026-10-09T22:26:14.428266+00:00",
+      "topic": "DRAMA_3"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "974306899080378",
+      "title": "Coco Nutt's Midnight Truffle Scandal Shocks Peaches",
+      "at": "2026-10-09T22:26:19.055939+00:00",
+      "topic": "DRAMA_3"
     }
   ],
   "recent_clip_ids": [
