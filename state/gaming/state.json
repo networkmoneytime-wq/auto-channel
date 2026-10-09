@@ -56,7 +56,8 @@
     "Street Fighter II's combos: the feature that was discovered by accident",
     "The Sims: the game that began as an architecture experiment after a firestorm",
     "Portal: the student project that Valve turned into a phenomenon",
-    "Undertale: how one person's game became a beloved phenomenon"
+    "Undertale: how one person's game became a beloved phenomenon",
+    "Stardew Valley: the four-year project by a single developer"
   ],
   "uploads": [
     {
@@ -1688,25 +1689,48 @@
       "at": "2026-10-09T00:08:54.906815+00:00",
       "topic": "Undertale: how one person's game became a beloved phenomenon",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "rVo5YwaoliI",
+      "title": "How Stardew Valley Went From Kitchen Table to Millions",
+      "at": "2026-10-09T02:20:43.385940+00:00",
+      "topic": "Stardew Valley: the four-year project by a single developer",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694487201723713549",
+      "title": "How Stardew Valley Went From Kitchen Table to Millions",
+      "at": "2026-10-09T02:20:46.116497+00:00",
+      "topic": "Stardew Valley: the four-year project by a single developer",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17954369706264620",
+      "title": "How Stardew Valley Went From Kitchen Table to Millions",
+      "at": "2026-10-09T02:21:23.339799+00:00",
+      "topic": "Stardew Valley: the four-year project by a single developer",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1025652107215237",
+      "title": "How Stardew Valley Went From Kitchen Table to Millions",
+      "at": "2026-10-09T02:21:28.856219+00:00",
+      "topic": "Stardew Valley: the four-year project by a single developer",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "secret_reveal",
     "mistake_warning",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ],
   "recent_clip_ids": [
-    29378859,
-    8829608,
-    34514149,
-    4706243,
-    3047260,
-    6961804,
-    6380637,
-    39889268,
-    6353331,
     6266655,
     12715396,
     7120811,
@@ -1757,6 +1781,15 @@
     6177774,
     39787566,
     5554206,
-    15462802
+    15462802,
+    6632883,
+    35960592,
+    33315117,
+    7034335,
+    36628017,
+    5561410,
+    29065070,
+    29604470,
+    8798278
   ]
 }
