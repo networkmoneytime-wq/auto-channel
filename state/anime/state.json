@@ -55,7 +55,8 @@
     "Oshi no Ko|how the first episode of Oshi no Ko changes everything",
     "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
     "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy",
-    "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science"
+    "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science",
+    "Fire Force|the world where firefighters battle infernal beings in Fire Force"
   ],
   "uploads": [
     {
@@ -1161,13 +1162,29 @@
       "at": "2026-10-09T00:13:05.403436+00:00",
       "topic": "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18176754598443052",
+      "title": "What if Firefighters Were Made of Fire? Meet Tokyo's Fire Force",
+      "at": "2026-10-09T02:27:31.971765+00:00",
+      "topic": "Fire Force|the world where firefighters battle infernal beings in Fire Force",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1106211905111574",
+      "title": "What if Firefighters Were Made of Fire? Meet Tokyo's Fire Force",
+      "at": "2026-10-09T02:27:37.076911+00:00",
+      "topic": "Fire Force|the world where firefighters battle infernal beings in Fire Force",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "shocking_fact",
     "mistake_warning",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ]
 }
