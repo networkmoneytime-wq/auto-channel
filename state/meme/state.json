@@ -30,7 +30,8 @@
     "AI_CHARACTER_6",
     "AI_CHARACTER_7",
     "AI_CHARACTER_8",
-    "DRAMA_1"
+    "DRAMA_1",
+    "DRAMA_2"
   ],
   "uploads": [
     {
@@ -466,6 +467,20 @@
       "title": "Strawberry Shay's Shocking Pantry Scandal Exposed!",
       "at": "2026-10-09T00:14:32.697854+00:00",
       "topic": "DRAMA_1"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "FUxLvNQwHGI",
+      "title": "Strawberry Shay's Kitchen Scandal Exposed!",
+      "at": "2026-10-09T02:29:05.000491+00:00",
+      "topic": "DRAMA_2"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1621925132941985",
+      "title": "Strawberry Shay's Kitchen Scandal Exposed!",
+      "at": "2026-10-09T02:29:10.051154+00:00",
+      "topic": "DRAMA_2"
     }
   ],
   "recent_clip_ids": [
