@@ -56,7 +56,8 @@
     "Bocchi the Rock!|why Bocchi the Rock!'s anxious guitarist became an instant fan favorite",
     "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy",
     "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science",
-    "Fire Force|the world where firefighters battle infernal beings in Fire Force"
+    "Fire Force|the world where firefighters battle infernal beings in Fire Force",
+    "Black Clover|the boy with no magic in a world of magic in Black Clover"
   ],
   "uploads": [
     {
@@ -1178,13 +1179,29 @@
       "at": "2026-10-09T02:27:37.076911+00:00",
       "topic": "Fire Force|the world where firefighters battle infernal beings in Fire Force",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18129412807693641",
+      "title": "How Asta Becomes Black Clover's Biggest Threat Without Magic",
+      "at": "2026-10-09T22:24:47.605034+00:00",
+      "topic": "Black Clover|the boy with no magic in a world of magic in Black Clover",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2341672649923623",
+      "title": "How Asta Becomes Black Clover's Biggest Threat Without Magic",
+      "at": "2026-10-09T22:24:52.946946+00:00",
+      "topic": "Black Clover|the boy with no magic in a world of magic in Black Clover",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "mistake_warning",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
