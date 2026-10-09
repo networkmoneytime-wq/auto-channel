@@ -60,7 +60,8 @@
     "Otzi the Iceman: the 5,300-year-old man found frozen in the Alps and what he was carrying",
     "Violet Jessop: the stewardess who survived the Titanic and two of her sister ships' disasters",
     "The Year Without a Summer of 1816: how a volcano helped inspire Frankenstein",
-    "The Gimli Glider: the airliner that ran out of fuel and landed on a race track"
+    "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
+    "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later"
   ],
   "uploads": [
     {
@@ -1670,22 +1671,48 @@
       "at": "2026-10-08T22:17:03.388854+00:00",
       "topic": "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "NmuxwOHuvZQ",
+      "title": "The Vasa Ship Sank in 20 Minutes and Still Drips Rust After 333 Years",
+      "at": "2026-10-09T00:32:51.302504+00:00",
+      "topic": "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694459359787190303",
+      "title": "The Vasa Ship Sank in 20 Minutes and Still Drips Rust After 333 Years",
+      "at": "2026-10-09T00:32:55.367871+00:00",
+      "topic": "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18098315582409670",
+      "title": "The Vasa Ship Sank in 20 Minutes and Still Drips Rust After 333 Years",
+      "at": "2026-10-09T00:33:39.961483+00:00",
+      "topic": "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1419521529728424",
+      "title": "The Vasa Ship Sank in 20 Minutes and Still Drips Rust After 333 Years",
+      "at": "2026-10-09T00:33:45.928657+00:00",
+      "topic": "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "contrarian_claim",
     "list_tease",
     "secret_reveal",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    32938028,
-    28869249,
-    28896834,
-    6666532,
-    34950299,
-    8544030,
     19675232,
     32376203,
     34912747,
@@ -1739,6 +1766,12 @@
     27916368,
     6278890,
     16265185,
-    31607515
+    31607515,
+    29561309,
+    10703906,
+    39548769,
+    40049764,
+    37656182,
+    29976416
   ]
 }
