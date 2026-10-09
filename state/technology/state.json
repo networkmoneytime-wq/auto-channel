@@ -57,7 +57,8 @@
     "The Mechanical Turk: the chess robot that secretly hid a human inside",
     "The Segway: the invention that was supposed to reshape cities",
     "Betamax vs VHS: why the tape that many called better lost",
-    "BlackBerry's fall: how the phone everyone owned vanished after the iPhone"
+    "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
+    "Windows Vista: how a botched launch became Microsoft's cautionary tale"
   ],
   "uploads": [
     {
@@ -1207,24 +1208,32 @@
       "at": "2026-10-09T00:10:59.561720+00:00",
       "topic": "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
       "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18111042101142949",
+      "title": "Why Windows Vista Blew a Billion in One Quarter",
+      "at": "2026-10-09T02:24:03.557899+00:00",
+      "topic": "Windows Vista: how a botched launch became Microsoft's cautionary tale",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "932916182909156",
+      "title": "Why Windows Vista Blew a Billion in One Quarter",
+      "at": "2026-10-09T02:24:09.087265+00:00",
+      "topic": "Windows Vista: how a botched launch became Microsoft's cautionary tale",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "secret_reveal",
     "question_hook",
     "list_tease",
-    "secret_reveal"
+    "secret_reveal",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    15283162,
-    6646043,
-    13736673,
-    7337217,
-    33315117,
-    5377697,
-    7011568,
-    36302386,
     30653723,
     14202315,
     9430547,
@@ -1276,6 +1285,14 @@
     5697633,
     7565395,
     7643453,
-    32365211
+    32365211,
+    7247828,
+    9944850,
+    8721655,
+    7393792,
+    36460573,
+    4709301,
+    6913257,
+    8721655
   ]
 }
