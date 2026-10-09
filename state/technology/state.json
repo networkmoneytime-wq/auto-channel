@@ -58,7 +58,8 @@
     "The Segway: the invention that was supposed to reshape cities",
     "Betamax vs VHS: why the tape that many called better lost",
     "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
-    "Windows Vista: how a botched launch became Microsoft's cautionary tale"
+    "Windows Vista: how a botched launch became Microsoft's cautionary tale",
+    "The Apple Lisa: the expensive computer that flopped before the Mac"
   ],
   "uploads": [
     {
@@ -1224,23 +1225,32 @@
       "at": "2026-10-09T02:24:09.087265+00:00",
       "topic": "Windows Vista: how a botched launch became Microsoft's cautionary tale",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18101821043364660",
+      "title": "The Apple Lisa's $10k price tag & how it saved the Mac",
+      "at": "2026-10-09T22:22:45.840981+00:00",
+      "topic": "The Apple Lisa: the expensive computer that flopped before the Mac",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "29182189744709485",
+      "title": "The Apple Lisa's $10k price tag & how it saved the Mac",
+      "at": "2026-10-09T22:22:52.308541+00:00",
+      "topic": "The Apple Lisa: the expensive computer that flopped before the Mac",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "question_hook",
     "list_tease",
     "secret_reveal",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    30653723,
-    14202315,
-    9430547,
-    6134226,
-    7296326,
-    39270835,
-    8087012,
     39262883,
     28915639,
     38370131,
@@ -1293,6 +1303,13 @@
     36460573,
     4709301,
     6913257,
-    8721655
+    8721655,
+    6700654,
+    7154231,
+    35315354,
+    39242287,
+    35544540,
+    30869383,
+    7660184
   ]
 }
