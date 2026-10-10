@@ -63,7 +63,8 @@
     "The Gimli Glider: the airliner that ran out of fuel and landed on a race track",
     "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
     "Krakatoa in 1883: the loudest sound in recorded history",
-    "The plague village of Eyam: the English town that sealed itself off to protect its neighbors"
+    "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
+    "Shackleton's Endurance expedition: the polar disaster where every man came home"
   ],
   "uploads": [
     {
@@ -1761,26 +1762,48 @@
       "at": "2026-10-09T22:17:20.160852+00:00",
       "topic": "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "VA6rHCwCmQg",
+      "title": "Shackleton's Endurance: 5 Crazy Survival Facts You Won't Believe",
+      "at": "2026-10-10T00:30:08.438359+00:00",
+      "topic": "Shackleton's Endurance expedition: the polar disaster where every man came home",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694829570675165215",
+      "title": "Shackleton's Endurance: 5 Crazy Survival Facts You Won't Believe",
+      "at": "2026-10-10T00:30:11.423894+00:00",
+      "topic": "Shackleton's Endurance expedition: the polar disaster where every man came home",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18104451614112626",
+      "title": "Shackleton's Endurance: 5 Crazy Survival Facts You Won't Believe",
+      "at": "2026-10-10T00:30:48.811832+00:00",
+      "topic": "Shackleton's Endurance expedition: the polar disaster where every man came home",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1607100907764449",
+      "title": "Shackleton's Endurance: 5 Crazy Survival Facts You Won't Believe",
+      "at": "2026-10-10T00:30:54.313759+00:00",
+      "topic": "Shackleton's Endurance expedition: the polar disaster where every man came home",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "secret_reveal",
     "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    39310488,
-    15283164,
-    6549543,
-    38454843,
-    38817100,
-    10905317,
-    10398239,
-    6655883,
-    29042555,
-    6653240,
     7102536,
     6668845,
     32810112,
@@ -1830,6 +1853,16 @@
     38235626,
     13721415,
     35601601,
-    6381261
+    6381261,
+    30977530,
+    35769953,
+    35569474,
+    35311069,
+    34458466,
+    36463102,
+    16998437,
+    8627749,
+    39499521,
+    35965011
   ]
 }
