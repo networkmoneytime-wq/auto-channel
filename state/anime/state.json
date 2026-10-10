@@ -57,7 +57,8 @@
     "Cyberpunk: Edgerunners|how a video game spin-off became a fan-favorite tragedy",
     "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science",
     "Fire Force|the world where firefighters battle infernal beings in Fire Force",
-    "Black Clover|the boy with no magic in a world of magic in Black Clover"
+    "Black Clover|the boy with no magic in a world of magic in Black Clover",
+    "Toradora!|why Toradora! is remembered as one of the best romcoms"
   ],
   "uploads": [
     {
@@ -1195,13 +1196,29 @@
       "at": "2026-10-09T22:24:52.946946+00:00",
       "topic": "Black Clover|the boy with no magic in a world of magic in Black Clover",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17983889787065495",
+      "title": "Toradora! Is Not Your Typical High School Love Triangle",
+      "at": "2026-10-10T00:18:38.650773+00:00",
+      "topic": "Toradora!|why Toradora! is remembered as one of the best romcoms",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4654932968157736",
+      "title": "Toradora! Is Not Your Typical High School Love Triangle",
+      "at": "2026-10-10T00:18:44.972280+00:00",
+      "topic": "Toradora!|why Toradora! is remembered as one of the best romcoms",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "mistake_warning",
     "list_tease",
     "question_hook",
-    "shocking_fact"
+    "shocking_fact",
+    "contrarian_claim"
   ]
 }
