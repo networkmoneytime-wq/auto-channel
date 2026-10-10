@@ -58,7 +58,8 @@
     "Dr. Stone|how Dr. Stone rebuilds civilization from scratch with science",
     "Fire Force|the world where firefighters battle infernal beings in Fire Force",
     "Black Clover|the boy with no magic in a world of magic in Black Clover",
-    "Toradora!|why Toradora! is remembered as one of the best romcoms"
+    "Toradora!|why Toradora! is remembered as one of the best romcoms",
+    "Your Lie in April|the music and grief at the heart of Your Lie in April"
   ],
   "uploads": [
     {
@@ -1212,13 +1213,29 @@
       "at": "2026-10-10T00:18:44.972280+00:00",
       "topic": "Toradora!|why Toradora! is remembered as one of the best romcoms",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18414832957084783",
+      "title": "Why 'Your Lie in April' Hits You Like a Grief-Filled Crescendo",
+      "at": "2026-10-10T02:29:58.652918+00:00",
+      "topic": "Your Lie in April|the music and grief at the heart of Your Lie in April",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1074501322150247",
+      "title": "Why 'Your Lie in April' Hits You Like a Grief-Filled Crescendo",
+      "at": "2026-10-10T02:30:03.005628+00:00",
+      "topic": "Your Lie in April|the music and grief at the heart of Your Lie in April",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "list_tease",
     "question_hook",
     "shocking_fact",
-    "contrarian_claim"
+    "contrarian_claim",
+    "list_tease"
   ]
 }
