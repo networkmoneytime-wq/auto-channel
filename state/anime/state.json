@@ -59,7 +59,8 @@
     "Fire Force|the world where firefighters battle infernal beings in Fire Force",
     "Black Clover|the boy with no magic in a world of magic in Black Clover",
     "Toradora!|why Toradora! is remembered as one of the best romcoms",
-    "Your Lie in April|the music and grief at the heart of Your Lie in April"
+    "Your Lie in April|the music and grief at the heart of Your Lie in April",
+    "Clannad|why fans say Clannad is the anime that made them cry"
   ],
   "uploads": [
     {
@@ -1229,13 +1230,29 @@
       "at": "2026-10-10T02:30:03.005628+00:00",
       "topic": "Your Lie in April|the music and grief at the heart of Your Lie in April",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17987556794876822",
+      "title": "Why Clannad After Story Is the Most Heart-Crushing Anime Ever",
+      "at": "2026-10-10T22:24:54.978532+00:00",
+      "topic": "Clannad|why fans say Clannad is the anime that made them cry",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1316088163922279",
+      "title": "Why Clannad After Story Is the Most Heart-Crushing Anime Ever",
+      "at": "2026-10-10T22:25:00.335840+00:00",
+      "topic": "Clannad|why fans say Clannad is the anime that made them cry",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "question_hook",
     "shocking_fact",
     "contrarian_claim",
-    "list_tease"
+    "list_tease",
+    "shocking_fact"
   ]
 }
