@@ -34,7 +34,8 @@
     "DRAMA_2",
     "DRAMA_3",
     "DRAMA_4",
-    "DRAMA_5"
+    "DRAMA_5",
+    "DRAMA_6"
   ],
   "uploads": [
     {
@@ -526,6 +527,20 @@
       "title": "Peaches Exposes Mango Marco's Secret Love Triangle",
       "at": "2026-10-10T02:31:32.137680+00:00",
       "topic": "DRAMA_5"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "uxbUng0vnik",
+      "title": "Peaches Confronts Coco Nutt Over the Missing Caramel Drizzle - Kitchen Chaos!",
+      "at": "2026-10-10T22:26:17.917552+00:00",
+      "topic": "DRAMA_6"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1121602077276387",
+      "title": "Peaches Confronts Coco Nutt Over the Missing Caramel Drizzle - Kitchen Chaos!",
+      "at": "2026-10-10T22:26:22.758901+00:00",
+      "topic": "DRAMA_6"
     }
   ],
   "recent_clip_ids": [
