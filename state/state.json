@@ -65,7 +65,8 @@
     "Krakatoa in 1883: the loudest sound in recorded history",
     "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
     "Shackleton's Endurance expedition: the polar disaster where every man came home",
-    "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day"
+    "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
+    "Ada Lovelace: the woman who wrote the first computer program before computers existed"
   ],
   "uploads": [
     {
@@ -1827,21 +1828,40 @@
       "at": "2026-10-10T02:07:37.562514+00:00",
       "topic": "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7695165195588749342",
+      "title": "Ada Lovelace: The 19th-Century Hacker Who Wrote the First Program",
+      "at": "2026-10-10T22:13:07.388802+00:00",
+      "topic": "Ada Lovelace: the woman who wrote the first computer program before computers existed",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17991820065028925",
+      "title": "Ada Lovelace: The 19th-Century Hacker Who Wrote the First Program",
+      "at": "2026-10-10T22:14:18.409275+00:00",
+      "topic": "Ada Lovelace: the woman who wrote the first computer program before computers existed",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1714143253012338",
+      "title": "Ada Lovelace: The 19th-Century Hacker Who Wrote the First Program",
+      "at": "2026-10-10T22:14:23.653061+00:00",
+      "topic": "Ada Lovelace: the woman who wrote the first computer program before computers existed",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "question_hook",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    34183776,
-    12145873,
-    30474697,
-    35071086,
-    39878395,
     10187912,
     31184528,
     37700771,
@@ -1896,6 +1916,11 @@
     15449093,
     39081408,
     19090632,
-    7191231
+    7191231,
+    29490720,
+    6324544,
+    5291162,
+    18069700,
+    9305509
   ]
 }
