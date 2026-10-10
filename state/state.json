@@ -64,7 +64,8 @@
     "The Vasa: the warship that sank minutes into its maiden voyage and was raised 333 years later",
     "Krakatoa in 1883: the loudest sound in recorded history",
     "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
-    "Shackleton's Endurance expedition: the polar disaster where every man came home"
+    "Shackleton's Endurance expedition: the polar disaster where every man came home",
+    "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day"
   ],
   "uploads": [
     {
@@ -1794,25 +1795,48 @@
       "at": "2026-10-10T00:30:54.313759+00:00",
       "topic": "Shackleton's Endurance expedition: the polar disaster where every man came home",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "NOKipD3Sru8",
+      "title": "Juan Pujol 'Garbo': The Spy Who Tricked Hitler and Saved D-Day",
+      "at": "2026-10-10T02:06:57.876412+00:00",
+      "topic": "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7694854430390585374",
+      "title": "Juan Pujol 'Garbo': The Spy Who Tricked Hitler and Saved D-Day",
+      "at": "2026-10-10T02:07:00.730588+00:00",
+      "topic": "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18179356507433311",
+      "title": "Juan Pujol 'Garbo': The Spy Who Tricked Hitler and Saved D-Day",
+      "at": "2026-10-10T02:07:32.391129+00:00",
+      "topic": "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2319308982197922",
+      "title": "Juan Pujol 'Garbo': The Spy Who Tricked Hitler and Saved D-Day",
+      "at": "2026-10-10T02:07:37.562514+00:00",
+      "topic": "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
     "question_hook",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    7102536,
-    6668845,
-    32810112,
-    27604137,
-    6650205,
-    14041722,
-    34225465,
-    32344064,
-    8515868,
     34183776,
     12145873,
     30474697,
@@ -1863,6 +1887,15 @@
     16998437,
     8627749,
     39499521,
-    35965011
+    35965011,
+    36745208,
+    8724209,
+    7266489,
+    7266489,
+    20064340,
+    15449093,
+    39081408,
+    19090632,
+    7191231
   ]
 }
