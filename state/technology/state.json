@@ -59,7 +59,8 @@
     "Betamax vs VHS: why the tape that many called better lost",
     "BlackBerry's fall: how the phone everyone owned vanished after the iPhone",
     "Windows Vista: how a botched launch became Microsoft's cautionary tale",
-    "The Apple Lisa: the expensive computer that flopped before the Mac"
+    "The Apple Lisa: the expensive computer that flopped before the Mac",
+    "Nintendo's Virtual Boy: the console that came with a red-tinged headache"
   ],
   "uploads": [
     {
@@ -1241,24 +1242,24 @@
       "at": "2026-10-09T22:22:52.308541+00:00",
       "topic": "The Apple Lisa: the expensive computer that flopped before the Mac",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "3196927750502638",
+      "title": "The Shocking Reason Nintendo's Virtual Boy Made Your Teeth Vibrate",
+      "at": "2026-10-10T00:16:31.517838+00:00",
+      "topic": "Nintendo's Virtual Boy: the console that came with a red-tinged headache",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "secret_reveal",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    39262883,
-    28915639,
-    38370131,
-    34996611,
-    8087010,
-    28144843,
-    34385703,
-    25935014,
     18503891,
     6962128,
     7594018,
@@ -1310,6 +1311,14 @@
     39242287,
     35544540,
     30869383,
-    7660184
+    7660184,
+    6498520,
+    35536029,
+    7914826,
+    36602542,
+    7855849,
+    12715390,
+    6904082,
+    32535755
   ]
 }
