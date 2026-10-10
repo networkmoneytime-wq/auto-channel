@@ -32,7 +32,8 @@
     "AI_CHARACTER_8",
     "DRAMA_1",
     "DRAMA_2",
-    "DRAMA_3"
+    "DRAMA_3",
+    "DRAMA_4"
   ],
   "uploads": [
     {
@@ -496,6 +497,20 @@
       "title": "Coco Nutt's Midnight Truffle Scandal Shocks Peaches",
       "at": "2026-10-09T22:26:19.055939+00:00",
       "topic": "DRAMA_3"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "nsYhdYcKv18",
+      "title": "Coco Nutt's secret affair shatters Pineapple Percy's empire",
+      "at": "2026-10-10T00:21:00.422744+00:00",
+      "topic": "DRAMA_4"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1405467101179447",
+      "title": "Coco Nutt's secret affair shatters Pineapple Percy's empire",
+      "at": "2026-10-10T00:21:06.879643+00:00",
+      "topic": "DRAMA_4"
     }
   ],
   "recent_clip_ids": [
