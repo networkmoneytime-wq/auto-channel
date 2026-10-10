@@ -33,7 +33,8 @@
     "DRAMA_1",
     "DRAMA_2",
     "DRAMA_3",
-    "DRAMA_4"
+    "DRAMA_4",
+    "DRAMA_5"
   ],
   "uploads": [
     {
@@ -511,6 +512,20 @@
       "title": "Coco Nutt's secret affair shatters Pineapple Percy's empire",
       "at": "2026-10-10T00:21:06.879643+00:00",
       "topic": "DRAMA_4"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "4w4pDea0t10",
+      "title": "Peaches Exposes Mango Marco's Secret Love Triangle",
+      "at": "2026-10-10T02:31:28.798494+00:00",
+      "topic": "DRAMA_5"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1691048762541010",
+      "title": "Peaches Exposes Mango Marco's Secret Love Triangle",
+      "at": "2026-10-10T02:31:32.137680+00:00",
+      "topic": "DRAMA_5"
     }
   ],
   "recent_clip_ids": [
