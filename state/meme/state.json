@@ -36,7 +36,8 @@
     "DRAMA_4",
     "DRAMA_5",
     "DRAMA_6",
-    "DRAMA_7"
+    "DRAMA_7",
+    "DRAMA_8"
   ],
   "uploads": [
     {
@@ -556,6 +557,20 @@
       "title": "Peaches' Shocking Secret Revealed: The Heart-Pie Twist",
       "at": "2026-10-11T00:18:05.231894+00:00",
       "topic": "DRAMA_7"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "N3dSgIH9pTE",
+      "title": "Bananarama's Kitchen Scandal: Secret Spice Rack Romance Exposed!",
+      "at": "2026-10-11T02:29:16.783529+00:00",
+      "topic": "DRAMA_8"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1655896599483971",
+      "title": "Bananarama's Kitchen Scandal: Secret Spice Rack Romance Exposed!",
+      "at": "2026-10-11T02:29:22.127292+00:00",
+      "topic": "DRAMA_8"
     }
   ],
   "recent_clip_ids": [
