@@ -67,7 +67,8 @@
     "Shackleton's Endurance expedition: the polar disaster where every man came home",
     "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
     "Ada Lovelace: the woman who wrote the first computer program before computers existed",
-    "Sealand: the tiny micronation on an abandoned World War II sea fort"
+    "Sealand: the tiny micronation on an abandoned World War II sea fort",
+    "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell"
   ],
   "uploads": [
     {
@@ -1877,26 +1878,40 @@
       "at": "2026-10-11T00:29:54.182196+00:00",
       "topic": "Sealand: the tiny micronation on an abandoned World War II sea fort",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7695225444044195871",
+      "title": "The Door to Hell: Why a Soviet Drill's Mistake Still Burns After 50 Years",
+      "at": "2026-10-11T02:06:31.290706+00:00",
+      "topic": "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17910011907489685",
+      "title": "The Door to Hell: Why a Soviet Drill's Mistake Still Burns After 50 Years",
+      "at": "2026-10-11T02:07:08.405714+00:00",
+      "topic": "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "998753893249295",
+      "title": "The Door to Hell: Why a Soviet Drill's Mistake Still Burns After 50 Years",
+      "at": "2026-10-11T02:07:13.866242+00:00",
+      "topic": "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    6781912,
-    36561197,
-    3945496,
-    27916368,
-    6278890,
-    16265185,
-    31607515,
-    29561309,
-    10703906,
-    39548769,
     40049764,
     37656182,
     29976416,
@@ -1946,6 +1961,16 @@
     39597264,
     38918258,
     8724210,
-    40037352
+    40037352,
+    39878395,
+    8544030,
+    30080731,
+    5758682,
+    20517591,
+    9558200,
+    29927150,
+    32464630,
+    38690857,
+    29055579
   ]
 }
