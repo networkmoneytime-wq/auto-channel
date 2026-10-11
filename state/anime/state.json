@@ -62,7 +62,8 @@
     "Your Lie in April|the music and grief at the heart of Your Lie in April",
     "Clannad|why fans say Clannad is the anime that made them cry",
     "Monster|the psychological hunt for a killer doctor in Monster",
-    "Berserk|why the 1997 Berserk series still haunts fans"
+    "Berserk|why the 1997 Berserk series still haunts fans",
+    "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi"
   ],
   "uploads": [
     {
@@ -1280,13 +1281,29 @@
       "at": "2026-10-11T02:27:07.189889+00:00",
       "topic": "Berserk|why the 1997 Berserk series still haunts fans",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18136129816648634",
+      "title": "Ghost in the Shell: Why Its Identity Crisis Still Haunts AI-Era Fans",
+      "at": "2026-10-11T22:28:05.282763+00:00",
+      "topic": "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28605300039132470",
+      "title": "Ghost in the Shell: Why Its Identity Crisis Still Haunts AI-Era Fans",
+      "at": "2026-10-11T22:28:10.693184+00:00",
+      "topic": "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "list_tease",
     "shocking_fact",
     "question_hook",
-    "mistake_warning"
+    "mistake_warning",
+    "contrarian_claim"
   ]
 }
