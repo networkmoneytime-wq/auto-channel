@@ -37,7 +37,8 @@
     "DRAMA_5",
     "DRAMA_6",
     "DRAMA_7",
-    "DRAMA_8"
+    "DRAMA_8",
+    "That one friend who narrates their own life like a documentary"
   ],
   "uploads": [
     {
@@ -571,21 +572,23 @@
       "title": "Bananarama's Kitchen Scandal: Secret Spice Rack Romance Exposed!",
       "at": "2026-10-11T02:29:22.127292+00:00",
       "topic": "DRAMA_8"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "wfDnbmSpho8",
+      "title": "When Your Friend Turns Everyday Life Into a Nature Documentary",
+      "at": "2026-10-11T22:30:02.436452+00:00",
+      "topic": "That one friend who narrates their own life like a documentary"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1146332568198242",
+      "title": "When Your Friend Turns Everyday Life Into a Nature Documentary",
+      "at": "2026-10-11T22:30:07.607150+00:00",
+      "topic": "That one friend who narrates their own life like a documentary"
     }
   ],
   "recent_clip_ids": [
-    28261443,
-    26083304,
-    17256943,
-    3454834,
-    39475114,
-    36108327,
-    6150661,
-    35013678,
-    27973797,
-    6150668,
-    3454834,
-    37707306,
     39505995,
     26261559,
     28650314,
@@ -633,6 +636,18 @@
     28650314,
     6150661,
     39738086,
-    8347739
+    8347739,
+    28311079,
+    39475114,
+    37707306,
+    9668305,
+    36108326,
+    8516377,
+    6150668,
+    9668305,
+    8516377,
+    28037265,
+    39475114,
+    26261559
   ]
 }
