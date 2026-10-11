@@ -68,7 +68,8 @@
     "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
     "Ada Lovelace: the woman who wrote the first computer program before computers existed",
     "Sealand: the tiny micronation on an abandoned World War II sea fort",
-    "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell"
+    "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
+    "The immortal jellyfish: the animal that can reverse its own aging"
   ],
   "uploads": [
     {
@@ -1902,26 +1903,40 @@
       "at": "2026-10-11T02:07:13.866242+00:00",
       "topic": "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7695537103031306270",
+      "title": "The Immortal Jellyfish That Can Reverse Its Own Life",
+      "at": "2026-10-11T22:15:10.399234+00:00",
+      "topic": "The immortal jellyfish: the animal that can reverse its own aging",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18635514397033995",
+      "title": "The Immortal Jellyfish That Can Reverse Its Own Life",
+      "at": "2026-10-11T22:15:46.171726+00:00",
+      "topic": "The immortal jellyfish: the animal that can reverse its own aging",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1509466470940733",
+      "title": "The Immortal Jellyfish That Can Reverse Its Own Life",
+      "at": "2026-10-11T22:15:52.595315+00:00",
+      "topic": "The immortal jellyfish: the animal that can reverse its own aging",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "list_tease",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    40049764,
-    37656182,
-    29976416,
-    9632422,
-    39623398,
-    37697596,
-    8539754,
-    29171249,
-    30923353,
-    7691961,
     30635188,
     35213708,
     8165554,
@@ -1971,6 +1986,16 @@
     29927150,
     32464630,
     38690857,
-    29055579
+    29055579,
+    12860649,
+    8856781,
+    8837845,
+    9816210,
+    28635600,
+    8852658,
+    16451799,
+    8771135,
+    11022408,
+    28635601
   ]
 }
