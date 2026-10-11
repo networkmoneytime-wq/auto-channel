@@ -60,7 +60,8 @@
     "Black Clover|the boy with no magic in a world of magic in Black Clover",
     "Toradora!|why Toradora! is remembered as one of the best romcoms",
     "Your Lie in April|the music and grief at the heart of Your Lie in April",
-    "Clannad|why fans say Clannad is the anime that made them cry"
+    "Clannad|why fans say Clannad is the anime that made them cry",
+    "Monster|the psychological hunt for a killer doctor in Monster"
   ],
   "uploads": [
     {
@@ -1246,13 +1247,29 @@
       "at": "2026-10-10T22:25:00.335840+00:00",
       "topic": "Clannad|why fans say Clannad is the anime that made them cry",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18111208964040567",
+      "title": "Kenzo Tenma: When the Doctor Becomes the Prime Suspect",
+      "at": "2026-10-11T00:16:13.340795+00:00",
+      "topic": "Monster|the psychological hunt for a killer doctor in Monster",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "4523701834544550",
+      "title": "Kenzo Tenma: When the Doctor Becomes the Prime Suspect",
+      "at": "2026-10-11T00:16:18.044719+00:00",
+      "topic": "Monster|the psychological hunt for a killer doctor in Monster",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "shocking_fact",
     "contrarian_claim",
     "list_tease",
-    "shocking_fact"
+    "shocking_fact",
+    "question_hook"
   ]
 }
