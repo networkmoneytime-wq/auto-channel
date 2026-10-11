@@ -66,7 +66,8 @@
     "The plague village of Eyam: the English town that sealed itself off to protect its neighbors",
     "Shackleton's Endurance expedition: the polar disaster where every man came home",
     "Juan Pujol Garcia: the double agent who fooled Hitler about D-Day",
-    "Ada Lovelace: the woman who wrote the first computer program before computers existed"
+    "Ada Lovelace: the woman who wrote the first computer program before computers existed",
+    "Sealand: the tiny micronation on an abandoned World War II sea fort"
   ],
   "uploads": [
     {
@@ -1852,22 +1853,40 @@
       "at": "2026-10-10T22:14:23.653061+00:00",
       "topic": "Ada Lovelace: the woman who wrote the first computer program before computers existed",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7695200221911042078",
+      "title": "Sealand: 5 Crazy Facts You Won't Believe Are Real",
+      "at": "2026-10-11T00:29:06.175605+00:00",
+      "topic": "Sealand: the tiny micronation on an abandoned World War II sea fort",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18204165973375179",
+      "title": "Sealand: 5 Crazy Facts You Won't Believe Are Real",
+      "at": "2026-10-11T00:29:47.583566+00:00",
+      "topic": "Sealand: the tiny micronation on an abandoned World War II sea fort",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1060581936985204",
+      "title": "Sealand: 5 Crazy Facts You Won't Believe Are Real",
+      "at": "2026-10-11T00:29:54.182196+00:00",
+      "topic": "Sealand: the tiny micronation on an abandoned World War II sea fort",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "list_tease",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ],
   "recent_clip_ids": [
-    10187912,
-    31184528,
-    37700771,
-    27375353,
-    32693344,
-    39425773,
     6781912,
     36561197,
     3945496,
@@ -1921,6 +1940,12 @@
     6324544,
     5291162,
     18069700,
-    9305509
+    9305509,
+    8819925,
+    27690409,
+    39597264,
+    38918258,
+    8724210,
+    40037352
   ]
 }
