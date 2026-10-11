@@ -61,7 +61,8 @@
     "Toradora!|why Toradora! is remembered as one of the best romcoms",
     "Your Lie in April|the music and grief at the heart of Your Lie in April",
     "Clannad|why fans say Clannad is the anime that made them cry",
-    "Monster|the psychological hunt for a killer doctor in Monster"
+    "Monster|the psychological hunt for a killer doctor in Monster",
+    "Berserk|why the 1997 Berserk series still haunts fans"
   ],
   "uploads": [
     {
@@ -1263,13 +1264,29 @@
       "at": "2026-10-11T00:16:18.044719+00:00",
       "topic": "Monster|the psychological hunt for a killer doctor in Monster",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18112539092599553",
+      "title": "Why the 1997 Berserk's Grainy Nightmare Still Haunts Fans",
+      "at": "2026-10-11T02:27:02.523059+00:00",
+      "topic": "Berserk|why the 1997 Berserk series still haunts fans",
+      "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1810898993670224",
+      "title": "Why the 1997 Berserk's Grainy Nightmare Still Haunts Fans",
+      "at": "2026-10-11T02:27:07.189889+00:00",
+      "topic": "Berserk|why the 1997 Berserk series still haunts fans",
+      "hook_id": "mistake_warning"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "contrarian_claim",
     "list_tease",
     "shocking_fact",
-    "question_hook"
+    "question_hook",
+    "mistake_warning"
   ]
 }
