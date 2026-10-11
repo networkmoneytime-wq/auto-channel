@@ -35,7 +35,8 @@
     "DRAMA_3",
     "DRAMA_4",
     "DRAMA_5",
-    "DRAMA_6"
+    "DRAMA_6",
+    "DRAMA_7"
   ],
   "uploads": [
     {
@@ -541,6 +542,20 @@
       "title": "Peaches Confronts Coco Nutt Over the Missing Caramel Drizzle - Kitchen Chaos!",
       "at": "2026-10-10T22:26:22.758901+00:00",
       "topic": "DRAMA_6"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "DQa_TiDcWQA",
+      "title": "Peaches' Shocking Secret Revealed: The Heart-Pie Twist",
+      "at": "2026-10-11T00:18:00.869112+00:00",
+      "topic": "DRAMA_7"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1674517707344883",
+      "title": "Peaches' Shocking Secret Revealed: The Heart-Pie Twist",
+      "at": "2026-10-11T00:18:05.231894+00:00",
+      "topic": "DRAMA_7"
     }
   ],
   "recent_clip_ids": [
