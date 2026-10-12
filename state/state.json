@@ -70,7 +70,8 @@
     "Sealand: the tiny micronation on an abandoned World War II sea fort",
     "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
     "The immortal jellyfish: the animal that can reverse its own aging",
-    "Tardigrades: the microscopic animals that survived the vacuum of space"
+    "Tardigrades: the microscopic animals that survived the vacuum of space",
+    "The Greenland shark: the fish that may live for centuries"
   ],
   "uploads": [
     {
@@ -1944,25 +1945,40 @@
       "at": "2026-10-12T00:31:45.497612+00:00",
       "topic": "Tardigrades: the microscopic animals that survived the vacuum of space",
       "hook_id": "mistake_warning"
+    },
+    {
+      "platform": "tiktok",
+      "video_id": "v_pub_file~v2-1.7695596648080902174",
+      "title": "The 400-Year-Old Greenland Shark: Ocean's Slow-Motion Immortal",
+      "at": "2026-10-12T02:07:29.418826+00:00",
+      "topic": "The Greenland shark: the fish that may live for centuries",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18173185765459155",
+      "title": "The 400-Year-Old Greenland Shark: Ocean's Slow-Motion Immortal",
+      "at": "2026-10-12T02:08:00.188866+00:00",
+      "topic": "The Greenland shark: the fish that may live for centuries",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1369548785255134",
+      "title": "The 400-Year-Old Greenland Shark: Ocean's Slow-Motion Immortal",
+      "at": "2026-10-12T02:08:04.107707+00:00",
+      "topic": "The Greenland shark: the fish that may live for centuries",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "list_tease",
     "contrarian_claim",
     "shocking_fact",
-    "mistake_warning"
+    "mistake_warning",
+    "question_hook"
   ],
   "recent_clip_ids": [
-    38235626,
-    13721415,
-    35601601,
-    6381261,
-    30977530,
-    35769953,
-    35569474,
-    35311069,
-    34458466,
     36463102,
     16998437,
     8627749,
@@ -2013,6 +2029,15 @@
     35460855,
     34862899,
     39872367,
-    39169726
+    39169726,
+    8724223,
+    20381505,
+    6575917,
+    30982748,
+    29258553,
+    34865843,
+    8830766,
+    6636744,
+    8552757
   ]
 }
