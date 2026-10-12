@@ -64,7 +64,8 @@
     "Monster|the psychological hunt for a killer doctor in Monster",
     "Berserk|why the 1997 Berserk series still haunts fans",
     "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
-    "Akira|how Akira changed animation"
+    "Akira|how Akira changed animation",
+    "Spirited Away|why Spirited Away became a landmark film"
   ],
   "uploads": [
     {
@@ -1314,13 +1315,29 @@
       "at": "2026-10-12T00:19:48.548630+00:00",
       "topic": "Akira|how Akira changed animation",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18242083597314472",
+      "title": "Why Spirited Away Redefined Anime Forever",
+      "at": "2026-10-12T02:31:17.668502+00:00",
+      "topic": "Spirited Away|why Spirited Away became a landmark film",
+      "hook_id": "list_tease"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2552865325191270",
+      "title": "Why Spirited Away Redefined Anime Forever",
+      "at": "2026-10-12T02:31:23.778030+00:00",
+      "topic": "Spirited Away|why Spirited Away became a landmark film",
+      "hook_id": "list_tease"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "question_hook",
     "mistake_warning",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "list_tease"
   ]
 }
