@@ -63,7 +63,8 @@
     "Clannad|why fans say Clannad is the anime that made them cry",
     "Monster|the psychological hunt for a killer doctor in Monster",
     "Berserk|why the 1997 Berserk series still haunts fans",
-    "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi"
+    "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
+    "Akira|how Akira changed animation"
   ],
   "uploads": [
     {
@@ -1297,13 +1298,29 @@
       "at": "2026-10-11T22:28:10.693184+00:00",
       "topic": "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17989876392116019",
+      "title": "Akira's Budget Outspent All 1988 TV Anime Combined",
+      "at": "2026-10-12T00:19:43.869431+00:00",
+      "topic": "Akira|how Akira changed animation",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1405423075053244",
+      "title": "Akira's Budget Outspent All 1988 TV Anime Combined",
+      "at": "2026-10-12T00:19:48.548630+00:00",
+      "topic": "Akira|how Akira changed animation",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "shocking_fact",
     "question_hook",
     "mistake_warning",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ]
 }
