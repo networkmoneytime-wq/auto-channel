@@ -71,7 +71,8 @@
     "The Darvaza gas crater: the burning hole in the desert nicknamed the Door to Hell",
     "The immortal jellyfish: the animal that can reverse its own aging",
     "Tardigrades: the microscopic animals that survived the vacuum of space",
-    "The Greenland shark: the fish that may live for centuries"
+    "The Greenland shark: the fish that may live for centuries",
+    "Pando: the forest that is actually one single organism"
   ],
   "uploads": [
     {
@@ -1969,23 +1970,32 @@
       "at": "2026-10-12T02:08:04.107707+00:00",
       "topic": "The Greenland shark: the fish that may live for centuries",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18427254190146643",
+      "title": "The 80,000-Year-Old Forest That's Actually One Giant Tree",
+      "at": "2026-10-13T22:25:22.756809+00:00",
+      "topic": "Pando: the forest that is actually one single organism",
+      "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "2335399280625913",
+      "title": "The 80,000-Year-Old Forest That's Actually One Giant Tree",
+      "at": "2026-10-13T22:25:31.862264+00:00",
+      "topic": "Pando: the forest that is actually one single organism",
+      "hook_id": "contrarian_claim"
     }
   ],
   "recent_hooks": [
-    "list_tease",
     "contrarian_claim",
     "shocking_fact",
     "mistake_warning",
-    "question_hook"
+    "question_hook",
+    "contrarian_claim"
   ],
   "recent_clip_ids": [
-    36463102,
-    16998437,
-    8627749,
-    39499521,
-    35965011,
-    36745208,
-    8724209,
     7266489,
     7266489,
     20064340,
@@ -2038,6 +2048,13 @@
     34865843,
     8830766,
     6636744,
-    8552757
+    8552757,
+    34336544,
+    3402008,
+    35288903,
+    12269769,
+    34328142,
+    15340344,
+    39593838
   ]
 }
