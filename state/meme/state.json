@@ -40,7 +40,8 @@
     "DRAMA_8",
     "That one friend who narrates their own life like a documentary",
     "The unhinged confidence of a toddler who just learned a new word",
-    "Texting \"we should hang out soon\" and both of you knowing it's not happening"
+    "Texting \"we should hang out soon\" and both of you knowing it's not happening",
+    "The five stages of grief but it's your phone at 1% battery"
   ],
   "uploads": [
     {
@@ -616,21 +617,23 @@
       "title": "The Ghost Text Nobody Wants to Reply To",
       "at": "2026-10-12T02:33:21.680707+00:00",
       "topic": "Texting \"we should hang out soon\" and both of you knowing it's not happening"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "pJz4t6Q5tX0",
+      "title": "When Your Phone Hits 1% and Becomes a Tiny Time Bomb",
+      "at": "2026-10-13T22:41:46.125040+00:00",
+      "topic": "The five stages of grief but it's your phone at 1% battery"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "28417647141241052",
+      "title": "When Your Phone Hits 1% and Becomes a Tiny Time Bomb",
+      "at": "2026-10-13T22:41:51.950516+00:00",
+      "topic": "The five stages of grief but it's your phone at 1% battery"
     }
   ],
   "recent_clip_ids": [
-    3454834,
-    17256943,
-    37707306,
-    5871327,
-    5780795,
-    39467721,
-    6002029,
-    34533160,
-    26261559,
-    39738086,
-    28650314,
-    6150669,
     35078286,
     7639852,
     6002029,
@@ -678,6 +681,18 @@
     34533160,
     28203566,
     8516362,
-    13962379
+    13962379,
+    8516362,
+    34533160,
+    27973797,
+    36108327,
+    6150669,
+    26050311,
+    39738086,
+    28037265,
+    27973797,
+    6007573,
+    5871327,
+    34533160
   ]
 }
