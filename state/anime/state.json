@@ -65,7 +65,8 @@
     "Berserk|why the 1997 Berserk series still haunts fans",
     "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
     "Akira|how Akira changed animation",
-    "Spirited Away|why Spirited Away became a landmark film"
+    "Spirited Away|why Spirited Away became a landmark film",
+    "Your Name.|how Your Name.'s body-swap story became a global hit"
   ],
   "uploads": [
     {
@@ -1331,13 +1332,29 @@
       "at": "2026-10-12T02:31:23.778030+00:00",
       "topic": "Spirited Away|why Spirited Away became a landmark film",
       "hook_id": "list_tease"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18126059150486150",
+      "title": "How 'Your Name.' Turned a Body-Swap Plot into a Worldwide Craze",
+      "at": "2026-10-13T22:39:45.839375+00:00",
+      "topic": "Your Name.|how Your Name.'s body-swap story became a global hit",
+      "hook_id": "question_hook"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1134688319015982",
+      "title": "How 'Your Name.' Turned a Body-Swap Plot into a Worldwide Craze",
+      "at": "2026-10-13T22:39:49.527064+00:00",
+      "topic": "Your Name.|how Your Name.'s body-swap story became a global hit",
+      "hook_id": "question_hook"
     }
   ],
   "recent_hooks": [
-    "question_hook",
     "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
-    "list_tease"
+    "list_tease",
+    "question_hook"
   ]
 }
