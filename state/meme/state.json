@@ -43,7 +43,8 @@
     "Texting \"we should hang out soon\" and both of you knowing it's not happening",
     "The five stages of grief but it's your phone at 1% battery",
     "The specific way everyone lies about being \"on my way\"",
-    "AI_CHARACTER_1"
+    "AI_CHARACTER_1",
+    "AI_CHARACTER_2"
   ],
   "uploads": [
     {
@@ -661,6 +662,20 @@
       "title": "Meet La Vacca Saturno Saturnita: The Cow with Saturn's Rings",
       "at": "2026-10-14T02:38:26.888238+00:00",
       "topic": "AI_CHARACTER_1"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "2dEyjAdqg3Y",
+      "title": "Ballerine Cappuccina: The Espresso-Head Ballerina Twirling Through Pixels",
+      "at": "2026-10-14T22:40:58.122738+00:00",
+      "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1117354904586708",
+      "title": "Ballerine Cappuccina: The Espresso-Head Ballerina Twirling Through Pixels",
+      "at": "2026-10-14T22:41:03.411135+00:00",
+      "topic": "AI_CHARACTER_2"
     }
   ],
   "recent_clip_ids": [
