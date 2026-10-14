@@ -73,7 +73,8 @@
     "Tardigrades: the microscopic animals that survived the vacuum of space",
     "The Greenland shark: the fish that may live for centuries",
     "Pando: the forest that is actually one single organism",
-    "The sailing stones of Death Valley: the rocks that move on their own"
+    "The sailing stones of Death Valley: the rocks that move on their own",
+    "Blood Falls in Antarctica: the waterfall that pours red"
   ],
   "uploads": [
     {
@@ -2003,27 +2004,32 @@
       "at": "2026-10-14T00:40:28.537372+00:00",
       "topic": "The sailing stones of Death Valley: the rocks that move on their own",
       "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17999479290003055",
+      "title": "The Secret Science Behind Antarctica's Blood Falls",
+      "at": "2026-10-14T02:16:41.032662+00:00",
+      "topic": "Blood Falls in Antarctica: the waterfall that pours red",
+      "hook_id": "secret_reveal"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "985562323866258",
+      "title": "The Secret Science Behind Antarctica's Blood Falls",
+      "at": "2026-10-14T02:16:46.296065+00:00",
+      "topic": "Blood Falls in Antarctica: the waterfall that pours red",
+      "hook_id": "secret_reveal"
     }
   ],
   "recent_hooks": [
-    "shocking_fact",
     "mistake_warning",
     "question_hook",
     "contrarian_claim",
-    "shocking_fact"
+    "shocking_fact",
+    "secret_reveal"
   ],
   "recent_clip_ids": [
-    5291162,
-    18069700,
-    9305509,
-    8819925,
-    27690409,
-    39597264,
-    38918258,
-    8724210,
-    40037352,
-    39878395,
-    8544030,
     30080731,
     5758682,
     20517591,
@@ -2072,6 +2078,17 @@
     19797595,
     10239476,
     39710120,
-    6198347
+    6198347,
+    36738422,
+    8676947,
+    5839043,
+    35740664,
+    36125709,
+    30974188,
+    5838685,
+    8474606,
+    36150358,
+    39820730,
+    8627833
   ]
 }
