@@ -66,7 +66,8 @@
     "Ghost in the Shell|the identity questions in Ghost in the Shell that still shape sci-fi",
     "Akira|how Akira changed animation",
     "Spirited Away|why Spirited Away became a landmark film",
-    "Your Name.|how Your Name.'s body-swap story became a global hit"
+    "Your Name.|how Your Name.'s body-swap story became a global hit",
+    "A Silent Voice|the redemption story about bullying in A Silent Voice"
   ],
   "uploads": [
     {
@@ -1348,13 +1349,29 @@
       "at": "2026-10-13T22:39:49.527064+00:00",
       "topic": "Your Name.|how Your Name.'s body-swap story became a global hit",
       "hook_id": "question_hook"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "18124712008912511",
+      "title": "Can Sh\u014dya Ishida Redeem Himself in A Silent Voice?",
+      "at": "2026-10-14T00:23:29.282731+00:00",
+      "topic": "A Silent Voice|the redemption story about bullying in A Silent Voice",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1644457533872118",
+      "title": "Can Sh\u014dya Ishida Redeem Himself in A Silent Voice?",
+      "at": "2026-10-14T00:23:34.868970+00:00",
+      "topic": "A Silent Voice|the redemption story about bullying in A Silent Voice",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "mistake_warning",
     "contrarian_claim",
     "shocking_fact",
     "list_tease",
-    "question_hook"
+    "question_hook",
+    "shocking_fact"
   ]
 }
