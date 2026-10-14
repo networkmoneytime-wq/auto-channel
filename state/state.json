@@ -72,7 +72,8 @@
     "The immortal jellyfish: the animal that can reverse its own aging",
     "Tardigrades: the microscopic animals that survived the vacuum of space",
     "The Greenland shark: the fish that may live for centuries",
-    "Pando: the forest that is actually one single organism"
+    "Pando: the forest that is actually one single organism",
+    "The sailing stones of Death Valley: the rocks that move on their own"
   ],
   "uploads": [
     {
@@ -1986,25 +1987,32 @@
       "at": "2026-10-13T22:25:31.862264+00:00",
       "topic": "Pando: the forest that is actually one single organism",
       "hook_id": "contrarian_claim"
+    },
+    {
+      "platform": "instagram",
+      "video_id": "17953489881258058",
+      "title": "The Real Reason Death Valley's 'Sailing Stones' Slide",
+      "at": "2026-10-14T00:40:21.826619+00:00",
+      "topic": "The sailing stones of Death Valley: the rocks that move on their own",
+      "hook_id": "shocking_fact"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1651050620022077",
+      "title": "The Real Reason Death Valley's 'Sailing Stones' Slide",
+      "at": "2026-10-14T00:40:28.537372+00:00",
+      "topic": "The sailing stones of Death Valley: the rocks that move on their own",
+      "hook_id": "shocking_fact"
     }
   ],
   "recent_hooks": [
-    "contrarian_claim",
     "shocking_fact",
     "mistake_warning",
     "question_hook",
-    "contrarian_claim"
+    "contrarian_claim",
+    "shocking_fact"
   ],
   "recent_clip_ids": [
-    7266489,
-    7266489,
-    20064340,
-    15449093,
-    39081408,
-    19090632,
-    7191231,
-    29490720,
-    6324544,
     5291162,
     18069700,
     9305509,
@@ -2055,6 +2063,15 @@
     12269769,
     34328142,
     15340344,
-    39593838
+    39593838,
+    5850697,
+    35568432,
+    35809255,
+    5925297,
+    37505025,
+    19797595,
+    10239476,
+    39710120,
+    6198347
   ]
 }
