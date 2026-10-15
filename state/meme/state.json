@@ -44,7 +44,8 @@
     "The five stages of grief but it's your phone at 1% battery",
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
-    "AI_CHARACTER_2"
+    "AI_CHARACTER_2",
+    "AI_CHARACTER_3"
   ],
   "uploads": [
     {
@@ -676,6 +677,20 @@
       "title": "Ballerine Cappuccina: The Espresso-Head Ballerina Twirling Through Pixels",
       "at": "2026-10-14T22:41:03.411135+00:00",
       "topic": "AI_CHARACTER_2"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "m7FN12hmyyU",
+      "title": "Meet Trippi Troppi: The Cat-Fish Wizard Taking Over Meme Battles",
+      "at": "2026-10-15T00:33:26.184056+00:00",
+      "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1806711847303786",
+      "title": "Meet Trippi Troppi: The Cat-Fish Wizard Taking Over Meme Battles",
+      "at": "2026-10-15T00:33:31.622852+00:00",
+      "topic": "AI_CHARACTER_3"
     }
   ],
   "recent_clip_ids": [
