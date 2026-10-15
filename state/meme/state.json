@@ -45,7 +45,8 @@
     "The specific way everyone lies about being \"on my way\"",
     "AI_CHARACTER_1",
     "AI_CHARACTER_2",
-    "AI_CHARACTER_3"
+    "AI_CHARACTER_3",
+    "AI_CHARACTER_4"
   ],
   "uploads": [
     {
@@ -691,6 +692,20 @@
       "title": "Meet Trippi Troppi: The Cat-Fish Wizard Taking Over Meme Battles",
       "at": "2026-10-15T00:33:31.622852+00:00",
       "topic": "AI_CHARACTER_3"
+    },
+    {
+      "platform": "youtube",
+      "video_id": "_vmc-P2cwWw",
+      "title": "Bommodini Gusini: The Goose That Perches on a Bomb",
+      "at": "2026-10-15T02:45:21.029457+00:00",
+      "topic": "AI_CHARACTER_4"
+    },
+    {
+      "platform": "facebook",
+      "video_id": "1018096940690303",
+      "title": "Bommodini Gusini: The Goose That Perches on a Bomb",
+      "at": "2026-10-15T02:45:25.828637+00:00",
+      "topic": "AI_CHARACTER_4"
     }
   ],
   "recent_clip_ids": [
